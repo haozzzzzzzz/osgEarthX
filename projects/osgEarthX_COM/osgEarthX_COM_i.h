@@ -4,7 +4,7 @@
 
 
  /* File created by MIDL compiler version 7.00.0555 */
-/* at Sun Nov 01 18:45:40 2015
+/* at Sun Nov 08 21:23:10 2015
  */
 /* Compiler settings for osgEarthX_COM.idl:
     Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 7.00.0555 

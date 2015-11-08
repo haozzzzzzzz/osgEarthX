@@ -861,7 +861,6 @@
         private System.Windows.Forms.RibbonButton ribbonButton45;
         private System.Windows.Forms.RibbonPanel ribbonPanel21;
         private System.Windows.Forms.RibbonButton ribbonButton46;
-        private AxosgEarthX_COMLib.AxEarthCtrl axEarthCtrl1;
         private System.Windows.Forms.RibbonPanel ribbonPanel22;
         private System.Windows.Forms.RibbonButton ribbonButton47;
         private System.Windows.Forms.RibbonButton ribbonButton48;
@@ -876,6 +875,7 @@
         private System.Windows.Forms.RibbonPanel ribbonPanel24;
         private System.Windows.Forms.RibbonButton ribbonButton55;
         private System.Windows.Forms.RibbonButton ribbonButton56;
+        private AxosgEarthX_COMLib.AxEarthCtrl axEarthCtrl1;
 
     }
 }
