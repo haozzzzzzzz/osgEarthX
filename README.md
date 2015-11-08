@@ -1,0 +1,2 @@
+# osgEarthX
+osgEarthX SDK
