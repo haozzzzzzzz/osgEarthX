@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/gdal/!svn/ver/20996/trunk/gdal/frmts/r
+END
+rcreatecopy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/20996/trunk/gdal/frmts/r/rcreatecopy.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/17424/trunk/gdal/frmts/r/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/17419/trunk/gdal/frmts/r/GNUmakefile
+END
+rdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/20996/trunk/gdal/frmts/r/rdataset.cpp
+END
+frmt_r.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/17835/trunk/gdal/frmts/r/frmt_r.html
+END

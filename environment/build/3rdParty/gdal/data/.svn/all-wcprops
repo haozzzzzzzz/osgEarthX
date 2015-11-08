@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/gdal/!svn/ver/21934/trunk/gdal/data
+END
+pcs.csv
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/18978/trunk/gdal/data/pcs.csv
+END
+GDALLogoGS.svg
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/10609/trunk/gdal/data/GDALLogoGS.svg
+END
+compdcs.csv
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/20656/trunk/gdal/data/compdcs.csv
+END
+pci_datum.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21190/trunk/gdal/data/pci_datum.txt
+END
+gdal_datum.csv
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/18978/trunk/gdal/data/gdal_datum.csv
+END
+pcs.override.csv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/17854/trunk/gdal/data/pcs.override.csv
+END
+vertcs.csv
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/20656/trunk/gdal/data/vertcs.csv
+END
+datum_shift.csv
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/18993/trunk/gdal/data/datum_shift.csv
+END
+epsg.wkt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gdal/!svn/ver/17469/trunk/gdal/data/epsg.wkt
+END
+coordinate_axis.csv
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/18978/trunk/gdal/data/coordinate_axis.csv
+END
+s57objectclasses_aml.csv
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/12887/trunk/gdal/data/s57objectclasses_aml.csv
+END
+s57agencies.csv
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10609/trunk/gdal/data/s57agencies.csv
+END
+header.dxf
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/19773/trunk/gdal/data/header.dxf
+END
+projop_wparm.csv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/18978/trunk/gdal/data/projop_wparm.csv
+END
+esri_extra.wkt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21885/trunk/gdal/data/esri_extra.wkt
+END
+s57objectclasses_iw.csv
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/12887/trunk/gdal/data/s57objectclasses_iw.csv
+END
+seed_3d.dgn
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/10609/trunk/gdal/data/seed_3d.dgn
+END
+prime_meridian.csv
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/19984/trunk/gdal/data/prime_meridian.csv
+END
+unit_of_measure.csv
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/18978/trunk/gdal/data/unit_of_measure.csv
+END
+s57attributes.csv
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10609/trunk/gdal/data/s57attributes.csv
+END
+GDALLogoBW.svg
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/10609/trunk/gdal/data/GDALLogoBW.svg
+END
+trailer.dxf
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/19773/trunk/gdal/data/trailer.dxf
+END
+gcs.override.csv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/18978/trunk/gdal/data/gcs.override.csv
+END
+GDALLogoColor.svg
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10609/trunk/gdal/data/GDALLogoColor.svg
+END
+esri_StatePlane_extra.wkt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21934/trunk/gdal/data/esri_StatePlane_extra.wkt
+END
+stateplane.csv
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/18798/trunk/gdal/data/stateplane.csv
+END
+cubewerx_extra.wkt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/17469/trunk/gdal/data/cubewerx_extra.wkt
+END
+geoccs.csv
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21916/trunk/gdal/data/geoccs.csv
+END
+gt_datum.csv
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/12505/trunk/gdal/data/gt_datum.csv
+END
+pci_ellips.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21190/trunk/gdal/data/pci_ellips.txt
+END
+gdalicon.png
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/10609/trunk/gdal/data/gdalicon.png
+END
+esri_Wisconsin_extra.wkt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21843/trunk/gdal/data/esri_Wisconsin_extra.wkt
+END
+gcs.csv
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/20501/trunk/gdal/data/gcs.csv
+END
+ecw_cs.wkt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21522/trunk/gdal/data/ecw_cs.wkt
+END
+s57attributes_aml.csv
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10609/trunk/gdal/data/s57attributes_aml.csv
+END
+s57expectedinput.csv
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/10609/trunk/gdal/data/s57expectedinput.csv
+END
+gt_ellips.csv
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/12505/trunk/gdal/data/gt_ellips.csv
+END
+seed_2d.dgn
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/10609/trunk/gdal/data/seed_2d.dgn
+END
+s57objectclasses.csv
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/12887/trunk/gdal/data/s57objectclasses.csv
+END
+s57attributes_iw.csv
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/10609/trunk/gdal/data/s57attributes_iw.csv
+END
+ellipsoid.csv
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/18978/trunk/gdal/data/ellipsoid.csv
+END
+vertcs.override.csv
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20656/trunk/gdal/data/vertcs.override.csv
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21104/trunk/gdal/frmts/fits
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/14364/trunk/gdal/frmts/fits/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/15888/trunk/gdal/frmts/fits/GNUmakefile
+END
+fitsdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21104/trunk/gdal/frmts/fits/fitsdataset.cpp
+END

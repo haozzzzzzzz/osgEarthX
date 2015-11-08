@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21954/trunk/gdal/frmts/wcs
+END
+wcsdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21954/trunk/gdal/frmts/wcs/wcsdataset.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/13360/trunk/gdal/frmts/wcs/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/wcs/GNUmakefile
+END
+frmt_wcs.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/17921/trunk/gdal/frmts/wcs/frmt_wcs.html
+END
+httpdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21437/trunk/gdal/frmts/wcs/httpdriver.cpp
+END

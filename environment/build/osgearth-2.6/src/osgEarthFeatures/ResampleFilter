@@ -1,0 +1,93 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+ * Copyright 2008-2014 Pelican Mapping
+ * http://osgearth.org
+ *
+ * osgEarth is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+#ifndef OSGEARTHFEATURES_RESAMPLE_FILTER_H
+#define OSGEARTHFEATURES_RESAMPLE_FILTER_H 1
+
+#include <osgEarthFeatures/Common>
+#include <osgEarthFeatures/Feature>
+#include <osgEarthFeatures/Filter>
+#include <osg/Geode>
+
+namespace osgEarth { namespace Features
+{
+    using namespace osgEarth;
+
+    /**
+     * This filter will resample line segments so they are between
+     * the min and max specified length.
+     */
+    class OSGEARTHFEATURES_EXPORT ResampleFilter : public FeatureFilter
+    {
+    public:
+        // Call this determine whether this filter is available.
+        static bool isSupported();    
+
+    public:
+        ResampleFilter();
+        ResampleFilter( double minLength, double maxLength );
+
+        ResampleFilter( const Config& conf );
+
+        /**
+         * Serialize this FeatureFilter
+         */
+        virtual Config getConfig() const;
+
+
+
+        virtual ~ResampleFilter() { }
+
+    public:
+
+        optional<double>& minLength() { return _minLen; }
+        const optional<double>& minLength() const { return _minLen; }
+
+        optional<double>& maxLength() { return _maxLen; }
+        const optional<double>& maxLength() const { return _maxLen; }
+
+        optional<double>& perturbationThreshold() { return _perturbThresh; }
+        const optional<double>& perturbationThreshold() const { return _perturbThresh; }
+
+
+
+        enum ResampleMode
+        {
+            RESAMPLE_LINEAR,
+            RESAMPLE_GREATCIRCLE,
+            RESAMPLE_RHUMB
+        };
+
+        optional<ResampleMode>& resampleMode() { return _resampleMode;}
+        const optional<ResampleMode>& resampleMode() const { return _resampleMode;}
+
+
+    public:
+        virtual FilterContext push( FeatureList& input, FilterContext& context );
+
+    protected:
+        optional<double> _minLen, _maxLen, _perturbThresh;
+        optional<ResampleMode> _resampleMode;
+
+        bool push( Feature* input, FilterContext& context );
+    };
+
+} } // namespace osgEarth::Features
+
+#endif // OSGEARTHFEATURES_RESAMPLE_FILTER_H

@@ -1,0 +1,191 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+ * Copyright 2008-2014 Pelican Mapping
+ * http://osgearth.org
+ *
+ * osgEarth is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+#ifndef OSGEARTH_DEPTH_ADJUSTMENT_H
+#define OSGEARTH_DEPTH_ADJUSTMENT_H 1
+
+#include <osgEarth/Common>
+#include <osgEarth/Config>
+#include <osg/Group>
+#include <osg/Program>
+#include <osg/Uniform>
+
+/**
+* Depth Offsetting.
+* 
+* Geometry that coincides with the terrain can result in z-fighting artifacts.
+* Depth offsetting mitigates this by biasing the depth value of the geometry.
+* The idea is similar to polygon offsetting, but is dynamic and applies to all
+* geometry (not just polygons).
+*
+* Depth offsetting works by pretending the vertex is closer to the camera 
+* than it actually is, and writing a depth value based on that simulated
+* location. The distance we shift the vertex towards the camera is the "bias".
+*
+* The "range" is the distance from camera to vertex at which a given
+* bias is applied. The minimum bias is applied to geometry at or below the
+* minimum range; the maximum bias is applied to geometry at or above the 
+* maximum range; and the bias is interpolated for ranges in between.
+*
+* The tessellation granularity of the geometry affects how well depth offsetting
+* works at a given camera distance. As a rule of thumb, the closer the camera is
+* to the geometry, the more it needs to be tessellated in order for depth
+* offsetting to work properly.
+*/
+namespace osgEarth
+{
+    /**
+    * Depth Offsetting options.
+    */
+    class OSGEARTH_EXPORT DepthOffsetOptions
+    {
+    public:
+        DepthOffsetOptions(const Config& conf =Config());
+
+    public:
+        /** whether to enable depth offsetting (when applicable) */
+        optional<bool>& enabled() { return _enabled; }
+        const optional<bool>& enabled() const { return _enabled; }
+
+        /** depth bias (in meters) applied at the minimum camera range. */
+        optional<float>& minBias() { return _minBias; }
+        const optional<float>& minBias() const { return _minBias; }
+
+        /** depth bias (in meters) applied at the maximum camera range. */
+        optional<float>& maxBias() { return _maxBias; }
+        const optional<float>& maxBias() const { return _maxBias; }
+
+        /** camera range (in meters) at which to apply the minimum depth bias. */
+        optional<float>& minRange() { return _minRange; }
+        const optional<float>& minRange() const { return _minRange; }
+
+        /** camera range (in meters) at which to apply the maximum depth bias. */
+        optional<float>& maxRange() { return _maxRange; }
+        const optional<float>& maxRange() const { return _maxRange; }
+
+        /** automatic calculation of the minRange based on geometry analysis */
+        optional<bool>& automatic() { return _auto; }
+        const optional<bool>& automatic() const { return _auto; }
+
+    public:
+        Config getConfig() const;
+
+    private:
+        optional<bool>  _enabled;
+        optional<float> _minBias;
+        optional<float> _maxBias;
+        optional<float> _minRange;
+        optional<float> _maxRange;
+        optional<bool>  _auto;
+    };
+
+
+    /**
+     * Interface for adding depth offset methods to anothe class without
+     * disturbing the class hierarchy. Use this in conjuction with the
+     * Adapter.
+     */
+    class DepthOffsetInterface
+    {
+    public:
+        virtual void setDepthOffsetOptions( const DepthOffsetOptions& options ) =0;
+        virtual const DepthOffsetOptions& getDepthOffsetOptions() const =0;
+
+        virtual ~DepthOffsetInterface() { }
+    };
+
+
+    /**
+     * Adapter that affects depth offset functionality on a graph.
+     */
+    class OSGEARTH_EXPORT DepthOffsetAdapter : public DepthOffsetInterface
+    {
+    public:
+        DepthOffsetAdapter();
+        DepthOffsetAdapter(osg::Node* graph);
+        
+        virtual ~DepthOffsetAdapter() { }
+
+        void setGraph(osg::Node* graph );
+        void recalculate();
+
+        bool isDirty() const { return _dirty; }
+
+        /** whether depth offsetting is supported. */
+        bool supported() const { return _supported; }
+
+    public: // DepthOffsetInterface
+
+        void setDepthOffsetOptions( const DepthOffsetOptions& options );
+        const DepthOffsetOptions& getDepthOffsetOptions() const { return _options; }
+
+    private:
+        void init();
+        void updateUniforms();
+
+        bool                         _supported;
+        bool                         _dirty;
+        osg::observer_ptr<osg::Node> _graph;
+        //osg::ref_ptr<osg::Uniform>   _biasUniform;
+        //osg::ref_ptr<osg::Uniform>   _rangeUniform;
+        osg::ref_ptr<osg::Uniform>   _minBiasUniform, _maxBiasUniform;
+        osg::ref_ptr<osg::Uniform>   _minRangeUniform, _maxRangeUniform;
+        DepthOffsetOptions           _options;
+    };
+
+
+    /**
+     * Group that applies the depth offset technique to its children.
+     */
+    class OSGEARTH_EXPORT DepthOffsetGroup : public osg::Group, public DepthOffsetInterface
+    {
+    public:
+        /**
+         * Constructs a new depth offset group
+         */
+        DepthOffsetGroup();
+
+
+    public: // DepthOffsetInterface
+
+        void setDepthOffsetOptions( const DepthOffsetOptions& options );
+
+        const DepthOffsetOptions& getDepthOffsetOptions() const;
+
+
+    public: // osg::Node
+
+        virtual osg::BoundingSphere computeBound() const;
+
+        virtual void traverse(osg::NodeVisitor& );
+
+    protected:
+        void setUniforms();
+        void dirty();
+        void scheduleUpdate();
+
+        DepthOffsetAdapter _adapter;
+        bool               _updatePending;
+
+        virtual ~DepthOffsetGroup() { }
+    };
+
+} // namespace osgEarth
+
+#endif // OSGEARTH_DEPTH_ADJUSTMENT_H

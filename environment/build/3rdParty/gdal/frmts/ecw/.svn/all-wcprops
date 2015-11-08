@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21901/trunk/gdal/frmts/ecw
+END
+ecwasyncreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21517/trunk/gdal/frmts/ecw/ecwasyncreader.cpp
+END
+lookup.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/10957/trunk/gdal/frmts/ecw/lookup.py
+END
+jp2userbox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21514/trunk/gdal/frmts/ecw/jp2userbox.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21514/trunk/gdal/frmts/ecw/makefile.vc
+END
+ecwdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21900/trunk/gdal/frmts/ecw/ecwdataset.cpp
+END
+frmt_jp2ecw.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21403/trunk/gdal/frmts/ecw/frmt_jp2ecw.html
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21517/trunk/gdal/frmts/ecw/GNUmakefile
+END
+frmt_ecw.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21518/trunk/gdal/frmts/ecw/frmt_ecw.html
+END
+gdal_ecw.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21537/trunk/gdal/frmts/ecw/gdal_ecw.h
+END
+ecwcreatecopy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21901/trunk/gdal/frmts/ecw/ecwcreatecopy.cpp
+END

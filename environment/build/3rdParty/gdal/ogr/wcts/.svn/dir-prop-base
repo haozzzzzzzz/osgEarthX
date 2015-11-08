@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 30
+ogrwcts
+wctsclient
+.libs
+*.lo
+
+END

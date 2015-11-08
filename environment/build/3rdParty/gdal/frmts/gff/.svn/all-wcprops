@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/20996/trunk/gdal/frmts/gff
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/11639/trunk/gdal/frmts/gff/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/gff/GNUmakefile
+END
+gff_dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20996/trunk/gdal/frmts/gff/gff_dataset.cpp
+END

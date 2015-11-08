@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20460/trunk/gdal/ogr/ogrsf_frmts/mysql
+END
+ogr_mysql.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/16921/trunk/gdal/ogr/ogrsf_frmts/mysql/ogr_mysql.h
+END
+drv_mysql.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/11456/trunk/gdal/ogr/ogrsf_frmts/mysql/drv_mysql.html
+END
+ogrmysqltablelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/20460/trunk/gdal/ogr/ogrsf_frmts/mysql/ogrmysqltablelayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/mysql/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/mysql/GNUmakefile
+END
+ogrmysqldatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/20460/trunk/gdal/ogr/ogrsf_frmts/mysql/ogrmysqldatasource.cpp
+END
+ogrmysqldriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/12396/trunk/gdal/ogr/ogrsf_frmts/mysql/ogrmysqldriver.cpp
+END
+ogrmysqlresultlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/20460/trunk/gdal/ogr/ogrsf_frmts/mysql/ogrmysqlresultlayer.cpp
+END
+ogrmysqllayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20458/trunk/gdal/ogr/ogrsf_frmts/mysql/ogrmysqllayer.cpp
+END

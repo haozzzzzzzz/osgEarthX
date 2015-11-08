@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/gdal/!svn/ver/22007/trunk/gdal/frmts
+END
+frmt_various.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21984/trunk/gdal/frmts/frmt_various.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21893/trunk/gdal/frmts/makefile.vc
+END
+gdalallregister.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21984/trunk/gdal/frmts/gdalallregister.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/15888/trunk/gdal/frmts/GNUmakefile
+END
+formats_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21984/trunk/gdal/frmts/formats_list.html
+END

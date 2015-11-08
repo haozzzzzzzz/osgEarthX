@@ -1,0 +1,167 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+ * Copyright 2008-2014 Pelican Mapping
+ * http://osgearth.org
+ *
+ * osgEarth is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+#ifndef OSGEARTH_ELEVATION_QUERY_H
+#define OSGEARTH_ELEVATION_QUERY_H 1
+
+#include <osgEarth/MapFrame>
+#include <osgEarth/Containers>
+#include <osgEarth/DPLineSegmentIntersector>
+
+namespace osgEarth
+{
+    /**
+     * ElevationQuery (EQ) lets you query the elevation at any point on a map.
+     * 
+     * Rather than intersecting with a loaded scene graph, EQ uses the osgEarth
+     * engine to directly access the best terrain tile for elevation query. You
+     * give it the DEM resolution at which you want an elevation point, and it will
+     * access the necessary tile and sample it.
+     *
+     * NOTE: EQ does NOT take into account rendering properties like vertical scale or
+     * skirts. If you need a vertical scale, for example, simply scale the resulting
+     * elevation value.
+     *
+     * ElevationQuery is not thread-safe. So not use the same instance of ElevationQuery
+     * from multiple threads without mutexing.
+     */
+    class OSGEARTH_EXPORT ElevationQuery
+    {
+    public:
+        /**
+         * Constructs a new elevation manager.
+         *
+         * @param map
+         *      Map against which to perform elevation queries.
+         */
+        ElevationQuery( const Map* map );
+        
+        /**
+         * Constructs a new elevation manager.
+         *
+         * @param mapFrame
+         *      Map frame against which to perform elevation queries.
+         */
+        ElevationQuery( const MapFrame& mapFrame );
+
+        /** dtor */
+        virtual ~ElevationQuery() { }
+
+        /**
+         * Gets the terrain elevation at a point, given a terrain resolution.
+         *
+         * @param point
+         *      Coordinates for which to query elevation.
+         * @param out_elevation
+         *      Stores the elevation result in this variable upon success.
+         * @param desiredResolution
+         *      Optimal resolution of elevation data to use for the query (if available).
+         *      Pass in 0 (zero) to use the best available resolution.
+         * @param out_resolution
+         *      Resolution of the resulting elevation value (if the method returns true).
+         * 
+         * @return True if the query succeeded, false upon failure.
+         */
+        bool getElevation(
+            const GeoPoint& point,
+            double&         out_elevation,
+            double          desiredResolution    =0.0,
+            double*         out_actualResolution =0L );      
+
+        /** 
+         * Gets elevations for a whole array of points, storing the result in the
+         * "z" element. If "ignoreZ" is false, the new Z value will be offset by
+         * the original Z value.
+         */
+        bool getElevations(
+            std::vector<osg::Vec3d>& points,
+            const SpatialReference*  pointsSRS,
+            bool                     ignoreZ = true,
+            double                   desiredResolution =0.0 );
+
+        /**
+         * Gets elevations for a whole array of points, storing the results in the
+         * "out_elevations" vector.
+         */
+        bool getElevations(
+            const std::vector<osg::Vec3d>& points,
+            const SpatialReference*        pointsSRS,
+            std::vector<double>&           out_elevations,
+            double                         desiredResolution = 0.0 );
+
+        /**
+         * Sets the maximum cache size for elevation tiles.
+         */
+        void setMaxTilesToCache( int value );
+
+        /**
+         * Gets the maximum cache size for elevation tiles.
+         */
+        int getMaxTilesToCache() const;
+        
+        /**
+        * Sets the maximum level override for elevation queries.
+        * A value of -1 turns off the override.
+        */
+        void setMaxLevelOverride(int maxLevelOverride);
+
+        /**
+        * Gets the maximum level override for elevation queries.
+        */
+        int getMaxLevelOverride() const;
+
+        /**
+         * Gets the average time per query
+         */
+        double getAverageQueryTime() const { return _queries > 0.0 ? _totalTime/_queries : 0.0; }
+
+        /**
+         * Gets the maximum level of data available at the given point.  If the layers have DataExtents provided they
+         * will be queried.  This allows certain areas on the earth to have higher levels of detail
+         * than others and avoids unnecessary queries where there isn't high resolution data available.
+         */
+        unsigned int getMaxLevel(double x, double y, const SpatialReference* srs, const Profile* profile ) const;
+
+    private:
+        MapFrame     _mapf;
+        unsigned     _maxCacheSize;
+        int          _tileSize;        
+        int          _maxLevelOverride;        
+
+        typedef LRUCache< TileKey, GeoHeightField > TileCache;
+        TileCache _cache;
+        double _queries;
+        double _totalTime;
+        std::vector<ModelLayer*> _patchLayers;
+        osg::ref_ptr<DPLineSegmentIntersector> _patchLayersLSI;
+
+    private:
+        void postCTOR();
+        void sync();
+        void gatherPatchLayers();
+
+        bool getElevationImpl(            
+            const GeoPoint& point,
+            double&         out_elevation,
+            double          desiredResolution,
+            double*         out_actualResolution =0L );
+    };
+
+} // namespace osgEarth
+
+#endif // OSGEARTH_ELEVATION_QUERY_H

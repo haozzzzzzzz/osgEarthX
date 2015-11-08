@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/gpx
+END
+ogrgpxdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/gpx/ogrgpxdatasource.cpp
+END
+ogrgpxdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/15805/trunk/gdal/ogr/ogrsf_frmts/gpx/ogrgpxdriver.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/12736/trunk/gdal/ogr/ogrsf_frmts/gpx/makefile.vc
+END
+ogrgpxlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/gpx/ogrgpxlayer.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21620/trunk/gdal/ogr/ogrsf_frmts/gpx/GNUmakefile
+END
+ogr_gpx.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/gpx/ogr_gpx.h
+END
+drv_gpx.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/19794/trunk/gdal/ogr/ogrsf_frmts/gpx/drv_gpx.html
+END

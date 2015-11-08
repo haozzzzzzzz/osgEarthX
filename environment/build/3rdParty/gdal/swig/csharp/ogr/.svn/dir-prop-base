@@ -1,0 +1,29 @@
+K 10
+svn:ignore
+V 292
+*~
+*.lo
+*.o
+*.obj
+*PINVOKE.cs
+*_wrap.cpp
+o*r.cs
+CoordinateTransformation.cs
+DataSource.cs
+Driver.cs
+Envelope.cs
+Feature.cs
+FeatureDefn.cs
+FieldDefn.cs
+Geometry.cs
+Layer.cs
+SpatialReference.cs
+SWIGTYPE_p_p_char.cs
+Justification.cs
+FieldType.cs
+Ogr.cs
+wkbGeometryType.cs
+wkbByteOrder.cs
+Osr.cs
+
+END

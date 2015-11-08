@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21943/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial
+END
+ogrmssqlgeometryparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/gdal/!svn/ver/20591/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/ogrmssqlgeometryparser.cpp
+END
+ogrmssqlspatialdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/gdal/!svn/ver/21939/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/ogrmssqlspatialdatasource.cpp
+END
+ogrmssqlspatialdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/gdal/!svn/ver/20570/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/ogrmssqlspatialdriver.cpp
+END
+ogrmssqlspatiallayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/gdal/!svn/ver/20830/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/ogrmssqlspatiallayer.cpp
+END
+ogrmssqlspatialselectlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/gdal/!svn/ver/20578/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/ogrmssqlspatialselectlayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/20570/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/20570/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/GNUmakefile
+END
+ogr_mssqlspatial.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/21939/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/ogr_mssqlspatial.h
+END
+ogrmssqlgeometryvalidator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/gdal/!svn/ver/21933/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/ogrmssqlgeometryvalidator.cpp
+END
+drv_mssqlspatial.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/gdal/!svn/ver/21578/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/drv_mssqlspatial.html
+END
+ogrmssqlspatialtablelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/gdal/!svn/ver/21943/trunk/gdal/ogr/ogrsf_frmts/mssqlspatial/ogrmssqlspatialtablelayer.cpp
+END

@@ -1,0 +1,137 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+
+#ifndef OSGEARTH_ANNOTATION_LABEL_NODE_H
+#define OSGEARTH_ANNOTATION_LABEL_NODE_H 1
+
+#include <osgEarthAnnotation/OrthoNode>
+#include <osgEarthSymbology/Style>
+#include <osgEarth/MapNode>
+#include <osg/Geode>
+
+namespace osgEarth { namespace Annotation
+{
+    using namespace osgEarth;
+    using namespace osgEarth::Symbology;
+
+    /**
+     * Text labeling node.
+     */
+    class OSGEARTHANNO_EXPORT LabelNode : public OrthoNode
+    {
+	public:
+		//$$$
+		LabelNode();
+		virtual void initMapNode( MapNode* pMapNode );
+		void init();
+
+    public:
+        META_AnnotationNode( osgEarthAnnotation, LabelNode );
+
+        /**
+         * Constructs a label node that is positioned relative to a map.
+         */
+        LabelNode(
+            MapNode*                mapNode,
+            const GeoPoint&         position,
+            const std::string&      text,
+            const Style&            style =Style() );
+
+        /**
+         * Constructs a label node that is positioned relative to a map.
+         */
+        LabelNode(
+            MapNode*                mapNode,
+            const GeoPoint&         position,
+            const std::string&      text,
+            const TextSymbol*       symbol );
+
+        /** 
+         * Construct a label node purely from the style. The text string
+         * must be in the text symbol
+         */
+        LabelNode(
+            MapNode*                mapNode,
+            const GeoPoint&         position,
+            const Style&            style );
+
+        /**
+         * Construct a label node with just a style
+         */
+        LabelNode(
+            MapNode*                mapNode,
+            const Style&            style );
+
+        /**
+         * Constructs a label node that is positioned some other way,
+         * typically by being in a subgraph under another transform
+         * somewhere.
+         */
+        LabelNode(
+            const std::string& text/*   =""*/,//$$$×¢ÊÍ
+            const Style&       style =Style() );
+
+        /**
+         * Deserializes a label
+         */
+        LabelNode(
+            MapNode*              mapNode,
+            const Config&         conf,
+            const osgDB::Options* dbOptions );
+
+        virtual ~LabelNode() { }
+
+        /**
+         * Sets the text content.
+         */
+        void setText( const std::string& text );
+        const std::string& text() const { return _text; }
+
+        /**
+         * Gets a copy of the text style.
+         */
+        const Style& getStyle() const { return _style; }
+
+        /**
+         * Sets a new text style
+         */
+        void setStyle( const Style& style );
+
+    public: // OrthoNode override
+
+        virtual void setAnnotationData( AnnotationData* data );
+
+        virtual void setDynamic( bool value );
+
+        virtual Config getConfig() const;
+
+    protected:
+        void init(const Style& style);
+
+        std::string              _text;
+        Style                    _style;
+        osg::ref_ptr<osg::Geode> _geode;
+
+        /** Copy constructor */
+        LabelNode( const LabelNode& rhs, const osg::CopyOp& op =osg::CopyOp::DEEP_COPY_ALL ) : OrthoNode(rhs, op) { }
+    };
+
+} } // namespace osgEarth::Annotation
+
+#endif // OSGEARTH_ANNOTATION_LABEL_NODE_H

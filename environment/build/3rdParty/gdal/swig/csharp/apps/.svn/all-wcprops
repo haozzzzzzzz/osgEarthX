@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/19757/trunk/gdal/swig/csharp/apps
+END
+GDALColorTable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/13677/trunk/gdal/swig/csharp/apps/GDALColorTable.cs
+END
+GDALOverviews.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/13678/trunk/gdal/swig/csharp/apps/GDALOverviews.cs
+END
+GDALWrite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/17453/trunk/gdal/swig/csharp/apps/GDALWrite.cs
+END
+GDALInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/18705/trunk/gdal/swig/csharp/apps/GDALInfo.cs
+END
+GDALGetHistogram.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/14055/trunk/gdal/swig/csharp/apps/GDALGetHistogram.cs
+END
+GDALDatasetRasterIO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/14028/trunk/gdal/swig/csharp/apps/GDALDatasetRasterIO.cs
+END
+GDALCreateCopy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/13678/trunk/gdal/swig/csharp/apps/GDALCreateCopy.cs
+END
+GDALDatasetWrite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/17453/trunk/gdal/swig/csharp/apps/GDALDatasetWrite.cs
+END
+WKT2WKB.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/13437/trunk/gdal/swig/csharp/apps/WKT2WKB.cs
+END
+ReadXML.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/13437/trunk/gdal/swig/csharp/apps/ReadXML.cs
+END
+createdata.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/19757/trunk/gdal/swig/csharp/apps/createdata.cs
+END
+GDALReadDirect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/13437/trunk/gdal/swig/csharp/apps/GDALReadDirect.cs
+END
+OSRTransform.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/13437/trunk/gdal/swig/csharp/apps/OSRTransform.cs
+END
+GDALAdjustContrast.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/14383/trunk/gdal/swig/csharp/apps/GDALAdjustContrast.cs
+END
+GDALRead.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/13437/trunk/gdal/swig/csharp/apps/GDALRead.cs
+END
+ogrinfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19470/trunk/gdal/swig/csharp/apps/ogrinfo.cs
+END
+OGRGEOS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/13678/trunk/gdal/swig/csharp/apps/OGRGEOS.cs
+END

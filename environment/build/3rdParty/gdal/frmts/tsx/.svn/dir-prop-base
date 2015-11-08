@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 10
+*.o
+*.obj
+
+K 13
+svn:mergeinfo
+V 156
+/sandbox/mloskot/winkey-libkml/gdal/frmts/tsx:18902-19054
+/sandbox/warmerdam/1.8-esri/gdal/frmts/tsx:21793
+/sandbox/winkey/libkml/gdal/frmts/tsx:19055-19529
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21848/trunk/gdal/frmts/pds
+END
+isis2dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21848/trunk/gdal/frmts/pds/isis2dataset.cpp
+END
+frmt_pds.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21710/trunk/gdal/frmts/pds/frmt_pds.html
+END
+isis3dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21710/trunk/gdal/frmts/pds/isis3dataset.cpp
+END
+frmt_isis2.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21710/trunk/gdal/frmts/pds/frmt_isis2.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/12661/trunk/gdal/frmts/pds/makefile.vc
+END
+frmt_isis3.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21710/trunk/gdal/frmts/pds/frmt_isis3.html
+END
+nasakeywordhandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21618/trunk/gdal/frmts/pds/nasakeywordhandler.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/pds/GNUmakefile
+END
+nasakeywordhandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21618/trunk/gdal/frmts/pds/nasakeywordhandler.h
+END
+pdsdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21680/trunk/gdal/frmts/pds/pdsdataset.cpp
+END

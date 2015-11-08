@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 52
+html
+man
+gxftest
+gxf3_1_0
+*.tar.gz
+*.zip
+*.lo
+*.obj
+
+END

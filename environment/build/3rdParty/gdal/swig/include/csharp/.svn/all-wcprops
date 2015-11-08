@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21588/trunk/gdal/swig/include/csharp
+END
+swig_csharp_extensions.i
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/20170/trunk/gdal/swig/include/csharp/swig_csharp_extensions.i
+END
+gdal_csharp_extend.i
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/14910/trunk/gdal/swig/include/csharp/gdal_csharp_extend.i
+END
+ogr_csharp_extend.i
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/13436/trunk/gdal/swig/include/csharp/ogr_csharp_extend.i
+END
+typemaps_csharp.i
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/21588/trunk/gdal/swig/include/csharp/typemaps_csharp.i
+END
+osr_csharp.i
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/13679/trunk/gdal/swig/include/csharp/osr_csharp.i
+END
+gdal_csharp.i
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/17453/trunk/gdal/swig/include/csharp/gdal_csharp.i
+END
+ogr_csharp.i
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/15475/trunk/gdal/swig/include/csharp/ogr_csharp.i
+END

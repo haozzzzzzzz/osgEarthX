@@ -1,0 +1,359 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21678/trunk/gdal/frmts/jpeg/libjpeg
+END
+jddctmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jddctmgr.c
+END
+jdatadst.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdatadst.c
+END
+jerror.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/17291/trunk/gdal/frmts/jpeg/libjpeg/jerror.c
+END
+jmemansi.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jmemansi.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21678/trunk/gdal/frmts/jpeg/libjpeg/makefile.vc
+END
+jchuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jchuff.c
+END
+jdtrans.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdtrans.c
+END
+jdhuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jdhuff.c
+END
+jfdctfst.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jfdctfst.c
+END
+jcmaster.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jcmaster.c
+END
+jerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jerror.h
+END
+jdmaster.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdmaster.c
+END
+jchuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jchuff.h
+END
+jidctfst.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jidctfst.c
+END
+jdhuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jdhuff.h
+END
+jcparam.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/17440/trunk/gdal/frmts/jpeg/libjpeg/jcparam.c
+END
+jcinit.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jcinit.c
+END
+jquant1.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jquant1.c
+END
+jquant2.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jquant2.c
+END
+jcphuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jcphuff.c
+END
+jdct.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jdct.h
+END
+jdatasrc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdatasrc.c
+END
+jccolor.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jccolor.c
+END
+jcsample.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jcsample.c
+END
+jcmarker.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jcmarker.c
+END
+jmemmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jmemmgr.c
+END
+jdmarker.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jdmarker.c
+END
+jdsample.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdsample.c
+END
+jfdctflt.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jfdctflt.c
+END
+jcapistd.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jcapistd.c
+END
+jmorecfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jmorecfg.h
+END
+jdapistd.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdapistd.c
+END
+jinclude.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jinclude.h
+END
+jidctflt.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jidctflt.c
+END
+jctrans.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jctrans.c
+END
+jversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jversion.h
+END
+jfdctint.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jfdctint.c
+END
+jpegint.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jpegint.h
+END
+jidctint.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jidctint.c
+END
+jcprepct.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jcprepct.c
+END
+jutils.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jutils.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/README
+END
+jdinput.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdinput.c
+END
+jdmerge.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdmerge.c
+END
+jccoefct.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jccoefct.c
+END
+jdcoefct.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdcoefct.c
+END
+jpeglib.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/17382/trunk/gdal/frmts/jpeg/libjpeg/jpeglib.h
+END
+jcomapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jcomapi.c
+END
+jconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/11648/trunk/gdal/frmts/jpeg/libjpeg/jconfig.h
+END
+jdphuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdphuff.c
+END
+jcmainct.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jcmainct.c
+END
+jidctred.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jidctred.c
+END
+jdmainct.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jdmainct.c
+END
+jcapimin.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jcapimin.c
+END
+jdpostct.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdpostct.c
+END
+jdapimin.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdapimin.c
+END
+jdcolor.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jdcolor.c
+END
+jmemsys.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/17289/trunk/gdal/frmts/jpeg/libjpeg/jmemsys.h
+END
+jcdctmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/jpeg/libjpeg/jcdctmgr.c
+END

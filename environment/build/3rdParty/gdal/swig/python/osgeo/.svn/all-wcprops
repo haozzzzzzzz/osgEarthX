@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21916/trunk/gdal/swig/python/osgeo
+END
+gdalnumeric.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/12278/trunk/gdal/swig/python/osgeo/gdalnumeric.py
+END
+gdalconst.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/20889/trunk/gdal/swig/python/osgeo/gdalconst.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/18350/trunk/gdal/swig/python/osgeo/__init__.py
+END
+osr.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21916/trunk/gdal/swig/python/osgeo/osr.py
+END
+gdal_array.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20889/trunk/gdal/swig/python/osgeo/gdal_array.py
+END
+gdal.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21773/trunk/gdal/swig/python/osgeo/gdal.py
+END
+ogr.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21691/trunk/gdal/swig/python/osgeo/ogr.py
+END

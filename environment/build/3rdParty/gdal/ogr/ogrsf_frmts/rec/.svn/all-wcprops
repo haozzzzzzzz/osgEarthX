@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/rec
+END
+ogrreclayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/rec/ogrreclayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/rec/makefile.vc
+END
+ogr_rec.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/15583/trunk/gdal/ogr/ogrsf_frmts/rec/ogr_rec.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/rec/GNUmakefile
+END
+ll_recio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/rec/ll_recio.cpp
+END
+ogrrecdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/13025/trunk/gdal/ogr/ogrsf_frmts/rec/ogrrecdatasource.cpp
+END
+ogrrecdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/rec/ogrrecdriver.cpp
+END

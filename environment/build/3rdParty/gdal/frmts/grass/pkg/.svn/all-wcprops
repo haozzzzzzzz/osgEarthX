@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/20157/trunk/gdal/frmts/grass/pkg
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20157/trunk/gdal/frmts/grass/pkg/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/11847/trunk/gdal/frmts/grass/pkg/Makefile.in
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/20157/trunk/gdal/frmts/grass/pkg/configure.in
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10609/trunk/gdal/frmts/grass/pkg/README
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10609/trunk/gdal/frmts/grass/pkg/aclocal.m4
+END

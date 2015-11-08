@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21739/trunk/gdal/swig/python/scripts
+END
+gdal_calc.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21246/trunk/gdal/swig/python/scripts/gdal_calc.py
+END
+gdal2tiles.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/19288/trunk/gdal/swig/python/scripts/gdal2tiles.py
+END
+gdal_proximity.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/19392/trunk/gdal/swig/python/scripts/gdal_proximity.py
+END
+gdalident.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18194/trunk/gdal/swig/python/scripts/gdalident.py
+END
+gdal_sieve.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/19392/trunk/gdal/swig/python/scripts/gdal_sieve.py
+END
+gdalimport.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/18952/trunk/gdal/swig/python/scripts/gdalimport.py
+END
+epsg_tr.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/19102/trunk/gdal/swig/python/scripts/epsg_tr.py
+END
+pct2rgb.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/19762/trunk/gdal/swig/python/scripts/pct2rgb.py
+END
+rgb2pct.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/18952/trunk/gdal/swig/python/scripts/rgb2pct.py
+END
+gdal_sieve.dox
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16920/trunk/gdal/swig/python/scripts/gdal_sieve.dox
+END
+gdal_fillnodata.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/19392/trunk/gdal/swig/python/scripts/gdal_fillnodata.py
+END
+gdal2xyz.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21127/trunk/gdal/swig/python/scripts/gdal2xyz.py
+END
+gdal_fillnodata.dox
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/18821/trunk/gdal/swig/python/scripts/gdal_fillnodata.dox
+END
+mkgraticule.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/18216/trunk/gdal/swig/python/scripts/mkgraticule.py
+END
+esri2wkt.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/18952/trunk/gdal/swig/python/scripts/esri2wkt.py
+END
+gdal_retile.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21279/trunk/gdal/swig/python/scripts/gdal_retile.py
+END
+gcps2vec.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21739/trunk/gdal/swig/python/scripts/gcps2vec.py
+END
+gdalchksum.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/18952/trunk/gdal/swig/python/scripts/gdalchksum.py
+END
+gcps2wld.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/18952/trunk/gdal/swig/python/scripts/gcps2wld.py
+END
+gdal_polygonize.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/19392/trunk/gdal/swig/python/scripts/gdal_polygonize.py
+END
+gdal_merge.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/20778/trunk/gdal/swig/python/scripts/gdal_merge.py
+END

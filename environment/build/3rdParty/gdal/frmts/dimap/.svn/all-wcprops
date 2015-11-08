@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gdal/!svn/ver/21674/trunk/gdal/frmts/dimap
+END
+dimapdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21674/trunk/gdal/frmts/dimap/dimapdataset.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/11598/trunk/gdal/frmts/dimap/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15888/trunk/gdal/frmts/dimap/GNUmakefile
+END

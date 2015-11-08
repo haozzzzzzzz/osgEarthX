@@ -1,0 +1,128 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+#ifndef OSGEARTH_MAP_NODE_OPTIONS_H
+#define OSGEARTH_MAP_NODE_OPTIONS_H 1
+
+#include <osgEarth/Common>
+#include <osgEarth/Config>
+#include <osgEarth/HTTPClient>
+#include <osgEarth/TerrainOptions>
+#include <set>
+
+namespace osgEarth
+{
+    /**
+     * Configuration for a runtime map node.
+     */
+    class OSGEARTH_EXPORT MapNodeOptions : public ConfigOptions
+    {
+    public:
+        MapNodeOptions( const Config& conf =Config() );
+        MapNodeOptions( const TerrainOptions& terrainOpts );
+        MapNodeOptions( const MapNodeOptions& rhs );
+        virtual ~MapNodeOptions();
+
+        /** 
+         * The hostname/port of a proxy server to use for all HTTP communications.
+         * Default = no proxy.
+         */
+        optional<ProxySettings>& proxySettings() { return _proxySettings; }
+        const optional<ProxySettings>& proxySettings() const { return _proxySettings; }
+
+        /**
+         * Whether the map should be run exclusively off of the cache.
+         * Default = false
+         */
+        optional<bool>& cacheOnly() { return _cacheOnly; }
+        const optional<bool>& cacheOnly() const { return _cacheOnly; }
+
+        /**
+         * Whether to explicity enable or disable GL lighting on the map node.
+         */
+        optional<bool>& enableLighting() { return _enableLighting; }
+        const optional<bool>& enableLighting() const { return _enableLighting; } 
+
+        /**
+         * Whether to enable blending on the overlay decorator subgraph. See OverlayDecorator
+         */
+        optional<bool>& overlayBlending() { return _overlayBlending; }
+        const optional<bool>& overlayBlending() const { return _overlayBlending; }
+
+        /**
+         * Texture size to use for the overlay RTT camera.
+         */
+        optional<unsigned>& overlayTextureSize() { return _overlayTextureSize; }
+        const optional<unsigned>& overlayTextureSize() const { return _overlayTextureSize; }
+
+        /**
+         * Texture size to use for the overlay RTT camera.
+         */
+        optional<bool>& overlayMipMapping() { return _overlayMipMapping; }
+        const optional<bool>& overlayMipMapping() const { return _overlayMipMapping; }
+
+        /**
+         * Whether to attach the RTT camera to the stencil buffer
+         */
+        optional<bool>& overlayAttachStencil() { return _overlayAttachStencil; }
+        const optional<bool>& overlayAttachStencil() const { return _overlayAttachStencil; }
+
+        /**
+         * Ratio of resolution of near geometry to far geometry in a draped overlay view.
+         * E.g.: a ratio of 3 means that the draping mechanism will weight the resolution
+         * of closer geometry over farther geometry by a ratio of 3:1. This is desirable
+         * since viewing draped geometry from an oblique angle will otherwise result in
+         * substantial aliasing near the camera.
+         *
+         * Default value = 5.0
+         * Minimum value = 1.0 (no warping occurs).
+         */
+        optional<float>& overlayResolutionRatio() { return _overlayResolutionRatio; }
+        const optional<float>& overlayResolutionRatio() const { return _overlayResolutionRatio; }
+
+        /**
+         * Options to conigure the terrain engine (the component that renders the
+         * terrain surface).
+         */
+        const TerrainOptions& getTerrainOptions() const;
+        void setTerrainOptions( const TerrainOptions& options );
+    
+    public:
+        virtual Config getConfig() const;
+        virtual void mergeConfig( const Config& conf );
+
+        static std::string OPTIONS_TAG;
+
+    private:            
+        optional<ProxySettings> _proxySettings;
+        optional<bool> _cacheOnly;
+        optional<bool> _enableLighting;
+
+        optional<bool>     _overlayVertexWarping;
+        optional<bool>     _overlayBlending;
+        optional<unsigned> _overlayTextureSize;
+        optional<bool>     _overlayMipMapping;
+        optional<bool>     _overlayAttachStencil;
+        optional<float>    _overlayResolutionRatio;
+
+        optional<Config> _terrainOptionsConf;
+        TerrainOptions* _terrainOptions;
+    };
+}
+
+#endif // OSGEARTH_MAP_NODE_OPTIONS_H

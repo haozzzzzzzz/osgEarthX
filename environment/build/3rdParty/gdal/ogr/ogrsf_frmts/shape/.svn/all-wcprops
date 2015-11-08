@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21751/trunk/gdal/ogr/ogrsf_frmts/shape
+END
+LICENSE.LGPL
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/shape/LICENSE.LGPL
+END
+shapefil.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18680/trunk/gdal/ogr/ogrsf_frmts/shape/shapefil.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/13274/trunk/gdal/ogr/ogrsf_frmts/shape/makefile.vc
+END
+ogrshapedatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/21751/trunk/gdal/ogr/ogrsf_frmts/shape/ogrshapedatasource.cpp
+END
+ogrshapedriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/19457/trunk/gdal/ogr/ogrsf_frmts/shape/ogrshapedriver.cpp
+END
+ogrshapelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21751/trunk/gdal/ogr/ogrsf_frmts/shape/ogrshapelayer.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/shape/GNUmakefile
+END
+shape2ogr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20885/trunk/gdal/ogr/ogrsf_frmts/shape/shape2ogr.cpp
+END
+shptree.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15720/trunk/gdal/ogr/ogrsf_frmts/shape/shptree.c
+END
+shp_vsi.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/shape/shp_vsi.c
+END
+shpopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/18680/trunk/gdal/ogr/ogrsf_frmts/shape/shpopen.c
+END
+dbfopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/17917/trunk/gdal/ogr/ogrsf_frmts/shape/dbfopen.c
+END
+drv_shapefile.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21467/trunk/gdal/ogr/ogrsf_frmts/shape/drv_shapefile.html
+END
+ogrshape.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21751/trunk/gdal/ogr/ogrsf_frmts/shape/ogrshape.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21967/trunk/gdal/swig/ruby
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/11068/trunk/gdal/swig/ruby/makefile.vc
+END
+RubyMakefile.mk
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21967/trunk/gdal/swig/ruby/RubyMakefile.mk
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10610/trunk/gdal/swig/ruby/GNUmakefile
+END

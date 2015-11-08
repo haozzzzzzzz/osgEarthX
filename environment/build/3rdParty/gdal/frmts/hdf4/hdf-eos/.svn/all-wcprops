@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/18599/trunk/gdal/frmts/hdf4/hdf-eos
+END
+ease.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/10609/trunk/gdal/frmts/hdf4/hdf-eos/ease.h
+END
+HDFEOSVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/10609/trunk/gdal/frmts/hdf4/hdf-eos/HDFEOSVersion.h
+END
+SWapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/18599/trunk/gdal/frmts/hdf4/hdf-eos/SWapi.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/15522/trunk/gdal/frmts/hdf4/hdf-eos/makefile.vc
+END
+GDapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/15522/trunk/gdal/frmts/hdf4/hdf-eos/GDapi.c
+END
+EHapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/12769/trunk/gdal/frmts/hdf4/hdf-eos/EHapi.c
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/15888/trunk/gdal/frmts/hdf4/hdf-eos/GNUmakefile
+END
+gctp_wrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/10645/trunk/gdal/frmts/hdf4/hdf-eos/gctp_wrap.c
+END
+HdfEosDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/12769/trunk/gdal/frmts/hdf4/hdf-eos/HdfEosDef.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/10609/trunk/gdal/frmts/hdf4/hdf-eos/README
+END

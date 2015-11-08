@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gdal/!svn/ver/21979/trunk/gdal/swig/python
+END
+gdalnumeric.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/12465/trunk/gdal/swig/python/gdalnumeric.py
+END
+python3.2.patch
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21777/trunk/gdal/swig/python/python3.2.patch
+END
+fallback_build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/20921/trunk/gdal/swig/python/fallback_build.bat
+END
+gdalconst.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/12465/trunk/gdal/swig/python/gdalconst.py
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21779/trunk/gdal/swig/python/GNUmakefile
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21481/trunk/gdal/swig/python/setup.py
+END
+epydoc.conf
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21692/trunk/gdal/swig/python/epydoc.conf
+END
+osr.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/12465/trunk/gdal/swig/python/osr.py
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/18698/trunk/gdal/swig/python/README.txt
+END
+gdal.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/12465/trunk/gdal/swig/python/gdal.py
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15445/trunk/gdal/swig/python/setup.cfg
+END
+ogr.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/12465/trunk/gdal/swig/python/ogr.py
+END

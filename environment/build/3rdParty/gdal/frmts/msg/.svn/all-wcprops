@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/17888/trunk/gdal/frmts/msg
+END
+frmt_msg.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15065/trunk/gdal/frmts/msg/frmt_msg.html
+END
+msgdataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/15064/trunk/gdal/frmts/msg/msgdataset.h
+END
+prologue.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/15064/trunk/gdal/frmts/msg/prologue.h
+END
+xritheaderparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/15064/trunk/gdal/frmts/msg/xritheaderparser.h
+END
+PublicDecompWTMakefiles.zip
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/10609/trunk/gdal/frmts/msg/PublicDecompWTMakefiles.zip
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/17888/trunk/gdal/frmts/msg/makefile.vc
+END
+msgcommand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/15085/trunk/gdal/frmts/msg/msgcommand.cpp
+END
+reflectancecalculator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/15066/trunk/gdal/frmts/msg/reflectancecalculator.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/msg/GNUmakefile
+END
+msgcommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/15085/trunk/gdal/frmts/msg/msgcommand.h
+END
+reflectancecalculator.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/15064/trunk/gdal/frmts/msg/reflectancecalculator.h
+END
+msgdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/17664/trunk/gdal/frmts/msg/msgdataset.cpp
+END
+prologue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/15064/trunk/gdal/frmts/msg/prologue.cpp
+END
+xritheaderparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/15066/trunk/gdal/frmts/msg/xritheaderparser.cpp
+END

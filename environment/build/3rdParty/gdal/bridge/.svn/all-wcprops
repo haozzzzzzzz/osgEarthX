@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/gdal/!svn/ver/17542/trunk/gdal/bridge
+END
+gbgetsymbol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10645/trunk/gdal/bridge/gbgetsymbol.cpp
+END
+gdalbridge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10645/trunk/gdal/bridge/gdalbridge.cpp
+END
+gdalbridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/17542/trunk/gdal/bridge/gdalbridge.h
+END
+bridge_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10645/trunk/gdal/bridge/bridge_test.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/10609/trunk/gdal/bridge/Makefile
+END

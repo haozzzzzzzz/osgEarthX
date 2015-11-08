@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21979/trunk/gdal/swig/python/extensions
+END
+gdal_array_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/21779/trunk/gdal/swig/python/extensions/gdal_array_wrap.cpp
+END
+gdal_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/21979/trunk/gdal/swig/python/extensions/gdal_wrap.cpp
+END
+ogr_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21777/trunk/gdal/swig/python/extensions/ogr_wrap.cpp
+END
+gdalconst_wrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21777/trunk/gdal/swig/python/extensions/gdalconst_wrap.c
+END
+osr_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21916/trunk/gdal/swig/python/extensions/osr_wrap.cpp
+END

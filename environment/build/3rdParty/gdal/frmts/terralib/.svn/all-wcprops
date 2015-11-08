@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/15888/trunk/gdal/frmts/terralib
+END
+TerraLibDataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/13857/trunk/gdal/frmts/terralib/TerraLibDataset.h
+END
+TerraLibRasterBand.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/13857/trunk/gdal/frmts/terralib/TerraLibRasterBand.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/14364/trunk/gdal/frmts/terralib/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/15888/trunk/gdal/frmts/terralib/GNUmakefile
+END
+TerraLibDataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/13880/trunk/gdal/frmts/terralib/TerraLibDataset.cpp
+END
+TerraLibRasterBand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/13880/trunk/gdal/frmts/terralib/TerraLibRasterBand.cpp
+END

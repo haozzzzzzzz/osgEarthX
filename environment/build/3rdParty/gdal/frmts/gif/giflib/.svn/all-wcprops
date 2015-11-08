@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21680/trunk/gdal/frmts/gif/giflib
+END
+dgif_lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/giflib/dgif_lib.c
+END
+egif_lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/giflib/egif_lib.c
+END
+gif_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/giflib/gif_lib.h
+END
+gifalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/giflib/gifalloc.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21680/trunk/gdal/frmts/gif/giflib/makefile.vc
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/giflib/COPYING
+END
+gif_hash.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/giflib/gif_hash.c
+END
+gif_lib_private.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/giflib/gif_lib_private.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/giflib/README
+END
+gif_err.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/giflib/gif_err.c
+END
+gif_hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/giflib/gif_hash.h
+END

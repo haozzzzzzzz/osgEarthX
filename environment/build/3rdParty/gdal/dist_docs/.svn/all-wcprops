@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/10609/trunk/gdal/dist_docs
+END
+README_WIN_BIN.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/dist_docs/README_WIN_BIN.TXT
+END
+burnpath.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10609/trunk/gdal/dist_docs/burnpath.c
+END
+install_unx.sh
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10609/trunk/gdal/dist_docs/install_unx.sh
+END
+SETUP_GDAL.BAT
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10609/trunk/gdal/dist_docs/SETUP_GDAL.BAT
+END
+README_UNX_BIN.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/dist_docs/README_UNX_BIN.TXT
+END

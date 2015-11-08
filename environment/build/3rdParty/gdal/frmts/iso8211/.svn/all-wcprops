@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gdal/!svn/ver/21182/trunk/gdal/frmts/iso8211
+END
+ddffielddefn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/12706/trunk/gdal/frmts/iso8211/ddffielddefn.cpp
+END
+timetest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10645/trunk/gdal/frmts/iso8211/timetest.cpp
+END
+ddffield.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10645/trunk/gdal/frmts/iso8211/ddffield.cpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/10609/trunk/gdal/frmts/iso8211/Makefile.in
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10609/trunk/gdal/frmts/iso8211/Doxyfile
+END
+mkcatalog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16861/trunk/gdal/frmts/iso8211/mkcatalog.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21182/trunk/gdal/frmts/iso8211/makefile.vc
+END
+intro.dox
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15105/trunk/gdal/frmts/iso8211/intro.dox
+END
+ddfmodule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/17405/trunk/gdal/frmts/iso8211/ddfmodule.cpp
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10609/trunk/gdal/frmts/iso8211/configure.in
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/15888/trunk/gdal/frmts/iso8211/GNUmakefile
+END
+ddfsubfielddefn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/17405/trunk/gdal/frmts/iso8211/ddfsubfielddefn.cpp
+END
+iso8211.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/20996/trunk/gdal/frmts/iso8211/iso8211.h
+END
+ddfutils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10645/trunk/gdal/frmts/iso8211/ddfutils.cpp
+END
+teststream.out
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/iso8211/teststream.out
+END
+8211dump.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10645/trunk/gdal/frmts/iso8211/8211dump.cpp
+END
+teststream.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/10609/trunk/gdal/frmts/iso8211/teststream.sh
+END
+8211view.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10645/trunk/gdal/frmts/iso8211/8211view.cpp
+END
+ddfrecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/20996/trunk/gdal/frmts/iso8211/ddfrecord.cpp
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10609/trunk/gdal/frmts/iso8211/aclocal.m4
+END

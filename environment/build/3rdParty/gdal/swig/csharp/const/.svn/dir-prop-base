@@ -1,0 +1,19 @@
+K 10
+svn:ignore
+V 135
+*~
+*.dll
+*.dll.*
+*.dylib
+*.exe
+*.exp
+*.o
+*.obj
+*.so
+gdalconst.cs
+gdalconstPINVOKE.cs
+gdalconst_wrap.c
+GdalConst.cs
+GdalConstPINVOKE.cs
+
+END

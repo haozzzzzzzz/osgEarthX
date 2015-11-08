@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/21747/trunk/gdal/frmts/aigrid
+END
+Makefile.dist
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10609/trunk/gdal/frmts/aigrid/Makefile.dist
+END
+aigopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20996/trunk/gdal/frmts/aigrid/aigopen.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/11714/trunk/gdal/frmts/aigrid/makefile.vc
+END
+aigrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20996/trunk/gdal/frmts/aigrid/aigrid.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/15888/trunk/gdal/frmts/aigrid/GNUmakefile
+END
+aigdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21747/trunk/gdal/frmts/aigrid/aigdataset.cpp
+END
+aigccitt.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/16403/trunk/gdal/frmts/aigrid/aigccitt.c
+END
+aitest.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/19496/trunk/gdal/frmts/aigrid/aitest.c
+END
+gridlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20996/trunk/gdal/frmts/aigrid/gridlib.c
+END

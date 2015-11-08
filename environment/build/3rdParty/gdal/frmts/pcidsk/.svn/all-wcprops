@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/22004/trunk/gdal/frmts/pcidsk
+END
+gdal_edb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20632/trunk/gdal/frmts/pcidsk/gdal_edb.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20074/trunk/gdal/frmts/pcidsk/makefile.vc
+END
+pcidskdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/20996/trunk/gdal/frmts/pcidsk/pcidskdataset.cpp
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/17468/trunk/gdal/frmts/pcidsk/notes.txt
+END
+pcidskdataset2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/22004/trunk/gdal/frmts/pcidsk/pcidskdataset2.cpp
+END
+pcidsktiledrasterband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/17688/trunk/gdal/frmts/pcidsk/pcidsktiledrasterband.cpp
+END
+vsi_pcidsk_io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21680/trunk/gdal/frmts/pcidsk/vsi_pcidsk_io.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21233/trunk/gdal/frmts/pcidsk/GNUmakefile
+END
+frmt_pcidsk.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21567/trunk/gdal/frmts/pcidsk/frmt_pcidsk.html
+END
+gdal_pcidsk.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/20996/trunk/gdal/frmts/pcidsk/gdal_pcidsk.h
+END

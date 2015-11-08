@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/gdal/!svn/ver/21999/trunk/gdal/ogr
+END
+ogr_srs_ozi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21264/trunk/gdal/ogr/ogr_srs_ozi.cpp
+END
+ogrsurface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/19399/trunk/gdal/ogr/ogrsurface.cpp
+END
+ogrfeaturedefn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21999/trunk/gdal/ogr/ogrfeaturedefn.cpp
+END
+ogr_srs_esri.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21872/trunk/gdal/ogr/ogr_srs_esri.cpp
+END
+ogrmultilinestring.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/18913/trunk/gdal/ogr/ogrmultilinestring.cpp
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/21762/trunk/gdal/ogr/Doxyfile
+END
+ogr_spatialref.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21916/trunk/gdal/ogr/ogr_spatialref.h
+END
+ogr_feature.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/20885/trunk/gdal/ogr/ogr_feature.h
+END
+ogrmultipoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21298/trunk/gdal/ogr/ogrmultipoint.cpp
+END
+ogr_srs_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21916/trunk/gdal/ogr/ogr_srs_api.h
+END
+swq_parser.y
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21732/trunk/gdal/ogr/swq_parser.y
+END
+ogrct.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gdal/!svn/ver/20079/trunk/gdal/ogr/ogrct.cpp
+END
+index.dox
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gdal/!svn/ver/17937/trunk/gdal/ogr/index.dox
+END
+swq.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/20616/trunk/gdal/ogr/swq.h
+END
+ogr_capi_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogr_capi_test.c
+END
+ogrspatialreference.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21928/trunk/gdal/ogr/ogrspatialreference.cpp
+END
+ogrfielddefn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21018/trunk/gdal/ogr/ogrfielddefn.cpp
+END
+ogr_featurestyle.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/19442/trunk/gdal/ogr/ogr_featurestyle.h
+END
+swq_op_registrar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21235/trunk/gdal/ogr/swq_op_registrar.cpp
+END
+swq_parser.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20563/trunk/gdal/ogr/swq_parser.hpp
+END
+ogrcurve.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/16574/trunk/gdal/ogr/ogrcurve.cpp
+END
+ogrgeomediageometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21561/trunk/gdal/ogr/ogrgeomediageometry.cpp
+END
+ogr_srs_xml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/16587/trunk/gdal/ogr/ogr_srs_xml.cpp
+END
+ogrpoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/20260/trunk/gdal/ogr/ogrpoint.cpp
+END
+ogrgeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21918/trunk/gdal/ogr/ogrgeometry.cpp
+END
+swq_op_general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20602/trunk/gdal/ogr/swq_op_general.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/20568/trunk/gdal/ogr/GNUmakefile
+END
+ogr_geometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21023/trunk/gdal/ogr/ogr_geometry.h
+END
+swq_select.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20614/trunk/gdal/ogr/swq_select.cpp
+END
+ogr_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gdal/!svn/ver/20616/trunk/gdal/ogr/ogr_p.h
+END
+ogr_sql.dox
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/20563/trunk/gdal/ogr/ogr_sql.dox
+END
+ogrpgeogeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21540/trunk/gdal/ogr/ogrpgeogeometry.cpp
+END
+ogr_srs_usgs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/17681/trunk/gdal/ogr/ogr_srs_usgs.cpp
+END
+ogr_srs_dict.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/11881/trunk/gdal/ogr/ogr_srs_dict.cpp
+END
+ogr2gmlgeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21023/trunk/gdal/ogr/ogr2gmlgeometry.cpp
+END
+gml2ogrgeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21604/trunk/gdal/ogr/gml2ogrgeometry.cpp
+END
+ogrlinestring.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21498/trunk/gdal/ogr/ogrlinestring.cpp
+END
+ogr_srs_esri_names.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21843/trunk/gdal/ogr/ogr_srs_esri_names.h
+END
+ogrgeometryfactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21563/trunk/gdal/ogr/ogrgeometryfactory.cpp
+END
+ogr_arch.dox
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/16214/trunk/gdal/ogr/ogr_arch.dox
+END
+osr_tutorial.dox
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/16214/trunk/gdal/ogr/osr_tutorial.dox
+END
+ogrpolygon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20260/trunk/gdal/ogr/ogrpolygon.cpp
+END
+file.lst
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/21541/trunk/gdal/ogr/file.lst
+END
+ogrgeomediageometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21557/trunk/gdal/ogr/ogrgeomediageometry.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21678/trunk/gdal/ogr/makefile.vc
+END
+ogr_feature_style.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/15073/trunk/gdal/ogr/ogr_feature_style.html
+END
+ogr_drivertut.dox
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/16579/trunk/gdal/ogr/ogr_drivertut.dox
+END
+ogrutils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/20483/trunk/gdal/ogr/ogrutils.cpp
+END
+ogr_srs_pci.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21468/trunk/gdal/ogr/ogr_srs_pci.cpp
+END
+ogr_geos.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/17469/trunk/gdal/ogr/ogr_geos.h
+END
+ogr_api.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/20555/trunk/gdal/ogr/ogr_api.cpp
+END
+ogrpgeogeometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21540/trunk/gdal/ogr/ogrpgeogeometry.h
+END
+ogrfeaturestyle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21193/trunk/gdal/ogr/ogrfeaturestyle.cpp
+END
+ogr_srsnode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21916/trunk/gdal/ogr/ogr_srsnode.cpp
+END
+ogr_apitut.dox
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20545/trunk/gdal/ogr/ogr_apitut.dox
+END
+swq_parser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21732/trunk/gdal/ogr/swq_parser.cpp
+END
+ogr_expat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/18832/trunk/gdal/ogr/ogr_expat.cpp
+END
+ogr_srs_proj4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21916/trunk/gdal/ogr/ogr_srs_proj4.cpp
+END
+ogr_srs_panorama.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/19799/trunk/gdal/ogr/ogr_srs_panorama.cpp
+END
+ogrlinearring.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/18674/trunk/gdal/ogr/ogrlinearring.cpp
+END
+ogrfeature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21270/trunk/gdal/ogr/ogrfeature.cpp
+END
+ogr_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/20885/trunk/gdal/ogr/ogr_core.h
+END
+ogr_opt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/19782/trunk/gdal/ogr/ogr_opt.cpp
+END
+ogrmultipolygon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/19208/trunk/gdal/ogr/ogrmultipolygon.cpp
+END
+swq.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gdal/!svn/ver/20563/trunk/gdal/ogr/swq.cpp
+END
+ograssemblepolygon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/19790/trunk/gdal/ogr/ograssemblepolygon.cpp
+END
+swq_expr_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20563/trunk/gdal/ogr/swq_expr_node.cpp
+END
+ogrgeometrycollection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21310/trunk/gdal/ogr/ogrgeometrycollection.cpp
+END
+ogr_srs_erm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21676/trunk/gdal/ogr/ogr_srs_erm.cpp
+END
+ogr_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gdal/!svn/ver/21270/trunk/gdal/ogr/ogr_api.h
+END
+ogr_srs_validate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21916/trunk/gdal/ogr/ogr_srs_validate.cpp
+END
+ogrfeaturequery.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21298/trunk/gdal/ogr/ogrfeaturequery.cpp
+END
+ogr_fromepsg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21917/trunk/gdal/ogr/ogr_fromepsg.cpp
+END
+ogr_expat.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/18063/trunk/gdal/ogr/ogr_expat.h
+END

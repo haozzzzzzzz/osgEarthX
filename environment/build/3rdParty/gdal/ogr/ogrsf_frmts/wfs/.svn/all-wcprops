@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21859/trunk/gdal/ogr/ogrsf_frmts/wfs
+END
+WFSServersList.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21857/trunk/gdal/ogr/ogrsf_frmts/wfs/WFSServersList.txt
+END
+ogrwfsdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21859/trunk/gdal/ogr/ogrsf_frmts/wfs/ogrwfsdatasource.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20311/trunk/gdal/ogr/ogrsf_frmts/wfs/makefile.vc
+END
+ogrwfsdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/20280/trunk/gdal/ogr/ogrsf_frmts/wfs/ogrwfsdriver.cpp
+END
+ogrwfslayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21859/trunk/gdal/ogr/ogrsf_frmts/wfs/ogrwfslayer.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20311/trunk/gdal/ogr/ogrsf_frmts/wfs/GNUmakefile
+END
+ogr_wfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21859/trunk/gdal/ogr/ogrsf_frmts/wfs/ogr_wfs.h
+END
+drv_wfs.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/20949/trunk/gdal/ogr/ogrsf_frmts/wfs/drv_wfs.html
+END
+ogrwfsfilter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/21042/trunk/gdal/ogr/ogrsf_frmts/wfs/ogrwfsfilter.cpp
+END

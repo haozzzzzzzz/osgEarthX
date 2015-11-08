@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/gdal/!svn/ver/21905/trunk/gdal/apps
+END
+gdal-config.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/12131/trunk/gdal/apps/gdal-config.in
+END
+testepsg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/18987/trunk/gdal/apps/testepsg.cpp
+END
+gdal_rasterize.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21298/trunk/gdal/apps/gdal_rasterize.cpp
+END
+gdaladdo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/18306/trunk/gdal/apps/gdaladdo.cpp
+END
+ogrdissolve.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/17725/trunk/gdal/apps/ogrdissolve.cpp
+END
+gdal2ogr.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/14708/trunk/gdal/apps/gdal2ogr.c
+END
+gdalasyncread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/19521/trunk/gdal/apps/gdalasyncread.cpp
+END
+ogrtindex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/19803/trunk/gdal/apps/ogrtindex.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21187/trunk/gdal/apps/makefile.vc
+END
+gdalwarpsimple.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15436/trunk/gdal/apps/gdalwarpsimple.c
+END
+gdal_grid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21149/trunk/gdal/apps/gdal_grid.cpp
+END
+testreprojmulti.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20592/trunk/gdal/apps/testreprojmulti.cpp
+END
+gdal_contour.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21191/trunk/gdal/apps/gdal_contour.cpp
+END
+nearblack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21156/trunk/gdal/apps/nearblack.cpp
+END
+gdaltindex.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/19806/trunk/gdal/apps/gdaltindex.c
+END
+gdalbuildvrt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21185/trunk/gdal/apps/gdalbuildvrt.cpp
+END
+gdal_translate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21905/trunk/gdal/apps/gdal_translate.cpp
+END
+multireadtest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/17754/trunk/gdal/apps/multireadtest.cpp
+END
+gdalenhance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21684/trunk/gdal/apps/gdalenhance.cpp
+END
+gdaldem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21684/trunk/gdal/apps/gdaldem.cpp
+END
+gdalwarp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21586/trunk/gdal/apps/gdalwarp.cpp
+END
+gdalflattenmask.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/19786/trunk/gdal/apps/gdalflattenmask.c
+END
+ogrinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/20589/trunk/gdal/apps/ogrinfo.cpp
+END
+gdaltransform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/14848/trunk/gdal/apps/gdaltransform.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21031/trunk/gdal/apps/GNUmakefile
+END
+gdal_utilities.dox
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21824/trunk/gdal/apps/gdal_utilities.dox
+END
+gdallocationinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21298/trunk/gdal/apps/gdallocationinfo.cpp
+END
+test_ogrsf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21548/trunk/gdal/apps/test_ogrsf.cpp
+END
+dumpoverviews.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20991/trunk/gdal/apps/dumpoverviews.cpp
+END
+gdalmanage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21425/trunk/gdal/apps/gdalmanage.cpp
+END
+ogr2ogr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21766/trunk/gdal/apps/ogr2ogr.cpp
+END
+gdalinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21824/trunk/gdal/apps/gdalinfo.c
+END
+ogr_utilities.dox
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21366/trunk/gdal/apps/ogr_utilities.dox
+END
+gdaltorture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/17754/trunk/gdal/apps/gdaltorture.cpp
+END

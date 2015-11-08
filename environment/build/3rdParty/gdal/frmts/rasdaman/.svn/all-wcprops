@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/21243/trunk/gdal/frmts/rasdaman
+END
+frmt_rasdaman.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21243/trunk/gdal/frmts/rasdaman/frmt_rasdaman.html
+END
+rasdamandataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/20515/trunk/gdal/frmts/rasdaman/rasdamandataset.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/20351/trunk/gdal/frmts/rasdaman/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/20515/trunk/gdal/frmts/rasdaman/GNUmakefile
+END
+rasdamandataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/20597/trunk/gdal/frmts/rasdaman/rasdamandataset.cpp
+END

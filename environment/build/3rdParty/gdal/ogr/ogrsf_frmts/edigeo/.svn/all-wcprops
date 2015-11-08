@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21652/trunk/gdal/ogr/ogrsf_frmts/edigeo
+END
+ogredigeodatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/21648/trunk/gdal/ogr/ogrsf_frmts/edigeo/ogredigeodatasource.cpp
+END
+ogredigeodriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/21630/trunk/gdal/ogr/ogrsf_frmts/edigeo/ogredigeodriver.cpp
+END
+ogredigeolayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/21633/trunk/gdal/ogr/ogrsf_frmts/edigeo/ogredigeolayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21630/trunk/gdal/ogr/ogrsf_frmts/edigeo/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21630/trunk/gdal/ogr/ogrsf_frmts/edigeo/GNUmakefile
+END
+ogr_edigeo.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21647/trunk/gdal/ogr/ogrsf_frmts/edigeo/ogr_edigeo.h
+END
+drv_edigeo.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21652/trunk/gdal/ogr/ogrsf_frmts/edigeo/drv_edigeo.html
+END

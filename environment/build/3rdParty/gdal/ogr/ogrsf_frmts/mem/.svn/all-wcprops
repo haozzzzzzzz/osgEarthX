@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/17807/trunk/gdal/ogr/ogrsf_frmts/mem
+END
+ogrmemdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/13027/trunk/gdal/ogr/ogrsf_frmts/mem/ogrmemdatasource.cpp
+END
+ogrmemdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/mem/ogrmemdriver.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/mem/makefile.vc
+END
+ogrmemlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/17807/trunk/gdal/ogr/ogrsf_frmts/mem/ogrmemlayer.cpp
+END
+drv_memory.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/11300/trunk/gdal/ogr/ogrsf_frmts/mem/drv_memory.html
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/17807/trunk/gdal/ogr/ogrsf_frmts/mem/GNUmakefile
+END
+ogr_mem.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/17807/trunk/gdal/ogr/ogrsf_frmts/mem/ogr_mem.h
+END

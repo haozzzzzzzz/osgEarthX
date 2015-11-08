@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21922/trunk/gdal/frmts/pcidsk/sdk/channel
+END
+cexternalchannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/21512/trunk/gdal/frmts/pcidsk/sdk/channel/cexternalchannel.cpp
+END
+cpcidskchannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/21922/trunk/gdal/frmts/pcidsk/sdk/channel/cpcidskchannel.h
+END
+cpixelinterleavedchannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/gdal/!svn/ver/19329/trunk/gdal/frmts/pcidsk/sdk/channel/cpixelinterleavedchannel.cpp
+END
+ctiledchannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21231/trunk/gdal/frmts/pcidsk/sdk/channel/ctiledchannel.h
+END
+cbandinterleavedchannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/gdal/!svn/ver/21922/trunk/gdal/frmts/pcidsk/sdk/channel/cbandinterleavedchannel.cpp
+END
+cexternalchannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/21512/trunk/gdal/frmts/pcidsk/sdk/channel/cexternalchannel.h
+END
+cpixelinterleavedchannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/channel/cpixelinterleavedchannel.h
+END
+cbandinterleavedchannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/gdal/!svn/ver/21922/trunk/gdal/frmts/pcidsk/sdk/channel/cbandinterleavedchannel.h
+END
+cpcidskchannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/21922/trunk/gdal/frmts/pcidsk/sdk/channel/cpcidskchannel.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/channel/Makefile
+END
+ctiledchannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/21680/trunk/gdal/frmts/pcidsk/sdk/channel/ctiledchannel.cpp
+END

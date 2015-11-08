@@ -1,0 +1,248 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+#ifndef OSGEARTH_ANNO_ANNOTATION_NODE_H
+#define OSGEARTH_ANNO_ANNOTATION_NODE_H 1
+
+#include <osgEarthAnnotation/Common>
+#include <osgEarthAnnotation/AnnotationData>
+#include <osgEarthAnnotation/Decoration>
+#include <osgEarthSymbology/Style>
+#include <osgEarth/DepthOffset>
+#include <osgEarth/MapNodeObserver>
+#include <osgEarth/Terrain>
+#include <osgEarth/TileKey>
+
+
+#define META_AnnotationNode(library,name) \
+    META_Node(library,name) \
+    virtual bool accept(Decoration* ds, bool enable) { return ds->apply(*this, enable); }
+
+#define META_AnnotationNodeAbstract(library,name) \
+    virtual bool isSameKindAs(const osg::Object* obj) const { return dynamic_cast<const name *>(obj)!=NULL; } \
+    virtual const char* className() const { return #name; } \
+    virtual const char* libraryName() const { return #library; } \
+    virtual void accept(osg::NodeVisitor& nv) { if (nv.validNodeMask(*this)) { nv.pushOntoNodePath(this); nv.apply(*this); nv.popFromNodePath(); } } \
+    virtual bool accept(Decoration* ds, bool enable) { return ds->apply(*this, enable); }
+
+// forward decs
+namespace osgEarth
+{
+    class MapNode;
+}
+
+
+namespace osgEarth { namespace Annotation
+{	
+    using namespace osgEarth;
+    using namespace osgEarth::Symbology;
+
+    /**
+     * Base class for all annotation node types.
+     */
+    class OSGEARTHANNO_EXPORT AnnotationNode : public osg::Group,
+                                               public MapNodeObserver
+    {
+	public:
+		virtual void initMapNode( MapNode* pMapNode );//$$$
+
+    public:
+        META_AnnotationNode(osgEarthAnnotation, AnnotationNode);
+
+        /**
+         * Annotation data attached to this annotation node.
+         */
+        virtual void setAnnotationData( AnnotationData* data );
+        AnnotationData* getAnnotationData() const { return _annoData.get(); }
+        AnnotationData* getOrCreateAnnotationData();
+
+        /**
+         * Sets the node to "dynamic", i.e. sets up the node so that you can
+         * safely change it at runtime.
+         */
+        virtual void setDynamic( bool value );
+
+        /** 
+         * Gets the attach point for children of this node
+         */
+        virtual osg::Group* getChildAttachPoint();
+
+        /**
+         * Serialized this annotation node so you can re-create it later
+         */
+        virtual Config getConfig() const { return Config(); }
+
+    public: // decoration support
+
+        /**
+         * Installs a decoration on this annotation node.
+         */
+        void installDecoration( const std::string& name, Decoration* ds );
+
+        /**
+         * Uninstalls a decoration on this annotation node.
+         */
+        void uninstallDecoration( const std::string& name );
+
+        /**
+         * Gets the current decoration
+         */
+        const std::string& getDecoration() const;
+
+        /**
+         * Activates a named decoration that was installed previously
+         */
+        virtual void setDecoration( const std::string& name );
+
+        /**
+         * Clears any decoration.
+         */
+        virtual void clearDecoration();
+
+        /**
+         * Whether this annotation has the specified decoration installed.
+         */
+        bool hasDecoration( const std::string& name ) const;
+
+    public: // MapNodeObserver
+
+        virtual void setMapNode( MapNode* mapNode );
+
+        MapNode* getMapNode() { return _mapNode.get(); }
+        const MapNode* getMapNode() const { return _mapNode.get(); }
+
+
+    public: // Style functions
+
+        virtual void setStyle(const Style& style) { }
+
+        virtual const Style& getStyle() const { return s_emptyStyle; }
+
+
+    protected:
+
+        osg::ref_ptr<AnnotationData> _annoData;
+        bool                         _dynamic;
+        bool                         _autoclamp;
+        bool                         _depthAdj;
+        osg::ref_ptr<const AltitudeSymbol> _altitude;
+
+        DepthOffsetAdapter _doAdapter;
+
+        typedef std::map<std::string, osg::ref_ptr<Decoration> > DecorationMap;
+        DecorationMap _dsMap;
+        Decoration*   _activeDs;
+        std::string   _activeDsName;
+
+
+        bool supportsAutoClamping( const Style& style ) const;
+        
+        /**
+         * Check the altitude symbology (if present) and configure the
+         * automatic mesh clamping if necessary.
+         */
+        virtual void configureForAltitudeMode( const AltitudeMode& mode );
+
+        /**
+         * Apply general style information to the node
+         */
+        virtual void applyStyle( const Style&);
+        virtual void applyGeneralSymbology(const Style&);
+        
+        /**
+         * Sets the node to automatically re-clamp its geometry to incoming terrain tiles
+         * as they page in (if applicable).
+         * Note: you usually don't need to call this directly; it is automatically set
+         * based on the symbology. But you can call it to override the automatic setting.
+         */
+        virtual void setCPUAutoClamping( bool value );
+
+        /**
+         * Whether to activate depth adjustment.
+         * Note: you usually don't need to call this directly; it is automatically set
+         * based on the symbology. But you can call it to override the automatic setting.
+         */
+        virtual void setDepthAdjustment( bool value );
+
+        /**
+         * Sets a lighting override but only if lighting is not already set.
+         */
+        void setLightingIfNotSet( bool lighting );
+
+        // utility funcion to make a geopoint absolute height
+        bool makeAbsolute( GeoPoint& mapPoint, osg::Node* patch =0L ) const;
+
+        // hidden default ctor
+        AnnotationNode( MapNode* mapNode =0L );
+
+        // hidden config ctor
+        AnnotationNode( MapNode* mapNode, const Config& conf );
+
+        // hidden copy ctor
+        AnnotationNode(const AnnotationNode& rhs, const osg::CopyOp& op=osg::CopyOp::DEEP_COPY_ALL) : osg::Group(rhs, op) { }
+
+        osg::ref_ptr< TerrainCallback > _autoClampCallback;
+
+    private:
+            
+        osg::observer_ptr<MapNode>   _mapNode;
+        static Style s_emptyStyle;
+
+
+    public: // internal methods; do not call directly
+
+        virtual void reclamp( const TileKey& key, osg::Node* tile, const Terrain* terrain ) { }
+
+        virtual ~AnnotationNode();
+    };
+
+    /**
+     * Virtual class for AnnotationNodes with the set/getPosition method
+     */
+    class PositionedAnnotationNode : public AnnotationNode
+    {
+    public:
+
+        /**
+         * Sets the map position of the node.
+         * Returns true upon success.
+         */
+        virtual bool setPosition( const GeoPoint& p ) =0;
+
+        /**
+         * Gets the position (in map coordinates) of the node
+         */
+        virtual GeoPoint getPosition() const =0;
+
+    protected:
+
+        PositionedAnnotationNode()
+            : AnnotationNode() { }
+
+        PositionedAnnotationNode(MapNode* mapNode)
+            : AnnotationNode( mapNode ) { }
+
+        PositionedAnnotationNode(MapNode* mapNode, const Config& conf)
+            : AnnotationNode( mapNode, conf ) { }
+        
+        PositionedAnnotationNode(const PositionedAnnotationNode& rhs, const osg::CopyOp& op=osg::CopyOp::DEEP_COPY_ALL) : AnnotationNode(rhs, op) { }
+    };
+
+} } // namespace osgEarth::Annotation
+
+#endif // OSGEARTH_ANNO_ANNOTATION_NODE_H

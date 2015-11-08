@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21631/trunk/gdal/ogr/ogrsf_frmts/generic
+END
+ogrsfdriverregistrar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/gdal/!svn/ver/21596/trunk/gdal/ogr/ogrsf_frmts/generic/ogrsfdriverregistrar.cpp
+END
+ogr_gensql.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/20900/trunk/gdal/ogr/ogrsf_frmts/generic/ogr_gensql.cpp
+END
+ogr_miattrind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/20104/trunk/gdal/ogr/ogrsf_frmts/generic/ogr_miattrind.cpp
+END
+ogrdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/20616/trunk/gdal/ogr/ogrsf_frmts/generic/ogrdatasource.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21631/trunk/gdal/ogr/ogrsf_frmts/generic/makefile.vc
+END
+ogrlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/20885/trunk/gdal/ogr/ogrsf_frmts/generic/ogrlayer.cpp
+END
+ogr_gensql.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/20897/trunk/gdal/ogr/ogrsf_frmts/generic/ogr_gensql.h
+END
+ogrregisterall.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/21630/trunk/gdal/ogr/ogrsf_frmts/generic/ogrregisterall.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21630/trunk/gdal/ogr/ogrsf_frmts/generic/GNUmakefile
+END
+ogr_attrind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/generic/ogr_attrind.cpp
+END
+ogrsfdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/16319/trunk/gdal/ogr/ogrsf_frmts/generic/ogrsfdriver.cpp
+END

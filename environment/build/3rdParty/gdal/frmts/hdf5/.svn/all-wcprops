@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21802/trunk/gdal/frmts/hdf5
+END
+bagdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21680/trunk/gdal/frmts/hdf5/bagdataset.cpp
+END
+gh5_convenience.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21680/trunk/gdal/frmts/hdf5/gh5_convenience.cpp
+END
+hdf5imagedataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21802/trunk/gdal/frmts/hdf5/hdf5imagedataset.cpp
+END
+frmt_hdf5.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/17235/trunk/gdal/frmts/hdf5/frmt_hdf5.html
+END
+hdf5dataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20115/trunk/gdal/frmts/hdf5/hdf5dataset.h
+END
+iso19115_srs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/17985/trunk/gdal/frmts/hdf5/iso19115_srs.cpp
+END
+frmt_bag.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/17980/trunk/gdal/frmts/hdf5/frmt_bag.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/17978/trunk/gdal/frmts/hdf5/makefile.vc
+END
+gh5_convenience.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/17985/trunk/gdal/frmts/hdf5/gh5_convenience.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/17978/trunk/gdal/frmts/hdf5/GNUmakefile
+END
+hdf5dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21680/trunk/gdal/frmts/hdf5/hdf5dataset.cpp
+END

@@ -1,0 +1,313 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+ * Copyright 2008-2014 Pelican Mapping
+ * http://osgearth.org
+ *
+ * osgEarth is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+#ifndef OSGEARTH_REGISTRY
+#define OSGEARTH_REGISTRY 1
+
+#include <osgEarth/Common>
+#include <osgEarth/CachePolicy>
+#include <osgEarth/SharedSARepo>
+#include <osgEarth/Units>
+#include <osgEarth/ShaderGenerator>
+#include <OpenThreads/ReentrantMutex>
+#include <OpenThreads/ScopedLock>
+#include <osgEarth/ThreadingUtils>
+#include <osg/Referenced>
+#include <osgDB/ReaderWriter>
+#include <osgText/Font>
+#include <set>
+
+#define GDAL_SCOPED_LOCK \
+    OpenThreads::ScopedLock<OpenThreads::ReentrantMutex> _slock( osgEarth::Registry::instance()->getGDALMutex() )\
+
+
+namespace osgEarth
+{    
+    class Cache;
+    class Capabilities;
+    class Profile;
+    class ShaderFactory;
+    class TaskServiceManager;
+    class URIReadCallback;
+    class ColorFilterRegistry;
+    class StateSetCache;
+    
+    typedef SharedSARepo<osg::Program> ProgramSharedRepo;
+
+    /**
+     * Application-wide global repository.
+     */
+    class OSGEARTH_EXPORT Registry : public osg::Referenced
+    {
+    public:
+        /** Access the global Registry singleton. */
+        static Registry* instance(bool erase = false);
+
+        /** Gets a well-known named profile instance. */
+        const Profile* getNamedProfile( const std::string& name ) const;
+
+        /** Gets the global-geodetic builtin profile */
+        const Profile* getGlobalGeodeticProfile() const;
+
+        /** Gets the global-meractor builtin profile (mercator/WGS84 datum) */
+        const Profile* getGlobalMercatorProfile() const;
+
+        /** Gets the spherical-mercator builtin profile (mercator/sphere) */
+        const Profile* getSphericalMercatorProfile() const;
+
+        /** Gets the unified cube builtin profile */
+        const Profile* getCubeProfile() const;
+
+        /** Access to the application-wide GDAL serialization mutex. GDAL is not thread-safe. */
+        OpenThreads::ReentrantMutex& getGDALMutex();
+
+        /** The system-wide default cache. */
+        Cache* getCache() const;
+        void setCache( Cache* cache );
+
+        /** The default cache policy (used when no policy is set elsewhere) */
+        const optional<CachePolicy>& defaultCachePolicy() const { return _defaultCachePolicy; }
+        void setDefaultCachePolicy( const CachePolicy& policy );
+
+        /** The override cache policy (overrides all others if set) */
+        const optional<CachePolicy>& overrideCachePolicy() const { return _overrideCachePolicy; }
+        void setOverrideCachePolicy( const CachePolicy& policy );
+
+        /** The default cache driver. */
+        void setDefaultCacheDriverName( const std::string& name );
+        const std::string& getDefaultCacheDriverName() const { return _cacheDriver; }
+
+        /**
+         * Given a CachePolicy, composites in the default and override cache policies
+         * as necessary to create an effective CachePolicy. First it will populate
+         * any unset properties in "cp" with defaults if they are available. Then it
+         * will override any properties in "cp" with overrides that are available.
+         */
+        bool resolveCachePolicy(optional<CachePolicy>& cp) const;
+
+        /**
+         * Whether the given filename is blacklisted
+         */
+        bool isBlacklisted(const std::string &filename);
+
+        /**
+         * Blacklist the given filename
+         */
+        void blacklist(const std::string &filename);
+
+        /**
+         * Gets the number of blacklisted filenames
+         */
+        unsigned int getNumBlacklistedFilenames();
+
+        /**
+         * Clears the blacklist
+         */
+        void clearBlacklist();
+
+        /**
+         * Sets or gets a default system font to use
+         */
+        void setDefaultFont( osgText::Font* font );
+        osgText::Font* getDefaultFont();
+
+        /**
+         * The graphics hardware capabilities for this platform.
+         */
+        const Capabilities& getCapabilities() const;
+        void setCapabilities( Capabilities* caps );
+        static const Capabilities& capabilities() { return instance()->getCapabilities(); }
+
+        /**
+         * Gets or sets the default shader factory. You can replace the default
+         * shader factory if you want to alter any of osgEarth's baseline shaders
+         * (advanced usage).
+         */
+        const ShaderFactory* getShaderFactory() const;
+        void setShaderFactory( ShaderFactory* lib );
+        static const ShaderFactory* shaderFactory() { return instance()->getShaderFactory(); }
+
+        /**
+         * The default shader generator.
+         */
+        ShaderGeneratorProxy getShaderGenerator() const;
+        void setShaderGenerator(ShaderGenerator* gen);
+        static ShaderGeneratorProxy shaderGenerator() { return instance()->getShaderGenerator(); }
+
+        /**
+         * A default StateSetCache to use by any process that uses one.
+         * A StateSetCache assist in stateset sharing across multiple nodes.
+         * Note: A registry-wide SSC is only supported in OSG 3.1.4+. See
+         * the Registry.cpp comments for details.
+         */
+        StateSetCache* getStateSetCache() const;
+        void setStateSetCache( StateSetCache* cache );
+        static StateSetCache* stateSetCache() { return instance()->getStateSetCache(); }
+
+        /**
+         * A shared cache for osg::Program objects created by the shader 
+         * composition subsystem (VirtualProgram).
+         */
+        ProgramSharedRepo* getProgramSharedRepo();
+        static ProgramSharedRepo* programSharedRepo() { return instance()->getProgramSharedRepo(); }
+        
+        /**
+         * Gets a reference to the global task service manager.
+         */
+        TaskServiceManager* getTaskServiceManager() {
+            return _taskServiceManager.get(); }
+
+        /**
+         * Generates an instance-wide global unique ID.
+         */
+        UID createUID();
+
+        /**
+         * Sets a global read callback for URI objects.
+         */
+        void setURIReadCallback( URIReadCallback* callback );
+
+        /**
+         * Gets the global read callback for URI objects.
+         */
+        URIReadCallback* getURIReadCallback() const;
+
+        /**
+         * Gets the default set of osgDB::Options to use.
+         */
+        const osgDB::Options* getDefaultOptions() const { return _defaultOptions.get(); }
+
+        /**
+         * Clones an options structure (fixing the archive caching), or creates
+         * a new one.
+         */
+        osgDB::Options* cloneOrCreateOptions( const osgDB::Options* options =0L ) const;
+
+        /**
+         * Registers a Units definition.
+         */
+        void registerUnits( const Units* staticInstance );
+
+        const Units* getUnits(const std::string& name) const;
+
+        /**
+         * The name of the default terrain engine driver
+         */
+        void setDefaultTerrainEngineDriverName( const std::string& name );
+        const std::string& getDefaultTerrainEngineDriverName() const { return _terrainEngineDriver; }
+
+        /**
+         * For debugging - tracks activities in progress.
+         */
+        void startActivity(const std::string& name);
+        void endActivity(const std::string& name);
+        void getActivities(std::set<std::string>& output);
+
+        /**
+         * Gets the mime-type corresponding to a given extension.
+         */
+        std::string getMimeTypeForExtension(const std::string& extension);
+
+        /**
+         * Gets the file extension corresponding to a given mime-type.
+         */
+        std::string getExtensionForMimeType(const std::string& mimeType);
+
+        /**
+         * Sets the policy for calling osg::Texture::setUnRefImageDataAfterApply
+         * in the osgEarth terrain engine.
+         */
+        optional<bool>& unRefImageDataAfterApply() { return _unRefImageDataAfterApply; }
+        const optional<bool>& unRefImageDataAfterApply() const { return _unRefImageDataAfterApply; }
+
+    protected:
+        virtual ~Registry();
+        Registry();
+
+        void destruct();
+
+        OpenThreads::ReentrantMutex _gdal_mutex;
+        bool _gdal_registered;
+
+        osg::ref_ptr<const Profile> _global_geodetic_profile;
+        osg::ref_ptr<const Profile> _global_mercator_profile;
+        osg::ref_ptr<const Profile> _spherical_mercator_profile;
+        osg::ref_ptr<const Profile> _cube_profile;
+
+        Threading::ReadWriteMutex _regMutex;  
+        int _numGdalMutexGets;
+
+        osg::ref_ptr<Cache> _cache;
+        optional<CachePolicy> _defaultCachePolicy;
+        optional<CachePolicy> _overrideCachePolicy;
+
+        typedef std::set<std::string> StringSet;
+        StringSet _blacklistedFilenames;
+        Threading::ReadWriteMutex _blacklistMutex;
+
+        osg::ref_ptr<ShaderFactory> _shaderLib;
+        osg::ref_ptr<ShaderGenerator> _shaderGen;
+        osg::ref_ptr<TaskServiceManager> _taskServiceManager;
+
+        // unique ID generator:
+        int                      _uidGen;
+        mutable Threading::Mutex _uidGenMutex;
+
+        // system capabilities:
+        osg::ref_ptr< Capabilities > _caps;
+        mutable Threading::Mutex     _capsMutex;
+        void initCapabilities();
+
+        osg::ref_ptr<osgDB::Options> _defaultOptions;
+
+        osg::ref_ptr<URIReadCallback> _uriReadCallback;
+
+        osg::ref_ptr<osgText::Font> _defaultFont;
+
+        typedef std::vector<const Units*> UnitsVector;
+        UnitsVector                       _unitsVector;
+        mutable Threading::ReadWriteMutex _unitsVectorMutex;
+
+        osg::ref_ptr<StateSetCache> _stateSetCache;
+
+        std::string _terrainEngineDriver;
+        std::string _cacheDriver;
+
+        std::set<std::string> _activities;
+        mutable Threading::Mutex _activityMutex;
+        
+        ProgramSharedRepo _programRepo;
+
+        optional<bool> _unRefImageDataAfterApply;
+    };
+}
+
+
+/** Proxy class for automatic registration of Units with the Registry.*/
+struct osgEarthRegisterUnits {
+    osgEarthRegisterUnits(const osgEarth::Units* units) {
+        osgEarth::Registry::instance()->registerUnits(units);
+    }
+};
+#define OSGEARTH_REGISTER_UNITS(NAME,INSTANCE) \
+    static osgEarthRegisterUnits s_osgEarthRegistryUnitsProxy##NAME (INSTANCE)
+
+
+
+#endif //OSGEARTH_REGISTRY

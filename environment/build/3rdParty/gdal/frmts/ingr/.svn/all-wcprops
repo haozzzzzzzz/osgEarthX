@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21680/trunk/gdal/frmts/ingr
+END
+IntergraphDataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/20996/trunk/gdal/frmts/ingr/IntergraphDataset.h
+END
+frmt_intergraphraster.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/12129/trunk/gdal/frmts/ingr/frmt_intergraphraster.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/11603/trunk/gdal/frmts/ingr/makefile.vc
+END
+IngrTypes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21680/trunk/gdal/frmts/ingr/IngrTypes.cpp
+END
+JpegHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21680/trunk/gdal/frmts/ingr/JpegHelper.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/18445/trunk/gdal/frmts/ingr/GNUmakefile
+END
+IntergraphBand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/16620/trunk/gdal/frmts/ingr/IntergraphBand.cpp
+END
+IngrTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20996/trunk/gdal/frmts/ingr/IngrTypes.h
+END
+IntergraphDataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/20996/trunk/gdal/frmts/ingr/IntergraphDataset.cpp
+END
+JpegHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/12099/trunk/gdal/frmts/ingr/JpegHelper.h
+END
+IntergraphBand.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16211/trunk/gdal/frmts/ingr/IntergraphBand.h
+END

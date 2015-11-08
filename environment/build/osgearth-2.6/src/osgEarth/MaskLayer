@@ -1,0 +1,149 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+ * Copyright 2008-2014 Pelican Mapping
+ * http://osgearth.org
+ *
+ * osgEarth is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+#ifndef OSGEARTH_MASK_LAYER_H
+#define OSGEARTH_MASK_LAYER_H 1
+
+#include <osgEarth/Common>
+#include <osgEarth/Layer>
+#include <osgEarth/Config>
+#include <osgEarth/MaskSource>
+#include <osg/Node>
+
+namespace osgEarth
+{
+    class Map;
+
+    /**
+     * Configuration options for a MaskLayer.
+     */
+    class OSGEARTH_EXPORT MaskLayerOptions : public ConfigOptions
+    {
+    public:        
+        MaskLayerOptions(const ConfigOptions& options =ConfigOptions() );
+
+        MaskLayerOptions(const std::string& name, const MaskSourceOptions& driverOptions =MaskSourceOptions() );
+
+        /** dtor */
+        virtual ~MaskLayerOptions() { }
+
+        /**
+         * The readable name of the layer.
+         */
+        optional<std::string>& name() { return _name; }
+        const optional<std::string>& name() const { return _name; }
+
+        /**
+         * Options for the underlying model source driver.
+         */
+        optional<MaskSourceOptions>& driver() { return _driver; }
+        const optional<MaskSourceOptions>& driver() const { return _driver; }
+
+        /**
+         * Gets or sets the minimum of detail for which this layer should generate data.
+         */
+        optional<unsigned>& minLevel() { return _minLevel; }
+        const optional<unsigned>& minLevel() const { return _minLevel; }
+
+    public:
+        virtual Config getConfig() const;
+        virtual void mergeConfig( const Config& conf );
+
+    private:
+        void fromConfig( const Config& conf );
+        void setDefaults();
+
+        optional<std::string>       _name;
+        optional<MaskSourceOptions> _driver;
+        optional<unsigned>          _minLevel;
+    };
+
+
+    /**
+     * A MaskLayer is a specialized layer used to mask out a part of the terrain.
+     * Typically you would use this if you had a pre-built 3D terrain model for
+     * an inset area.
+     */
+    class OSGEARTH_EXPORT MaskLayer : public Layer
+    {
+    public:
+        /**
+         * Constructs a new mask layer based on a configuration setup.
+         */
+        MaskLayer( const MaskLayerOptions& options =MaskLayerOptions() );
+
+        /**
+         * Constructs a new mask layer with a user-provided driver options.
+         */
+        MaskLayer( const std::string& name, const MaskSourceOptions& options );
+        
+        /**
+         * Constructs a new mask layer with a user-provided mask source.
+         */
+        MaskLayer(const MaskLayerOptions& options, MaskSource* source );
+
+	protected:
+        /** dtor */
+        virtual ~MaskLayer();
+
+	public:
+        /**
+         * Access the underlying mask source.
+         */
+        MaskSource* getMaskSource() const { return _maskSource.get(); }
+
+        /** 
+         * Gets the name of this mask layer
+         */
+        const std::string& getName() const { return *_runtimeOptions.name(); }
+
+        /**
+         * Minimum terrain LOD at which masking should occur
+         */
+        unsigned getMinLevel() const { return *_runtimeOptions.minLevel(); }
+
+        /** 
+         * Gets the geometric boundary polygon representing the area of the
+         * terrain to mask out.
+         */
+        osg::Vec3dArray* getOrCreateMaskBoundary(
+            float                   heightScale,
+            const SpatialReference* srs,
+            ProgressCallback*       progress );
+
+    public:
+
+        void initialize( const osgDB::Options* dbOptions, const Map* map );
+
+    private:
+        MaskLayerOptions              _initOptions;
+        MaskLayerOptions              _runtimeOptions;
+        osg::ref_ptr<MaskSource>      _maskSource;
+        Revision                      _maskSourceRev;
+        osg::ref_ptr<osg::Vec3dArray> _boundary;
+        osg::ref_ptr<osgDB::Options>  _dbOptions;
+
+        void copyOptions();
+    };
+
+    typedef std::vector< osg::ref_ptr<MaskLayer> > MaskLayerVector;
+}
+
+#endif // OSGEARTH_MASK_LAYER_H
+

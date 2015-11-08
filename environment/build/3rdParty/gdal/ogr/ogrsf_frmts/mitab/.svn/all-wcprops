@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20882/trunk/gdal/ogr/ogrsf_frmts/mitab
+END
+HISTORY.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/15756/trunk/gdal/ogr/ogrsf_frmts/mitab/HISTORY.TXT
+END
+mitab_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_priv.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/15758/trunk/gdal/ogr/ogrsf_frmts/mitab/makefile.vc
+END
+mitab_feature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20797/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_feature.cpp
+END
+mitab_geometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_geometry.cpp
+END
+mitab_idfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_idfile.cpp
+END
+mitab_rawbinblock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_rawbinblock.cpp
+END
+mitab_ogr_datasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_ogr_datasource.cpp
+END
+mitab_mapheaderblock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_mapheaderblock.cpp
+END
+mitab_ogr_driver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_ogr_driver.cpp
+END
+mitab_imapinfofile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_imapinfofile.cpp
+END
+mitab_middatafile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/20818/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_middatafile.cpp
+END
+mitab_tabseamless.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_tabseamless.cpp
+END
+mitab_coordsys.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_coordsys.cpp
+END
+mitab_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_utils.h
+END
+mitab_indfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_indfile.cpp
+END
+drv_mitab.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/20882/trunk/gdal/ogr/ogrsf_frmts/mitab/drv_mitab.html
+END
+README.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/mitab/README.TXT
+END
+mitab_mapobjectblock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_mapobjectblock.cpp
+END
+mitab_mapcoordblock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_mapcoordblock.cpp
+END
+mitab.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20797/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab.h
+END
+mitab_maptoolblock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_maptoolblock.cpp
+END
+TODO.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/11171/trunk/gdal/ogr/ogrsf_frmts/mitab/TODO.TXT
+END
+mitab_feature_mif.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_feature_mif.cpp
+END
+mitab_spatialref.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_spatialref.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/20328/trunk/gdal/ogr/ogrsf_frmts/mitab/GNUmakefile
+END
+mitab_bounds.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_bounds.cpp
+END
+mitab_tooldef.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_tooldef.cpp
+END
+mitab_geometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_geometry.h
+END
+mitab_utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_utils.cpp
+END
+mitab_tabview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_tabview.cpp
+END
+mitab_tabfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20797/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_tabfile.cpp
+END
+mitab_ogr_driver.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_ogr_driver.h
+END
+mitab_datfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_datfile.cpp
+END
+mitab_miffile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20832/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_miffile.cpp
+END
+mitab_mapfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_mapfile.cpp
+END
+mitab_mapindexblock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/20796/trunk/gdal/ogr/ogrsf_frmts/mitab/mitab_mapindexblock.cpp
+END

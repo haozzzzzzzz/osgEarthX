@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gdal/!svn/ver/21896/trunk/gdal/frmts/e00grid
+END
+e00griddataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21896/trunk/gdal/frmts/e00grid/e00griddataset.cpp
+END
+e00read.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21894/trunk/gdal/frmts/e00grid/e00read.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21893/trunk/gdal/frmts/e00grid/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21893/trunk/gdal/frmts/e00grid/GNUmakefile
+END
+e00compr.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21894/trunk/gdal/frmts/e00grid/e00compr.h
+END

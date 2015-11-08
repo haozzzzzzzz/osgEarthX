@@ -1,0 +1,108 @@
+#---------------------------------------------------
+# OSG CMAKE SUPPORT 
+# (C) by Michael Wagner, mtw@shared-reality.com 2005
+# (C) Eric Wing, Luigi Calori and Robert Osfield 2006-2007
+#---------------------------------------------------
+
+PROJECT(OSGEARTH_PLUGINS_MASTER)
+
+INCLUDE_DIRECTORIES(${OSG_INCLUDE_DIRS} )
+
+SET(CMAKE_SHARED_MODULE_PREFIX ${OSGEARTH_PLUGIN_PREFIX})
+
+IF(MSVC80)
+  IF(NOT OSGEARTH_MSVC_GENERATE_PLUGINS_AND_WRAPPERS_MANIFESTS)
+    SET(CMAKE_MODULE_LINKER_FLAGS "${CMAKE_MODULE_LINKER_FLAGS} /MANIFEST:NO")
+  ENDIF(NOT OSGEARTH_MSVC_GENERATE_PLUGINS_AND_WRAPPERS_MANIFESTS)
+ENDIF(MSVC80)
+SET(TARGET_DEFAULT_PREFIX "osgdb_")
+SET(TARGET_DEFAULT_LABEL_PREFIX "Plugin")
+
+#OpenThreads, osg, osgDB and osgUtil are included elsewhere.
+SET(TARGET_COMMON_LIBRARIES 
+    osgEarth
+)
+
+# Folder name for plugins
+SET(OSGEARTH_PLUGINS_FOLDER Plugins)
+
+############################################################
+#
+#  NodeKit/Psudo loader plugins
+#
+ADD_SUBDIRECTORY(earth)
+ADD_SUBDIRECTORY(kml)
+
+ADD_SUBDIRECTORY(wcs)
+ADD_SUBDIRECTORY(wms)
+ADD_SUBDIRECTORY(tilecache)
+ADD_SUBDIRECTORY(tileservice)
+ADD_SUBDIRECTORY(yahoo)
+ADD_SUBDIRECTORY(arcgis_map_cache)
+ADD_SUBDIRECTORY(arcgis)
+ADD_SUBDIRECTORY(tms)
+ADD_SUBDIRECTORY(vpb)
+ADD_SUBDIRECTORY(osg)
+ADD_SUBDIRECTORY(agglite)
+ADD_SUBDIRECTORY(model_simple)
+ADD_SUBDIRECTORY(debug)
+ADD_SUBDIRECTORY(cache_filesystem)
+ADD_SUBDIRECTORY(refresh)
+ADD_SUBDIRECTORY(xyz)
+ADD_SUBDIRECTORY(bing)
+ADD_SUBDIRECTORY(tileindex)
+
+ADD_SUBDIRECTORY(noise)
+ADD_SUBDIRECTORY(splat_mask)
+ADD_SUBDIRECTORY(colorramp)
+
+IF(GDAL_FOUND)
+  ADD_SUBDIRECTORY(gdal)
+  ADD_SUBDIRECTORY(feature_ogr)
+  ADD_SUBDIRECTORY(feature_wfs)  
+  ADD_SUBDIRECTORY(feature_tfs)
+  ADD_SUBDIRECTORY(model_feature_stencil)
+  ADD_SUBDIRECTORY(model_feature_geom)
+  ADD_SUBDIRECTORY(mask_feature)
+  ADD_SUBDIRECTORY(label_overlay)
+  ADD_SUBDIRECTORY(label_annotation)
+ENDIF(GDAL_FOUND)
+
+IF(SQLITE3_FOUND)
+  ADD_SUBDIRECTORY(mbtiles)
+ENDIF(SQLITE3_FOUND)
+
+IF(LEVELDB_FOUND)
+  ADD_SUBDIRECTORY(cache_leveldb)
+ENDIF(LEVELDB_FOUND)
+
+ADD_SUBDIRECTORY(engine_mp)
+ADD_SUBDIRECTORY(engine_byo)
+
+IF(V8_FOUND)
+  ADD_SUBDIRECTORY(script_engine_v8)
+ELSEIF(NOT WITH_EXTERNAL_DUKTAPE OR DUKTAPE_FOUND)
+  ADD_SUBDIRECTORY(script_engine_duktape)
+ENDIF(V8_FOUND)
+
+IF(JAVASCRIPTCORE_FOUND)
+  ADD_SUBDIRECTORY(script_engine_javascriptcore)
+ENDIF(JAVASCRIPTCORE_FOUND)
+
+ADD_SUBDIRECTORY(vdatum_egm84)
+ADD_SUBDIRECTORY(vdatum_egm96)
+ADD_SUBDIRECTORY(vdatum_egm2008)
+
+ADD_SUBDIRECTORY(sky_gl)
+ADD_SUBDIRECTORY(sky_simple)
+IF(SILVERLINING_FOUND)
+  ADD_SUBDIRECTORY(sky_silverlining)
+ENDIF(SILVERLINING_FOUND)
+
+ADD_SUBDIRECTORY(ocean_simple)
+IF(TRITON_FOUND)
+  ADD_SUBDIRECTORY(ocean_triton)
+ENDIF(TRITON_FOUND)
+
+# temporary
+ADD_SUBDIRECTORY(template_matclass)

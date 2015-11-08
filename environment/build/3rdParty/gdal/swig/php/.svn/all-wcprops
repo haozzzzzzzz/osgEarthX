@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/gdal/!svn/ver/20889/trunk/gdal/swig/php
+END
+php_osr.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/php_osr.h
+END
+gdal_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/gdal_wrap.cpp
+END
+ogr_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/ogr_wrap.cpp
+END
+gdalconst.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/gdalconst.php
+END
+php_gdal.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/php_gdal.h
+END
+php_ogr.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/php_ogr.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10610/trunk/gdal/swig/php/GNUmakefile
+END
+gdalconst_wrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/gdalconst_wrap.c
+END
+osr.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/osr.php
+END
+php_gdalconst.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/php_gdalconst.h
+END
+gdal.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/gdal.php
+END
+ogr.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/ogr.php
+END
+osr_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20889/trunk/gdal/swig/php/osr_wrap.cpp
+END

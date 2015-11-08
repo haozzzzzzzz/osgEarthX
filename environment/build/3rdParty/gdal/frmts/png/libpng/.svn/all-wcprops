@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/20023/trunk/gdal/frmts/png/libpng
+END
+pngrio.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngrio.c
+END
+pngerror.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngerror.c
+END
+pngconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngconf.h
+END
+pngwrite.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngwrite.c
+END
+pngset.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngset.c
+END
+pngpread.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngpread.c
+END
+pngwtran.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngwtran.c
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/LICENSE
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10656/trunk/gdal/frmts/png/libpng/makefile.vc
+END
+pngvcrd.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/16379/trunk/gdal/frmts/png/libpng/pngvcrd.c
+END
+pngwio.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngwio.c
+END
+pngrutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/20023/trunk/gdal/frmts/png/libpng/pngrutil.c
+END
+pngwutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngwutil.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/20023/trunk/gdal/frmts/png/libpng/README
+END
+pngread.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngread.c
+END
+pngmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngmem.c
+END
+pngget.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngget.c
+END
+png.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/png.c
+END
+pnggccrd.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pnggccrd.c
+END
+png.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/png.h
+END
+pngrtran.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngrtran.c
+END
+pngtrans.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19955/trunk/gdal/frmts/png/libpng/pngtrans.c
+END

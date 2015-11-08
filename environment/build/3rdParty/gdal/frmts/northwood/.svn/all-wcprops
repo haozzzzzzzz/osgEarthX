@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21898/trunk/gdal/frmts/northwood
+END
+grcdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21898/trunk/gdal/frmts/northwood/grcdataset.cpp
+END
+grddataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21898/trunk/gdal/frmts/northwood/grddataset.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19697/trunk/gdal/frmts/northwood/makefile.vc
+END
+northwood.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21898/trunk/gdal/frmts/northwood/northwood.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/18065/trunk/gdal/frmts/northwood/GNUmakefile
+END
+northwood.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21898/trunk/gdal/frmts/northwood/northwood.h
+END

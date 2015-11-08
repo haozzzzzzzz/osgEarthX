@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21644/trunk/gdal/frmts/mrsid_lidar
+END
+frmt_mrsid_lidar.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21644/trunk/gdal/frmts/mrsid_lidar/frmt_mrsid_lidar.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21458/trunk/gdal/frmts/mrsid_lidar/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/19440/trunk/gdal/frmts/mrsid_lidar/GNUmakefile
+END
+gdal_MG4Lidar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21471/trunk/gdal/frmts/mrsid_lidar/gdal_MG4Lidar.cpp
+END
+frmt_mrsid_lidar_view_point_cloud.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/gdal/!svn/ver/21644/trunk/gdal/frmts/mrsid_lidar/frmt_mrsid_lidar_view_point_cloud.html
+END

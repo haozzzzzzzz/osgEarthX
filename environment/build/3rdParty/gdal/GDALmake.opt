@@ -1,0 +1,513 @@
+GDAL_ROOT	=	/media/hao/Projects/OpenSceneGraph/AtEarth/environment/build/3rdParty/gdal
+top_builddir	=	$(GDAL_ROOT)
+
+#
+# the library can be built by the native build or with the help of libtool
+#
+
+# Solaris users: the LIBTOOL line is expanded to $(SHELL) $(top_builddir)/libtool
+# but the libtool script uses bashism, so you may need to uncomment the following
+# line :
+#SHELL=/usr/bin/bash
+
+HAVE_LIBTOOL	=	yes
+LIBTOOL	=	$(SHELL) $(top_builddir)/libtool
+ifeq ($(HAVE_LIBTOOL),yes)
+LIBTOOL_COMPILE_CC =	$(LIBTOOL) --mode=compile --tag=CC
+LIBTOOL_COMPILE_CXX =	$(LIBTOOL) --mode=compile --tag=CXX
+LIBTOOL_LINK	=	$(LIBTOOL) --mode=link
+LIBTOOL_INSTALL	=	$(LIBTOOL) --mode=install
+LIBTOOL_FINISH	=	$(LIBTOOL) --mode=finish --silent
+LIBTOOL_CLEAN	=	$(LIBTOOL) --mode=clean
+OBJ_EXT = lo
+else
+LIBTOOL_FINISH	=	/bin/true
+OBJ_EXT = o
+endif
+
+CC	=	$(LIBTOOL_COMPILE_CC) arm-linux-androideabi-gcc
+CXX	=	$(LIBTOOL_COMPILE_CXX) arm-linux-androideabi-g++
+LD	=	$(LIBTOOL_LINK)	arm-linux-androideabi-g++
+RM	=	$(LIBTOOL_CLEAN) /bin/rm -f *.lo
+INSTALL = 	$(LIBTOOL_INSTALL) $(GDAL_ROOT)/install-sh -c
+INSTALL_LIB 	=	$(LIBTOOL_INSTALL) $(GDAL_ROOT)/install-sh -c
+INSTALL_DATA	= 	$(GDAL_ROOT)/install-sh -c -m 0644
+INSTALL_DIR	= 	$(GDAL_ROOT)/install-sh -d
+
+# SDE_LIB needs to be first because it embeds zlib.  We need to use its symbols instead of -lz's
+
+LIBS	=	$(SDE_LIB) -lz  -lm -ldl  $(KAK_LIBS) $(DWG_LIBS) $(CURL_LIB) \
+		$(MRSID_LIBS) $(MRSID_LIDAR_LIBS) $(INGRES_LIB) \
+		$(PCIDSK_LIB) $(RASDAMAN_LIB) $(CHARLS_LIB) \
+		$(OPENCL_LIB) $(JVM_LIB)
+
+PYTHON_INCLUDES = @PYTHON_INCLUDES@
+PYTHON_LIBS = @PYTHON_LIBS@
+PYTHON_CFLAGS = @PYTHON_CFLAGS@ @NUMPY_FLAG@
+PYTHON = 
+PYTHON_DEV = @PYTHON_DEV@
+PY_LD_SHARED = @PY_LD_SHARED@
+PY_SO_EXT = @PY_SO_EXT@
+PY_HAVE_SETUPTOOLS=
+
+# Next Generation SWIG bindings
+BINDINGS	=	
+
+HAVE_OGDI = no
+OGR_ENABLED = yes
+
+OSX_FRAMEWORK_PREFIX = /Library/Frameworks/GDAL.framework
+OSX_VERSION_FRAMEWORK_PREFIX = ${OSX_FRAMEWORK_PREFIX}/Versions/1.9
+
+prefix		=	/home/jorizci/librerias/gdal/gdal-android/compilacion_android
+exec_prefix	=	${prefix}
+INST_PREFIX	=	${prefix}
+INST_INCLUDE	=	${prefix}/include
+INST_DATA 	=	${prefix}/share/gdal
+INST_LIB	=	${exec_prefix}/lib
+INST_BIN	=	${exec_prefix}/bin
+INST_PYMOD      =       
+INST_DOCS	=	${prefix}/doc
+INST_MAN	=	${prefix}/share/gdal/man
+INST_HTML	=	$(HOME)/www/gdal
+
+CPPFLAGS	=  -I$(GDAL_ROOT)/port 
+CFLAGS		= -g -O2  -Wall -Wdeclaration-after-statement $(USER_DEFS)
+CXXFLAGS	= -g -O2  -Wall $(USER_DEFS)
+LDFLAGS     = 
+
+RANLIB		=	arm-linux-androideabi-ranlib
+SO_EXT		=	
+LD_SHARED	=	
+EXE		=       
+
+ifeq ($(notdir $(LD_SHARED)),true)
+HAVE_LD_SHARED  =	no
+else
+HAVE_LD_SHARED  =	yes
+endif
+
+GDAL_INCLUDE	=	-I$(GDAL_ROOT)/port -I$(GDAL_ROOT)/gcore \
+			-I$(GDAL_ROOT)/alg \
+			-I$(GDAL_ROOT)/ogr -I$(GDAL_ROOT)/ogr/ogrsf_frmts
+
+# libtool targets and help variables
+LIBGDAL	:=		libgdal.la
+LIBGDAL_CURRENT	:=	16
+LIBGDAL_REVISION	:=	0
+LIBGDAL_AGE	:=	15
+
+# native build targets and variables
+GDAL_VER	=	1.9.0
+
+# version info
+GDAL_VERSION_MAJOR =    1
+GDAL_VERSION_MINOR =    9
+GDAL_VERSION_REV   =    0
+
+GDAL_LIB	= 	$(GDAL_ROOT)/libgdal.a
+GDAL_SLIB	=	$(GDAL_ROOT)/libgdal.$(SO_EXT)
+GDAL_SLIB_LINK	=	-L$(GDAL_ROOT) -lgdal
+
+# Mac OS X Framework definition
+MACOSX_FRAMEWORK = 
+
+#
+# GDAL/OGR PostgreSQL support.
+#
+HAVE_OGR_PG     = no
+HAVE_POSTGISRASTER  = no
+PG_INC	=	
+
+#
+# INGRES
+#
+II_SYSTEM = 
+HAVE_INGRES = no
+INGRES_LIB = 
+INGRES_INC = 
+
+#
+# MySQL support.
+#
+HAVE_MYSQL =	no
+MYSQL_LIB  =	
+MYSQL_INC  =	
+LIBS	   +=	$(MYSQL_LIB)
+
+#
+# HDF4 Support.
+#
+HDF4_INCLUDE  =  -I$(GDAL_ROOT)/ogr
+
+#
+# HDF5 Support.
+#
+HAVE_HDF5     = no
+HDF5_INCLUDE  =  
+
+#
+# DODS Include file location
+#
+DODS_INC = 
+ifeq ($(DODS_INC),)
+HAVE_DODS = no
+else
+HAVE_DODS = yes
+endif
+
+#
+# SQLite 
+#
+SQLITE_INC = 
+HAVE_SQLITE = no
+HAVE_SPATIALITE = no
+
+#
+# JPEG2000 via Kakadu Support.
+#
+KAKDIR = 
+
+ifneq ($(KAKDIR),)
+ifeq ($(HAVE_LIBTOOL),yes)
+include $(GDAL_ROOT)/frmts/jp2kak/jp2kak.lst
+KAK_LIBS = $(KAK_OBJ)
+endif
+endif
+
+#
+# JPEG-2000 Support via JasPer library.
+#
+HAVE_JASPER     = no
+JASPER_FLAGS	= 
+
+#
+# JPEG-2000 Support via OpenJPEG library.
+#
+HAVE_OPENJPEG   = no
+
+#
+# MrSID support via LizardTech's DSDK
+#
+MRSID_FLAGS	= 
+MRSID_INCLUDE	= 
+MRSID_LIBS	= 
+
+#
+#
+# MrSID/MG4 support via LizardTech LiDAR SDK
+#
+MRSID_LIDAR_INCLUDE	= 
+MRSID_LIDAR_LIBS	= 
+
+# Xerces C++ XML Parser for GML and ILI
+#
+HAVE_XERCES	= no
+XERCES_INCLUDE	= 
+
+# 
+# Enable NAS format
+#
+HAVE_NAS	= no
+
+#
+# Expat XML Parser for KML, GPX, GeoRSS (and GML if no Xerces C++)
+#
+HAVE_EXPAT = no
+EXPAT_INCLUDE = 
+
+#
+# Google libkml for the new OGR KML driver written by Brian Case
+#
+HAVE_LIBKML = no
+LIBKML_INCLUDE = 
+
+#
+# Oracle Spatial Support
+#
+HAVE_OCI	= no
+OCI_INCLUDE	= 
+
+# GEOS Support
+
+HAVE_GEOS       =       
+GEOS_CFLAGS     =       
+
+# GRASS Support
+
+GRASS_SETTING	=	no
+GRASS_INCLUDE	=	
+GRASS_GISBASE	=	
+HAVE_GRASS	=	no
+
+# 
+# SDE
+#
+HAVE_SDE = no
+SDE_LIB	= 
+SDE_INC = 
+
+# 
+# FileGDB
+#
+HAVE_FGDB = @FGDB_ENABLED@
+FGDB_LIB	= @FGDB_LIB@
+FGDB_INC = @FGDB_INC@
+
+
+
+# 
+# ArcObjects
+#
+HAVE_ARCOBJECTS = @ARCOBJECTS_ENABLED@
+ARCOBJECTS_LIB	= @ARCOBJECTS_LIB@
+ARCOBJECTS_INC = @ARCOBJECTS_INC@
+
+
+# 
+# VFK
+#
+HAVE_VFK = yes
+
+#
+# Curl
+#
+CURL_SETTING 	=	no
+CURL_LIB	=	
+CURL_INC	=	
+
+# 
+# OpenCL support
+#
+OPENCL_LIB	=	
+OPENCL_FLAGS	=	
+
+#
+# PCIDSK SDK
+# 
+PCIDSK_SETTING  =       internal
+PCIDSK_LIB	=	
+PCIDSK_INCLUDE	=	
+
+# 
+# DWGdirect Library
+#
+DWGDIRECT =	
+DWG_PLT = 
+
+ifneq ($(DWGDIRECT),)
+DWG_LIBDIR =	$(DWGDIRECT)/lib/$(DWG_PLT)
+DWG_LIBS = $(DWG_LIBDIR)/DD_$(DWG_PLT)_ModelerGeometry.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_AcisRenderer.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_Br.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_AcisBuilder.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_Db.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_Gs.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_SpatialIndex.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_Gi.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_Ge.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_Root.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_FT.a \
+	$(DWG_LIBDIR)/DD_$(DWG_PLT)_Alloc.a 
+HAVE_DWGDIRECT = yes
+else
+DWG_LIBS =	
+HAVE_DWGDIRECT = no
+endif
+
+#
+# Informix DataBlade support
+#
+HAVE_IDB	= no
+IDB_INC		= 
+IDB_LIB		= 
+ifeq ($(HAVE_IDB),yes)
+LIBS	   	+= $(IDB_LIB)
+endif
+
+#
+# FMEObjects
+#
+ifeq (,)
+HAVE_FME        =       no
+FME_INCLUDE	=	
+else
+HAVE_FME        =       yes
+FME_INCLUDE	=	-I/fmeobjects/cpp
+endif
+
+# PCRaster support
+PCRASTER_SETTING	=	internal
+
+OGDI_INCLUDE	=	
+
+PNG_SETTING     =	internal
+JPEG_SETTING	=	internal
+JPEG12_ENABLED =	yes
+TIFF_SETTING	=	internal
+TIFF_OPTS	=	-DBIGTIFF_SUPPORT
+GEOTIFF_SETTING	=	internal
+GEOTIFF_INCLUDE =	
+GIF_SETTING	=	internal
+FITS_SETTING    =       no
+OGDI_SETTING	=	no
+ODBC_SETTING    =       no
+# PGeo driver is built-in when ODBC is available
+PGEO_SETTING    =       no
+MSSQLSPATIAL_SETTING    =       no
+GEOMEDIA_SETTING    =       no
+NETCDF_SETTING  =       no
+LIBZ_SETTING	=	external
+LIBLZMA_SETTING	=	no
+
+#
+# Rasdaman stuff
+#
+RASDAMAN_ENABLED  =       no
+RASDAMAN_INC  =   
+RASDAMAN_LIB  =   
+
+#
+# Poppler stuff
+#
+
+HAVE_POPPLER = no
+POPPLER_HAS_OPTCONTENT = no
+POPPLER_BASE_STREAM_HAS_TWO_ARGS = no
+POPPLER_INC = 
+
+#
+# CharLs stuff
+# Uncomment and adapt paths to enable JPEGLS driver
+#
+#HAVE_CHARLS = yes
+#CHARLS_INC = -I/path/to/charls_include
+#CHARLS_LIB = -L/path/to/charls_lib -lCharLS
+
+#
+# PROJ.4 stuff
+#
+PROJ_STATIC	=	no
+ifeq ($(PROJ_STATIC),yes)
+PROJ_FLAGS = -DPROJ_STATIC
+endif
+PROJ_INCLUDE	=	
+
+PAM_SETTING     =       -DPAM_ENABLED
+
+ifeq ($(OGR_ENABLED),yes)
+GDAL_LIBS	:= $(GDAL_LIB) $(OCI_LIB) $(GDAL_LIBS)
+CPPFLAGS	:= -DOGR_ENABLED $(CPPFLAGS)
+else
+GDAL_LIBS	=	$(GDAL_LIB)
+endif
+
+#
+# Java stuff
+#
+JAVA_INC  =   
+JVM_LIB  =   
+
+MDB_ENABLED =   no
+
+#
+#	Note these codes have to exactly match the format directory names, 
+#	and their uppercase form should be the format portion of the
+#	format registration entry point.  eg. gdb -> GDALRegister_GDB().
+#
+GDAL_FORMATS = 	gxf gtiff hfa aigrid aaigrid ceos ceos2 iso8211 xpm \
+		sdts raw dted mem jdem envisat elas fit vrt usgsdem l1b \
+		nitf bmp pcidsk airsar rs2 ilwis rmf leveller sgi srtmhgt \
+		idrisi gsg ingr ers jaxapalsar dimap gff cosar pds adrg \
+		coasp tsx terragen blx msgn til r northwood saga xyz hf2 \
+		kmlsuperoverlay ozi ctg e00grid \
+		bsb gif jpeg png pcraster 
+
+ifneq ($(LIBZ_SETTING),no)
+GDAL_FORMATS := $(GDAL_FORMATS) rik
+endif
+
+ifeq ($(OGR_ENABLED),yes)
+ifeq ($(HAVE_SQLITE),yes)
+GDAL_FORMATS := $(GDAL_FORMATS) rasterlite
+endif
+endif
+
+ifeq ($(HAVE_POSTGISRASTER),yes)
+GDAL_FORMATS := $(GDAL_FORMATS) postgisraster
+endif
+
+ifeq ($(HAVE_CHARLS),yes)
+GDAL_FORMATS := $(GDAL_FORMATS) jpegls
+endif
+
+#
+# CONFIG_LIBS is what local program should link against, and CONFIG_LIBS_INS
+# is what will be emitted into the gdal-config script that is installed
+# globally.
+#
+
+ifeq ($(HAVE_LIBTOOL), yes)
+
+CONFIG_LIBS	=	$(GDAL_ROOT)/$(LIBGDAL)
+ifeq ($(MACOSX_FRAMEWORK),yes)
+CONFIG_LIBS_INS	=	-L$(INST_LIB)/unix/lib -lgdal
+else
+CONFIG_LIBS_INS	=	-L$(INST_LIB) -lgdal
+endif # MACOSX_FRAMEWORK
+
+EXE_DEP_LIBS	=	$(GDAL_ROOT)/$(LIBGDAL)
+SO_EXT		=	la
+
+else # HAVE_LIBTOOL
+
+ifeq ($(HAVE_LD_SHARED),yes)
+CONFIG_LIBS	=	$(GDAL_SLIB_LINK) $(LIBS)
+ifeq ($(MACOSX_FRAMEWORK),yes)
+CONFIG_LIBS_INS	=	-L$(INST_LIB)/unix/lib -lgdal
+else
+CONFIG_LIBS_INS	=	-L$(INST_LIB) -lgdal
+endif
+EXE_DEP_LIBS	=	$(GDAL_SLIB)
+else
+CONFIG_LIBS	=	$(GDAL_LIBS) $(LIBS)
+CONFIG_LIBS_INS	=	$(foreach LF,$(GDAL_LIBS),$(INST_LIB)/$(notdir $(LF)))\
+			 $(LIBS)
+EXE_DEP_LIBS	=	$(GDAL_LIB)
+endif
+
+endif # HAVE_LIBTOOL
+
+
+#
+# generic library rules
+#
+
+#
+# gdal and ogr low level drivers use the following default rules in order to
+# populate the ../o/ directory with all object and library object files
+#
+
+O_OBJ =	$(foreach file,$(OBJ),../o/$(file))
+
+../o/%.$(OBJ_EXT):	%.c
+	$(CC) $(CFLAGS) $(CPPFLAGS) -c -o $@ $<
+
+../o/%.$(OBJ_EXT):	%.cpp
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c -o $@ $<
+
+%.$(OBJ_EXT):	%.c
+	$(CC) $(CFLAGS) $(CPPFLAGS) -c -o $@ $<
+
+%.$(OBJ_EXT):	%.cpp
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c -o $@ $<
+
+#
+# default rules for handling subdirectories
+#
+
+%-target:
+	$(MAKE) -C $*
+
+%-clean:
+	$(MAKE) -C $* clean

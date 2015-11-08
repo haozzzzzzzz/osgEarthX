@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 43
+*.exe
+*.exp
+*.ilk
+*.obj
+*.pdb
+*.*.manifest
+
+END

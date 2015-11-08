@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/kml
+END
+kmlnode.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/17512/trunk/gdal/ogr/ogrsf_frmts/kml/kmlnode.h
+END
+ogr_kml.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/kml/ogr_kml.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/12360/trunk/gdal/ogr/ogrsf_frmts/kml/makefile.vc
+END
+ogrkmldatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/kml/ogrkmldatasource.cpp
+END
+kmlvector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/17491/trunk/gdal/ogr/ogrsf_frmts/kml/kmlvector.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15947/trunk/gdal/ogr/ogrsf_frmts/kml/GNUmakefile
+END
+ogrkmldriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/12937/trunk/gdal/ogr/ogrsf_frmts/kml/ogrkmldriver.cpp
+END
+kmlvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/12868/trunk/gdal/ogr/ogrsf_frmts/kml/kmlvector.h
+END
+kmlutility.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/16908/trunk/gdal/ogr/ogrsf_frmts/kml/kmlutility.h
+END
+drv_kml.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18832/trunk/gdal/ogr/ogrsf_frmts/kml/drv_kml.html
+END
+kml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/17946/trunk/gdal/ogr/ogrsf_frmts/kml/kml.cpp
+END
+ogrkmllayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21194/trunk/gdal/ogr/ogrsf_frmts/kml/ogrkmllayer.cpp
+END
+kml.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/kml/kml.h
+END
+ogr2kmlgeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21019/trunk/gdal/ogr/ogrsf_frmts/kml/ogr2kmlgeometry.cpp
+END
+kmlnode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20602/trunk/gdal/ogr/ogrsf_frmts/kml/kmlnode.cpp
+END

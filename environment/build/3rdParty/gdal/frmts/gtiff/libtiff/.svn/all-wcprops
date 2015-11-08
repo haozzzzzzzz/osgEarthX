@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21927/trunk/gdal/frmts/gtiff/libtiff
+END
+tif_predict.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_predict.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21678/trunk/gdal/frmts/gtiff/libtiff/makefile.vc
+END
+tif_strip.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21242/trunk/gdal/frmts/gtiff/libtiff/tif_strip.c
+END
+tiffconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/11330/trunk/gdal/frmts/gtiff/libtiff/tiffconf.h
+END
+tif_lzma.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21927/trunk/gdal/frmts/gtiff/libtiff/tif_lzma.c
+END
+tiffiop.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21741/trunk/gdal/frmts/gtiff/libtiff/tiffiop.h
+END
+tif_warning.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_warning.c
+END
+tif_thunder.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21927/trunk/gdal/frmts/gtiff/libtiff/tif_thunder.c
+END
+tif_dirread.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21741/trunk/gdal/frmts/gtiff/libtiff/tif_dirread.c
+END
+tif_dumpmode.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_dumpmode.c
+END
+tif_lzw.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_lzw.c
+END
+tif_color.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21311/trunk/gdal/frmts/gtiff/libtiff/tif_color.c
+END
+tif_dir.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21741/trunk/gdal/frmts/gtiff/libtiff/tif_dir.c
+END
+tif_getimage.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21890/trunk/gdal/frmts/gtiff/libtiff/tif_getimage.c
+END
+tif_dir.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21741/trunk/gdal/frmts/gtiff/libtiff/tif_dir.h
+END
+tif_version.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_version.c
+END
+tif_jpeg_12.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_jpeg_12.c
+END
+uvcode.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/uvcode.h
+END
+tif_dirwrite.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21741/trunk/gdal/frmts/gtiff/libtiff/tif_dirwrite.c
+END
+tif_dirinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21741/trunk/gdal/frmts/gtiff/libtiff/tif_dirinfo.c
+END
+tif_write.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21741/trunk/gdal/frmts/gtiff/libtiff/tif_write.c
+END
+tif_print.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21741/trunk/gdal/frmts/gtiff/libtiff/tif_print.c
+END
+tif_swab.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_swab.c
+END
+tif_aux.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20734/trunk/gdal/frmts/gtiff/libtiff/tif_aux.c
+END
+tif_tile.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/20734/trunk/gdal/frmts/gtiff/libtiff/tif_tile.c
+END
+tif_packbits.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_packbits.c
+END
+tif_open.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21242/trunk/gdal/frmts/gtiff/libtiff/tif_open.c
+END
+tif_fax3sm.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_fax3sm.c
+END
+tif_fax3.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/19847/trunk/gdal/frmts/gtiff/libtiff/tif_fax3.c
+END
+tif_vsi.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20996/trunk/gdal/frmts/gtiff/libtiff/tif_vsi.c
+END
+tif_zip.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21418/trunk/gdal/frmts/gtiff/libtiff/tif_zip.c
+END
+tif_ojpeg.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21744/trunk/gdal/frmts/gtiff/libtiff/tif_ojpeg.c
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21282/trunk/gdal/frmts/gtiff/libtiff/GNUmakefile
+END
+tif_close.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_close.c
+END
+tif_luv.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_luv.c
+END
+tif_fax3.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21927/trunk/gdal/frmts/gtiff/libtiff/tif_fax3.h
+END
+tif_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21741/trunk/gdal/frmts/gtiff/libtiff/tif_config.h
+END
+tif_read.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21743/trunk/gdal/frmts/gtiff/libtiff/tif_read.c
+END
+tif_extension.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_extension.c
+END
+tif_codec.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21282/trunk/gdal/frmts/gtiff/libtiff/tif_codec.c
+END
+tif_next.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_next.c
+END
+tif_config.h.wince
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/19417/trunk/gdal/frmts/gtiff/libtiff/tif_config.h.wince
+END
+tif_flush.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/19266/trunk/gdal/frmts/gtiff/libtiff/tif_flush.c
+END
+tiffio.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tiffio.h
+END
+tif_jpeg.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21890/trunk/gdal/frmts/gtiff/libtiff/tif_jpeg.c
+END
+tif_pixarlog.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21418/trunk/gdal/frmts/gtiff/libtiff/tif_pixarlog.c
+END
+tif_error.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_error.c
+END
+t4.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/t4.h
+END
+tif_predict.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_predict.c
+END
+tif_compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19257/trunk/gdal/frmts/gtiff/libtiff/tif_compress.c
+END
+tiff.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21741/trunk/gdal/frmts/gtiff/libtiff/tiff.h
+END
+tiffvers.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/19847/trunk/gdal/frmts/gtiff/libtiff/tiffvers.h
+END

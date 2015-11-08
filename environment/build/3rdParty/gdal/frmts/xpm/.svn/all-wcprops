@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21680/trunk/gdal/frmts/xpm
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10609/trunk/gdal/frmts/xpm/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/xpm/GNUmakefile
+END
+xpmdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21680/trunk/gdal/frmts/xpm/xpmdataset.cpp
+END

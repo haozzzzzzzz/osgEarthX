@@ -1,0 +1,479 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21680/trunk/gdal/frmts/pcraster/libcsf
+END
+endian.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/endian.c
+END
+putsomec.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/putsomec.c
+END
+csfimpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/csfimpl.h
+END
+swapio.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/swapio.c
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/AUTHORS
+END
+pminval.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/pminval.c
+END
+_getrow.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/_getrow.c
+END
+gattrblk.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gattrblk.c
+END
+vs2.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/vs2.c
+END
+csfattr.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/csfattr.h
+END
+attravai.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/attravai.c
+END
+dumconv.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/dumconv.c
+END
+ismv.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/ismv.c
+END
+angle.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/angle.c
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/13149/trunk/gdal/frmts/pcraster/libcsf/COPYING
+END
+getx0.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/getx0.c
+END
+wattrblk.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/wattrblk.c
+END
+reseterr.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/reseterr.c
+END
+gvalscal.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gvalscal.c
+END
+strpad.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/strpad.c
+END
+legend.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21680/trunk/gdal/frmts/pcraster/libcsf/legend.c
+END
+csftypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/csftypes.h
+END
+gnrcols.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gnrcols.c
+END
+vsdef.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/vsdef.c
+END
+gputproj.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gputproj.c
+END
+_getcell.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/_getcell.c
+END
+strconst.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/strconst.c
+END
+rcomp.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/rcomp.c
+END
+csf.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/csf.h
+END
+gdattype.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gdattype.c
+END
+vsvers.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/vsvers.c
+END
+rmalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/rmalloc.c
+END
+rdup2.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/rdup2.c
+END
+gcellrep.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gcellrep.c
+END
+setmv.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/setmv.c
+END
+trackmm.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/trackmm.c
+END
+delattr.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/delattr.c
+END
+gmaxval.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gmaxval.c
+END
+gvartype.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gvartype.c
+END
+gnrrows.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gnrrows.c
+END
+setangle.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/setangle.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21680/trunk/gdal/frmts/pcraster/libcsf/makefile.vc
+END
+pvalscal.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/pvalscal.c
+END
+attrsize.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/attrsize.c
+END
+_putcell.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/_putcell.c
+END
+pmaxval.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/pmaxval.c
+END
+getattr.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/getattr.c
+END
+rcoords.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/rcoords.c
+END
+ggisfid.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/ggisfid.c
+END
+pcrtypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/pcrtypes.h
+END
+csfglob.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/csfglob.c
+END
+puty0.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/puty0.c
+END
+gproj.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gproj.c
+END
+_rputrow.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/_rputrow.c
+END
+_gsomece.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/_gsomece.c
+END
+mclose.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/mclose.c
+END
+pgisfid.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/pgisfid.c
+END
+gattridx.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gattridx.c
+END
+rrowcol.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/rrowcol.c
+END
+ruseas.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/11865/trunk/gdal/frmts/pcraster/libcsf/ruseas.c
+END
+putattr.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/putattr.c
+END
+csfsup.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/csfsup.c
+END
+putallmv.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/putallmv.c
+END
+kernlcsf.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/kernlcsf.c
+END
+setvtmv.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/setvtmv.c
+END
+rextend.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/rextend.c
+END
+cellsize.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/cellsize.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/README
+END
+mopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/mopen.c
+END
+putx0.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/putx0.c
+END
+filename.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/filename.c
+END
+vsis.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/vsis.c
+END
+rattrblk.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/rattrblk.c
+END
+create2.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/create2.c
+END
+mperror.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/mperror.c
+END
+gety0.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gety0.c
+END
+gversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gversion.c
+END
+moreattr.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/moreattr.c
+END
+gminval.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/libcsf/gminval.c
+END

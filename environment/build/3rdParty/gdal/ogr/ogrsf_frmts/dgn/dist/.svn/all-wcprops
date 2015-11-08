@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10966/trunk/gdal/ogr/ogrsf_frmts/dgn/dist
+END
+Makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dgn/dist/Makefile.vc
+END
+cpl_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dgn/dist/cpl_config.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dgn/dist/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dgn/dist/README
+END

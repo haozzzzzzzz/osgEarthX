@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/gdal/!svn/ver/21730/trunk/gdal/m4
+END
+ax_lib_sqlite3.m4
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/18833/trunk/gdal/m4/ax_lib_sqlite3.m4
+END
+argz.m4
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/11289/trunk/gdal/m4/argz.m4
+END
+libtool.m4
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gdal/!svn/ver/19558/trunk/gdal/m4/libtool.m4
+END
+ax_cflags_warn_all.m4
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/13277/trunk/gdal/m4/ax_cflags_warn_all.m4
+END
+ax_lib_xerces.m4
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/20303/trunk/gdal/m4/ax_lib_xerces.m4
+END
+lt~obsolete.m4
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/19558/trunk/gdal/m4/lt~obsolete.m4
+END
+iconv.m4
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gdal/!svn/ver/21730/trunk/gdal/m4/iconv.m4
+END
+ltsugar.m4
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gdal/!svn/ver/19558/trunk/gdal/m4/ltsugar.m4
+END
+ltversion.m4
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/19558/trunk/gdal/m4/ltversion.m4
+END
+ax_oracle_oci.m4
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/20945/trunk/gdal/m4/ax_oracle_oci.m4
+END
+acinclude.m4
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/19157/trunk/gdal/m4/acinclude.m4
+END
+ax_lib_libkml.m4
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21505/trunk/gdal/m4/ax_lib_libkml.m4
+END
+ltoptions.m4
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/19558/trunk/gdal/m4/ltoptions.m4
+END
+geos.m4
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/13275/trunk/gdal/m4/geos.m4
+END
+ax_lib_expat.m4
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20303/trunk/gdal/m4/ax_lib_expat.m4
+END

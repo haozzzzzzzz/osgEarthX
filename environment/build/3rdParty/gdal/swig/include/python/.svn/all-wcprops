@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21979/trunk/gdal/swig/include/python
+END
+gdal_python.i
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/20996/trunk/gdal/swig/include/python/gdal_python.i
+END
+ogr_python.i
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21216/trunk/gdal/swig/include/python/ogr_python.i
+END
+python_strings.i
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/20716/trunk/gdal/swig/include/python/python_strings.i
+END
+python_exceptions.i
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20638/trunk/gdal/swig/include/python/python_exceptions.i
+END
+typemaps_python.i
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/21979/trunk/gdal/swig/include/python/typemaps_python.i
+END
+osr_python.i
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18192/trunk/gdal/swig/include/python/osr_python.i
+END

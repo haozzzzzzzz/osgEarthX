@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/20975/trunk/gdal/swig/java/test_data
+END
+byte.tif
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/20975/trunk/gdal/swig/java/test_data/byte.tif
+END
+poly.shx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/20975/trunk/gdal/swig/java/test_data/poly.shx
+END
+poly.shp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/20975/trunk/gdal/swig/java/test_data/poly.shp
+END
+poly.dbf
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/20975/trunk/gdal/swig/java/test_data/poly.dbf
+END

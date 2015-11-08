@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/20246/trunk/gdal/frmts/rik
+END
+frmt_rik.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/10609/trunk/gdal/frmts/rik/frmt_rik.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10609/trunk/gdal/frmts/rik/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/rik/GNUmakefile
+END
+rikdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20246/trunk/gdal/frmts/rik/rikdataset.cpp
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/20634/trunk/gdal/ogr/ogrsf_frmts/dods
+END
+ogrdodslayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/dods/ogrdodslayer.cpp
+END
+bbhenv.dat.das
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dods/bbhenv.dat.das
+END
+natl_prof_bot.cdp.das
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dods/natl_prof_bot.cdp.das
+END
+ogrdodsfielddefn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/dods/ogrdodsfielddefn.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18515/trunk/gdal/ogr/ogrsf_frmts/dods/makefile.vc
+END
+C0101.met.raw.nc.das
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dods/C0101.met.raw.nc.das
+END
+ogr_dods.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20634/trunk/gdal/ogr/ogrsf_frmts/dods/ogr_dods.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/dods/GNUmakefile
+END
+drv_dods.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dods/drv_dods.html
+END
+ogrdodsgrid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/dods/ogrdodsgrid.cpp
+END
+ogrdodssequencelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/15172/trunk/gdal/ogr/ogrsf_frmts/dods/ogrdodssequencelayer.cpp
+END
+ogr_ais_eg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dods/ogr_ais_eg.xml
+END
+ogrdodsdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/20634/trunk/gdal/ogr/ogrsf_frmts/dods/ogrdodsdatasource.cpp
+END
+ogrdodsdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/12396/trunk/gdal/ogr/ogrsf_frmts/dods/ogrdodsdriver.cpp
+END

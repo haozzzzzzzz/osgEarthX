@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/gdal/!svn/ver/21986/trunk/gdal/port
+END
+cpl_minizip_ioapi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/20996/trunk/gdal/port/cpl_minizip_ioapi.cpp
+END
+cpl_vsil_buffered_reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21358/trunk/gdal/port/cpl_vsil_buffered_reader.cpp
+END
+cpl_conv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21835/trunk/gdal/port/cpl_conv.cpp
+END
+cpl_vsi.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/20996/trunk/gdal/port/cpl_vsi.h
+END
+cpl_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21954/trunk/gdal/port/cpl_string.h
+END
+cpl_list.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/14693/trunk/gdal/port/cpl_list.cpp
+END
+cpl_vsi_virtual.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21167/trunk/gdal/port/cpl_vsi_virtual.h
+END
+cpl_odbc.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/20579/trunk/gdal/port/cpl_odbc.h
+END
+cpl_vsil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21840/trunk/gdal/port/cpl_vsil.cpp
+END
+cpl_vsil_stdin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21689/trunk/gdal/port/cpl_vsil_stdin.cpp
+END
+cpl_config.h.wince
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/14805/trunk/gdal/port/cpl_config.h.wince
+END
+cpl_multiproc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21055/trunk/gdal/port/cpl_multiproc.cpp
+END
+cpl_vsil_stdout.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21906/trunk/gdal/port/cpl_vsil_stdout.cpp
+END
+cpl_base64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21954/trunk/gdal/port/cpl_base64.cpp
+END
+cpl_port.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21730/trunk/gdal/port/cpl_port.h
+END
+cpl_vsil_unix_stdio_64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20774/trunk/gdal/port/cpl_vsil_unix_stdio_64.cpp
+END
+cpl_path.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21583/trunk/gdal/port/cpl_path.cpp
+END
+cpl_recode_stub.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21755/trunk/gdal/port/cpl_recode_stub.cpp
+END
+cpl_error.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/19588/trunk/gdal/port/cpl_error.h
+END
+cpl_hash_set.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/19040/trunk/gdal/port/cpl_hash_set.cpp
+END
+cpl_getexecpath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21915/trunk/gdal/port/cpl_getexecpath.cpp
+END
+xmlreformat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/11940/trunk/gdal/port/xmlreformat.cpp
+END
+cpl_minizip_unzip.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/16029/trunk/gdal/port/cpl_minizip_unzip.cpp
+END
+cpl_minizip_ioapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/16029/trunk/gdal/port/cpl_minizip_ioapi.h
+END
+cpl_minizip_zip.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20794/trunk/gdal/port/cpl_minizip_zip.h
+END
+cplgetsymbol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/16702/trunk/gdal/port/cplgetsymbol.cpp
+END
+cpl_odbc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/20862/trunk/gdal/port/cpl_odbc.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21730/trunk/gdal/port/GNUmakefile
+END
+cpl_win32ce_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10645/trunk/gdal/port/cpl_win32ce_api.h
+END
+cpl_wince.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/10645/trunk/gdal/port/cpl_wince.h
+END
+cpl_config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21735/trunk/gdal/port/cpl_config.h.in
+END
+cpl_findfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20089/trunk/gdal/port/cpl_findfile.cpp
+END
+LICENCE_minizip
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/15217/trunk/gdal/port/LICENCE_minizip
+END
+cpl_minixml.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/15686/trunk/gdal/port/cpl_minixml.h
+END
+cpl_multiproc.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/20088/trunk/gdal/port/cpl_multiproc.h
+END
+cpl_error.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/19588/trunk/gdal/port/cpl_error.cpp
+END
+cpl_time.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/18063/trunk/gdal/port/cpl_time.cpp
+END
+cpl_vsil_win32.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21720/trunk/gdal/port/cpl_vsil_win32.cpp
+END
+cpl_vsi_mem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21167/trunk/gdal/port/cpl_vsi_mem.cpp
+END
+cpl_recode_iconv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21755/trunk/gdal/port/cpl_recode_iconv.cpp
+END
+cpl_csv.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/16759/trunk/gdal/port/cpl_csv.h
+END
+cpl_config_extras.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21958/trunk/gdal/port/cpl_config_extras.h
+END
+cpl_vsil_abstract_archive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/20958/trunk/gdal/port/cpl_vsil_abstract_archive.cpp
+END
+cpl_recode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21755/trunk/gdal/port/cpl_recode.cpp
+END
+cpl_minizip_zip.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21167/trunk/gdal/port/cpl_minizip_zip.cpp
+END
+cpl_vsil_curl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21986/trunk/gdal/port/cpl_vsil_curl.cpp
+END
+cpl_atomic_ops.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/19884/trunk/gdal/port/cpl_atomic_ops.h
+END
+cplkeywordparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20996/trunk/gdal/port/cplkeywordparser.cpp
+END
+cpl_hash_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/16029/trunk/gdal/port/cpl_hash_set.h
+END
+cpl_win32ce_api.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10645/trunk/gdal/port/cpl_win32ce_api.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21730/trunk/gdal/port/makefile.vc
+END
+cpl_minizip_unzip.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/16029/trunk/gdal/port/cpl_minizip_unzip.h
+END
+cpl_minixml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21950/trunk/gdal/port/cpl_minixml.cpp
+END
+cpl_quad_tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/15067/trunk/gdal/port/cpl_quad_tree.h
+END
+cpl_strtod.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21653/trunk/gdal/port/cpl_strtod.cpp
+END
+cpl_config.h.vc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21708/trunk/gdal/port/cpl_config.h.vc
+END
+cpl_http.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/19840/trunk/gdal/port/cpl_http.h
+END
+cpl_vsil_subfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21533/trunk/gdal/port/cpl_vsil_subfile.cpp
+END
+gdal_csv.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21102/trunk/gdal/port/gdal_csv.h
+END
+cpl_csv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21102/trunk/gdal/port/cpl_csv.cpp
+END
+cpl_atomic_ops.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/19884/trunk/gdal/port/cpl_atomic_ops.cpp
+END
+cpl_time.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/18063/trunk/gdal/port/cpl_time.h
+END
+cpl_vsil_gzip.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21800/trunk/gdal/port/cpl_vsil_gzip.cpp
+END
+cpl_string.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21751/trunk/gdal/port/cpl_string.cpp
+END
+cplkeywordparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/20996/trunk/gdal/port/cplkeywordparser.h
+END
+cplstring.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21859/trunk/gdal/port/cplstring.cpp
+END
+cpl_quad_tree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/15067/trunk/gdal/port/cpl_quad_tree.cpp
+END
+cpl_conv.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/20996/trunk/gdal/port/cpl_conv.h
+END
+cpl_vsisimple.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21882/trunk/gdal/port/cpl_vsisimple.cpp
+END
+cpl_http.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21841/trunk/gdal/port/cpl_http.cpp
+END
+cpl_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/10645/trunk/gdal/port/cpl_list.h
+END
+cpl_vsil_tar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21781/trunk/gdal/port/cpl_vsil_tar.cpp
+END
+cpl_vsil_simple.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10645/trunk/gdal/port/cpl_vsil_simple.cpp
+END
+cpl_vsil_sparsefile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21167/trunk/gdal/port/cpl_vsil_sparsefile.cpp
+END

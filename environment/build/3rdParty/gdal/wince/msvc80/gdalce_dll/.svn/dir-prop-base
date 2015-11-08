@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 117
+*~
+*.dll
+*.dll.manifest
+*.exe
+*.exe.manifest
+*.exp
+*.ilk
+*.lib
+*.ncb
+*.obj
+*.pdb
+*.suo
+*.swp
+*.vcproj.*.user
+*ARMV4*
+
+END

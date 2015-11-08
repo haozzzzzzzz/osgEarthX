@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21994/trunk/gdal/frmts/jpeg
+END
+frmt_jpeg.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20540/trunk/gdal/frmts/jpeg/frmt_jpeg.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21680/trunk/gdal/frmts/jpeg/makefile.vc
+END
+vsidataio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20996/trunk/gdal/frmts/jpeg/vsidataio.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/18118/trunk/gdal/frmts/jpeg/GNUmakefile
+END
+jpgdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21994/trunk/gdal/frmts/jpeg/jpgdataset.cpp
+END
+gdalexif.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/17443/trunk/gdal/frmts/jpeg/gdalexif.h
+END
+jpgdataset_12.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21907/trunk/gdal/frmts/jpeg/jpgdataset_12.cpp
+END

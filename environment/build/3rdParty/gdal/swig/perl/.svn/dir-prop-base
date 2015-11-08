@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 53
+*.bs
+*.cpp
+*.c
+GDAL.pm
+Makefile_Geo*
+blib
+pm_to_blib
+
+END

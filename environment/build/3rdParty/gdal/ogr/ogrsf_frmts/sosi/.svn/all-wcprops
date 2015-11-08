@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21826/trunk/gdal/ogr/ogrsf_frmts/sosi
+END
+fyba_melding.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/20487/trunk/gdal/ogr/ogrsf_frmts/sosi/fyba_melding.cpp
+END
+ogrsosidatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/21065/trunk/gdal/ogr/ogrsf_frmts/sosi/ogrsosidatasource.cpp
+END
+ogrsosidriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21065/trunk/gdal/ogr/ogrsf_frmts/sosi/ogrsosidriver.cpp
+END
+ogrsosilayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/21826/trunk/gdal/ogr/ogrsf_frmts/sosi/ogrsosilayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/20487/trunk/gdal/ogr/ogrsf_frmts/sosi/makefile.vc
+END
+ogr_sosi.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21065/trunk/gdal/ogr/ogrsf_frmts/sosi/ogr_sosi.h
+END

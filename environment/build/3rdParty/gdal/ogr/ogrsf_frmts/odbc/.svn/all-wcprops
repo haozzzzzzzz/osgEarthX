@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/20579/trunk/gdal/ogr/ogrsf_frmts/odbc
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/17869/trunk/gdal/ogr/ogrsf_frmts/odbc/makefile.vc
+END
+ogr_odbc.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/17870/trunk/gdal/ogr/ogrsf_frmts/odbc/ogr_odbc.h
+END
+drv_odbc.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/17870/trunk/gdal/ogr/ogrsf_frmts/odbc/drv_odbc.html
+END
+ogrodbctablelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/20579/trunk/gdal/ogr/ogrsf_frmts/odbc/ogrodbctablelayer.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/odbc/GNUmakefile
+END
+ogrodbcdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/17870/trunk/gdal/ogr/ogrsf_frmts/odbc/ogrodbcdatasource.cpp
+END
+ogrodbcdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/odbc/ogrodbcdriver.cpp
+END
+ogrodbclayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/17755/trunk/gdal/ogr/ogrsf_frmts/odbc/ogrodbclayer.cpp
+END
+ogrodbcselectlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/odbc/ogrodbcselectlayer.cpp
+END

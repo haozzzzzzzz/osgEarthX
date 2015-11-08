@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/bna
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/11894/trunk/gdal/ogr/ogrsf_frmts/bna/makefile.vc
+END
+ogrbnadatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/bna/ogrbnadatasource.cpp
+END
+ogrbnadriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/19640/trunk/gdal/ogr/ogrsf_frmts/bna/ogrbnadriver.cpp
+END
+ogrbnalayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/bna/ogrbnalayer.cpp
+END
+ogrbnaparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/bna/ogrbnaparser.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/bna/GNUmakefile
+END
+ogrbnaparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/bna/ogrbnaparser.h
+END
+ogr_bna.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/bna/ogr_bna.h
+END
+drv_bna.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/11894/trunk/gdal/ogr/ogrsf_frmts/bna/drv_bna.html
+END

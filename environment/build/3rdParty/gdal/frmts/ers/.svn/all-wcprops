@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21814/trunk/gdal/frmts/ers
+END
+ersdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21674/trunk/gdal/frmts/ers/ersdataset.cpp
+END
+ershdrnode.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20996/trunk/gdal/frmts/ers/ershdrnode.h
+END
+frmt_ers.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/14382/trunk/gdal/frmts/ers/frmt_ers.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10926/trunk/gdal/frmts/ers/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/ers/GNUmakefile
+END
+ershdrnode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21814/trunk/gdal/frmts/ers/ershdrnode.cpp
+END

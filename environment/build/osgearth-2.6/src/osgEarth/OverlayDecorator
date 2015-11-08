@@ -1,0 +1,203 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+#ifndef OSGEARTH_OVERLAY_DECORATOR
+#define OSGEARTH_OVERLAY_DECORATOR
+
+#include <osgEarth/Common>
+#include <osgEarth/ThreadingUtils>
+#include <osgEarth/TerrainEngineNode>
+#include <osg/Camera>
+#include <osg/CoordinateSystemNode>
+#include <osg/TexGenNode>
+#include <osg/Uniform>
+#include <osgUtil/CullVisitor>
+#include <osgShadow/ConvexPolyhedron>
+
+namespace osgEarth
+{
+    class TerrainEngineNode;
+    class OverlayDecorator;
+    class OverlayTechnique;
+
+    /**
+     * Overlays geometry onto the terrain using various techniques.
+     */
+    class OSGEARTH_EXPORT OverlayDecorator : public TerrainDecorator
+    {
+    public:
+        OverlayDecorator();
+
+        /**
+         * Adds a new overlay technique to the decorator.
+         */
+        void addTechnique( OverlayTechnique* technique );
+
+        /**
+         * Gets the group for nodes that are to be overlaid with
+         * the specified Technique.
+         */
+        template<typename T>
+        osg::Group* getGroup() {
+            for(unsigned i=0; i<_techniques.size(); ++i ) {
+                if ( dynamic_cast<T*>(_techniques[i].get()) )
+                    return _overlayGroups[i].get();
+            }
+            return 0L;
+        }
+
+        /**
+         * The traversal mask to use when traversing the overlay groups.
+         */
+        void setOverlayGraphTraversalMask( unsigned mask );
+
+        double getMaxHorizonDistance() const;
+        void setMaxHorizonDistance( double horizonDistance );
+
+
+    public: // TerrainDecorator
+        virtual void onInstall( TerrainEngineNode* engine );
+        virtual void onUninstall( TerrainEngineNode* engine );
+
+    public: // osg::Node
+        void traverse( osg::NodeVisitor& nv );
+
+    public: // NotiferGroup listener interface
+        void onGroupChanged(osg::Group* group);
+
+    protected:
+        virtual ~OverlayDecorator() { }
+
+    public:
+
+        // RTT camera parameters for an overlay technique. There will be
+        // one of these per technique, per view.
+        struct TechRTTParams
+        {
+            osg::Camera*                  _mainCamera;       // Camera to which this per-view data is attached
+            osg::ref_ptr<osg::Camera>     _rttCamera;        // RTT camera.
+            osg::Matrixd                  _rttViewMatrix;    // View matrix of RTT camera
+            osg::Matrixd                  _rttProjMatrix;    // Projection matrix of RTT camera
+            osg::Group*                   _group;            // contains the overlay graphics
+            osg::StateSet*                _terrainStateSet;  // same object as in PerViewData (shared across techniques)
+            osg::ref_ptr<osg::Referenced> _techniqueData;    // technique sets this if needed
+            const double*                 _horizonDistance;  // points to the PVD horizon distance.
+            osg::Group*                   _terrainParent;    // the terrain is in getChild(0).
+            osg::Vec3d                    _eyeWorld;         // eyepoint in world coords
+            osgShadow::ConvexPolyhedron   _visibleFrustumPH; // polyhedron representing the frustum
+        };
+
+        // One of these per view (camera). The terrain state set
+        // if Shared almong all the techniques under a view.
+        struct PerViewData
+        {
+            osg::Camera*                _camera;                // Camera to which this per-view data is attached
+            std::vector<TechRTTParams>  _techParams;            // Pre-view data for each technique
+            osg::ref_ptr<osg::StateSet> _sharedTerrainStateSet; // shared state set to apply to the terrain traversal
+            double                      _sharedHorizonDistance; // horizon distnace (not used?)
+            osg::Matrix                 _prevViewMatrix;        // last frame's view matrix
+        };
+
+    private:
+        optional<int>                 _explicitTextureUnit;
+        optional<int>                 _textureUnit;
+        optional<int>                 _textureSize;
+        bool                          _useShaders;
+        bool                          _isGeocentric;
+        bool                          _mipmapping;
+        bool                          _rttBlending;
+        bool                          _updatePending;
+        unsigned                      _rttTraversalMask;
+        
+        double                        _maxHorizonDistance;
+        bool                          _attachStencil;
+        
+        unsigned                      _totalOverlayChildren;
+
+        osg::ref_ptr<const SpatialReference>    _srs;
+        osg::ref_ptr<const osg::EllipsoidModel> _ellipsoid;
+        osg::observer_ptr<TerrainEngineNode>    _engine;
+
+        // Mapping of each RTT camera params vector to a Camera (per view data)
+        typedef std::map<osg::Camera*, PerViewData> PerViewDataMap;
+
+        PerViewDataMap _perViewData;
+        Threading::ReadWriteMutex _perViewDataMutex;
+
+        typedef std::vector< osg::ref_ptr<OverlayTechnique> > Techniques;
+        Techniques _techniques;
+        Techniques _unsupportedTechniques;
+
+        typedef std::vector< osg::ref_ptr<osg::Group> > Groups;
+        Groups _overlayGroups;
+
+
+    private:
+        void cullTerrainAndCalculateRTTParams( osgUtil::CullVisitor* cv, PerViewData& pvd );
+        void initializePerViewData( PerViewData&, osg::Camera* );
+        PerViewData& getPerViewData( osg::Camera* key );
+
+    public:
+        // marker class for DrapeableNode support.
+        struct InternalNodeVisitor : public osg::NodeVisitor {
+            InternalNodeVisitor(const osg::NodeVisitor::TraversalMode& mode =osg::NodeVisitor::TRAVERSE_ALL_CHILDREN) : 
+                osg::NodeVisitor(mode) { }
+        };
+
+        //debugging:
+        void requestDump() { _dumpRequested = true; }
+        osg::Node* getDump() { osg::Node* r = _dump.release(); _dump = 0L; return r; }
+        osg::ref_ptr<osg::Node> _dump;
+        bool _dumpRequested;
+    };
+
+
+    /**
+     * Abstract interface for an overlay technique implementation
+     */
+    class OverlayTechnique : public osg::Referenced
+    {
+    protected:
+        bool _supported;
+        OverlayTechnique() : _supported(true) { }
+        virtual ~OverlayTechnique() { }
+
+    public:
+        virtual bool supported() { return _supported; }
+
+        virtual bool hasData(
+            OverlayDecorator::TechRTTParams& params) const { return true; }
+
+        virtual void onInstall( TerrainEngineNode* engine ) { }
+
+        virtual void onUninstall( TerrainEngineNode* engine ) { }
+
+        virtual void reestablish( TerrainEngineNode* engine ) { }
+
+        virtual void preCullTerrain(
+            OverlayDecorator::TechRTTParams& params,
+            osgUtil::CullVisitor*            cv ) { }
+
+        virtual void cullOverlayGroup(
+            OverlayDecorator::TechRTTParams& params,
+            osgUtil::CullVisitor*            cv ) { }
+    };
+
+} // namespace osgEarth
+
+#endif //OSGEARTH_OVERLAY_DECORATOR

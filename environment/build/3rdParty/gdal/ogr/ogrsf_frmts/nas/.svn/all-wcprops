@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21390/trunk/gdal/ogr/ogrsf_frmts/nas
+END
+drv_nas.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/20162/trunk/gdal/ogr/ogrsf_frmts/nas/drv_nas.html
+END
+nashandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21390/trunk/gdal/ogr/ogrsf_frmts/nas/nashandler.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20462/trunk/gdal/ogr/ogrsf_frmts/nas/makefile.vc
+END
+nasreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21390/trunk/gdal/ogr/ogrsf_frmts/nas/nasreader.cpp
+END
+ogrnasdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/20257/trunk/gdal/ogr/ogrsf_frmts/nas/ogrnasdatasource.cpp
+END
+ogrnasrelationlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/19991/trunk/gdal/ogr/ogrsf_frmts/nas/ogrnasrelationlayer.cpp
+END
+ogrnasdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/19991/trunk/gdal/ogr/ogrsf_frmts/nas/ogrnasdriver.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20462/trunk/gdal/ogr/ogrsf_frmts/nas/GNUmakefile
+END
+ogrnaslayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21390/trunk/gdal/ogr/ogrsf_frmts/nas/ogrnaslayer.cpp
+END
+nasreaderp.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21390/trunk/gdal/ogr/ogrsf_frmts/nas/nasreaderp.h
+END
+nas_schema.vrt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19991/trunk/gdal/ogr/ogrsf_frmts/nas/nas_schema.vrt
+END
+ogr_nas.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/19991/trunk/gdal/ogr/ogrsf_frmts/nas/ogr_nas.h
+END

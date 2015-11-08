@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21977/trunk/gdal/ogr/ogrsf_frmts/ntf
+END
+ogrntffeatureclasslayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ntf/ogrntffeatureclasslayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/ntf/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/ntf/GNUmakefile
+END
+ntf_raster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21977/trunk/gdal/ogr/ogrsf_frmts/ntf/ntf_raster.cpp
+END
+ogrntfdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ntf/ogrntfdatasource.cpp
+END
+ntffilereader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/11589/trunk/gdal/ogr/ogrsf_frmts/ntf/ntffilereader.cpp
+END
+ogrntfdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ntf/ogrntfdriver.cpp
+END
+ntfdump.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ntf/ntfdump.cpp
+END
+ntf_codelist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ntf/ntf_codelist.cpp
+END
+ntfstroke.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ntf/ntfstroke.cpp
+END
+ntf_estlayers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/15637/trunk/gdal/ogr/ogrsf_frmts/ntf/ntf_estlayers.cpp
+END
+ntf_generic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ntf/ntf_generic.cpp
+END
+drv_ntf.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/ntf/drv_ntf.html
+END
+ntfrecord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ntf/ntfrecord.cpp
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/ntf/README.txt
+END
+ntf.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ntf/ntf.h
+END
+ogrntflayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ntf/ogrntflayer.cpp
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21982/trunk/gdal/ogr/ogrsf_frmts
+END
+ogrsf_frmts.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21630/trunk/gdal/ogr/ogrsf_frmts/ogrsf_frmts.h
+END
+ogr_attrind.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20101/trunk/gdal/ogr/ogrsf_frmts/ogr_attrind.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21630/trunk/gdal/ogr/ogrsf_frmts/makefile.vc
+END
+ogrsf_frmts.dox
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21762/trunk/gdal/ogr/ogrsf_frmts/ogrsf_frmts.dox
+END
+ogr_formats.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21654/trunk/gdal/ogr/ogrsf_frmts/ogr_formats.html
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21630/trunk/gdal/ogr/ogrsf_frmts/GNUmakefile
+END

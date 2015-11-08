@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/gdal/!svn/ver/21972/trunk/gdal/alg
+END
+gdal_alg_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/20078/trunk/gdal/alg/gdal_alg_priv.h
+END
+llrasterize.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/18340/trunk/gdal/alg/llrasterize.cpp
+END
+gdalrasterize.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21236/trunk/gdal/alg/gdalrasterize.cpp
+END
+gdalrasterpolygonenumerator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/18523/trunk/gdal/alg/gdalrasterpolygonenumerator.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21236/trunk/gdal/alg/makefile.vc
+END
+thinplatespline.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20193/trunk/gdal/alg/thinplatespline.h
+END
+gdal_rpc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21167/trunk/gdal/alg/gdal_rpc.cpp
+END
+gvgcpfit.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/10609/trunk/gdal/alg/gvgcpfit.h
+END
+gdalwarpoperation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21188/trunk/gdal/alg/gdalwarpoperation.cpp
+END
+gdalgrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/19726/trunk/gdal/alg/gdalgrid.h
+END
+gdalwarper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21167/trunk/gdal/alg/gdalwarper.cpp
+END
+gdaltransformer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21586/trunk/gdal/alg/gdaltransformer.cpp
+END
+gdalchecksum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/13893/trunk/gdal/alg/gdalchecksum.cpp
+END
+gdalcutline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/17041/trunk/gdal/alg/gdalcutline.cpp
+END
+gdalproximity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21167/trunk/gdal/alg/gdalproximity.cpp
+END
+gdal_tps.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/16861/trunk/gdal/alg/gdal_tps.cpp
+END
+polygonize.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21236/trunk/gdal/alg/polygonize.cpp
+END
+gdal_alg.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/18227/trunk/gdal/alg/gdal_alg.h
+END
+gdalgeoloc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21167/trunk/gdal/alg/gdalgeoloc.cpp
+END
+gdalmediancut.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20629/trunk/gdal/alg/gdalmediancut.cpp
+END
+gdalwarpkernel_opencl.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21281/trunk/gdal/alg/gdalwarpkernel_opencl.c
+END
+gdalwarpkernel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21221/trunk/gdal/alg/gdalwarpkernel.cpp
+END
+thinplatespline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15547/trunk/gdal/alg/thinplatespline.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21236/trunk/gdal/alg/GNUmakefile
+END
+rasterfill.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21167/trunk/gdal/alg/rasterfill.cpp
+END
+gdalwarpkernel_opencl.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21223/trunk/gdal/alg/gdalwarpkernel_opencl.h
+END
+gdaldither.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/13342/trunk/gdal/alg/gdaldither.cpp
+END
+gdalsievefilter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21213/trunk/gdal/alg/gdalsievefilter.cpp
+END
+gdalsimplewarp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/15436/trunk/gdal/alg/gdalsimplewarp.cpp
+END
+gdalgrid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21972/trunk/gdal/alg/gdalgrid.cpp
+END
+gdal_crs.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/16614/trunk/gdal/alg/gdal_crs.c
+END
+gdal_nrgcrs.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/10645/trunk/gdal/alg/gdal_nrgcrs.c
+END
+contour.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21236/trunk/gdal/alg/contour.cpp
+END
+gdalwarper.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/20819/trunk/gdal/alg/gdalwarper.h
+END

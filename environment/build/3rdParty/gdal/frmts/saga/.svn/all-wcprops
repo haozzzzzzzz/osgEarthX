@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21420/trunk/gdal/frmts/saga
+END
+sagadataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21420/trunk/gdal/frmts/saga/sagadataset.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/18207/trunk/gdal/frmts/saga/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20068/trunk/gdal/frmts/saga/GNUmakefile
+END

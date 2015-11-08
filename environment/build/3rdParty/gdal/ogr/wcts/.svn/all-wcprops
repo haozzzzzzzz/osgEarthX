@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/gdal/!svn/ver/10645/trunk/gdal/ogr/wcts
+END
+wctsclient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/10645/trunk/gdal/ogr/wcts/wctsclient.cpp
+END
+req_istransformable.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/ogr/wcts/req_istransformable.xml
+END
+req_remote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/10609/trunk/gdal/ogr/wcts/req_remote.xml
+END
+req_transform.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10609/trunk/gdal/ogr/wcts/req_transform.xml
+END
+req_nad2783tr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10609/trunk/gdal/ogr/wcts/req_nad2783tr.xml
+END
+wcts_capabilities.xml.0.1.0
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10609/trunk/gdal/ogr/wcts/wcts_capabilities.xml.0.1.0
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10609/trunk/gdal/ogr/wcts/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10609/trunk/gdal/ogr/wcts/GNUmakefile
+END
+ogrwcts.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10645/trunk/gdal/ogr/wcts/ogrwcts.cpp
+END
+req_getcap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/10609/trunk/gdal/ogr/wcts/req_getcap.xml
+END

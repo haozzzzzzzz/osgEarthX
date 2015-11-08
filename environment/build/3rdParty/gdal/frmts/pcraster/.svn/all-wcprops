@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/21680/trunk/gdal/frmts/pcraster
+END
+pcrasterdataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/13149/trunk/gdal/frmts/pcraster/pcrasterdataset.h
+END
+pcrasterrasterband.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/13149/trunk/gdal/frmts/pcraster/pcrasterrasterband.h
+END
+pcrastermisc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/13149/trunk/gdal/frmts/pcraster/pcrastermisc.cpp
+END
+pcrasterutil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15450/trunk/gdal/frmts/pcraster/pcrasterutil.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/15888/trunk/gdal/frmts/pcraster/GNUmakefile
+END
+pcrasterutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/15451/trunk/gdal/frmts/pcraster/pcrasterutil.h
+END
+pcrasterdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16442/trunk/gdal/frmts/pcraster/pcrasterdataset.cpp
+END
+pcrasterrasterband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/15453/trunk/gdal/frmts/pcraster/pcrasterrasterband.cpp
+END
+doxygen.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10609/trunk/gdal/frmts/pcraster/doxygen.cfg
+END

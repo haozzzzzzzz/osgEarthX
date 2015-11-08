@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21984/trunk/gdal/frmts/raw
+END
+hkvdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20996/trunk/gdal/frmts/raw/hkvdataset.cpp
+END
+ntv2dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21682/trunk/gdal/frmts/raw/ntv2dataset.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21984/trunk/gdal/frmts/raw/makefile.vc
+END
+loslasdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/20996/trunk/gdal/frmts/raw/loslasdataset.cpp
+END
+fastdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21698/trunk/gdal/frmts/raw/fastdataset.cpp
+END
+frmt_mff2.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10609/trunk/gdal/frmts/raw/frmt_mff2.html
+END
+rawdataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20996/trunk/gdal/frmts/raw/rawdataset.h
+END
+envidataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21680/trunk/gdal/frmts/raw/envidataset.cpp
+END
+genbindataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21697/trunk/gdal/frmts/raw/genbindataset.cpp
+END
+dipxdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21697/trunk/gdal/frmts/raw/dipxdataset.cpp
+END
+btdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21821/trunk/gdal/frmts/raw/btdataset.cpp
+END
+doq2dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21717/trunk/gdal/frmts/raw/doq2dataset.cpp
+END
+mffdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20996/trunk/gdal/frmts/raw/mffdataset.cpp
+END
+atlsci_spheroid.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/10645/trunk/gdal/frmts/raw/atlsci_spheroid.h
+END
+pauxdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21225/trunk/gdal/frmts/raw/pauxdataset.cpp
+END
+eirdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21805/trunk/gdal/frmts/raw/eirdataset.cpp
+END
+ehdrdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21783/trunk/gdal/frmts/raw/ehdrdataset.cpp
+END
+frmt_lcp.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/16356/trunk/gdal/frmts/raw/frmt_lcp.html
+END
+snodasdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21984/trunk/gdal/frmts/raw/snodasdataset.cpp
+END
+rawdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20996/trunk/gdal/frmts/raw/rawdataset.cpp
+END
+pnmdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21696/trunk/gdal/frmts/raw/pnmdataset.cpp
+END
+idadataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21680/trunk/gdal/frmts/raw/idadataset.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21984/trunk/gdal/frmts/raw/GNUmakefile
+END
+frmt_fast.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/14483/trunk/gdal/frmts/raw/frmt_fast.html
+END
+gtxdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20996/trunk/gdal/frmts/raw/gtxdataset.cpp
+END
+doq1dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21717/trunk/gdal/frmts/raw/doq1dataset.cpp
+END
+atlsci_spheroid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10645/trunk/gdal/frmts/raw/atlsci_spheroid.cpp
+END
+ndfdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21749/trunk/gdal/frmts/raw/ndfdataset.cpp
+END
+cpgdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/18073/trunk/gdal/frmts/raw/cpgdataset.cpp
+END
+landataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20996/trunk/gdal/frmts/raw/landataset.cpp
+END
+ace2dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21837/trunk/gdal/frmts/raw/ace2dataset.cpp
+END
+gscdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21715/trunk/gdal/frmts/raw/gscdataset.cpp
+END
+lcpdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20996/trunk/gdal/frmts/raw/lcpdataset.cpp
+END
+fujibasdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/17664/trunk/gdal/frmts/raw/fujibasdataset.cpp
+END

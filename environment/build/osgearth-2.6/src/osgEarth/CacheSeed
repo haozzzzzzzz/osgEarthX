@@ -1,0 +1,78 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+
+#ifndef OSGEARTH_CACHE_SEED_H
+#define OSGEARTH_CACHE_SEED_H 1
+
+#include <osgEarth/Common>
+#include <osgEarth/Map>
+#include <osgEarth/TileKey>
+#include <osgEarth/TileVisitor>
+
+
+namespace osgEarth
+{
+    /**
+    * A TileHandler that caches tiles for the given layer.
+    */
+    class OSGEARTH_EXPORT CacheTileHandler : public TileHandler
+    {
+    public:
+        CacheTileHandler( TerrainLayer* layer, Map* map );
+        virtual bool handleTile( const TileKey& key, const TileVisitor& tv );
+        virtual bool hasData( const TileKey& key ) const;
+
+        virtual std::string getProcessString() const;
+
+    protected:
+        osg::ref_ptr< TerrainLayer > _layer;
+        osg::ref_ptr< Map > _map;
+    };    
+
+    /**
+    * Utility class for seeding a cache
+    */
+    class OSGEARTH_EXPORT CacheSeed
+    {
+    public:
+        CacheSeed();
+
+        /**
+        * Gets the TileVisitor to use when seeding the cache.  Use this to set traversal options like the extents, levels, etc.
+        */
+        TileVisitor* getVisitor() const;
+
+        /**
+        * Sets the TileVisitor to use when seeding the cache.  Must be configured BEFORE you call run
+        */
+        void setVisitor(TileVisitor* visitor);
+
+        /**
+        * Seeds a TerrainLayer
+        */
+        void run(TerrainLayer* layer, Map* map );
+
+
+    protected:
+
+        osg::ref_ptr< TileVisitor > _visitor;
+    };
+}
+
+#endif //OSGEARTH_CACHE_SEED_H

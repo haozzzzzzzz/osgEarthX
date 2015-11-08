@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21959/trunk/gdal/ogr/ogrsf_frmts/pg
+END
+ogr_pg.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21037/trunk/gdal/ogr/ogrsf_frmts/pg/ogr_pg.h
+END
+drv_pg.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21393/trunk/gdal/ogr/ogrsf_frmts/pg/drv_pg.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/17610/trunk/gdal/ogr/ogrsf_frmts/pg/makefile.vc
+END
+ogrpgtablelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21628/trunk/gdal/ogr/ogrsf_frmts/pg/ogrpgtablelayer.cpp
+END
+ogrpgdebug.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/17112/trunk/gdal/ogr/ogrsf_frmts/pg/ogrpgdebug.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/17112/trunk/gdal/ogr/ogrsf_frmts/pg/GNUmakefile
+END
+ogrpgutility.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/10931/trunk/gdal/ogr/ogrsf_frmts/pg/ogrpgutility.h
+END
+drv_pg_advanced.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21040/trunk/gdal/ogr/ogrsf_frmts/pg/drv_pg_advanced.html
+END
+ogrpgdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/20687/trunk/gdal/ogr/ogrsf_frmts/pg/ogrpgdatasource.cpp
+END
+ogrpgdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/12396/trunk/gdal/ogr/ogrsf_frmts/pg/ogrpgdriver.cpp
+END
+ogrpgresultlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20698/trunk/gdal/ogr/ogrsf_frmts/pg/ogrpgresultlayer.cpp
+END
+ogrpglayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21959/trunk/gdal/ogr/ogrsf_frmts/pg/ogrpglayer.cpp
+END

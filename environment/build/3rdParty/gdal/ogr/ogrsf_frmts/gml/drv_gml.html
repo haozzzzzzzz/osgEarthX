@@ -1,0 +1,301 @@
+<html>
+<head>
+<title>GML - Geography Markup Language</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<h1>GML - Geography Markup Language</h1>
+
+OGR has limited support for GML reading and writing. Update of existing
+files is not currently supported.<p>
+
+Supported GML flavors :
+<table border>
+<tr><th>OGR version</th><th>Read</th><th>Write</th></tr>
+<tr><td>OGR &gt;= 1.8.0</td>
+    <td>GML2 and GML3 that can<br>be translated into simple feature model</td>
+    <td>GML 2.1.2 or GML 3 SF-0<br>(GML 3.1.1 Compliance level SF-0)</td>
+</tr>
+<tr><td>OGR &lt; 1.8.0</td><td>GML2 and limited GML3</td><td>GML 2.1.2</td></tr>
+</table>
+<p>
+
+The reading part of the driver only
+works if OGR is built with Xerces linked in. Starting with GDAL 1.7.0, when
+Xerces is unavailable, read support also works if OGR is built with Expat linked in.
+XML validation is disabled by default.
+GML writing is always supported, even without Xerces or Expat.<p>
+
+Since OGR 1.8.0, the GML driver has coordinate system support. This is
+only reported when all the geometries of a layer have a srsName attribute,
+whose value is the same for all geometries. For srsName such as "urn:ogc:def:crs:EPSG:",
+for geographic coordinate systems (as returned by WFS 1.1.0 for example), the axis order
+should be (latitude, longitude) as required by the standards, but this is
+unusual and can cause issues with applications unaware of axis order. So
+by default, the driver will swap the coordinates so that they are in the
+(longitude, latitude) order and report a SRS without axis order specified.
+It is possible to get the original (latitude, longitude) order and SRS with axis order
+by setting the configuration option <b>GML_INVERT_AXIS_ORDER_IF_LAT_LONG</b>
+to <b>NO</b>.<p>
+There also situations where the srsName is of the form "EPSG:XXXX" (whereas
+"urn:ogc:def:crs:EPSG::XXXX" would have been more explicit on the intent) and
+the coordinates in the file are in (latitude, longitude) order. By default, OGR will
+not consider the EPSG axis order and will report the coordinates in (latitude,longitude)
+order. However, if you set the configuration option <b>GML_CONSIDER_EPSG_AS_URN</b> to
+<b>YES</b>, the rules explained in the previous paragraph will be applied.<p>
+
+In contrast to most GML readers, the OGR GML reader does not require
+the presence of an XML Schema definition of the feature classes (file with .xsd
+extension) to be able to read the GML file. If the .xsd file is absent or
+OGR is not able to parse it, the driver attempts to automatically discover
+the feature classes and their associated properties by scanning the file and
+looking for "known" gml objects in the gml namespace to determine the organization.
+While this approach is error prone, it has the advantage of working for GML files
+even if the associated schema (.xsd) file has been lost.<p>
+
+The first time a GML file is opened, if the associated .xsd is absent or could not been
+parsed correctly, it is completely scanned in order to
+determine the set of featuretypes, the attributes associated with each and
+other dataset level information.  This information is stored in a .gfs file
+with the same basename as the target gml file.  Subsequent accesses to the
+same GML file will use the .gfs file to predefine dataset level information
+accelerating access.  To a limited extent the .gfs file can be manually edited
+to alter how the GML file will be parsed.  Be warned that the .gfs file will
+be ignored if the associated .gml file has a newer timestamp.
+<p>
+
+When prescanning the GML file to determine the list of feature types, and
+fields, the contents of fields are scanned to try and determine the type of the
+field.  In some applications it is easier if all fields are just treated as
+string fields.  This can be accomplished by setting the configuration option
+<b>GML_FIELDTYPES</b> to the value <b>ALWAYS_STRING</b>.<p>
+
+OGR 1.8.0 adds support for detecting feature attributes in nested GML elements
+(non-flat attribute hierarchy) that can be found in some GML profiles
+such as UK Ordnance Survey MasterMap. OGR 1.8.0 also brings support for reading
+IntegerList, RealList and StringList field types when a GML element has several occurences.<p>
+
+Since OGR 1.8.0, a specialized GML driver - the <a href="drv_nas.html">NAS</a> driver - is available to read
+German AAA GML Exchange Format (NAS/ALKIS).<p>
+
+Configuration options can be set via the CPLSetConfigOption() function or as
+environment variables.<p>
+
+<h2>Geometry reading</h2>
+
+When reading a feature, the driver will by default only take into account the
+last recognized GML geometry found (in case they are multiples) in the XML subtree describing the feature.<p>
+
+Starting with OGR 1.8.0, the user can change the .gfs file to select the appropriate
+geometry by specifying its path with the &lt;GeometryElementPath&gt; element. See the
+description of the .gfs syntax below.<p>
+
+<!-- Voluntary commented : a bit experimental for now and perhaps a better solution
+     will emerge later -->
+<!--
+OGR 1.8.0 adds support to "merge" the multiple geometries found in a feature by
+setting the configuration option <b>GML_FETCH_ALL_GEOMETRIES</b> to <b>YES</b>. The geometries
+will be collected into a GeometryCollection (or Multipolygon if individual geometries
+are polygons or multipolygons). This can be usefull when reading some GML application profiles.
+If a &lt;GeometryElementPath&gt; element is specified in the .gfs, the fetching will be limited
+to paths that match the value of &lt;GeometryElementPath&gt;.<p>
+-->
+
+OGR 1.8.0 adds support for more GML geometries including TopoCurve,
+TopoSurface, MultiCurve. The TopoCurve type GML geometry can be interpreted as
+either of two types of geometries.  The Edge elements in it contain curves and
+their corresponding nodes.  By default only the curves, the main geometries,
+are reported as OGRMultiLineString.  To retrieve the nodes, as OGRMultiPoint,
+the configuration option <b>GML_GET_SECONDARY_GEOM</b> should be set to the
+value <b>YES</b>.  When this is set only the secondary geometries are
+reported.<p>
+
+<h2>gml:xlink resolving</h2>
+
+OGR 1.8.0 adds support for gml:xlink resolving.  When the resolver finds an
+element containing the tag xlink:href, it tries to find the corresponding
+element with the gml:id in the same gml file, other gml file in the file system
+or on the web using cURL.  Set the configuration option
+<b>GML_SKIP_RESOLVE_ELEMS</b> to <b>NONE</b> to enable resolution.<p>
+
+By default the resolved file will be saved in the
+same directory as the original file with the extension ".resolved.gml", if it
+doesn't exist already.  This behaviour can be changed using the configuration
+option <b>GML_SAVE_RESOLVED_TO</b>.  Set it to <b>SAME</b> to overwrite the
+original file.  Set it to a <b>filename ending with .gml</b> to save it to that
+location.  Any other values are ignored.  If the resolver cannot write to the
+file for any reason, it will try to save it to a temperary file generated using
+CPLGenerateTempFilename("ResolvedGML"); if it cannot, resolution fails.<p>
+
+Note that the resolution algorithm is not optimised for large files.  For files
+with more than a couple of thousand xlink:href tags, the process can go beyond
+a few minutes.  A rough progress is displayed through CPLDebug() for every
+256 links.  It can be seen by setting the environment variable CPL_DEBUG.
+The resolution time can be reduced if you know any elements that
+won't be needed.  Mention a comma seperated list of names of such elements with
+the configuration option <b>GML_SKIP_RESOLVE_ELEMS</b>.  Set it to <b>ALL</b>
+to skip resolving altogether (default action).  Set it to <b>NONE</b> to
+resolve all the xlinks.<p>
+
+<h2>Encoding issues</h2>
+
+Expat library supports reading the following built-in encodings :
+<ul>
+<li>US-ASCII</li>
+<li>UTF-8</li>
+<li>UTF-16</li>
+<li>ISO-8859-1</li>
+</ul>
+
+When used with Expat library, OGR 1.8.0 adds supports for Windows-1252 encoding (
+for previous versions, altering the encoding mentionned in the XML header to
+ISO-8859-1 might work in some cases).<p>
+
+The content returned by OGR will be encoded in UTF-8, after the conversion from the
+encoding mentionned in the file header is.<p>
+
+If your GML file is not encoded in one of the previous encodings, it will not be parsed by the
+GML driver. You may convert it into one of the supported encoding with the <i>iconv</i> utility
+for example and change accordingly the <i>encoding</i> parameter value in the XML header.<br>
+<p>
+
+When writing a GML file, the driver expects UTF-8 content to be passed in.<p>
+
+<h2>Creation Issues</h2>
+
+On export all layers are written to a single GML file all in a single
+feature collection.  Each layer's name is used as the element name for
+objects from that layer.  Geometries are always written as the 
+ogr:geometryProperty element on the feature.<p>
+
+The GML writer supports the following creation options:
+
+<ul>
+<li> <B>XSISCHEMAURI</B>: If provided, this URI will be inserted as the
+schema location.  Note that the schema file isn't actually accessed by OGR, so
+it is up to the user to ensure it will match the schema of the OGR produced 
+GML data file.<p>
+
+<li> <B>XSISCHEMA</B>: This can be EXTERNAL, INTERNAL or OFF and defaults to
+EXTERNAL.  This writes a GML application schema file to a corresponding .xsd file
+(with the same basename). If INTERNAL is used the schema is written within the GML
+file, but this is experimental and almost certainly not valid XML.
+OFF disables schema generation (and is implicit if XSISCHEMAURI is used).<p>
+
+<li> <b>FORMAT</b>: (OGR >= 1.8.0) This can be set to GML3 in order
+to write GML files that follow GML3 SF-0 profile. Otherwise GML2 will be used.<p>
+
+<li> <b>GML3_LONGSRS</b>=YES/NO. (OGR >= 1.8.0, only valid when FORMAT=GML3) Default to YES. If YES, SRS with EPSG authority will
+be written with the "urn:ogc:def:crs:EPSG::" prefix.
+In the case, if the SRS is a geographic SRS without explicit AXIS order, but that the same SRS authority code
+imported with ImportFromEPSGA() should be treated as lat/long, then the function will take care of coordinate order swapping.
+If set to NO, SRS with EPSG authority will be written with the "EPSG:" prefix, even if they are in lat/long order.<p>
+
+<li> <b>SPACE_INDENTATION</b>=YES/NO. (OGR >= 1.8.0) Default to YES. If YES, the output will be indented with spaces
+for more readability, but at the expense of file size.<p>
+
+</ul>
+
+<h2>Syntax of .gfs file by example</h2>
+
+Let's consider the following test.gml file :
+
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;gml:FeatureCollection xmlns:gml="http://www.opengis.net/gml"&gt;
+  &lt;gml:featureMember&gt;
+    &lt;LAYER&gt;
+      &lt;attrib1&gt;attrib1_value&lt;/attrib1&gt;
+      &lt;attrib2container&gt;
+        &lt;attrib2&gt;attrib2_value&lt;/attrib2&gt;
+      &lt;/attrib2container&gt;
+      &lt;location1container&gt;
+        &lt;location1&gt;
+            &lt;gml:Point&gt;&lt;gml:coordinates&gt;3,50&lt;/gml:coordinates&gt;&lt;/gml:Point&gt;
+        &lt;/location1&gt;
+      &lt;/location1container&gt;
+      &lt;location2&gt;
+        &lt;gml:Point&gt;&lt;gml:coordinates&gt;2,49&lt;/gml:coordinates&gt;&lt;/gml:Point&gt;
+      &lt;/location2&gt;
+    &lt;/LAYER&gt;
+  &lt;/gml:featureMember&gt;
+&lt;/gml:FeatureCollection&gt;
+</pre>
+
+and the following associated .gfs file.
+
+<pre>
+&lt;GMLFeatureClassList&gt;
+  &lt;GMLFeatureClass&gt;
+    &lt;Name&gt;LAYER&lt;/Name&gt;
+    &lt;ElementPath&gt;LAYER&lt;/ElementPath&gt;
+    &lt;GeometryElementPath&gt;location1container|location1&lt;/GeometryElementPath&gt;
+    &lt;PropertyDefn&gt;
+      &lt;Name&gt;attrib1&lt;/Name&gt;
+      &lt;ElementPath&gt;attrib1&lt;/ElementPath&gt;
+      &lt;Type&gt;String&lt;/Type&gt;
+      &lt;Width&gt;13&lt;/Width&gt;
+    &lt;/PropertyDefn&gt;
+    &lt;PropertyDefn&gt;
+      &lt;Name&gt;attrib2&lt;/Name&gt;
+      &lt;ElementPath&gt;attrib2container|attrib2&lt;/ElementPath&gt;
+      &lt;Type&gt;String&lt;/Type&gt;
+      &lt;Width&gt;13&lt;/Width&gt;
+    &lt;/PropertyDefn&gt;
+  &lt;/GMLFeatureClass&gt;
+&lt;/GMLFeatureClassList&gt;
+</pre>
+
+Note the presence of the '|' character in the &lt;ElementPath&gt; and &lt;GeometryElementPath&gt elements to
+specify the wished field/geometry element that is a nested XML element. Nested field elements are only supported from OGR 1.8.0, as well
+ as specifying &lt;GeometryElementPath&gt; If GeometryElementPath is not specified, the
+GML driver will use the last recognized geometry element.<p>
+
+The output of <i>ogrinfo test.gml -ro -al</i> is:
+<pre>
+Layer name: LAYER
+Geometry: Unknown (any)
+Feature Count: 1
+Extent: (3.000000, 50.000000) - (3.000000, 50.000000)
+Layer SRS WKT:
+(unknown)
+Geometry Column = location1container|location1
+attrib1: String (13.0)
+attrib2: String (13.0)
+OGRFeature(LAYER):0
+  attrib1 (String) = attrib1_value
+  attrib2 (String) = attrib2_value
+  POINT (3 50)
+</pre>
+
+<h2>Example</h2>
+
+The ogr2ogr utility can be used to dump the results of a Oracle query to
+GML:
+
+<pre>
+ogr2ogr -f GML output.gml OCI:usr/pwd@db my_feature -where "id = 0"
+</pre>
+
+<P>
+The ogr2ogr utility can be used to dump the results of a PostGIS query to
+GML:
+
+<pre>
+ogr2ogr -f GML output.gml PG:'host=myserver dbname=warmerda' -sql "SELECT pop_1994 from canada where province_name = 'Alberta'"
+
+</pre>
+
+
+<h2>See Also</h2>
+
+<ul>
+<li> <a href="http://www.opengeospatial.org/standards/gml">GML Specifications</a><p>
+<li> <a href="http://portal.opengeospatial.org/files/?artifact_id=15201">GML 3.1.1 simple features profile</a><p>
+<li> <a href="http://xml.apache.org/xerces2-j/index.html">Xerces</a><p>
+<li> <a href="drv_nas.html">NAS/ALKIS : specialized GML driver for cadastral data in Germany</a><p>
+</ul>
+
+</body>
+</html>

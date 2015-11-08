@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21379/trunk/gdal/frmts/pdf
+END
+pdfdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21379/trunk/gdal/frmts/pdf/pdfdataset.cpp
+END
+pdfio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21328/trunk/gdal/frmts/pdf/pdfio.cpp
+END
+frmt_pdf.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21328/trunk/gdal/frmts/pdf/frmt_pdf.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21328/trunk/gdal/frmts/pdf/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21328/trunk/gdal/frmts/pdf/GNUmakefile
+END
+pdfio.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/20996/trunk/gdal/frmts/pdf/pdfio.h
+END

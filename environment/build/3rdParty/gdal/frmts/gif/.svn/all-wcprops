@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21907/trunk/gdal/frmts/gif
+END
+frmt_gif.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/16860/trunk/gdal/frmts/gif/frmt_gif.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/16859/trunk/gdal/frmts/gif/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/16858/trunk/gdal/frmts/gif/GNUmakefile
+END
+gifdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21907/trunk/gdal/frmts/gif/gifdataset.cpp
+END
+biggifdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21674/trunk/gdal/frmts/gif/biggifdataset.cpp
+END

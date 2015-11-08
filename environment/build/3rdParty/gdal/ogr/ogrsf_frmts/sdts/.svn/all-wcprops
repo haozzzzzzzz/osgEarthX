@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/19952/trunk/gdal/ogr/ogrsf_frmts/sdts
+END
+ogrsdtsdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13025/trunk/gdal/ogr/ogrsf_frmts/sdts/ogrsdtsdatasource.cpp
+END
+ogrsdtsdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/12396/trunk/gdal/ogr/ogrsf_frmts/sdts/ogrsdtsdriver.cpp
+END
+ogrsdtslayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/19952/trunk/gdal/ogr/ogrsf_frmts/sdts/ogrsdtslayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/sdts/makefile.vc
+END
+install-libs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/sdts/install-libs.sh
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/sdts/GNUmakefile
+END
+ogr_sdts.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15583/trunk/gdal/ogr/ogrsf_frmts/sdts/ogr_sdts.h
+END
+drv_sdts.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/sdts/drv_sdts.html
+END

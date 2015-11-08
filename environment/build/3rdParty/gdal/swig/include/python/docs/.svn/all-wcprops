@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21690/trunk/gdal/swig/include/python/docs
+END
+ogr_datasource_docs.i
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/21690/trunk/gdal/swig/include/python/docs/ogr_datasource_docs.i
+END
+ogr_featuredef_docs.i
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/21690/trunk/gdal/swig/include/python/docs/ogr_featuredef_docs.i
+END
+ogr_driver_docs.i
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/21690/trunk/gdal/swig/include/python/docs/ogr_driver_docs.i
+END
+ogr_feature_docs.i
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/21690/trunk/gdal/swig/include/python/docs/ogr_feature_docs.i
+END
+ogr_geometry_docs.i
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/21690/trunk/gdal/swig/include/python/docs/ogr_geometry_docs.i
+END
+ogr_layer_docs.i
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/21690/trunk/gdal/swig/include/python/docs/ogr_layer_docs.i
+END
+doxy2swig.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/11498/trunk/gdal/swig/include/python/docs/doxy2swig.py
+END
+ogr_fielddef_docs.i
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/21690/trunk/gdal/swig/include/python/docs/ogr_fielddef_docs.i
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21690/trunk/gdal/swig/include/python/docs/README
+END

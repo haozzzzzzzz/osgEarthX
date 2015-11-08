@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21837/trunk/gdal/frmts/bsb
+END
+Makefile.dist
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/10609/trunk/gdal/frmts/bsb/Makefile.dist
+END
+README.dist
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10609/trunk/gdal/frmts/bsb/README.dist
+END
+bsb_read.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/20996/trunk/gdal/frmts/bsb/bsb_read.c
+END
+bsb2raw.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/10645/trunk/gdal/frmts/bsb/bsb2raw.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10609/trunk/gdal/frmts/bsb/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/bsb/GNUmakefile
+END
+bsb_read.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/20996/trunk/gdal/frmts/bsb/bsb_read.h
+END
+bsbdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21837/trunk/gdal/frmts/bsb/bsbdataset.cpp
+END

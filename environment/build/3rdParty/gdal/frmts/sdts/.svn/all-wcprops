@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21298/trunk/gdal/frmts/sdts
+END
+sdts_al.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/19952/trunk/gdal/frmts/sdts/sdts_al.h
+END
+sdtsindexedreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10645/trunk/gdal/frmts/sdts/sdtsindexedreader.cpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10609/trunk/gdal/frmts/sdts/Makefile.in
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/10609/trunk/gdal/frmts/sdts/Doxyfile
+END
+sdtsxref.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/10645/trunk/gdal/frmts/sdts/sdtsxref.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10609/trunk/gdal/frmts/sdts/makefile.vc
+END
+sdtslib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/17213/trunk/gdal/frmts/sdts/sdtslib.cpp
+END
+makefile.vc.dist
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/10609/trunk/gdal/frmts/sdts/makefile.vc.dist
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/10609/trunk/gdal/frmts/sdts/configure.in
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/15888/trunk/gdal/frmts/sdts/GNUmakefile
+END
+sdtslinereader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/19952/trunk/gdal/frmts/sdts/sdtslinereader.cpp
+END
+sdtspolygonreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/19952/trunk/gdal/frmts/sdts/sdtspolygonreader.cpp
+END
+sdtscatd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/10645/trunk/gdal/frmts/sdts/sdtscatd.cpp
+END
+sdts2shp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/19952/trunk/gdal/frmts/sdts/sdts2shp.cpp
+END
+sdtspointreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/10645/trunk/gdal/frmts/sdts/sdtspointreader.cpp
+END
+sdts_tut.dox
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/10609/trunk/gdal/frmts/sdts/sdts_tut.dox
+END
+sdtsrasterreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21298/trunk/gdal/frmts/sdts/sdtsrasterreader.cpp
+END
+sdtstransfer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21298/trunk/gdal/frmts/sdts/sdtstransfer.cpp
+END
+sdtsiref.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/17434/trunk/gdal/frmts/sdts/sdtsiref.cpp
+END
+sdtsdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/20504/trunk/gdal/frmts/sdts/sdtsdataset.cpp
+END
+sdts_main.dox
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10609/trunk/gdal/frmts/sdts/sdts_main.dox
+END
+sdtsattrreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10645/trunk/gdal/frmts/sdts/sdtsattrreader.cpp
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10609/trunk/gdal/frmts/sdts/aclocal.m4
+END

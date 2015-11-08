@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21678/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc
+END
+json_object_private.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/json_object_private.h
+END
+printbuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/printbuf.h
+END
+json_object.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/21298/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/json_object.c
+END
+json_tokener.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/19643/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/json_tokener.c
+END
+linkhash.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/linkhash.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/21678/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/makefile.vc
+END
+json_object.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/json_object.h
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/12634/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/AUTHORS
+END
+json_tokener.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/json_tokener.h
+END
+bits.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/bits.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/GNUmakefile
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/18532/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/ChangeLog
+END
+json_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/json_util.c
+END
+linkhash.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/linkhash.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/19889/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/config.h
+END
+arraylist.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/21298/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/arraylist.c
+END
+json_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/json_util.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/18532/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/README
+END
+json.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/json.h
+END
+arraylist.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/arraylist.h
+END
+README.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/18532/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/README.html
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/18531/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/debug.c
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/12634/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/COPYING
+END
+printbuf.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21298/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/printbuf.c
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/18540/trunk/gdal/ogr/ogrsf_frmts/geojson/jsonc/debug.h
+END

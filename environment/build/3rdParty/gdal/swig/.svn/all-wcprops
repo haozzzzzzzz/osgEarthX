@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/gdal/!svn/ver/22000/trunk/gdal/swig
+END
+SWIGmake.base
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/19749/trunk/gdal/swig/SWIGmake.base
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/17895/trunk/gdal/swig/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/12783/trunk/gdal/swig/GNUmakefile
+END

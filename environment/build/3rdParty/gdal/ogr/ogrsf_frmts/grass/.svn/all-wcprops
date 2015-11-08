@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20157/trunk/gdal/ogr/ogrsf_frmts/grass
+END
+ogrgrassdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/20157/trunk/gdal/ogr/ogrsf_frmts/grass/ogrgrassdatasource.cpp
+END
+ogrgrassdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/12396/trunk/gdal/ogr/ogrsf_frmts/grass/ogrgrassdriver.cpp
+END
+ogrgrasslayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20157/trunk/gdal/ogr/ogrsf_frmts/grass/ogrgrasslayer.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/grass/GNUmakefile
+END
+drv_grass.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/grass/drv_grass.html
+END
+ogrgrass.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/20157/trunk/gdal/ogr/ogrsf_frmts/grass/ogrgrass.h
+END

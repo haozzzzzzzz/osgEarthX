@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21673/trunk/gdal/ogr/ogrsf_frmts/ili
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/17888/trunk/gdal/ogr/ogrsf_frmts/ili/makefile.vc
+END
+ogrili1layer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/16925/trunk/gdal/ogr/ogrsf_frmts/ili/ogrili1layer.cpp
+END
+ogrili2layer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/13906/trunk/gdal/ogr/ogrsf_frmts/ili/ogrili2layer.cpp
+END
+ili1readerp.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/16865/trunk/gdal/ogr/ogrsf_frmts/ili/ili1readerp.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15947/trunk/gdal/ogr/ogrsf_frmts/ili/GNUmakefile
+END
+ili2readerp.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/17910/trunk/gdal/ogr/ogrsf_frmts/ili/ili2readerp.h
+END
+ogr_ili1.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/15268/trunk/gdal/ogr/ogrsf_frmts/ili/ogr_ili1.h
+END
+drv_ili.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21673/trunk/gdal/ogr/ogrsf_frmts/ili/drv_ili.html
+END
+ogr_ili2.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/13906/trunk/gdal/ogr/ogrsf_frmts/ili/ogr_ili2.h
+END
+ilihelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/17904/trunk/gdal/ogr/ogrsf_frmts/ili/ilihelper.cpp
+END
+ili1reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/20142/trunk/gdal/ogr/ogrsf_frmts/ili/ili1reader.cpp
+END
+ogrili1datasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/15268/trunk/gdal/ogr/ogrsf_frmts/ili/ogrili1datasource.cpp
+END
+ogrili2datasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/15089/trunk/gdal/ogr/ogrsf_frmts/ili/ogrili2datasource.cpp
+END
+ilihelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ili/ilihelper.h
+END
+ili2reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/15947/trunk/gdal/ogr/ogrsf_frmts/ili/ili2reader.cpp
+END
+ogrili1driver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ili/ogrili1driver.cpp
+END
+ogrili2driver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/13906/trunk/gdal/ogr/ogrsf_frmts/ili/ogrili2driver.cpp
+END
+iomhelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ili/iomhelper.cpp
+END
+ili1reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/17904/trunk/gdal/ogr/ogrsf_frmts/ili/ili1reader.h
+END
+ili2reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/13906/trunk/gdal/ogr/ogrsf_frmts/ili/ili2reader.h
+END
+iomhelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/ili/iomhelper.h
+END
+ili2handler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/17910/trunk/gdal/ogr/ogrsf_frmts/ili/ili2handler.cpp
+END

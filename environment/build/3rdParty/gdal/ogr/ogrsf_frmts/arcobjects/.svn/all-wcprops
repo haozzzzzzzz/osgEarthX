@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21273/trunk/gdal/ogr/ogrsf_frmts/arcobjects
+END
+aoutils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21273/trunk/gdal/ogr/ogrsf_frmts/arcobjects/aoutils.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21273/trunk/gdal/ogr/ogrsf_frmts/arcobjects/makefile.vc
+END
+aoutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/21273/trunk/gdal/ogr/ogrsf_frmts/arcobjects/aoutils.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21273/trunk/gdal/ogr/ogrsf_frmts/arcobjects/GNUmakefile
+END
+aodatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/21273/trunk/gdal/ogr/ogrsf_frmts/arcobjects/aodatasource.cpp
+END
+aodriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21273/trunk/gdal/ogr/ogrsf_frmts/arcobjects/aodriver.cpp
+END
+ogr_ao.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21273/trunk/gdal/ogr/ogrsf_frmts/arcobjects/ogr_ao.h
+END
+aolayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21273/trunk/gdal/ogr/ogrsf_frmts/arcobjects/aolayer.cpp
+END
+drv_ao.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21273/trunk/gdal/ogr/ogrsf_frmts/arcobjects/drv_ao.html
+END

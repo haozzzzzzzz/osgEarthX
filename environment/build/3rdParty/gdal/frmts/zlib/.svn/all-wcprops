@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21680/trunk/gdal/frmts/zlib
+END
+inffast.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/inffast.h
+END
+inffixed.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/inffixed.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21680/trunk/gdal/frmts/zlib/makefile.vc
+END
+deflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/deflate.c
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/zlib.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/15888/trunk/gdal/frmts/zlib/GNUmakefile
+END
+zutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/zutil.c
+END
+gzio.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/gzio.c
+END
+deflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/deflate.h
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/crc32.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/README
+END
+zutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/13360/trunk/gdal/frmts/zlib/zutil.h
+END
+inftrees.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/inftrees.c
+END
+crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/crc32.h
+END
+inflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/inflate.c
+END
+trees.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/trees.c
+END
+uncompr.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/uncompr.c
+END
+inftrees.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/inftrees.h
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/zconf.h
+END
+inflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/inflate.h
+END
+trees.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/10609/trunk/gdal/frmts/zlib/trees.h
+END
+inffast.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/inffast.c
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/compress.c
+END
+adler32.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/adler32.c
+END
+infback.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10656/trunk/gdal/frmts/zlib/infback.c
+END

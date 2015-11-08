@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/pcidsk
+END
+ogrpcidskdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/pcidsk/ogrpcidskdatasource.cpp
+END
+ogrpcidskdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/20075/trunk/gdal/ogr/ogrsf_frmts/pcidsk/ogrpcidskdriver.cpp
+END
+ogrpcidsklayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/21461/trunk/gdal/ogr/ogrsf_frmts/pcidsk/ogrpcidsklayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/18263/trunk/gdal/ogr/ogrsf_frmts/pcidsk/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/18259/trunk/gdal/ogr/ogrsf_frmts/pcidsk/GNUmakefile
+END
+ogr_pcidsk.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20075/trunk/gdal/ogr/ogrsf_frmts/pcidsk/ogr_pcidsk.h
+END

@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/21979/trunk/gdal/swig/include
+END
+gdal_typemaps.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10967/trunk/gdal/swig/include/gdal_typemaps.i
+END
+Driver.i
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21479/trunk/gdal/swig/include/Driver.i
+END
+RasterAttributeTable.i
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/16504/trunk/gdal/swig/include/RasterAttributeTable.i
+END
+ogr_error_map.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/12444/trunk/gdal/swig/include/ogr_error_map.i
+END
+MajorObject.i
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21979/trunk/gdal/swig/include/MajorObject.i
+END
+osr.i
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21916/trunk/gdal/swig/include/osr.i
+END
+Band.i
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21773/trunk/gdal/swig/include/Band.i
+END
+gdal_array.i
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19478/trunk/gdal/swig/include/gdal_array.i
+END
+XMLNode.i
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/19751/trunk/gdal/swig/include/XMLNode.i
+END
+gdal.i
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/20712/trunk/gdal/swig/include/gdal.i
+END
+README.typemaps
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21587/trunk/gdal/swig/include/README.typemaps
+END
+Transform.i
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10967/trunk/gdal/swig/include/Transform.i
+END
+gdalconst.i
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20604/trunk/gdal/swig/include/gdalconst.i
+END
+cpl.i
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20996/trunk/gdal/swig/include/cpl.i
+END
+cpl_exceptions.i
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20628/trunk/gdal/swig/include/cpl_exceptions.i
+END
+Operations.i
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20606/trunk/gdal/swig/include/Operations.i
+END
+Dataset.i
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20641/trunk/gdal/swig/include/Dataset.i
+END
+ColorTable.i
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/16504/trunk/gdal/swig/include/ColorTable.i
+END
+ogr.i
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21775/trunk/gdal/swig/include/ogr.i
+END

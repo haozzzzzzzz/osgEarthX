@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21463/trunk/gdal/frmts/postgisraster
+END
+postgisraster.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20912/trunk/gdal/frmts/postgisraster/postgisraster.h
+END
+postgisrasterdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/21463/trunk/gdal/frmts/postgisraster/postgisrasterdataset.cpp
+END
+postgisrasterrasterband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/20915/trunk/gdal/frmts/postgisraster/postgisrasterrasterband.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20912/trunk/gdal/frmts/postgisraster/makefile.vc
+END
+todo
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20912/trunk/gdal/frmts/postgisraster/todo
+END
+postgisrasterdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/20912/trunk/gdal/frmts/postgisraster/postgisrasterdriver.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20912/trunk/gdal/frmts/postgisraster/GNUmakefile
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/20912/trunk/gdal/frmts/postgisraster/readme
+END

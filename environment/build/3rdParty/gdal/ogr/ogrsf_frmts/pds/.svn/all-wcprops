@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/pds
+END
+ogr_pds.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/pds/ogr_pds.h
+END
+drv_pds.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/19988/trunk/gdal/ogr/ogrsf_frmts/pds/drv_pds.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/19988/trunk/gdal/ogr/ogrsf_frmts/pds/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/19988/trunk/gdal/ogr/ogrsf_frmts/pds/GNUmakefile
+END
+ogrpdsdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/pds/ogrpdsdatasource.cpp
+END
+ogrpdsdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/19988/trunk/gdal/ogr/ogrsf_frmts/pds/ogrpdsdriver.cpp
+END
+ogrpdslayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/pds/ogrpdslayer.cpp
+END

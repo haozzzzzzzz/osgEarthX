@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21715/trunk/gdal/frmts/gsg
+END
+gs7bgdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21715/trunk/gdal/frmts/gsg/gs7bgdataset.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/11053/trunk/gdal/frmts/gsg/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/gsg/GNUmakefile
+END
+gsagdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21715/trunk/gdal/frmts/gsg/gsagdataset.cpp
+END
+gsbgdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21715/trunk/gdal/frmts/gsg/gsbgdataset.cpp
+END

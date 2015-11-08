@@ -1,0 +1,122 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+ * Copyright 2008-2014 Pelican Mapping
+ * http://osgearth.org
+ *
+ * osgEarth is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+#ifndef OSGEARTH_LOCATORS_H
+#define OSGEARTH_LOCATORS_H 1
+
+#include <osgEarth/Common>
+#include <osgEarth/GeoData>
+#include <osgTerrain/Locator>
+
+namespace osgEarth
+{
+    /**
+     * Locator that stores the extent of its source data (which might be different
+     * than the extent of the locator's transform). This locator can also automatically
+     * crop out a section of the source image.
+     */
+    class OSGEARTH_EXPORT GeoLocator : public osgTerrain::Locator
+    {
+    public:
+        GeoLocator();
+
+        GeoLocator( const GeoExtent& dataExtent );
+
+        GeoLocator( const osgTerrain::Locator& prototype, const GeoExtent& dataExtent );
+
+        /** Construct a locator that crops to a display extent. */
+        GeoLocator( const osgTerrain::Locator& prototype, const GeoExtent& dataExtent, const GeoExtent& displayExtent );
+
+        /** dtor */
+        virtual ~GeoLocator() { }
+
+        static GeoLocator* createForKey( const class TileKey& key, const class MapInfo& mapInfo );
+        static GeoLocator* createForExtent( const GeoExtent& extent, const class MapInfo& mapInfo);
+
+        GeoLocator* createSameTypeForKey(const class TileKey& key, const class MapInfo& mapInfo );
+        virtual GeoLocator* createSameTypeForExtent(const GeoExtent& extent, const class MapInfo& mapInfo);
+
+        void setDataExtent( const GeoExtent& extent );
+        const GeoExtent& getDataExtent() const;
+
+        virtual GeoLocator* getGeographicFromGeocentric() const;
+
+        virtual bool isEquivalentTo( const GeoLocator& rhs ) const;
+
+        // generates linear (evenly-spaced) coordinates
+        virtual bool isLinear() const { return true; }
+
+        virtual bool createScaleBiasMatrix(const GeoExtent& window, osg::Matrixd& out_m) const;
+
+    public: // better-sounding functions.
+
+        bool modelToUnit(const osg::Vec3d& model, osg::Vec3d& unit) const {
+            return convertModelToLocal(model, unit);
+        }
+        
+        bool unitToModel(const osg::Vec3d& unit, osg::Vec3d& model) const {
+            return convertLocalToModel(unit, model);
+        }
+        
+    public: // Locator
+        virtual bool convertModelToLocal(const osg::Vec3d& world, osg::Vec3d& local) const;
+
+    protected:
+        void cropLocal( osg::Vec3d& local ) const;
+
+        bool _inverseCalculated;
+
+    private:
+        GeoExtent _dataExtent;
+        double _x0, _y0, _x1, _y1;
+    };
+
+    
+    /**
+     * A terrain locator that generates texture coordinates that warp a Mercator image.
+     *
+     * Note: the MercatorLocator doesn't have a "cropping" variation b/c it automatically
+     * self-crops as necessary.
+     */
+    class OSGEARTH_EXPORT MercatorLocator : public GeoLocator
+    {
+    public:
+        MercatorLocator( const GeoExtent& dataExtent );
+
+        MercatorLocator( const osgTerrain::Locator& prototype, const GeoExtent& dataExtent );
+
+        //virtual bool convertLocalToModel(const osg::Vec3d& local, osg::Vec3d& model) const;
+        virtual bool convertModelToLocal(const osg::Vec3d& world, osg::Vec3d& local) const;
+
+        virtual GeoLocator* getGeographicFromGeocentric() const;
+
+        // does NOT generate linear coordinates
+        virtual bool isLinear() const { return false; }
+
+        // override.
+        virtual GeoLocator* createSameTypeForExtent(const GeoExtent& extent, const class MapInfo& mapInfo);
+
+    private:
+        GeoExtent _geoDataExtent;
+
+        void postInit();
+    };
+}
+
+#endif // OSGEARTH_LOCATORS_H

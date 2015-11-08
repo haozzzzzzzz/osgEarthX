@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/20997/trunk/gdal/frmts/netcdf
+END
+netcdfdataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/18931/trunk/gdal/frmts/netcdf/netcdfdataset.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/14875/trunk/gdal/frmts/netcdf/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/15888/trunk/gdal/frmts/netcdf/GNUmakefile
+END
+netcdfdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/20997/trunk/gdal/frmts/netcdf/netcdfdataset.cpp
+END
+frmt_netcdf.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/11075/trunk/gdal/frmts/netcdf/frmt_netcdf.html
+END
+gmtdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/17664/trunk/gdal/frmts/netcdf/gmtdataset.cpp
+END

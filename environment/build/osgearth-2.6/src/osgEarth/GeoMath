@@ -1,0 +1,237 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+ * Copyright 2008-2014 Pelican Mapping
+ * http://osgearth.org
+ *
+ * osgEarth is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+#ifndef OSGEARTH_GEOMATH_H
+#define OSGEARTH_GEOMATH_H 1
+
+#include <osgEarth/Common>
+#include <osgEarth/GeoCommon>
+#include <osgEarth/SpatialReference>
+#include <osg/CoordinateSystemNode>
+#include <osg/Plane>
+
+namespace osgEarth
+{
+    /**
+     * Useful calculations for lat/long points.
+     * Converted from http://www.movable-type.co.uk/scripts/latlong.html
+     */
+    class OSGEARTH_EXPORT GeoMath
+    {
+    public:
+        /**
+         *Computes the distance between the given points in meters using the Haversine formula
+         * @param lat1Rad
+         *    The start latitude in radians
+         * @param lon1Rad
+         *    The start longitude in radians
+         * @param lat2Rad
+         *    The end latitude in radians
+         * @param lon2Rad
+         *    The end longitude in radians
+         * @param radius
+         *    The radius of the earth in meters
+         * @returns
+         *    The distance between the two points in meters
+         */
+        static double distance(double lat1Rad, double lon1Rad,
+                               double lat2Rad, double lon2Rad,
+                               double radius = osg::WGS_84_RADIUS_EQUATOR);
+
+        /**
+         *Computes the distance covered by the given path in meters using the Haversine formula
+         *Assumes the points in Lon, Lat in degrees
+         */
+        static double distance(const std::vector< osg::Vec3d > &points, double radius = osg::WGS_84_RADIUS_EQUATOR);
+
+        /**
+         * Computes the distance between two points, in meters.
+         */
+        static double distance(const osg::Vec3d& p1, const osg::Vec3d& p2, const SpatialReference* srs);
+            
+
+        /**
+         * Computes the initial bearing from one point to the next in radians
+         * @param lat1Rad
+         *    The start latitude in radians
+         * @param lon1Rad
+         *    The start longitude in radians
+         * @param lat2Rad
+         *    The end latitude in radians
+         * @param lon2Rad
+         *    The end longitude in radians
+         * @returns
+         *    The initial bearing in radians
+         */
+        static double bearing(double lat1Rad, double lon1Rad,
+                              double lat2Rad, double lon2Rad);
+
+        /**
+         *Computes the midpoint between two points
+         * @param lat1Rad
+         *    The start latitude in radians
+         * @param lon1Rad
+         *    The start longitude in radians
+         * @param lat2Rad
+         *    The end latitude in radians
+         * @param lon2Rad
+         *    The end longitude in radians
+         * @param out_latRad
+         *    The latitude of the midpoint in radians
+         * @param out_lonRad
+         *    The longitude of the midpoint in radians
+         */
+        static void midpoint(double lat1Rad, double lon1Rad,
+            double lat2Rad, double lon2Rad,
+            double &out_latRad, double &out_lonRad);
+
+        /**
+         * Computes a great-circle interpolation from one lat/long to another,
+         * where t => [0..1].
+         */
+        static void interpolate(
+            double lat1Rad, double lon1Rad,
+            double lat2Rad, double lon2Rad,
+            double t,
+            double& out_latRad, double& out_lonRad );
+
+        /**
+         * Computes the destination point given a start point, a bearing and a distance
+         * @param lat1Rad
+         *    The latitude in radians
+         * @param lon1Rad
+         *    The longitude in radians
+         * @param bearingRad
+         *    The bearing in radians
+         * @param distance
+         *    The distance in meters
+         * @param out_latRad
+         *    The destination point's latitude in radians
+         * @param out_lonRad
+         *    The destination points' longitude in radians
+         * @param radius
+         *    The radius of the earth in meters
+         */
+        static void destination(double lat1Rad, double lon1Rad,
+                                double bearingRad, double distance,
+                                double &out_latRad, double &out_lonRad,
+                                double radius = osg::WGS_84_RADIUS_EQUATOR);
+
+        /**
+         * Calculates the minimum and maximum latitudes along a great circle
+         * between the two geodetic input points.
+         */
+        static void greatCircleMinMaxLatitude(
+            double lat1Rad, double lon1Rad,
+            double lat2Rad, double lon2Rad,
+            double& out_minLatRad, double& out_maxLatRad);
+
+
+        /**
+         * Computes the distance between two points in meters following a rhumb line
+         * @param lat1Rad
+         *   The start latitude in radians
+         * @param lon1Rad
+         *   The start longitude in radians
+         * @param lat2Rad
+         *   The end latitude in radians
+         * @param lon2Rad
+         *   The end longitude in radians
+         * @param radius
+         *    The radius of the earth in meters
+         * @returns
+         *   The distance between the two points in meters following a rhumb line
+         */
+        static double rhumbDistance(double lat1Rad, double lon1Rad,
+                                    double lat2Rad, double lon2Rad,
+                                    double radius = osg::WGS_84_RADIUS_EQUATOR);
+
+
+        /**
+        * Computes the distance between two points in meters following a rhumb line
+        * Assumes the points are in Lon, Lat in degrees
+        */
+        static double rhumbDistance(const std::vector< osg::Vec3d > &points, double radius = osg::WGS_84_RADIUS_EQUATOR);
+
+
+        /**
+         *Computes the bearing of the rhumb line between two points in radians
+         * @param lat1Rad
+         *    The start latitude in radians
+         * @param lon1Rad
+         *    The start longitude in radians
+         * @param lat2Rad
+         *    The end latitude in radians
+         * @param lon2Rad
+         *    The end longitude in radians
+         */
+        static double rhumbBearing(double lat1Rad, double lon1Rad,
+                                   double lat2Rad, double lon2Rad);
+
+         /** Computes the destination point given a start point, a bearing and a distance along a rhumb line
+         * @param lat1Rad
+         *    The latitude in radians
+         * @param lon1Rad
+         *    The longitude in radians
+         * @param bearingRad
+         *    The bearing in radians
+         * @param distance
+         *    The distance in meters
+         * @param out_latRad
+         *    The destination point's latitude in radians
+         * @param out_lonRad
+         *    The destination points' longitude in radians
+         * @param radius
+         *    The radius of the earth in meters
+         */
+        static void rhumbDestination(double lat1Rad, double lon1Rad,
+                                       double bearing, double distance,
+                                       double &out_latRad, double &out_lonRad,
+                                       double radius = osg::WGS_84_RADIUS_EQUATOR);
+
+
+        /**
+         * Computes the intersection(s) of a line with a sphere.
+         * Returns the number of intersections: 0, 1, or 2.
+         */
+        static unsigned interesectLineWithSphere(const osg::Vec3d& p0,
+                                                 const osg::Vec3d& p1,
+                                                 double            radius,
+                                                 osg::Vec3d&       out_i0,
+                                                 osg::Vec3d&       out_i1);
+        /**
+         * Computes the intersection(s) of a line with a plane.
+         * Returns the number of intersections: 0 or 1.
+         */
+        static unsigned intersectLineWithPlane(const osg::Vec3d& p0,
+                                               const osg::Vec3d& p1,
+                                               const osg::Plane& plane,
+                                               osg::Vec3d&       out_i0);
+
+        /**
+         * Whether the target point is visible from the eye point in a 
+         * spherical earth approximation with the given Radius.
+         */
+        static bool isPointVisible(const osg::Vec3d& eye,
+                                   const osg::Vec3d& target,
+                                   double radius = osg::WGS_84_RADIUS_EQUATOR);
+    };
+};
+
+#endif

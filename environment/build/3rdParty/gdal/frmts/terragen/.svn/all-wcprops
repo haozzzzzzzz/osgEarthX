@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/21680/trunk/gdal/frmts/terragen
+END
+frmt_terragen.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/11619/trunk/gdal/frmts/terragen/frmt_terragen.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/12258/trunk/gdal/frmts/terragen/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/15888/trunk/gdal/frmts/terragen/GNUmakefile
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/11618/trunk/gdal/frmts/terragen/readme.txt
+END
+terragendataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21680/trunk/gdal/frmts/terragen/terragendataset.cpp
+END

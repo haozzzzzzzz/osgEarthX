@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/port
+END
+win32_mutex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/port/win32_mutex.cpp
+END
+io_stdio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/port/io_stdio.cpp
+END
+io_win32.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/port/io_win32.cpp
+END
+pthread_mutex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/port/pthread_mutex.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/port/Makefile
+END

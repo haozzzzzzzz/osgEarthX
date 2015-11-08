@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21875/trunk/gdal/swig/include/perl
+END
+destroy.i
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/15049/trunk/gdal/swig/include/perl/destroy.i
+END
+gdal_perl.i
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21580/trunk/gdal/swig/include/perl/gdal_perl.i
+END
+ogr_perl.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21875/trunk/gdal/swig/include/perl/ogr_perl.i
+END
+typemaps_perl.i
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/20799/trunk/gdal/swig/include/perl/typemaps_perl.i
+END
+osr_perl.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/18794/trunk/gdal/swig/include/perl/osr_perl.i
+END

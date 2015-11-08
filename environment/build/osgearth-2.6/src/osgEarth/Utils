@@ -1,0 +1,208 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+#ifndef OSGEARTH_UTILS_H
+#define OSGEARTH_UTILS_H 1
+
+#include <osgEarth/Common>
+#include <osgEarth/StringUtils>
+
+#include <osg/Vec3f>
+#include <osg/AutoTransform>
+#include <osgGA/GUIEventHandler>
+#include <osgViewer/View>
+#include <osgUtil/CullVisitor>
+#include <osgUtil/RenderBin>
+
+#include <string>
+#include <list>
+#include <map>
+
+namespace osg
+{
+    class EllipsoidModel;
+}
+
+namespace osgEarth
+{    
+    //------------------------------------------------------------------------
+
+    struct Utils
+    {
+        /**
+         * Clamps v to [vmin..vmax], then remaps its range to [r0..r1]. 
+         */
+        static double remap( double v, double vmin, double vmax, double r0, double r1 )
+        {
+            float vr = (osg::clampBetween(v, vmin, vmax)-vmin)/(vmax-vmin);
+            return r0 + vr * (r1-r0);
+        }
+        
+
+        // Polyfill
+        static const osg::BoundingBox& getBoundingBox(const osg::Drawable* d) {
+#if OSG_VERSION_GREATER_THAN(3,3,1)
+            return d->getBoundingBox();
+#else
+            return d->getBound();
+#endif
+        }
+    };
+
+    /**
+     * Removes the given event handler from the view.
+     * This is the equivalent of osgViewer::View::removeEventHandler which is not available
+     * in older versions of OSG
+     */
+    extern OSGEARTH_EXPORT void removeEventHandler(osgViewer::View* view, osgGA::GUIEventHandler* handler);
+
+    // utility: functor for traversing a target node
+    template<typename T> struct TraverseFunctor {
+        T* _target;
+        TraverseFunctor(T* target) : _target(target) { }
+        void operator()(osg::NodeVisitor& nv) { _target->T::traverse(nv); }
+    };
+
+    // utility: node that traverses another node via a functor
+    template<typename T>
+    struct TraverseNode : public osg::Node {
+        TraverseFunctor<T> _tf;
+        TraverseNode(TraverseFunctor<T>& tf) : _tf(tf) { }
+        TraverseNode(T* target) : _tf(TraverseFunctor<T>(target)) { }
+        void traverse(osg::NodeVisitor& nv) { _tf(nv); }
+        osg::BoundingSphere computeBound() const { return _tf._target->getBound(); }
+    };
+
+    // utility: cull callback that traverses another node
+    struct TraverseNodeCallback : public osg::NodeCallback {
+        osg::ref_ptr<osg::Node> _node;
+        TraverseNodeCallback(osg::Node* node) : _node(node) { }
+        void operator()(osg::Node* node, osg::NodeVisitor* nv) {
+            _node->accept(*nv);
+            traverse(node, nv);
+        }
+    };
+
+    /**
+     * A pixel-based AutoTransform variant.
+     */
+    class OSGEARTH_EXPORT PixelAutoTransform : public osg::AutoTransform
+    {
+    public:
+        PixelAutoTransform();
+
+        /** 
+         * Sets the minimim width of the object, in pixels, when the scale
+         * factor is 1.0.
+         */
+        void setMinPixelWidthAtScaleOne( double pixels ) { _minPixels = pixels; }
+
+        /**
+         * Sets the node to use to calculate the screen size. If this is NULL,
+         * it will use the size of the first child node.
+         */
+        void setSizingNode( osg::Node* node ) { _sizingNode = node; dirty(); }
+
+        /**
+         * Forces a recalculation of the autoscale on the next traversal
+         * (this usually doesn't happen unless the camera moves)
+         */
+        void dirty();
+
+        /**
+         * Set up the transform to orient the node based on a 2D screen-space
+         * rotation.
+         */
+        void setRotateInScreenSpace(bool value) { _rotateInScreenSpace = value; }
+        bool getRotateInScreenSpace() const { return _rotateInScreenSpace; }
+        
+        /**
+         * If setRotateInScreenSpace is true, this is the value of the 2D rotation
+         * in radians.
+         */
+        void setScreenSpaceRotation(double radians) { _screenSpaceRotationRadians = radians; }
+        double getScreenSpaceRotation() const { return _screenSpaceRotationRadians; }
+
+    public: // override
+        virtual void accept( osg::NodeVisitor& nv );
+
+    protected:
+        double _minPixels;
+        bool   _dirty;
+        bool   _rotateInScreenSpace;
+        double _screenSpaceRotationRadians;
+        osg::observer_ptr<osg::Node> _sizingNode;
+    };
+
+    /**
+     * Proxy class that registers a custom render bin's prototype with the
+     * rendering system
+     */
+    template<class T>
+    struct osgEarthRegisterRenderBinProxy
+    {
+        osgEarthRegisterRenderBinProxy(const std::string& name)
+        {
+            _prototype = new T();
+            osgUtil::RenderBin::addRenderBinPrototype(name, _prototype.get());
+        }
+
+        ~osgEarthRegisterRenderBinProxy()
+        {
+            osgUtil::RenderBin::removeRenderBinPrototype(_prototype.get());
+            _prototype = 0L;
+        }
+
+        osg::ref_ptr<T> _prototype;
+    };
+
+    /**
+     * Shim to apply vertex cache optimizations to geometry when it's legal.
+     * This is really only here to work around an OSG bug in the VertexAccessOrder
+     * optimizer, which corrupts non-Triangle geometries.
+     */
+    struct OSGEARTH_EXPORT VertexCacheOptimizer : public osg::NodeVisitor
+    {
+        VertexCacheOptimizer();
+        virtual ~VertexCacheOptimizer() { }
+        void apply( osg::Geode& node );
+    };
+
+    /**
+     * Sets the data variance on all discovered drawables.
+     */
+    struct OSGEARTH_EXPORT SetDataVarianceVisitor : public osg::NodeVisitor
+    {
+        SetDataVarianceVisitor(osg::Object::DataVariance value);
+        virtual ~SetDataVarianceVisitor() { }
+        void apply( osg::Geode& node );
+        osg::Object::DataVariance _value;
+    };
+
+    /**
+     * Scans geometry and validates that it's set up properly.
+     */    
+    struct OSGEARTH_EXPORT GeometryValidator : public osg::NodeVisitor
+    {
+        GeometryValidator();
+        void apply(osg::Geode& geode);
+        void apply(osg::Geometry& geom);
+    };
+}
+
+#endif // OSGEARTH_UTILS_H

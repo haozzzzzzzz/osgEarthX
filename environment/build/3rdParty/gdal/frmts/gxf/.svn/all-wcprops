@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21085/trunk/gdal/frmts/gxf
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gxf/Makefile.in
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gxf/Doxyfile
+END
+gxf_ogcwkt.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/16107/trunk/gdal/frmts/gxf/gxf_ogcwkt.c
+END
+gxf_proj4.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10645/trunk/gdal/frmts/gxf/gxf_proj4.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gxf/makefile.vc
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gxf/configure.in
+END
+makefile.vc.dist
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gxf/makefile.vc.dist
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/gxf/GNUmakefile
+END
+gxfopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/19867/trunk/gdal/frmts/gxf/gxfopen.c
+END
+gxfdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21085/trunk/gdal/frmts/gxf/gxfdataset.cpp
+END
+gxfopen.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/10645/trunk/gdal/frmts/gxf/gxfopen.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gxf/README
+END
+gxf.dox
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gxf/gxf.dox
+END

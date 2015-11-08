@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gdal/!svn/ver/20170/trunk/gdal/swig/csharp
+END
+AssemblyInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/19599/trunk/gdal/swig/csharp/AssemblyInfo.cs
+END
+csharp.opt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/13439/trunk/gdal/swig/csharp/csharp.opt
+END
+gdal.snk
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/13646/trunk/gdal/swig/csharp/gdal.snk
+END
+mkinterface.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10899/trunk/gdal/swig/csharp/mkinterface.sh
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/20170/trunk/gdal/swig/csharp/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/18705/trunk/gdal/swig/csharp/GNUmakefile
+END

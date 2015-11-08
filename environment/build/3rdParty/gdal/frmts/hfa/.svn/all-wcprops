@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21883/trunk/gdal/frmts/hfa
+END
+hfatest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/18624/trunk/gdal/frmts/hfa/hfatest.cpp
+END
+hfatype.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/18895/trunk/gdal/frmts/hfa/hfatype.cpp
+END
+hfafield.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21680/trunk/gdal/frmts/hfa/hfafield.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/18645/trunk/gdal/frmts/hfa/makefile.vc
+END
+hfa.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21687/trunk/gdal/frmts/hfa/hfa.h
+END
+hfadataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21883/trunk/gdal/frmts/hfa/hfadataset.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/16045/trunk/gdal/frmts/hfa/GNUmakefile
+END
+hfa_overviews.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/18859/trunk/gdal/frmts/hfa/hfa_overviews.cpp
+END
+frmt_hfa.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/17162/trunk/gdal/frmts/hfa/frmt_hfa.html
+END
+hfacompress.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21680/trunk/gdal/frmts/hfa/hfacompress.cpp
+END
+hfaopen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21870/trunk/gdal/frmts/hfa/hfaopen.cpp
+END
+hfaentry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21476/trunk/gdal/frmts/hfa/hfaentry.cpp
+END
+TODO_Projections.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21718/trunk/gdal/frmts/hfa/TODO_Projections.txt
+END
+hfa_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21476/trunk/gdal/frmts/hfa/hfa_p.h
+END
+hfaband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21671/trunk/gdal/frmts/hfa/hfaband.cpp
+END
+hfadictionary.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21184/trunk/gdal/frmts/hfa/hfadictionary.cpp
+END

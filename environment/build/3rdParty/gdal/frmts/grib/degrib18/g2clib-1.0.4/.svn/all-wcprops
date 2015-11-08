@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21819/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4
+END
+g2_unpack5.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_unpack5.c
+END
+g2_unpack6.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_unpack6.c
+END
+g2_unpack7.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_unpack7.c
+END
+g2_miss.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_miss.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/21680/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/makefile.vc
+END
+pack_gp.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/pack_gp.c
+END
+int_power.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/int_power.c
+END
+getdim.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/getdim.c
+END
+enc_png.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/enc_png.c
+END
+g2_free.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_free.c
+END
+misspack.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/misspack.c
+END
+jpcpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/jpcpack.c
+END
+jpcunpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/jpcunpack.c
+END
+cmplxpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/cmplxpack.c
+END
+g2_info.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_info.c
+END
+pngpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/pngpack.c
+END
+g2_addgrid.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_addgrid.c
+END
+pngunpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/pngunpack.c
+END
+g2_addlocal.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_addlocal.c
+END
+g2_getfld.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_getfld.c
+END
+dec_png.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/dec_png.c
+END
+mkieee.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/mkieee.c
+END
+seekgb.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/seekgb.c
+END
+g2_gribend.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_gribend.c
+END
+dec_jpeg2000.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/gdal/!svn/ver/21819/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/dec_jpeg2000.cpp
+END
+gridtemplates.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/gridtemplates.c
+END
+pdstemplates.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/pdstemplates.c
+END
+drstemplates.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/drstemplates.c
+END
+reduce.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/reduce.c
+END
+gbits.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/gbits.c
+END
+gridtemplates.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/gridtemplates.h
+END
+grib2.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/grib2.h
+END
+pdstemplates.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/pdstemplates.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/README
+END
+drstemplates.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/drstemplates.h
+END
+enc_jpeg2000.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/enc_jpeg2000.c
+END
+compack.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/compack.c
+END
+comunpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/comunpack.c
+END
+getpoly.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/getpoly.c
+END
+g2_addfield.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_addfield.c
+END
+simpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/simpack.c
+END
+specpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/specpack.c
+END
+g2_unpack1.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_unpack1.c
+END
+simunpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/simunpack.c
+END
+grib2c.doc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/grib2c.doc
+END
+g2_unpack2.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_unpack2.c
+END
+g2_create.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_create.c
+END
+g2_unpack3.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_unpack3.c
+END
+specunpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/specunpack.c
+END
+g2_unpack4.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/g2_unpack4.c
+END
+rdieee.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/g2clib-1.0.4/rdieee.c
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/gdal/!svn/ver/10966/trunk/gdal/vb6
+END
+GDALDriver.cls
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/10609/trunk/gdal/vb6/GDALDriver.cls
+END
+GDALCore.bas
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/10609/trunk/gdal/vb6/GDALCore.bas
+END
+OGRSpatialReference.cls
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/10609/trunk/gdal/vb6/OGRSpatialReference.cls
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/10609/trunk/gdal/vb6/makefile.vc
+END
+OGRCoordinateTransformation.cls
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/10609/trunk/gdal/vb6/OGRCoordinateTransformation.cls
+END
+vb6_support.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/10645/trunk/gdal/vb6/vb6_support.cpp
+END
+GDAL.bas
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/10609/trunk/gdal/vb6/GDAL.bas
+END
+README.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/10609/trunk/gdal/vb6/README.TXT
+END
+GDALDataset.cls
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/10609/trunk/gdal/vb6/GDALDataset.cls
+END
+GDALRasterBand.cls
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10609/trunk/gdal/vb6/GDALRasterBand.cls
+END
+GDALColorTable.cls
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10609/trunk/gdal/vb6/GDALColorTable.cls
+END

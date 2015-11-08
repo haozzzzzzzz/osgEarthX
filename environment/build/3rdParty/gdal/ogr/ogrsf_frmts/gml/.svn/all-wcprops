@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21755/trunk/gdal/ogr/ogrsf_frmts/gml
+END
+parsexsd.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/20341/trunk/gdal/ogr/ogrsf_frmts/gml/parsexsd.h
+END
+gmlutils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21599/trunk/gdal/ogr/ogrsf_frmts/gml/gmlutils.cpp
+END
+ogrgmldatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/gml/ogrgmldatasource.cpp
+END
+gmlreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21390/trunk/gdal/ogr/ogrsf_frmts/gml/gmlreader.cpp
+END
+ogrgmldriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/gml/ogrgmldriver.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20247/trunk/gdal/ogr/ogrsf_frmts/gml/makefile.vc
+END
+gmlutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21272/trunk/gdal/ogr/ogrsf_frmts/gml/gmlutils.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20247/trunk/gdal/ogr/ogrsf_frmts/gml/GNUmakefile
+END
+gmlreader.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21390/trunk/gdal/ogr/ogrsf_frmts/gml/gmlreader.h
+END
+resolvexlinks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/21298/trunk/gdal/ogr/ogrsf_frmts/gml/resolvexlinks.cpp
+END
+gmlreadstate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/gml/gmlreadstate.cpp
+END
+drv_gml.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21383/trunk/gdal/ogr/ogrsf_frmts/gml/drv_gml.html
+END
+trstring.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21755/trunk/gdal/ogr/ogrsf_frmts/gml/trstring.cpp
+END
+gmlhandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21390/trunk/gdal/ogr/ogrsf_frmts/gml/gmlhandler.cpp
+END
+gmlpropertydefn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21202/trunk/gdal/ogr/ogrsf_frmts/gml/gmlpropertydefn.cpp
+END
+gmlfeatureclass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20422/trunk/gdal/ogr/ogrsf_frmts/gml/gmlfeatureclass.cpp
+END
+ogrgmllayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21390/trunk/gdal/ogr/ogrsf_frmts/gml/ogrgmllayer.cpp
+END
+gmlreaderp.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21390/trunk/gdal/ogr/ogrsf_frmts/gml/gmlreaderp.h
+END
+parsexsd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/20428/trunk/gdal/ogr/ogrsf_frmts/gml/parsexsd.cpp
+END
+ogr_gml.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21383/trunk/gdal/ogr/ogrsf_frmts/gml/ogr_gml.h
+END
+gmlfeature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/20247/trunk/gdal/ogr/ogrsf_frmts/gml/gmlfeature.cpp
+END

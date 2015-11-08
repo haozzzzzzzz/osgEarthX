@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/21778/trunk/gdal/frmts/jp2kak
+END
+subfile_source.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21778/trunk/gdal/frmts/jp2kak/subfile_source.h
+END
+jp2kak.lst
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/19256/trunk/gdal/frmts/jp2kak/jp2kak.lst
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/19163/trunk/gdal/frmts/jp2kak/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/15888/trunk/gdal/frmts/jp2kak/GNUmakefile
+END
+jp2kakdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21778/trunk/gdal/frmts/jp2kak/jp2kakdataset.cpp
+END
+vsil_target.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21778/trunk/gdal/frmts/jp2kak/vsil_target.h
+END
+frmt_jp2kak.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/17933/trunk/gdal/frmts/jp2kak/frmt_jp2kak.html
+END

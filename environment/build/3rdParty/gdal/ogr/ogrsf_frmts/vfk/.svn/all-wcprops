@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/vfk
+END
+vfkreader.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/18566/trunk/gdal/ogr/ogrsf_frmts/vfk/vfkreader.h
+END
+vfkreaderp.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18483/trunk/gdal/ogr/ogrsf_frmts/vfk/vfkreaderp.h
+END
+ogr_vfk.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/18483/trunk/gdal/ogr/ogrsf_frmts/vfk/ogr_vfk.h
+END
+vfkfeature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/vfk/vfkfeature.cpp
+END
+drv_vfk.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18478/trunk/gdal/ogr/ogrsf_frmts/vfk/drv_vfk.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/18453/trunk/gdal/ogr/ogrsf_frmts/vfk/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/18451/trunk/gdal/ogr/ogrsf_frmts/vfk/GNUmakefile
+END
+vfkpropertydefn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/18452/trunk/gdal/ogr/ogrsf_frmts/vfk/vfkpropertydefn.cpp
+END
+ogrvfkdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/18529/trunk/gdal/ogr/ogrsf_frmts/vfk/ogrvfkdatasource.cpp
+END
+vfkreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/18566/trunk/gdal/ogr/ogrsf_frmts/vfk/vfkreader.cpp
+END
+ogrvfkdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/18452/trunk/gdal/ogr/ogrsf_frmts/vfk/ogrvfkdriver.cpp
+END
+ogrvfklayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/18529/trunk/gdal/ogr/ogrsf_frmts/vfk/ogrvfklayer.cpp
+END
+vfkdatablock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/20142/trunk/gdal/ogr/ogrsf_frmts/vfk/vfkdatablock.cpp
+END
+vfkproperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/18566/trunk/gdal/ogr/ogrsf_frmts/vfk/vfkproperty.cpp
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21930/trunk/gdal/frmts/ozi
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21249/trunk/gdal/frmts/ozi/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21249/trunk/gdal/frmts/ozi/GNUmakefile
+END
+ozidataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21930/trunk/gdal/frmts/ozi/ozidataset.cpp
+END
+frmt_ozi.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21249/trunk/gdal/frmts/ozi/frmt_ozi.html
+END

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gdal/!svn/ver/22001/trunk/gdal/frmts/gtiff
+END
+gt_overview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21799/trunk/gdal/frmts/gtiff/gt_overview.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15993/trunk/gdal/frmts/gtiff/makefile.vc
+END
+gtiff.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21288/trunk/gdal/frmts/gtiff/gtiff.h
+END
+gt_citation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21848/trunk/gdal/frmts/gtiff/gt_citation.cpp
+END
+tifvsi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21102/trunk/gdal/frmts/gtiff/tifvsi.cpp
+END
+gt_overview.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/18813/trunk/gdal/frmts/gtiff/gt_overview.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15993/trunk/gdal/frmts/gtiff/GNUmakefile
+END
+tif_float.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21102/trunk/gdal/frmts/gtiff/tif_float.c
+END
+gt_citation.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21929/trunk/gdal/frmts/gtiff/gt_citation.h
+END
+frmt_gtiff.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21962/trunk/gdal/frmts/gtiff/frmt_gtiff.html
+END
+tifvsi.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21102/trunk/gdal/frmts/gtiff/tifvsi.h
+END
+tif_float.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21102/trunk/gdal/frmts/gtiff/tif_float.h
+END
+geotiff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/22001/trunk/gdal/frmts/gtiff/geotiff.cpp
+END
+gt_wkt_srs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21929/trunk/gdal/frmts/gtiff/gt_wkt_srs.cpp
+END
+gt_wkt_srs_for_gdal.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21595/trunk/gdal/frmts/gtiff/gt_wkt_srs_for_gdal.h
+END
+gt_wkt_srs.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21929/trunk/gdal/frmts/gtiff/gt_wkt_srs.h
+END

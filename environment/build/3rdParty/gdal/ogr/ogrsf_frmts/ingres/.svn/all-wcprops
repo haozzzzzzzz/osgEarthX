@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/19516/trunk/gdal/ogr/ogrsf_frmts/ingres
+END
+ogr_ingres.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/19509/trunk/gdal/ogr/ogrsf_frmts/ingres/ogr_ingres.h
+END
+drv_ingres.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/14468/trunk/gdal/ogr/ogrsf_frmts/ingres/drv_ingres.html
+END
+ingres.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/14228/trunk/gdal/ogr/ogrsf_frmts/ingres/ingres.txt
+END
+ogringresstatement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/19509/trunk/gdal/ogr/ogrsf_frmts/ingres/ogringresstatement.cpp
+END
+ogringrestablelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/19516/trunk/gdal/ogr/ogrsf_frmts/ingres/ogringrestablelayer.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/ingres/GNUmakefile
+END
+testdata.sql
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/14228/trunk/gdal/ogr/ogrsf_frmts/ingres/testdata.sql
+END
+ogringresdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/19516/trunk/gdal/ogr/ogrsf_frmts/ingres/ogringresdatasource.cpp
+END
+ogringresdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/15463/trunk/gdal/ogr/ogrsf_frmts/ingres/ogringresdriver.cpp
+END
+ogringresresultlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/13914/trunk/gdal/ogr/ogrsf_frmts/ingres/ogringresresultlayer.cpp
+END
+ogringreslayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/19509/trunk/gdal/ogr/ogrsf_frmts/ingres/ogringreslayer.cpp
+END

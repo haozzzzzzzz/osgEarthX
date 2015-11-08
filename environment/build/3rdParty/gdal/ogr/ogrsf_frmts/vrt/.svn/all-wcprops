@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21642/trunk/gdal/ogr/ogrsf_frmts/vrt
+END
+ogrvrtdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21642/trunk/gdal/ogr/ogrsf_frmts/vrt/ogrvrtdatasource.cpp
+END
+ogrvrtdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/21642/trunk/gdal/ogr/ogrsf_frmts/vrt/ogrvrtdriver.cpp
+END
+ogrvrtlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21642/trunk/gdal/ogr/ogrsf_frmts/vrt/ogrvrtlayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/vrt/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/17508/trunk/gdal/ogr/ogrsf_frmts/vrt/GNUmakefile
+END
+ogr_vrt.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21642/trunk/gdal/ogr/ogrsf_frmts/vrt/ogr_vrt.h
+END
+drv_vrt.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/17729/trunk/gdal/ogr/ogrsf_frmts/vrt/drv_vrt.html
+END

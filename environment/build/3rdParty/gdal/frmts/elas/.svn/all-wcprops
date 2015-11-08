@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/16396/trunk/gdal/frmts/elas
+END
+frmt_elas.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/12947/trunk/gdal/frmts/elas/frmt_elas.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10609/trunk/gdal/frmts/elas/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/15888/trunk/gdal/frmts/elas/GNUmakefile
+END
+elasdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/16396/trunk/gdal/frmts/elas/elasdataset.cpp
+END

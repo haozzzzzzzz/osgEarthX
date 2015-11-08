@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21654/trunk/gdal/ogr/ogrsf_frmts/ogdi
+END
+drv_ogdi.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21654/trunk/gdal/ogr/ogrsf_frmts/ogdi/drv_ogdi.html
+END
+ogrogdi.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/20207/trunk/gdal/ogr/ogrsf_frmts/ogdi/ogrogdi.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/ogdi/makefile.vc
+END
+ogrogdidatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/19711/trunk/gdal/ogr/ogrsf_frmts/ogdi/ogrogdidatasource.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18499/trunk/gdal/ogr/ogrsf_frmts/ogdi/GNUmakefile
+END
+ogrogdidriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/16861/trunk/gdal/ogr/ogrsf_frmts/ogdi/ogrogdidriver.cpp
+END
+ogrogdilayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/20207/trunk/gdal/ogr/ogrsf_frmts/ogdi/ogrogdilayer.cpp
+END

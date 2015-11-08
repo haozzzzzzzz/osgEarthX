@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 51
+*.lo
+*.so
+*.obj
+*.o
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.libs
+
+END

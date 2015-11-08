@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21955/trunk/gdal/frmts/nitf
+END
+nitf_gcprpc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21951/trunk/gdal/frmts/nitf/nitf_gcprpc.cpp
+END
+frmt_nitf_advanced.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21955/trunk/gdal/frmts/nitf/frmt_nitf_advanced.html
+END
+nitffile.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21542/trunk/gdal/frmts/nitf/nitffile.c
+END
+nitfaridpcm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21680/trunk/gdal/frmts/nitf/nitfaridpcm.cpp
+END
+nitfimage.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21936/trunk/gdal/frmts/nitf/nitfimage.c
+END
+nitfbilevel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/16416/trunk/gdal/frmts/nitf/nitfbilevel.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21947/trunk/gdal/frmts/nitf/makefile.vc
+END
+rpftocdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/20996/trunk/gdal/frmts/nitf/rpftocdataset.cpp
+END
+nitfdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21955/trunk/gdal/frmts/nitf/nitfdataset.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21947/trunk/gdal/frmts/nitf/GNUmakefile
+END
+nitfrasterband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21951/trunk/gdal/frmts/nitf/nitfrasterband.cpp
+END
+mgrs.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/10645/trunk/gdal/frmts/nitf/mgrs.c
+END
+frmt_nitf.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20708/trunk/gdal/frmts/nitf/frmt_nitf.html
+END
+nitfdataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21955/trunk/gdal/frmts/nitf/nitfdataset.h
+END
+mgrs.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/10645/trunk/gdal/frmts/nitf/mgrs.h
+END
+nitfwritejpeg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21951/trunk/gdal/frmts/nitf/nitfwritejpeg.cpp
+END
+nitfwritejpeg_12.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21951/trunk/gdal/frmts/nitf/nitfwritejpeg_12.cpp
+END
+nitfdump.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21182/trunk/gdal/frmts/nitf/nitfdump.c
+END
+rpftoclib.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21951/trunk/gdal/frmts/nitf/rpftoclib.h
+END
+nitflib.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21935/trunk/gdal/frmts/nitf/nitflib.h
+END
+nitfdes.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/20996/trunk/gdal/frmts/nitf/nitfdes.c
+END
+rpftocfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20996/trunk/gdal/frmts/nitf/rpftocfile.cpp
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gdal/!svn/ver/22006/trunk/gdal/frmts/mrsid
+END
+mrsidstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/16078/trunk/gdal/frmts/mrsid/mrsidstream.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21465/trunk/gdal/frmts/mrsid/makefile.vc
+END
+frmt_jp2mrsid.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/10609/trunk/gdal/frmts/mrsid/frmt_jp2mrsid.html
+END
+mrsiddataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/22006/trunk/gdal/frmts/mrsid/mrsiddataset.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15888/trunk/gdal/frmts/mrsid/GNUmakefile
+END
+frmt_mrsid.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/10609/trunk/gdal/frmts/mrsid/frmt_mrsid.html
+END
+mrsidstream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/20996/trunk/gdal/frmts/mrsid/mrsidstream.cpp
+END
+nmake.opt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21489/trunk/gdal/frmts/mrsid/nmake.opt
+END

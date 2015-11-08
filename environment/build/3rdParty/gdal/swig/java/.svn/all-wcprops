@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/22000/trunk/gdal/swig/java
+END
+gdalconst-package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/16514/trunk/gdal/swig/java/gdalconst-package-info.java
+END
+add_javadoc.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/18017/trunk/gdal/swig/java/add_javadoc.c
+END
+java.opt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/19901/trunk/gdal/swig/java/java.opt
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20988/trunk/gdal/swig/java/makefile.vc
+END
+osr-package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/16549/trunk/gdal/swig/java/osr-package-info.java
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20975/trunk/gdal/swig/java/GNUmakefile
+END
+javadoc.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/22000/trunk/gdal/swig/java/javadoc.java
+END
+ogr-package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/16522/trunk/gdal/swig/java/ogr-package-info.java
+END
+gdal-package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/16492/trunk/gdal/swig/java/gdal-package-info.java
+END
+overview.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/18869/trunk/gdal/swig/java/overview.html
+END
+make_doc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/20561/trunk/gdal/swig/java/make_doc.sh
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/19911/trunk/gdal/swig/java/build.xml
+END

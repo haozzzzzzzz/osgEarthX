@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/gtm
+END
+gtmwaypointlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/gtm/gtmwaypointlayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/17588/trunk/gdal/ogr/ogrsf_frmts/gtm/makefile.vc
+END
+ogr_gtm.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/gtm/ogr_gtm.h
+END
+drv_gtm.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/17609/trunk/gdal/ogr/ogrsf_frmts/gtm/drv_gtm.html
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/17588/trunk/gdal/ogr/ogrsf_frmts/gtm/GNUmakefile
+END
+gtm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/gtm/gtm.cpp
+END
+gtmtracklayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/gtm/gtmtracklayer.cpp
+END
+ogrgtmdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/gtm/ogrgtmdatasource.cpp
+END
+ogrgtmdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/17588/trunk/gdal/ogr/ogrsf_frmts/gtm/ogrgtmdriver.cpp
+END
+gtm.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/gtm/gtm.h
+END
+ogrgtmlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/17588/trunk/gdal/ogr/ogrsf_frmts/gtm/ogrgtmlayer.cpp
+END

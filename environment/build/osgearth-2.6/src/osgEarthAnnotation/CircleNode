@@ -1,0 +1,167 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+
+#ifndef OSGEARTH_ANNOTATION_CIRCLE_NODE_H
+#define OSGEARTH_ANNOTATION_CIRCLE_NODE_H 1
+
+#include <osgEarthAnnotation/LocalizedNode>
+#include <osgEarthSymbology/Style>
+#include <osgEarth/MapNode>
+#include <osgEarth/Units>
+
+namespace osgEarth { namespace Annotation
+{	
+    using namespace osgEarth;
+    using namespace osgEarth::Symbology;
+
+    /**
+     * Circle annotation.
+     */
+    class OSGEARTHANNO_EXPORT CircleNode : public LocalizedNode
+    {
+		//$$$
+	public:
+		CircleNode();
+		virtual void initMapNode( MapNode* pMapNode );
+
+    public:
+        META_AnnotationNode( osgEarthAnnotation, CircleNode );
+
+        /**
+         * Constructs a new circle annotation.
+         *
+         * @param mapNode     Map on which the circle will appear
+         * @param position    Location of the annotation, in map coordinates
+         * @param radius      Circle radius
+         * @param style       Style defining how the annotation will look
+         * @param arcStart    Optional start of arc (default to 0.0 degrees)
+         * @param arcStop     Optional end of arc (default to 360.0 degrees)
+         * @param pie         Optionally make pie shape instead of arc
+         */
+        CircleNode(
+            MapNode*          mapNode,
+            const GeoPoint&   position,
+            const Distance&   radius,
+            const Style&      style,
+            const Angle&      arcStart = Angle(0.0, Units::DEGREES),
+            const Angle&      arcEnd = Angle(360.0, Units::DEGREES),
+            const bool        pie = false);
+
+        /**
+         * Constructs a circle node from its serialized form
+         */
+        CircleNode(
+            MapNode*              mapNode,
+            const Config&         conf,
+            const osgDB::Options* dbOptions);
+
+
+        virtual ~CircleNode() { }
+
+
+        /**
+         * Gets the radius
+         */
+        const Distance& getRadius() const;
+
+        /*
+         * Sets the radius of the circle
+         */
+        void setRadius(const Distance& radius);
+
+        /**
+         * Gets the number of segments of this circle
+         */
+        unsigned int getNumSegments() const;
+
+        /**
+         * Sets the number of segments of this circle
+         */
+        void setNumSegments(unsigned int numSegments );
+
+        /**
+         * Gets the style of this circle
+         */
+        const Style& getStyle() const;
+
+        /**
+         * Sets the style of this circle
+         */
+        void setStyle( const Style& style );
+
+        /**
+         * Gets the start degrees of this (arc) circle
+         */
+        const Angle& getArcStart(void) const;
+
+        /**
+         * Sets the start degrees of this (arc) circle
+         */
+        void setArcStart(const Angle& arcStart);
+
+        /**
+         * Gets the end degrees of this (arc) circle
+         */
+        const Angle& getArcEnd(void) const;
+
+        /**
+         * Sets the end degrees of this (arc) circle
+         */
+        void setArcEnd(const Angle& arcEnd);
+
+        /**
+         * Gets the pie flag
+         */
+        const bool& getPie(void) const;
+
+        /**
+         * Sets the pie flag
+         */
+        void setPie(const bool& pie);
+
+    public: // LocalizedNode
+
+        osg::MatrixTransform* getTransform() { return _xform.get(); }
+
+
+    public: // AnnotationNode overrides
+
+        virtual Config getConfig() const;
+
+
+    private:
+        //CircleNode() { }//$$$×¢ÊÍ
+        CircleNode(const CircleNode& rhs, const osg::CopyOp& op) { }
+
+        void rebuild();
+
+        Style           _style;
+        bool            _draped;
+        unsigned        _numSegments;
+        Distance        _radius;
+        Angle          _arcStart;
+        Angle          _arcEnd;
+        bool           _pie;
+
+        osg::ref_ptr<osg::MatrixTransform> _xform;
+    };
+
+} } // namespace osgEarth::Annotation
+
+#endif // OSGEARTH_ANNOTATION_CIRCLE_NODE_H

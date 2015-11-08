@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/dgn
+END
+dgnfloat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/dgn/dgnfloat.cpp
+END
+dgndump.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/dgn/dgndump.c
+END
+dgnstroke.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/18382/trunk/gdal/ogr/ogrsf_frmts/dgn/dgnstroke.cpp
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dgn/Doxyfile
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dgn/makefile.vc
+END
+dgnread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/dgn/dgnread.cpp
+END
+dgnlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/dgn/dgnlib.h
+END
+drv_dgn.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/dgn/drv_dgn.html
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/dgn/GNUmakefile
+END
+ogrdgnlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/14288/trunk/gdal/ogr/ogrsf_frmts/dgn/ogrdgnlayer.cpp
+END
+dgnhelp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15591/trunk/gdal/ogr/ogrsf_frmts/dgn/dgnhelp.cpp
+END
+dgnwritetest.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/dgn/dgnwritetest.c
+END
+dgnwrite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/19572/trunk/gdal/ogr/ogrsf_frmts/dgn/dgnwrite.cpp
+END
+ogr_dgn.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/15583/trunk/gdal/ogr/ogrsf_frmts/dgn/ogr_dgn.h
+END
+dgnlibp.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/dgn/dgnlibp.h
+END
+dgnopen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/dgn/dgnopen.cpp
+END
+ogrdgndatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/12822/trunk/gdal/ogr/ogrsf_frmts/dgn/ogrdgndatasource.cpp
+END
+ogrdgndriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/dgn/ogrdgndriver.cpp
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/aeronavfaa
+END
+ogr_aeronavfaa.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/21376/trunk/gdal/ogr/ogrsf_frmts/aeronavfaa/ogr_aeronavfaa.h
+END
+drv_aeronavfaa.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/21372/trunk/gdal/ogr/ogrsf_frmts/aeronavfaa/drv_aeronavfaa.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21372/trunk/gdal/ogr/ogrsf_frmts/aeronavfaa/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21372/trunk/gdal/ogr/ogrsf_frmts/aeronavfaa/GNUmakefile
+END
+ograeronavfaadatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/gdal/!svn/ver/21376/trunk/gdal/ogr/ogrsf_frmts/aeronavfaa/ograeronavfaadatasource.cpp
+END
+ograeronavfaadriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/gdal/!svn/ver/21372/trunk/gdal/ogr/ogrsf_frmts/aeronavfaa/ograeronavfaadriver.cpp
+END
+ograeronavfaalayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/gdal/!svn/ver/21376/trunk/gdal/ogr/ogrsf_frmts/aeronavfaa/ograeronavfaalayer.cpp
+END

@@ -1,0 +1,108 @@
+
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+ * Copyright 2008-2014 Pelican Mapping
+ * http://osgearth.org
+ *
+ * osgEarth is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+#ifndef OSGEARTH_DRIVER_KML_COMMON
+#define OSGEARTH_DRIVER_KML_COMMON 1
+
+#include <osgEarth/Common>
+#include <osgEarth/Config>
+#include <osgEarth/URI>
+#include <osgEarth/MapNode>
+#include <osgEarth/SpatialReference>
+#include <osgEarthSymbology/Style>
+#include <osgEarthSymbology/StyleSheet>
+#include <osgEarthSymbology/ResourceCache>
+#include "KMLOptions"
+
+#define LC "[KML] "
+
+#define for_one( NAME, FUNC, CONF, CX ) \
+{ \
+    Config c = conf.child( toLower( #NAME ) ); \
+    if ( !c.empty() ) { \
+        KML_##NAME instance; \
+        instance. FUNC (c, CX); \
+    } \
+}
+
+#define for_many( NAME, FUNC, CONF, CX ) \
+{ \
+   ConfigSet c = conf.children( toLower( #NAME ) ); \
+   for( ConfigSet::const_iterator i = c.begin(); i != c.end(); ++i ) { \
+        KML_##NAME instance; \
+        instance. FUNC (*i, CX); \
+   } \
+}
+
+#define for_features( FUNC, CONF, CX ) \
+    for_many( Document,      FUNC, CONF, CX ); \
+    for_many( Folder,        FUNC, CONF, CX ); \
+    for_many( PhotoOverlay,  FUNC, CONF, CX ); \
+    for_many( ScreenOverlay, FUNC, CONF, CX ); \
+    for_many( GroundOverlay, FUNC, CONF, CX ); \
+    for_many( NetworkLink,   FUNC, CONF, CX ); \
+    for_many( Placemark,     FUNC, CONF, CX );
+
+namespace osgEarth_kml
+{
+    using namespace osgEarth;
+    using namespace osgEarth::Drivers;
+    using namespace osgEarth::Symbology;
+
+    struct KMLContext
+    {
+        MapNode*                              _mapNode;         // reference map node
+        const KMLOptions*                     _options;         // user options
+        osg::ref_ptr<StyleSheet>              _sheet;           // entire style sheet
+        Style                                 _activeStyle;     // currently active style
+        std::stack<osg::ref_ptr<osg::Group> > _groupStack;      // resulting scene graph
+        osg::ref_ptr<const SpatialReference>  _srs;             // map's spatial reference
+        osg::ref_ptr<const osgDB::Options>    _dbOptions;       // I/O options (caching, etc)
+    };
+
+    struct KMLUtils
+    {
+        // parse KML's many variants on a URL link.
+        static std::string parseLink( const Config& conf )
+        {
+            Config link = conf.child("link");
+            if ( !link.empty() )
+            {
+                if ( link.hasValue("href") )
+                    return link.value("href");
+                else if ( link.hasValue("url") )
+                    return link.value("url");
+                else
+                    return link.value();
+            }
+            else
+            {
+                link = conf.child("url");
+                if ( link.hasValue("href") )
+                    return link.value("href");
+                else
+                    return link.value();
+            }
+        }
+    };
+
+} // namespace osgEarth_kml
+
+#endif // OSGEARTH_DRIVER_KML_READER
+

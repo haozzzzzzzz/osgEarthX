@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21964/trunk/gdal/swig/include/ruby
+END
+gdal_ruby.i
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21964/trunk/gdal/swig/include/ruby/gdal_ruby.i
+END
+ogr_ruby.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10610/trunk/gdal/swig/include/ruby/ogr_ruby.i
+END
+typemaps_ruby.i
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21964/trunk/gdal/swig/include/ruby/typemaps_ruby.i
+END
+osr_ruby.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/10610/trunk/gdal/swig/include/ruby/osr_ruby.i
+END

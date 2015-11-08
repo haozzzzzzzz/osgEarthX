@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/20996/trunk/gdal/frmts/jpeg2000
+END
+jpeg2000_vsil_io.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/17567/trunk/gdal/frmts/jpeg2000/jpeg2000_vsil_io.h
+END
+frmt_jpeg2000.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/19734/trunk/gdal/frmts/jpeg2000/frmt_jpeg2000.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/17567/trunk/gdal/frmts/jpeg2000/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/17567/trunk/gdal/frmts/jpeg2000/GNUmakefile
+END
+jpeg2000_vsil_io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20996/trunk/gdal/frmts/jpeg2000/jpeg2000_vsil_io.cpp
+END
+jpeg2000dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/20599/trunk/gdal/frmts/jpeg2000/jpeg2000dataset.cpp
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/geomedia
+END
+ogrgeomediadriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/21545/trunk/gdal/ogr/ogrsf_frmts/geomedia/ogrgeomediadriver.cpp
+END
+ogrgeomedialayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/21547/trunk/gdal/ogr/ogrsf_frmts/geomedia/ogrgeomedialayer.cpp
+END
+ogrgeomediaselectlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/gdal/!svn/ver/21545/trunk/gdal/ogr/ogrsf_frmts/geomedia/ogrgeomediaselectlayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/21545/trunk/gdal/ogr/ogrsf_frmts/geomedia/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/21561/trunk/gdal/ogr/ogrsf_frmts/geomedia/GNUmakefile
+END
+ogr_geomedia.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21561/trunk/gdal/ogr/ogrsf_frmts/geomedia/ogr_geomedia.h
+END
+drv_geomedia.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/21551/trunk/gdal/ogr/ogrsf_frmts/geomedia/drv_geomedia.html
+END
+ogrgeomediatablelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/gdal/!svn/ver/21561/trunk/gdal/ogr/ogrsf_frmts/geomedia/ogrgeomediatablelayer.cpp
+END
+ogrgeomediadatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/gdal/!svn/ver/21561/trunk/gdal/ogr/ogrsf_frmts/geomedia/ogrgeomediadatasource.cpp
+END

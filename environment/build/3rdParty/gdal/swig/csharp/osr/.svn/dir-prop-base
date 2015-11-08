@@ -1,0 +1,16 @@
+K 10
+svn:ignore
+V 138
+*~
+*.lo
+*.obj
+CoordinateTransformation.cs
+osr.cs
+osrPINVOKE.cs
+osr_wrap.cpp
+SpatialReference.cs
+SWIGTYPE_p_p_char.cs
+Osr.cs
+OsrPINVOKE.cs
+
+END

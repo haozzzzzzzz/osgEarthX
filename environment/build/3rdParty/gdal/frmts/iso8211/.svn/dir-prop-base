@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 49
+html
+timetest
+8211dump
+8211view
+*.lib
+*.lo
+*.obj
+
+END

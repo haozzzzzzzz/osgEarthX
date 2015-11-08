@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/20996/trunk/gdal/frmts/fit
+END
+gstEndian.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10645/trunk/gdal/frmts/fit/gstEndian.h
+END
+fit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/14048/trunk/gdal/frmts/fit/fit.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10609/trunk/gdal/frmts/fit/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/fit/GNUmakefile
+END
+fit.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/10645/trunk/gdal/frmts/fit/fit.h
+END
+gstTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10645/trunk/gdal/frmts/fit/gstTypes.h
+END
+fitdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20996/trunk/gdal/frmts/fit/fitdataset.cpp
+END

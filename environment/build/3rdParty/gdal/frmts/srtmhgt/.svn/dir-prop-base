@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 22
+*.o
+*.obj
+.libs
+.deps
+
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21680/trunk/gdal/frmts/adrg
+END
+adrgdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/20996/trunk/gdal/frmts/adrg/adrgdataset.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/16354/trunk/gdal/frmts/adrg/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/16354/trunk/gdal/frmts/adrg/GNUmakefile
+END
+srpdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21680/trunk/gdal/frmts/adrg/srpdataset.cpp
+END

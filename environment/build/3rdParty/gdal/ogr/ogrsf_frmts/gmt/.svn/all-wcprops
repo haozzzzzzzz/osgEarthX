@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/gmt
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/11022/trunk/gdal/ogr/ogrsf_frmts/gmt/makefile.vc
+END
+ogr_gmt.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/gmt/ogr_gmt.h
+END
+drv_gmt.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/11029/trunk/gdal/ogr/ogrsf_frmts/gmt/drv_gmt.html
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/gmt/GNUmakefile
+END
+ogrgmtdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/gmt/ogrgmtdatasource.cpp
+END
+ogrgmtdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/11020/trunk/gdal/ogr/ogrsf_frmts/gmt/ogrgmtdriver.cpp
+END
+ogrgmtlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20987/trunk/gdal/ogr/ogrsf_frmts/gmt/ogrgmtlayer.cpp
+END

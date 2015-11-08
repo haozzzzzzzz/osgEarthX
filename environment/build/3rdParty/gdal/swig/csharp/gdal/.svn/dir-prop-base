@@ -1,0 +1,30 @@
+K 10
+svn:ignore
+V 283
+*~
+*.o
+*.obj
+Band.cs
+ColorEntry.cs
+ColorTable.cs
+Dataset.cs
+Driver.cs
+GCP.cs
+gdal.cs
+gdalPINVOKE.cs
+gdal_wrap.cpp
+MajorObject.cs
+SWIGTYPE_p_*.cs
+XMLNode.cs
+XMLNodeType.cs
+DataType.cs
+PaletteInterp.cs
+RWFlag.cs
+CPLErr.cs
+ResampleAlg.cs
+ColorInterp.cs
+Access.cs
+GdalPINVOKE.cs
+Gdal.cs
+
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21819/trunk/gdal/frmts/grib/degrib18
+END
+LICENSE.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/LICENSE.TXT
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/17888/trunk/gdal/frmts/grib/degrib18/makefile.vc
+END

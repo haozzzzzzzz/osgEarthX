@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21628/trunk/gdal/ogr/ogrsf_frmts/pgdump
+END
+ogrpgdumpdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/21035/trunk/gdal/ogr/ogrsf_frmts/pgdump/ogrpgdumpdatasource.cpp
+END
+ogrpgdumpdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/19705/trunk/gdal/ogr/ogrsf_frmts/pgdump/ogrpgdumpdriver.cpp
+END
+ogrpgdumplayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/21628/trunk/gdal/ogr/ogrsf_frmts/pgdump/ogrpgdumplayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19705/trunk/gdal/ogr/ogrsf_frmts/pgdump/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19705/trunk/gdal/ogr/ogrsf_frmts/pgdump/GNUmakefile
+END
+ogr_pgdump.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/pgdump/ogr_pgdump.h
+END
+drv_pgdump.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/19717/trunk/gdal/ogr/ogrsf_frmts/pgdump/drv_pgdump.html
+END

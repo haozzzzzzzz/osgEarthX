@@ -1,0 +1,89 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+ * Copyright 2008-2014 Pelican Mapping
+ * http://osgearth.org
+ *
+ * osgEarth is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+#ifndef OSGEARTH_DRIVER_KML_OPTIONS
+#define OSGEARTH_DRIVER_KML_OPTIONS 1
+
+#include <osgEarth/Common>
+#include <osgEarth/URI>
+#include <osgEarthSymbology/Style>
+#include <osg/Image>
+
+namespace osgEarth { namespace Drivers
+{
+    using namespace osgEarth;
+    using namespace osgEarth::Symbology;
+
+    /**
+     * Options for the KML loader. You can pass an instance of this class
+     * to KML::load()
+     */
+    class KMLOptions // NO EXPORT; header only
+    {
+    public:
+        /** TextSymbol to use when no styles are set in the KML. */
+        osg::ref_ptr<TextSymbol>& defaultTextSymbol() { return _defaultTextSymbol; }
+        const osg::ref_ptr<TextSymbol>& defaultTextSymbol() const { return _defaultTextSymbol; }
+
+        /** Default IconSymbol to use for placemarks that don't specify an icon or a model */
+        osg::ref_ptr<IconSymbol>& defaultIconSymbol() { return _defaultIconSymbol; }
+        const osg::ref_ptr<IconSymbol>& defaultIconSymbol() const { return _defaultIconSymbol; }
+
+        /** Default base scale to apply to marker Icons. */
+        optional<float>& iconBaseScale() { return _iconBaseScale; }
+        const optional<float>& iconBaseScale() const { return _iconBaseScale; }
+
+        /** Maximum size (either dimension) of placemarks icons */
+        optional<unsigned>& iconMaxSize() { return _iconMaxSize; }
+        const optional<unsigned>& iconMaxSize() const { return _iconMaxSize; }
+
+        /** Automatically assign KML icons and labels to a decluttering bin */
+        optional<bool>& declutter() { return _declutter; }
+        const optional<bool>& declutter() const { return _declutter; }
+
+        /** Specify a group to which to add screen-space items (2D icons and labels) */
+        osg::ref_ptr<osg::Group> iconAndLabelGroup() { return _iconAndLabelGroup; }
+        const osg::ref_ptr<osg::Group> iconAndLabelGroup() const { return _iconAndLabelGroup; }
+
+        /** Default scale factor to apply to embedded 3D models */
+        optional<float>& modelScale() { return _modelScale; }
+        const optional<float>& modelScale() const { return _modelScale; }
+
+        /** Default rotation to apply to embedded 3D models */
+        optional<osg::Quat>& modelRotation() { return _modelRotation; }
+        const optional<osg::Quat>& modelRotation() const { return _modelRotation; }
+
+    public:
+        KMLOptions() : _declutter( true ), _iconBaseScale( 1.0f ), _iconMaxSize(32), _modelScale(1.0f) { }
+
+        virtual ~KMLOptions() { }
+
+    protected:
+        osg::ref_ptr<IconSymbol> _defaultIconSymbol;
+        osg::ref_ptr<TextSymbol> _defaultTextSymbol;
+        optional<bool>           _declutter;
+        optional<float>          _iconBaseScale;
+        optional<unsigned>       _iconMaxSize;
+        optional<float>          _modelScale;
+        optional<osg::Quat>      _modelRotation;
+        osg::ref_ptr<osg::Group> _iconAndLabelGroup;
+    };
+
+} } // namespace osgEarth::Drivers
+
+#endif // OSGEARTH_DRIVER_KML_OPTIONS

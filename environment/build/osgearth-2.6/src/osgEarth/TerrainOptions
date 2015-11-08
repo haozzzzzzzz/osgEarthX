@@ -1,0 +1,205 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+#ifndef OSGEARTH_TERRAIN_OPTIONS_H
+#define OSGEARTH_TERRAIN_OPTIONS_H 1
+
+#include <osgEarth/Common>
+#include <osgEarth/Config>
+#include <osgEarth/GeoCommon>
+#include <osg/Texture>
+
+namespace osgEarth
+{    
+    /**
+     * Base class for the configuration for a terrain engine driver.
+     */
+    class OSGEARTH_EXPORT TerrainOptions : public DriverConfigOptions
+    {
+    public:
+        TerrainOptions( const ConfigOptions& options =ConfigOptions() );
+
+        /** dtor */
+        virtual ~TerrainOptions() { }
+       
+        /**
+         * Sets or gets the scale factor for height-field values.
+         * Default = 1.0
+         */
+        optional<float>& verticalScale() { return _verticalScale; }
+        const optional<float>& verticalScale() const { return _verticalScale; }
+
+        /**
+         * Sets or gets the offset for height-field values.
+         * Default = 0.0
+         */
+        optional<float>& verticalOffset() { return _verticalOffset; }
+        const optional<float>& verticalOffset() const { return _verticalOffset; }
+
+        /**
+         * @deprecated - Use MapOptions::elevationTileSize instead
+         * The sample ratio for height fields. I.e., the terrain engine
+         * will sample heightfield grids at this ratio
+         * Default = 1.0
+         */
+        optional<float>& heightFieldSampleRatio() { return _heightFieldSampleRatio; }
+        const optional<float>& heightFieldSampleRatio() const { return _heightFieldSampleRatio; }
+
+        /**
+         * The minimum tile LOD range as a factor of the tile's radius.
+         * Default = 6.0.
+         */
+        optional<float>& minTileRangeFactor() { return _minTileRangeFactor; }
+        const optional<float>& minTileRangeFactor() const { return _minTileRangeFactor; }
+
+        /**
+         * The image-layer fading attenuation distance
+         */
+        optional<float>& attenuationDistance() { return _attenuationDistance; }
+        const optional<float>& attentuationDistance() const { return _attenuationDistance; }
+
+        /**
+         * Transition time, in seconds, for tile image fade-in when LOD blending is enabled
+         */
+        optional<float>& lodTransitionTime() { return _lodTransitionTimeSeconds; }
+        const optional<float>& lodTransitionTime() const { return _lodTransitionTimeSeconds; }
+
+        /**
+         * Whether cluster culling is enabled on terrain tiles (default = true)
+         */
+        optional<bool>& clusterCulling() { return _clusterCulling; }
+        const optional<bool>& clusterCulling() const { return _clusterCulling; }
+
+        /**
+         * The maximum level of detail to which the terrain should subdivide. If you leave this
+         * unset, the terrain will subdivide until the map layers stop providing data (default
+         * behavior). If you set a value, the terrain will stop subdividing at the specified LOD
+         * even if higher-resolution data is available. (It still might stop subdividing before it
+         * reaches this level if data runs out.)
+         */
+        optional<unsigned>& maxLOD() { return _maxLOD; }
+        const optional<unsigned >& maxLOD() const { return _maxLOD; }
+
+        /**
+         * The minimum level of detail to which the terrain should subdivide (no matter what).
+         * If you leave this unset, the terrain will subdivide until the map layers
+         * stop providing data (default behavior). If you set a value, the terrain will subdivide
+         * to the specified LOD no matter what (and may continue farther if higher-resolution
+         * data is available).
+         */
+        optional<unsigned>& minLOD() { return _minLOD; }
+        const optional<unsigned>& minLOD() const { return _minLOD; }
+
+        /**
+         * The lowest LOD to display. By default, the terrain begins at LOD 0. Set this
+         * to start the terrain tile mesh at a higher LOD. Don't set this TOO high though
+         * or you will run into memory problems.
+         */
+        optional<unsigned>& firstLOD() { return _firstLOD; }
+        const optional<unsigned>& firstLOD() const { return _firstLOD; }
+
+        /**
+         * Whether to explicity enable or disable GL lighting on the map node.
+         */
+        optional<bool>& enableLighting() { return _enableLighting; }
+        const optional<bool>& enableLighting() const { return _enableLighting; }  
+    
+        /**
+         * Whether to enable mipmaping and mipmap generation on textures
+         */
+        optional<bool>& enableMipmapping() { return _enableMipmapping; }
+        const optional<bool>& enableMipmapping() const { return _enableMipmapping; }
+
+        /**
+         * The min filter to be applied to textures
+         */
+        optional<osg::Texture::FilterMode>& minFilter() { return _minFilter;}
+        const optional<osg::Texture::FilterMode>& minFilter() const { return _minFilter;}
+
+        /**
+         * The mag filter to be applied to textures
+         */
+        optional<osg::Texture::FilterMode>& magFilter() { return _magFilter;}
+        const optional<osg::Texture::FilterMode>& magFilter() const { return _magFilter;}
+            
+        /**
+         * Whether to enable blending on the terrain. Default is true.
+         */
+        optional<bool>& enableBlending() { return _enableBlending; }
+        const optional<bool>& enableBlending() const { return _enableBlending; }
+
+        /**
+         * Whether to enable the "fast path" for spherical Mercator image layers
+         * Default = true. If enabled, Mercator image tiles will be rendered on a
+         * geocentric map with no reprojection. The trade-off is higher texture
+         * memory usage and NPOT texture usage.
+         */
+        optional<bool>& enableMercatorFastPath() { return _mercatorFastPath; }
+        const optional<bool>& enableMercatorFastPath() const { return _mercatorFastPath; }
+
+        /**
+         * Traversal mask to use for primary geometry -- geometry that comprises the visible
+         * geometry and should participate in intersection, shadowing, etc.
+         */
+        optional<unsigned>& primaryTraversalMask() { return _primaryTraversalMask; }
+        const optional<unsigned>& primaryTraversalMask() const { return _primaryTraversalMask; }
+
+        /**
+         * Traversal mask to use for secondary geometry -- geometry that exists for
+         * secondary purpose (e.g. terrain skirts) that should not participate in 
+         * intersection, shadowing, etc.
+         */
+        optional<unsigned>& secondaryTraversalMask() { return _secondaryTraversalMask; }
+        const optional<unsigned>& secondaryTraversalMask() const { return _secondaryTraversalMask; }
+   
+    public:
+        virtual Config getConfig() const;
+
+    protected:
+        virtual void mergeConfig( const Config& conf ) {
+            DriverConfigOptions::mergeConfig( conf );
+            fromConfig( conf );
+        }
+
+    private:
+        void fromConfig( const Config& conf );
+                    
+        optional<float> _verticalScale;
+        optional<float> _verticalOffset;
+        optional<float> _heightFieldSampleRatio;
+        optional<float> _minTileRangeFactor;        
+        optional<bool> _combineLayers;
+        optional<unsigned> _minLOD;
+        optional<unsigned> _maxLOD;
+        optional<unsigned> _firstLOD;
+        optional<bool> _enableLighting;
+        optional<float> _attenuationDistance;
+        optional<float> _lodTransitionTimeSeconds;
+        optional<bool>  _enableMipmapping;
+        optional<bool> _clusterCulling;
+        optional<bool> _enableBlending;
+        optional<bool> _mercatorFastPath;
+        optional<osg::Texture::FilterMode> _magFilter;
+        optional<osg::Texture::FilterMode> _minFilter;
+        optional<ElevationInterpolation> _elevationInterpolation;
+        optional<unsigned> _primaryTraversalMask;
+        optional<unsigned> _secondaryTraversalMask;
+    };
+}
+
+#endif // OSGEARTH_MAP_ENGINE_PROPERTIES_H

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21957/trunk/gdal/frmts/hdf4
+END
+hdf4compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15691/trunk/gdal/frmts/hdf4/hdf4compat.h
+END
+hdf4imagedataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21957/trunk/gdal/frmts/hdf4/hdf4imagedataset.cpp
+END
+frmt_hdf4.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/10609/trunk/gdal/frmts/hdf4/frmt_hdf4.html
+END
+hdf4dataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/18945/trunk/gdal/frmts/hdf4/hdf4dataset.h
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/19427/trunk/gdal/frmts/hdf4/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/19427/trunk/gdal/frmts/hdf4/GNUmakefile
+END
+hdf4dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/19769/trunk/gdal/frmts/hdf4/hdf4dataset.cpp
+END

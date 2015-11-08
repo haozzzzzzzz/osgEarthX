@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gdal/!svn/ver/21769/trunk/gdal/frmts/jpipkak
+END
+jpipkakdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21769/trunk/gdal/frmts/jpipkak/jpipkakdataset.cpp
+END
+gdalsequence.PNG
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/19153/trunk/gdal/frmts/jpipkak/gdalsequence.PNG
+END
+frmt_jpipkak.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21570/trunk/gdal/frmts/jpipkak/frmt_jpipkak.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19163/trunk/gdal/frmts/jpipkak/makefile.vc
+END
+jpipkakdataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/20318/trunk/gdal/frmts/jpipkak/jpipkakdataset.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19166/trunk/gdal/frmts/jpipkak/GNUmakefile
+END
+components.PNG
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/19153/trunk/gdal/frmts/jpipkak/components.PNG
+END
+jpipsequence.PNG
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/19153/trunk/gdal/frmts/jpipkak/jpipsequence.PNG
+END

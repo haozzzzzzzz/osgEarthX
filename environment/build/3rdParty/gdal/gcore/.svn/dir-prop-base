@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 29
+*.lo
+*.obj
+.libs
+Version.res
+
+END

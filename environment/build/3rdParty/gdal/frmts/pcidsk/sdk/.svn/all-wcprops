@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21922/trunk/gdal/frmts/pcidsk/sdk
+END
+pcidsk_gcpsegment.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/pcidsk_gcpsegment.h
+END
+pcidsk_exception.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20074/trunk/gdal/frmts/pcidsk/sdk/pcidsk_exception.h
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/Doxyfile
+END
+pcidsk_shape.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21231/trunk/gdal/frmts/pcidsk/sdk/pcidsk_shape.h
+END
+pcidsk_tex.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/pcidsk_tex.h
+END
+Makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/Makefile.vc
+END
+pcidsk_mutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/pcidsk_mutex.h
+END
+pcidsk_segment.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/20074/trunk/gdal/frmts/pcidsk/sdk/pcidsk_segment.h
+END
+pcidsk_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/pcidsk_types.h
+END
+pcidsk_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21231/trunk/gdal/frmts/pcidsk/sdk/pcidsk_config.h
+END
+pcidsk_georef.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/pcidsk_georef.h
+END
+pcidsk_io.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/pcidsk_io.h
+END
+pcidsk_channel.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21922/trunk/gdal/frmts/pcidsk/sdk/pcidsk_channel.h
+END
+pcidsk_buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/pcidsk_buffer.h
+END
+pcidsk_gcp.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21231/trunk/gdal/frmts/pcidsk/sdk/pcidsk_gcp.h
+END
+pcidsk_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21922/trunk/gdal/frmts/pcidsk/sdk/pcidsk_file.h
+END
+pcidsk.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/pcidsk.h
+END
+pcidsk_interfaces.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/19329/trunk/gdal/frmts/pcidsk/sdk/pcidsk_interfaces.h
+END
+pcidsk_rpc.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/19152/trunk/gdal/frmts/pcidsk/sdk/pcidsk_rpc.h
+END
+pcidsk_airphoto.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19152/trunk/gdal/frmts/pcidsk/sdk/pcidsk_airphoto.h
+END
+pcidsk_vectorsegment.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20074/trunk/gdal/frmts/pcidsk/sdk/pcidsk_vectorsegment.h
+END
+pcidsk_pct.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/pcidsk_pct.h
+END
+pcidsk_edb.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/19329/trunk/gdal/frmts/pcidsk/sdk/pcidsk_edb.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/19061/trunk/gdal/frmts/pcidsk/sdk/Makefile
+END

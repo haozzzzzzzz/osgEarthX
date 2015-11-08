@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/17910/trunk/gdal/ogr/ogrsf_frmts/ili/iom
+END
+tags.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/tags.cpp
+END
+reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/17910/trunk/gdal/ogr/ogrsf_frmts/ili/iom/reader.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/ili/iom/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/15947/trunk/gdal/ogr/ogrsf_frmts/ili/iom/GNUmakefile
+END
+iom_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/17910/trunk/gdal/ogr/ogrsf_frmts/ili/iom/iom_p.h
+END
+iom_object.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/iom_object.cpp
+END
+writer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/writer.cpp
+END
+iom_basket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/iom_basket.cpp
+END
+ustrings.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/ustrings.cpp
+END
+iom_attr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/iom_attr.cpp
+END
+iom_utilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/16745/trunk/gdal/ogr/ogrsf_frmts/ili/iom/iom_utilities.cpp
+END
+iom_value.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/iom_value.cpp
+END
+README.src.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/13904/trunk/gdal/ogr/ogrsf_frmts/ili/iom/README.src.txt
+END
+iom_file.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/iom_file.cpp
+END
+iom.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/iom.h
+END
+iom_iterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/iom_iterator.cpp
+END
+iom_error.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/12582/trunk/gdal/ogr/ogrsf_frmts/ili/iom/iom_error.cpp
+END

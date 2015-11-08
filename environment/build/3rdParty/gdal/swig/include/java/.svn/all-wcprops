@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21579/trunk/gdal/swig/include/java
+END
+gdal_java.i
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21579/trunk/gdal/swig/include/java/gdal_java.i
+END
+ogr_java.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/19751/trunk/gdal/swig/include/java/ogr_java.i
+END
+gdalconst_java.i
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21579/trunk/gdal/swig/include/java/gdalconst_java.i
+END
+ogr_java_extend.i
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/16530/trunk/gdal/swig/include/java/ogr_java_extend.i
+END
+java_exceptions.i
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/16554/trunk/gdal/swig/include/java/java_exceptions.i
+END
+typemaps_java.i
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/20641/trunk/gdal/swig/include/java/typemaps_java.i
+END
+osr_java.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21579/trunk/gdal/swig/include/java/osr_java.i
+END

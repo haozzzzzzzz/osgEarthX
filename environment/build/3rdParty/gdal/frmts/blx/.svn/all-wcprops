@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21821/trunk/gdal/frmts/blx
+END
+frmt_blx.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15554/trunk/gdal/frmts/blx/frmt_blx.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/19697/trunk/gdal/frmts/blx/makefile.vc
+END
+blx.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/17405/trunk/gdal/frmts/blx/blx.c
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/blx/GNUmakefile
+END
+blx.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/16627/trunk/gdal/frmts/blx/blx.h
+END
+blxdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21821/trunk/gdal/frmts/blx/blxdataset.cpp
+END

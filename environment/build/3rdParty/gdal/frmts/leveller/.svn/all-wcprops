@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/21680/trunk/gdal/frmts/leveller
+END
+levellerdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21680/trunk/gdal/frmts/leveller/levellerdataset.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/10609/trunk/gdal/frmts/leveller/makefile.vc
+END
+frmt_leveller.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/11800/trunk/gdal/frmts/leveller/frmt_leveller.html
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/15888/trunk/gdal/frmts/leveller/GNUmakefile
+END

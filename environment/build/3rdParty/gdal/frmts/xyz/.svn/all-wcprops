@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/20996/trunk/gdal/frmts/xyz
+END
+xyzdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20996/trunk/gdal/frmts/xyz/xyzdataset.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/19921/trunk/gdal/frmts/xyz/makefile.vc
+END
+frmt_xyz.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/19921/trunk/gdal/frmts/xyz/frmt_xyz.html
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/19921/trunk/gdal/frmts/xyz/GNUmakefile
+END

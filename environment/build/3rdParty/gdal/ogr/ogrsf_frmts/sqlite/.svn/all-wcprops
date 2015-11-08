@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21298/trunk/gdal/ogr/ogrsf_frmts/sqlite
+END
+drv_sqlite.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21002/trunk/gdal/ogr/ogrsf_frmts/sqlite/drv_sqlite.html
+END
+ogrsqlitetablelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/21002/trunk/gdal/ogr/ogrsf_frmts/sqlite/ogrsqlitetablelayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19205/trunk/gdal/ogr/ogrsf_frmts/sqlite/makefile.vc
+END
+ogrsqlitedatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/21298/trunk/gdal/ogr/ogrsf_frmts/sqlite/ogrsqlitedatasource.cpp
+END
+ogrsqlitesinglefeaturelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/gdal/!svn/ver/19205/trunk/gdal/ogr/ogrsf_frmts/sqlite/ogrsqlitesinglefeaturelayer.cpp
+END
+ogrsqlitedriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/gdal/!svn/ver/20521/trunk/gdal/ogr/ogrsf_frmts/sqlite/ogrsqlitedriver.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/19205/trunk/gdal/ogr/ogrsf_frmts/sqlite/GNUmakefile
+END
+ogrsqlitelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/20895/trunk/gdal/ogr/ogrsf_frmts/sqlite/ogrsqlitelayer.cpp
+END
+ogrsqliteselectlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/19800/trunk/gdal/ogr/ogrsf_frmts/sqlite/ogrsqliteselectlayer.cpp
+END
+ogr_sqlite.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20924/trunk/gdal/ogr/ogrsf_frmts/sqlite/ogr_sqlite.h
+END

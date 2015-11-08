@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/fme
+END
+fme2ogr_utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/12123/trunk/gdal/ogr/ogrsf_frmts/fme/fme2ogr_utils.cpp
+END
+ogrfmelayerdb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/12123/trunk/gdal/ogr/ogrsf_frmts/fme/ogrfmelayerdb.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/fme/makefile.vc
+END
+drv_fme.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/fme/drv_fme.html
+END
+ogrfmelayercached.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/14412/trunk/gdal/ogr/ogrsf_frmts/fme/ogrfmelayercached.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/fme/GNUmakefile
+END
+fme2ogr.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/12123/trunk/gdal/ogr/ogrsf_frmts/fme/fme2ogr.h
+END
+ogrfmedatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/13253/trunk/gdal/ogr/ogrsf_frmts/fme/ogrfmedatasource.cpp
+END
+ogrfmecacheindex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/12123/trunk/gdal/ogr/ogrsf_frmts/fme/ogrfmecacheindex.cpp
+END
+ogrfmedriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/12396/trunk/gdal/ogr/ogrsf_frmts/fme/ogrfmedriver.cpp
+END
+ogrfmelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/12123/trunk/gdal/ogr/ogrsf_frmts/fme/ogrfmelayer.cpp
+END

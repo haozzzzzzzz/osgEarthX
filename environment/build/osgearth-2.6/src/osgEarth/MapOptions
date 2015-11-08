@@ -1,0 +1,136 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+#ifndef OSGEARTH_MAP_OPTIONS_H
+#define OSGEARTH_MAP_OPTIONS_H 1
+
+#include <osgEarth/Common>
+#include <osgEarth/Config>
+#include <osgEarth/Cache>
+#include <osgEarth/CachePolicy>
+#include <osgEarth/GeoCommon>
+#include <osgEarth/Profile>
+#include <osgEarth/TerrainOptions>
+
+namespace osgEarth
+{
+    /**
+     * Configuration for a runtime map.
+     */
+    class OSGEARTH_EXPORT MapOptions : public ConfigOptions // no export (header-only)
+    {
+    public:
+        enum CoordinateSystemType
+        {
+            CSTYPE_GEOCENTRIC,
+            CSTYPE_GEOCENTRIC_CUBE,
+            CSTYPE_PROJECTED
+        };		
+
+    public:
+        MapOptions( const ConfigOptions& options =ConfigOptions() )
+            : ConfigOptions          ( options ),
+              _cachePolicy           ( ),
+              _cstype                ( CSTYPE_GEOCENTRIC ),
+              _referenceURI          ( "" ),
+              _elevationInterpolation( INTERP_BILINEAR ),
+              _elevTileSize          ( 17 )
+        {
+            fromConfig(_conf);
+        }
+
+        /** dtor */
+        virtual ~MapOptions() { }
+
+        /**
+         * Human-readable name of the map.
+         */
+        optional<std::string>& name() { return _name; }
+        const optional<std::string>& name() const { return _name; }
+
+        /**
+         * The coordinate system type of the map (default is CSTYPE_GEOCENTRIC)
+         */
+        optional<CoordinateSystemType>& coordSysType() { return _cstype; }
+        const optional<CoordinateSystemType>& coordSysType() const { return _cstype; }
+
+        /**
+         * An explicit master profile for the Map. Usually this is calculated automatically,
+         * but in some cases you need to set it manually.
+         */
+        optional<ProfileOptions>& profile() { return _profileOptions; }
+        const optional<ProfileOptions>& profile() const { return _profileOptions; }
+
+        /**
+         * Caching setup for the entire map. By default, map layers added to the map will
+         * inherit this setup unless they override or customize it with their own settings.
+         */
+        optional<CacheOptions>& cache() { return _cacheOptions; }
+        const optional<CacheOptions>& cache() const { return _cacheOptions; }
+
+        /**
+         * Default cache policy that propagates to each layer.
+         */
+        optional<CachePolicy>& cachePolicy() { return _cachePolicy; }
+        const optional<CachePolicy>& cachePolicy() const { return _cachePolicy; }
+
+         /**
+         * The interpolation method to use when sampling heightfields.
+         */
+        optional<ElevationInterpolation>& elevationInterpolation(void) { return _elevationInterpolation; }
+        const optional<ElevationInterpolation>& elevationInterpolation(void) const { return _elevationInterpolation;}
+
+        /**
+         * Dimension of elevation tiles. By default, the engine will return 
+         * elevation tiles sized to the largest available source tile. This forces
+         * a set size.
+         */
+        optional<unsigned>& elevationTileSize() { return _elevTileSize; }
+        const optional<unsigned>& elevationTileSize() const { return _elevTileSize; }
+
+    public:
+        /**
+         * A reference location that drivers can use to load data from relative locations.
+         * NOTE: this is a runtime-only property and is NOT serialized in the ConfigOptions.
+         */
+        optional<std::string>& referenceURI() { return _referenceURI; }
+        const optional<std::string>& referenceURI() const { return _referenceURI; }
+    
+    public:
+        Config getConfig() const;
+
+        void mergeConfig( const Config& conf ) {
+            ConfigOptions::mergeConfig( conf );
+            fromConfig( conf );
+        }
+
+    private:
+        void fromConfig( const Config& conf );
+
+        optional<std::string>            _name;
+        optional<ProfileOptions>         _profileOptions;
+        optional<CacheOptions>           _cacheOptions;
+        optional<CachePolicy>            _cachePolicy;
+        optional<CoordinateSystemType>   _cstype;
+        optional<std::string>            _referenceURI;
+        optional<ElevationInterpolation> _elevationInterpolation;
+        optional<unsigned>               _elevTileSize;
+    };
+}
+
+#endif // OSGEARTH_MAP_ENGINE_PROPERTIES_H

@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21790/trunk/gdal/swig/python/samples
+END
+load2odbc.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/load2odbc.py
+END
+loslas2ntv2.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/20393/trunk/gdal/swig/python/samples/loslas2ntv2.py
+END
+gdal_lut.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/gdal_lut.py
+END
+val_at_coord.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/20674/trunk/gdal/swig/python/samples/val_at_coord.py
+END
+gdalcopyproj.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/gdalcopyproj.py
+END
+get_soundg.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/get_soundg.py
+END
+assemblepoly.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/assemblepoly.py
+END
+densify.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/15469/trunk/gdal/swig/python/samples/densify.py
+END
+ogrinfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21659/trunk/gdal/swig/python/samples/ogrinfo.py
+END
+tolatlong.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/19386/trunk/gdal/swig/python/samples/tolatlong.py
+END
+val_repl.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/19920/trunk/gdal/swig/python/samples/val_repl.py
+END
+ogr2vrt.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/ogr2vrt.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/20674/trunk/gdal/swig/python/samples/README
+END
+vec_tr_spat.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/vec_tr_spat.py
+END
+attachpct.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/attachpct.py
+END
+gdalfilter.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/gdalfilter.py
+END
+classify.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/17481/trunk/gdal/swig/python/samples/classify.py
+END
+histrep.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/histrep.py
+END
+tigerpoly.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/tigerpoly.py
+END
+hsv_merge.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21244/trunk/gdal/swig/python/samples/hsv_merge.py
+END
+fft.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/fft.py
+END
+ogr2ogr.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21776/trunk/gdal/swig/python/samples/ogr2ogr.py
+END
+gdal_vrtmerge.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/20672/trunk/gdal/swig/python/samples/gdal_vrtmerge.py
+END
+rel.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/rel.py
+END
+vec_tr.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/vec_tr.py
+END
+gdalinfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21790/trunk/gdal/swig/python/samples/gdalinfo.py
+END
+magphase.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15290/trunk/gdal/swig/python/samples/magphase.py
+END
+gdal2grd.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/18195/trunk/gdal/swig/python/samples/gdal2grd.py
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/gdal/!svn/ver/21819/trunk/gdal/frmts/grib
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/17888/trunk/gdal/frmts/grib/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/15888/trunk/gdal/frmts/grib/GNUmakefile
+END
+gribdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/20996/trunk/gdal/frmts/grib/gribdataset.cpp
+END
+frmt_grib.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/17959/trunk/gdal/frmts/grib/frmt_grib.html
+END

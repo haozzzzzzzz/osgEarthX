@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/gdal/!svn/ver/10609/trunk/gdal/vb6/test
+END
+VB6Test.frm
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10609/trunk/gdal/vb6/test/VB6Test.frm
+END
+GDALVB6Test.vbw
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10609/trunk/gdal/vb6/test/GDALVB6Test.vbw
+END
+Module1.bas
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10609/trunk/gdal/vb6/test/Module1.bas
+END
+GDALVB6Test.vbp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10609/trunk/gdal/vb6/test/GDALVB6Test.vbp
+END

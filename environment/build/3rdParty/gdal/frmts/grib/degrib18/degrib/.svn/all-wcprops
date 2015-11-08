@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21680/trunk/gdal/frmts/grib/degrib18/degrib
+END
+fileendian.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/fileendian.cpp
+END
+filedatasource.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/20996/trunk/gdal/frmts/grib/degrib18/degrib/filedatasource.h
+END
+weather.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/weather.c
+END
+clock.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/13881/trunk/gdal/frmts/grib/degrib18/degrib/clock.h
+END
+engribapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/13886/trunk/gdal/frmts/grib/degrib18/degrib/engribapi.c
+END
+metaprint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/13886/trunk/gdal/frmts/grib/degrib18/degrib/metaprint.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21680/trunk/gdal/frmts/grib/degrib18/degrib/makefile.vc
+END
+weather.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/weather.h
+END
+engribapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/engribapi.h
+END
+degrib1.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/13881/trunk/gdal/frmts/grib/degrib18/degrib/degrib1.h
+END
+memorydatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/memorydatasource.cpp
+END
+degrib2.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/degrib2.h
+END
+myutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/16865/trunk/gdal/frmts/grib/degrib18/degrib/myutil.c
+END
+type.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/type.h
+END
+tdlpack.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/13881/trunk/gdal/frmts/grib/degrib18/degrib/tdlpack.h
+END
+myutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/myutil.h
+END
+filedatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/20996/trunk/gdal/frmts/grib/degrib18/degrib/filedatasource.cpp
+END
+meta.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/13881/trunk/gdal/frmts/grib/degrib18/degrib/meta.h
+END
+metaname.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/13881/trunk/gdal/frmts/grib/degrib18/degrib/metaname.h
+END
+memendian.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/memendian.c
+END
+myerror.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/myerror.c
+END
+datasource.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/datasource.h
+END
+grib2api.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/17398/trunk/gdal/frmts/grib/degrib18/degrib/grib2api.c
+END
+memendian.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/13887/trunk/gdal/frmts/grib/degrib18/degrib/memendian.h
+END
+inventory.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/inventory.h
+END
+fileendian.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/17736/trunk/gdal/frmts/grib/degrib18/degrib/fileendian.h
+END
+myerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/myerror.h
+END
+grib2api.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/grib2api.h
+END
+myassert.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/myassert.c
+END
+myassert.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/myassert.h
+END
+degrib1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/17398/trunk/gdal/frmts/grib/degrib18/degrib/degrib1.cpp
+END
+degrib2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/degrib2.cpp
+END
+metaparse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/19765/trunk/gdal/frmts/grib/degrib18/degrib/metaparse.cpp
+END
+tdlpack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/20119/trunk/gdal/frmts/grib/degrib18/degrib/tdlpack.cpp
+END
+scan.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/scan.c
+END
+metaname.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/13881/trunk/gdal/frmts/grib/degrib18/degrib/metaname.cpp
+END
+memorydatasource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/memorydatasource.h
+END
+scan.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/scan.h
+END
+clock.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/13881/trunk/gdal/frmts/grib/degrib18/degrib/clock.c
+END
+grib1tab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/13877/trunk/gdal/frmts/grib/degrib18/degrib/grib1tab.cpp
+END
+inventory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/13886/trunk/gdal/frmts/grib/degrib18/degrib/inventory.cpp
+END

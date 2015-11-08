@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/17338/trunk/gdal/ogr/ogrsf_frmts/avc
+END
+HISTORY.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15081/trunk/gdal/ogr/ogrsf_frmts/avc/HISTORY.TXT
+END
+drv_avcbin.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/17338/trunk/gdal/ogr/ogrsf_frmts/avc/drv_avcbin.html
+END
+avc_bin.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/16865/trunk/gdal/ogr/ogrsf_frmts/avc/avc_bin.c
+END
+ogravce00datasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/avc/ogravce00datasource.cpp
+END
+ogravce00driver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/14784/trunk/gdal/ogr/ogrsf_frmts/avc/ogravce00driver.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/14786/trunk/gdal/ogr/ogrsf_frmts/avc/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/avc/GNUmakefile
+END
+avc_e00gen.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/15013/trunk/gdal/ogr/ogrsf_frmts/avc/avc_e00gen.c
+END
+ogravcbinlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/avc/ogravcbinlayer.cpp
+END
+avc_e00parse.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16865/trunk/gdal/ogr/ogrsf_frmts/avc/avc_e00parse.c
+END
+avc_mbyte.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15013/trunk/gdal/ogr/ogrsf_frmts/avc/avc_mbyte.c
+END
+avc_e00read.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/15081/trunk/gdal/ogr/ogrsf_frmts/avc/avc_e00read.c
+END
+avc_binwr.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15013/trunk/gdal/ogr/ogrsf_frmts/avc/avc_binwr.c
+END
+drv_avce00.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/14784/trunk/gdal/ogr/ogrsf_frmts/avc/drv_avce00.html
+END
+avc_rawbin.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/15013/trunk/gdal/ogr/ogrsf_frmts/avc/avc_rawbin.c
+END
+avc_mbyte.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15013/trunk/gdal/ogr/ogrsf_frmts/avc/avc_mbyte.h
+END
+avc.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/15013/trunk/gdal/ogr/ogrsf_frmts/avc/avc.h
+END
+ogravclayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/15014/trunk/gdal/ogr/ogrsf_frmts/avc/ogravclayer.cpp
+END
+dbfopen.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/avc/dbfopen.h
+END
+ogravce00layer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/avc/ogravce00layer.cpp
+END
+avc_misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/15013/trunk/gdal/ogr/ogrsf_frmts/avc/avc_misc.c
+END
+ogr_avc.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/14784/trunk/gdal/ogr/ogrsf_frmts/avc/ogr_avc.h
+END
+ogravcbindatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/avc/ogravcbindatasource.cpp
+END
+ogravcbindriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/avc/ogravcbindriver.cpp
+END
+avc_e00write.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/15013/trunk/gdal/ogr/ogrsf_frmts/avc/avc_e00write.c
+END
+ogravcdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/avc/ogravcdatasource.cpp
+END

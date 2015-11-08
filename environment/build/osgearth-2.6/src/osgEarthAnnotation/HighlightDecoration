@@ -1,0 +1,57 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+#ifndef OSGEARTH_ANNOTATION_HIGHLIGHT_DECORATION_H
+#define OSGEARTH_ANNOTATION_HIGHLIGHT_DECORATION_H 1
+
+#include <osgEarthAnnotation/Decoration>
+#include <osg/Uniform>
+
+namespace osgEarth { namespace Annotation
+{	
+    using namespace osgEarth;
+
+    /**
+     * Decoration technique that highlights the geometry.
+     */
+    class OSGEARTHANNO_EXPORT HighlightDecoration : public Decoration
+    {
+    public:
+        HighlightDecoration(const osg::Vec4f& color =osg::Vec4f(1,1,0,0.5));
+
+        virtual ~HighlightDecoration() { }
+
+        virtual Decoration* clone() const { return new HighlightDecoration(_color); }
+
+        /** Hightlight color (mixes with alpha) */
+        void setColor(const osg::Vec4f& color);
+        const osg::Vec4f& getColor() const { return _color; }
+        
+    public: // Decoration interface
+
+        virtual bool apply(class AnnotationNode& node, bool enable);
+
+    private:
+        bool                         _supported;
+        osg::Vec4f                   _color;
+        osg::ref_ptr<osg::Uniform>   _colorUniform;
+    };
+
+} } // namespace osgEarth::Annotation
+
+#endif //OSGEARTH_ANNOTATION_HIGHLIGHT_DECORATION_H

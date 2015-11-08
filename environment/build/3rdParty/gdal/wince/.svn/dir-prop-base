@@ -1,0 +1,17 @@
+K 10
+svn:ignore
+V 72
+*ARMV4*
+*Rel
+*Dbg
+*.dll
+*.exp
+*.ilk
+*.lib
+*.pdb
+*.swp
+*.vcb
+*.vcl
+*.vco
+
+END

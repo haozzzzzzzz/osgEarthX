@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/20996/trunk/gdal/frmts/idrisi
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10609/trunk/gdal/frmts/idrisi/makefile.vc
+END
+rdc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10609/trunk/gdal/frmts/idrisi/rdc.txt
+END
+rst.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10609/trunk/gdal/frmts/idrisi/rst.txt
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/15888/trunk/gdal/frmts/idrisi/GNUmakefile
+END
+IdrisiDataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/20996/trunk/gdal/frmts/idrisi/IdrisiDataset.cpp
+END
+frmt_Idrisi.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/13513/trunk/gdal/frmts/idrisi/frmt_Idrisi.html
+END

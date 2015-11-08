@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gdal/!svn/ver/20996/trunk/gdal/frmts/ceos2
+END
+ceos.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20996/trunk/gdal/frmts/ceos2/ceos.h
+END
+ceossar.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/10645/trunk/gdal/frmts/ceos2/ceossar.c
+END
+ceosrecipe.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/10645/trunk/gdal/frmts/ceos2/ceosrecipe.c
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/10609/trunk/gdal/frmts/ceos2/makefile.vc
+END
+sar_ceosdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20996/trunk/gdal/frmts/ceos2/sar_ceosdataset.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15888/trunk/gdal/frmts/ceos2/GNUmakefile
+END
+ceos.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20996/trunk/gdal/frmts/ceos2/ceos.c
+END
+link.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/10645/trunk/gdal/frmts/ceos2/link.c
+END

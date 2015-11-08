@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/13775/trunk/gdal/wince/msvc80/gdalce_dll
+END
+gdalce_dll.sln
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/10609/trunk/gdal/wince/msvc80/gdalce_dll/gdalce_dll.sln
+END
+gdalce_dll.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/13775/trunk/gdal/wince/msvc80/gdalce_dll/gdalce_dll.vcproj
+END

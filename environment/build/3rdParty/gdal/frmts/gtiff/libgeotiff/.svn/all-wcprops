@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21923/trunk/gdal/frmts/gtiff/libgeotiff
+END
+geo_normalize.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21923/trunk/gdal/frmts/gtiff/libgeotiff/geo_normalize.h
+END
+geotiff_proj4.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21838/trunk/gdal/frmts/gtiff/libgeotiff/geotiff_proj4.c
+END
+geo_simpletags.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21838/trunk/gdal/frmts/gtiff/libgeotiff/geo_simpletags.c
+END
+epsg_ellipse.inc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/epsg_ellipse.inc
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16401/trunk/gdal/frmts/gtiff/libgeotiff/makefile.vc
+END
+geo_simpletags.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21838/trunk/gdal/frmts/gtiff/libgeotiff/geo_simpletags.h
+END
+epsg_units.inc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/epsg_units.inc
+END
+geo_get.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/geo_get.c
+END
+epsg_vertcs.inc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/epsg_vertcs.inc
+END
+geo_extra.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16819/trunk/gdal/frmts/gtiff/libgeotiff/geo_extra.c
+END
+geotiffio.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16401/trunk/gdal/frmts/gtiff/libgeotiff/geotiffio.h
+END
+geo_trans.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16819/trunk/gdal/frmts/gtiff/libgeotiff/geo_trans.c
+END
+geo_new.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21838/trunk/gdal/frmts/gtiff/libgeotiff/geo_new.c
+END
+geo_write.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/18590/trunk/gdal/frmts/gtiff/libgeotiff/geo_write.c
+END
+geo_set.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/16819/trunk/gdal/frmts/gtiff/libgeotiff/geo_set.c
+END
+geo_print.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/18007/trunk/gdal/frmts/gtiff/libgeotiff/geo_print.c
+END
+geotiff.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18007/trunk/gdal/frmts/gtiff/libgeotiff/geotiff.h
+END
+geovalues.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16401/trunk/gdal/frmts/gtiff/libgeotiff/geovalues.h
+END
+geo_tiffp.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16401/trunk/gdal/frmts/gtiff/libgeotiff/geo_tiffp.c
+END
+geonames.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/16401/trunk/gdal/frmts/gtiff/libgeotiff/geonames.h
+END
+geo_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/geo_config.h
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16401/trunk/gdal/frmts/gtiff/libgeotiff/GNUmakefile
+END
+geo_tiffp.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/16401/trunk/gdal/frmts/gtiff/libgeotiff/geo_tiffp.h
+END
+geo_keyp.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/16401/trunk/gdal/frmts/gtiff/libgeotiff/geo_keyp.h
+END
+geokeys.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/16401/trunk/gdal/frmts/gtiff/libgeotiff/geokeys.h
+END
+geo_ctrans.inc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/16401/trunk/gdal/frmts/gtiff/libgeotiff/geo_ctrans.inc
+END
+geo_free.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/geo_free.c
+END
+xtiffio.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/13325/trunk/gdal/frmts/gtiff/libgeotiff/xtiffio.h
+END
+epsg_datum.inc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/epsg_datum.inc
+END
+epsg_proj.inc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/epsg_proj.inc
+END
+xtiff.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/13325/trunk/gdal/frmts/gtiff/libgeotiff/xtiff.c
+END
+epsg_gcs.inc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/epsg_gcs.inc
+END
+epsg_pm.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/epsg_pm.inc
+END
+cpl_serv.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21838/trunk/gdal/frmts/gtiff/libgeotiff/cpl_serv.h
+END
+geo_normalize.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21923/trunk/gdal/frmts/gtiff/libgeotiff/geo_normalize.c
+END
+epsg_pcs.inc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/10609/trunk/gdal/frmts/gtiff/libgeotiff/epsg_pcs.inc
+END
+geokeys.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21923/trunk/gdal/frmts/gtiff/libgeotiff/geokeys.inc
+END
+geo_names.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/18590/trunk/gdal/frmts/gtiff/libgeotiff/geo_names.c
+END

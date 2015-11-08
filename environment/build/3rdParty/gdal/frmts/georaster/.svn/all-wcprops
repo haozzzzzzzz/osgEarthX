@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/21469/trunk/gdal/frmts/georaster
+END
+oci_wrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21157/trunk/gdal/frmts/georaster/oci_wrapper.h
+END
+georaster_dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/21054/trunk/gdal/frmts/georaster/georaster_dataset.cpp
+END
+georaster_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21054/trunk/gdal/frmts/georaster/georaster_priv.h
+END
+georaster_rasterband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/20412/trunk/gdal/frmts/georaster/georaster_rasterband.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16212/trunk/gdal/frmts/georaster/makefile.vc
+END
+frmt_georaster.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21054/trunk/gdal/frmts/georaster/frmt_georaster.html
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16301/trunk/gdal/frmts/georaster/GNUmakefile
+END
+georaster_driver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/17055/trunk/gdal/frmts/georaster/georaster_driver.cpp
+END
+oci_wrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21324/trunk/gdal/frmts/georaster/oci_wrapper.cpp
+END
+georaster_wrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/21469/trunk/gdal/frmts/georaster/georaster_wrapper.cpp
+END

@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/22007/trunk/gdal/frmts/wms
+END
+frmt_wms_bluemarble_s3_tms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21944/trunk/gdal/frmts/wms/frmt_wms_bluemarble_s3_tms.xml
+END
+minidriver_wms.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21729/trunk/gdal/frmts/wms/minidriver_wms.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21948/trunk/gdal/frmts/wms/makefile.vc
+END
+cache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21880/trunk/gdal/frmts/wms/cache.cpp
+END
+frmt_twms_Clementine.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21702/trunk/gdal/frmts/wms/frmt_twms_Clementine.xml
+END
+frmt_twms_srtm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21702/trunk/gdal/frmts/wms/frmt_twms_srtm.xml
+END
+frmt_wms_virtualearth.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21948/trunk/gdal/frmts/wms/frmt_wms_virtualearth.xml
+END
+minidriver_worldwind.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/18020/trunk/gdal/frmts/wms/minidriver_worldwind.h
+END
+minidriver_virtualearth.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21948/trunk/gdal/frmts/wms/minidriver_virtualearth.h
+END
+gdalhttp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/22007/trunk/gdal/frmts/wms/gdalhttp.cpp
+END
+minidriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21702/trunk/gdal/frmts/wms/minidriver.cpp
+END
+minidriver_tileservice.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/18020/trunk/gdal/frmts/wms/minidriver_tileservice.h
+END
+minidriver_tiled_wms.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21852/trunk/gdal/frmts/wms/minidriver_tiled_wms.cpp
+END
+frmt_twms_daily.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21702/trunk/gdal/frmts/wms/frmt_twms_daily.xml
+END
+frmt_wms_swissgeo_tms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21966/trunk/gdal/frmts/wms/frmt_wms_swissgeo_tms.xml
+END
+rasterband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21966/trunk/gdal/frmts/wms/rasterband.cpp
+END
+frmt_wms_metacarta_wmsc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/15675/trunk/gdal/frmts/wms/frmt_wms_metacarta_wmsc.xml
+END
+stuff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/20996/trunk/gdal/frmts/wms/stuff.cpp
+END
+wmsdriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21997/trunk/gdal/frmts/wms/wmsdriver.h
+END
+wmsmetadataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21862/trunk/gdal/frmts/wms/wmsmetadataset.h
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/gdal/!svn/ver/18020/trunk/gdal/frmts/wms/md5.h
+END
+minidriver_tms.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/18589/trunk/gdal/frmts/wms/minidriver_tms.h
+END
+minidriver_worldwind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/18020/trunk/gdal/frmts/wms/minidriver_worldwind.cpp
+END
+minidriver_virtualearth.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/21953/trunk/gdal/frmts/wms/minidriver_virtualearth.cpp
+END
+minidriver_wms.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/18326/trunk/gdal/frmts/wms/minidriver_wms.h
+END
+frmt_wms_openstreetmap_tms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21940/trunk/gdal/frmts/wms/frmt_wms_openstreetmap_tms.xml
+END
+minidriver_tileservice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/18020/trunk/gdal/frmts/wms/minidriver_tileservice.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21948/trunk/gdal/frmts/wms/GNUmakefile
+END
+frmt_wms_onearth_global_mosaic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gdal/!svn/ver/15675/trunk/gdal/frmts/wms/frmt_wms_onearth_global_mosaic.xml
+END
+frmt_wms_arcgis_mapserver_tms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/21995/trunk/gdal/frmts/wms/frmt_wms_arcgis_mapserver_tms.xml
+END
+gdalhttp.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/18020/trunk/gdal/frmts/wms/gdalhttp.h
+END
+frmt_wms_tileservice_nysdop2004.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gdal/!svn/ver/15675/trunk/gdal/frmts/wms/frmt_wms_tileservice_nysdop2004.xml
+END
+frmt_wms_googlemaps_tms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/21981/trunk/gdal/frmts/wms/frmt_wms_googlemaps_tms.xml
+END
+frmt_wms_tileservice_bmng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/15675/trunk/gdal/frmts/wms/frmt_wms_tileservice_bmng.xml
+END
+frmt_wms.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21996/trunk/gdal/frmts/wms/frmt_wms.html
+END
+frmt_wms_metacarta_tms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/16585/trunk/gdal/frmts/wms/frmt_wms_metacarta_tms.xml
+END
+wmsdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21997/trunk/gdal/frmts/wms/wmsdriver.cpp
+END
+wmsmetadataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21862/trunk/gdal/frmts/wms/wmsmetadataset.cpp
+END
+minidriver_tiled_wms.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21726/trunk/gdal/frmts/wms/minidriver_tiled_wms.h
+END
+md5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/18020/trunk/gdal/frmts/wms/md5.cpp
+END
+dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21997/trunk/gdal/frmts/wms/dataset.cpp
+END
+stdinc.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21948/trunk/gdal/frmts/wms/stdinc.h
+END
+minidriver_tms.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/21966/trunk/gdal/frmts/wms/minidriver_tms.cpp
+END

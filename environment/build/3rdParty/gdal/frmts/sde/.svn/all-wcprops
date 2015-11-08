@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/17926/trunk/gdal/frmts/sde
+END
+sdedataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/17926/trunk/gdal/frmts/sde/sdedataset.cpp
+END
+sderasterband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/13338/trunk/gdal/frmts/sde/sderasterband.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/14364/trunk/gdal/frmts/sde/makefile.vc
+END
+frmt_sde.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/14166/trunk/gdal/frmts/sde/frmt_sde.html
+END
+sdeerror.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/10726/trunk/gdal/frmts/sde/sdeerror.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/15888/trunk/gdal/frmts/sde/GNUmakefile
+END
+sdedataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/11220/trunk/gdal/frmts/sde/sdedataset.h
+END
+sderasterband.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/11799/trunk/gdal/frmts/sde/sderasterband.h
+END
+gdal_sde.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10726/trunk/gdal/frmts/sde/gdal_sde.h
+END
+sdeerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/10726/trunk/gdal/frmts/sde/sdeerror.h
+END

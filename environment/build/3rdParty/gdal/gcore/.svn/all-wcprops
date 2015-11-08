@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/gdal/!svn/ver/22002/trunk/gdal/gcore
+END
+gdalnodatamaskband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/19692/trunk/gdal/gcore/gdalnodatamaskband.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21224/trunk/gdal/gcore/makefile.vc
+END
+gdalopeninfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/21991/trunk/gdal/gcore/gdalopeninfo.cpp
+END
+overview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21356/trunk/gdal/gcore/overview.cpp
+END
+Version.rc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/13360/trunk/gdal/gcore/Version.rc
+END
+gdal_pam.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/21992/trunk/gdal/gcore/gdal_pam.h
+END
+gdaldefaultasync.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/19891/trunk/gdal/gcore/gdaldefaultasync.cpp
+END
+gdalpamrasterband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21713/trunk/gdal/gcore/gdalpamrasterband.cpp
+END
+gdaldataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21992/trunk/gdal/gcore/gdaldataset.cpp
+END
+gdaldrivermanager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21688/trunk/gdal/gcore/gdaldrivermanager.cpp
+END
+gdalproxydataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21866/trunk/gdal/gcore/gdalproxydataset.cpp
+END
+gdal_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21528/trunk/gdal/gcore/gdal_version.h
+END
+gdal_misc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/22002/trunk/gdal/gcore/gdal_misc.cpp
+END
+gdal_rat.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/gdal/!svn/ver/10645/trunk/gdal/gcore/gdal_rat.h
+END
+gdaldriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21431/trunk/gdal/gcore/gdaldriver.cpp
+END
+gdalmajorobject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/18719/trunk/gdal/gcore/gdalmajorobject.cpp
+END
+gdal_frmts.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21984/trunk/gdal/gcore/gdal_frmts.h
+END
+gdaljp2metadata.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/20996/trunk/gdal/gcore/gdaljp2metadata.h
+END
+gdal_rpcimdio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/20996/trunk/gdal/gcore/gdal_rpcimdio.cpp
+END
+gdalproxypool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/21669/trunk/gdal/gcore/gdalproxypool.cpp
+END
+gdalrasterblock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21884/trunk/gdal/gcore/gdalrasterblock.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21224/trunk/gdal/gcore/GNUmakefile
+END
+gdaldllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/21261/trunk/gdal/gcore/gdaldllmain.cpp
+END
+gdalpamdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21992/trunk/gdal/gcore/gdalpamdataset.cpp
+END
+gdalmultidomainmetadata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21811/trunk/gdal/gcore/gdalmultidomainmetadata.cpp
+END
+gdal.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/gdal/!svn/ver/20854/trunk/gdal/gcore/gdal.h
+END
+gdal_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/gdal/!svn/ver/21994/trunk/gdal/gcore/gdal_priv.h
+END
+gdalpamproxydb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/20996/trunk/gdal/gcore/gdalpamproxydb.cpp
+END
+gdal_proxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/20962/trunk/gdal/gcore/gdal_proxy.h
+END
+gdal_rat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21167/trunk/gdal/gcore/gdal_rat.cpp
+END
+gdalrasterband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21822/trunk/gdal/gcore/gdalrasterband.cpp
+END
+gdalcolortable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/16573/trunk/gdal/gcore/gdalcolortable.cpp
+END
+gdalnodatavaluesmaskband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/17757/trunk/gdal/gcore/gdalnodatavaluesmaskband.cpp
+END
+gdalallvalidmaskband.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/15044/trunk/gdal/gcore/gdalallvalidmaskband.cpp
+END
+gdalgmlcoverage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/10645/trunk/gdal/gcore/gdalgmlcoverage.cpp
+END
+gdaljp2metadata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21611/trunk/gdal/gcore/gdaljp2metadata.cpp
+END
+gdaldefaultoverviews.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/21992/trunk/gdal/gcore/gdaldefaultoverviews.cpp
+END
+rasterio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/gdal/!svn/ver/21884/trunk/gdal/gcore/rasterio.cpp
+END
+gdaljp2box.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/21430/trunk/gdal/gcore/gdaljp2box.cpp
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/geoconcept
+END
+ogrgeoconceptdatasource.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/gdal/!svn/ver/13799/trunk/gdal/ogr/ogrsf_frmts/geoconcept/ogrgeoconceptdatasource.h
+END
+ogrgeoconceptdriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/gdal/!svn/ver/13483/trunk/gdal/ogr/ogrsf_frmts/geoconcept/ogrgeoconceptdriver.h
+END
+geoconcept_syscoord.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/gdal/!svn/ver/13869/trunk/gdal/ogr/ogrsf_frmts/geoconcept/geoconcept_syscoord.h
+END
+ogrgeoconceptlayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gdal/!svn/ver/13555/trunk/gdal/ogr/ogrsf_frmts/geoconcept/ogrgeoconceptlayer.h
+END
+drv_geoconcept.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gdal/!svn/ver/16683/trunk/gdal/ogr/ogrsf_frmts/geoconcept/drv_geoconcept.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/geoconcept/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/geoconcept/GNUmakefile
+END
+geoconcept.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/18980/trunk/gdal/ogr/ogrsf_frmts/geoconcept/geoconcept.c
+END
+ogrgeoconceptdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/gdal/!svn/ver/16938/trunk/gdal/ogr/ogrsf_frmts/geoconcept/ogrgeoconceptdatasource.cpp
+END
+ogrgeoconceptdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/gdal/!svn/ver/16682/trunk/gdal/ogr/ogrsf_frmts/geoconcept/ogrgeoconceptdriver.cpp
+END
+geoconcept.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/20139/trunk/gdal/ogr/ogrsf_frmts/geoconcept/geoconcept.h
+END
+geoconcept_syscoord.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/gdal/!svn/ver/21298/trunk/gdal/ogr/ogrsf_frmts/geoconcept/geoconcept_syscoord.c
+END
+ogrgeoconceptlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/gdal/!svn/ver/16681/trunk/gdal/ogr/ogrsf_frmts/geoconcept/ogrgeoconceptlayer.cpp
+END

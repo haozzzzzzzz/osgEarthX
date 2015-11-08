@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 37
+*.pyc
+*.obj
+build
+dist
+GDAL.egg-info
+
+END

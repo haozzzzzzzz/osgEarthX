@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21564/trunk/gdal/ogr/ogrsf_frmts/mdb
+END
+ogr_mdb.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21557/trunk/gdal/ogr/ogrsf_frmts/mdb/ogr_mdb.h
+END
+drv_mdb.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21564/trunk/gdal/ogr/ogrsf_frmts/mdb/drv_mdb.html
+END
+ogrmdbjackcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/21556/trunk/gdal/ogr/ogrsf_frmts/mdb/ogrmdbjackcess.cpp
+END
+ogrmdbdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21562/trunk/gdal/ogr/ogrsf_frmts/mdb/ogrmdbdatasource.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21551/trunk/gdal/ogr/ogrsf_frmts/mdb/GNUmakefile
+END
+ogrmdbdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/21560/trunk/gdal/ogr/ogrsf_frmts/mdb/ogrmdbdriver.cpp
+END
+ogrmdblayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21557/trunk/gdal/ogr/ogrsf_frmts/mdb/ogrmdblayer.cpp
+END

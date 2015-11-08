@@ -1,0 +1,15 @@
+K 13
+svn:eol-style
+V 6
+native
+K 12
+svn:keywords
+V 23
+Author Date Id Revision
+K 13
+svn:mergeinfo
+V 198
+/sandbox/mloskot/winkey-libkml/gdal/frmts/raw/btdataset.cpp:18902-19054
+/sandbox/warmerdam/1.8-esri/gdal/frmts/raw/btdataset.cpp:21793
+/sandbox/winkey/libkml/gdal/frmts/raw/btdataset.cpp:19055-19529
+END

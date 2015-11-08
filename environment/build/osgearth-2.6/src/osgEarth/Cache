@@ -1,0 +1,192 @@
+/* -*-c++-*- */
+/* osgEarth - Dynamic map generation toolkit for OpenSceneGraph
+* Copyright 2008-2014 Pelican Mapping
+* http://osgearth.org
+*
+* osgEarth is free software; you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
+
+#ifndef OSGEARTH_CACHE_H
+#define OSGEARTH_CACHE_H 1
+
+#include <osgEarth/Common>
+#include <osgEarth/CacheBin>
+#include <osgEarth/Config>
+#include <osgEarth/TileKey>
+#include <osgEarth/ThreadingUtils>
+#include <sys/types.h>
+
+// environment variables
+#define OSGEARTH_ENV_CACHE_DRIVER  "OSGEARTH_CACHE_DRIVER"
+#define OSGEARTH_ENV_CACHE_PATH    "OSGEARTH_CACHE_PATH"
+#define OSGEARTH_ENV_CACHE_ONLY    "OSGEARTH_CACHE_ONLY"
+#define OSGEARTH_ENV_NO_CACHE      "OSGEARTH_NO_CACHE"
+#define OSGEARTH_ENV_CACHE_MAX_AGE "OSGEARTH_CACHE_MAX_AGE"
+
+namespace osgEarth
+{
+    /**
+     * Base class for Cache options.
+     */
+    class OSGEARTH_EXPORT CacheOptions : public DriverConfigOptions
+    {
+    public:
+        CacheOptions( const ConfigOptions& options =ConfigOptions() )
+            : DriverConfigOptions( options )
+        { 
+            fromConfig( _conf ); 
+        }
+
+        /** dtor */
+        virtual ~CacheOptions();
+
+    public:
+        virtual Config getConfig() const {
+            Config conf = ConfigOptions::getConfig();
+            return conf;
+        }
+
+        virtual void mergeConfig( const Config& conf ) {
+            ConfigOptions::mergeConfig( conf );            
+            fromConfig( conf );
+        }
+
+    private:
+        void fromConfig( const Config& conf ) {
+            //future
+        }
+    };
+
+//--------------------------------------------------------------------
+
+    typedef Threading::PerObjectRefMap<std::string, CacheBin> ThreadSafeCacheBinMap;
+
+
+    /**
+     * Cache is a container for local storage of keyed data elements.
+     */
+    class OSGEARTH_EXPORT Cache : public osg::Object
+    {
+    protected:
+        Cache( const CacheOptions& options =CacheOptions() );
+        Cache( const Cache& rhs, const osg::CopyOp& op =osg::CopyOp::DEEP_COPY_ALL );
+        META_Object( osgEarth, Cache );
+
+        /** dtor */
+        virtual ~Cache();
+
+    public:
+        /**
+         * Whether this cache is valid and available for use
+         */
+        bool isOK() const { return _ok; }
+
+        /**
+         * Gets a caching bin within this cache.
+         * @param name Name of the caching bin
+         * @param rw   Read/write driver for the bin (can be null)
+         */
+        CacheBin* getBin( const std::string& name );
+
+        /** 
+         * Gets the default caching bin within this cache. This may or may not
+         * be supported by the implementation, so be sure to check the result
+         * before using it.
+         */
+        virtual CacheBin* getOrCreateDefaultBin() { return _defaultBin.get(); }
+
+        /**
+         * Creates (and returns a pointer to) a new Cache Bin.
+         * @param binID Name of the new bin
+         * @param rw    Read/write driver that will handle serialization for the bin
+         */
+        virtual CacheBin* addBin( const std::string& binID ) { return 0L; }
+
+        /**
+         * Removes a cache bin from the cache.
+         * @param bin Bin to remove.
+         */
+        virtual void removeBin( CacheBin* bin );
+
+        /** 
+         * Gets an Options structure representing this cache's configuration.
+         */
+        const CacheOptions& getCacheOptions() const { return _options; }
+
+        /**
+         * Gets the (approximate) size of the cache on disk, or zero if
+         * the size cannot be calculated
+         */
+        virtual off_t getApproximateSize() const { return 0; }
+
+        /**
+         * Compacts the cache (if applicable).
+         */
+        virtual bool compact() { return false; }
+
+        /**
+         * Removes all records in the cache (if possible). This could take
+         * some time to complete.
+         */
+        virtual bool clear() { return false; }
+
+        /**
+         * Store this to an osgDB::Options
+         */
+        void apply( osgDB::Options* options ) {
+            if ( options ) options->setPluginData( "osgEarth::Cache", this );
+        }
+
+        /**
+         * Fetch pointer from a osgDB::Options
+         */
+        static Cache* get( const osgDB::Options* options ) {
+            return options ? const_cast<Cache*>( static_cast<const Cache*>( options->getPluginData("osgEarth::Cache") ) ) : 0L;
+        }
+
+    protected:
+        bool                   _ok;
+        CacheOptions           _options;
+        ThreadSafeCacheBinMap  _bins;
+        osg::ref_ptr<CacheBin> _defaultBin;
+    };
+
+//----------------------------------------------------------------------
+
+    /**
+     * Base class for a cache driver plugin.
+     */
+    class OSGEARTH_EXPORT CacheDriver : public osgDB::ReaderWriter
+    {
+    public:
+        const CacheOptions& getCacheOptions( const osgDB::ReaderWriter::Options* options ) const;
+
+        /** dtor */
+        virtual ~CacheDriver();
+    };
+
+//----------------------------------------------------------------------
+
+    /** 
+     * Factory class that can load and instantiate a Cache implementation based on the
+     * information in the CacheOptions settings.
+     */
+    class OSGEARTH_EXPORT CacheFactory
+    {
+    public:
+        static Cache* create( const CacheOptions& options);
+    };
+}
+
+#endif // OSGEARTH_CACHE_H

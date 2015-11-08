@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/gdal/!svn/ver/17664/trunk/gdal/frmts/cosar
+END
+frmt_cosar.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/13797/trunk/gdal/frmts/cosar/frmt_cosar.html
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/12488/trunk/gdal/frmts/cosar/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15888/trunk/gdal/frmts/cosar/GNUmakefile
+END
+cosar_dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/17664/trunk/gdal/frmts/cosar/cosar_dataset.cpp
+END

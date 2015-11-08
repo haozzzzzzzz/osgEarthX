@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21889/trunk/gdal/ogr/ogrsf_frmts/s57
+END
+s57reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21889/trunk/gdal/ogr/ogrsf_frmts/s57/s57reader.cpp
+END
+ogrs57datasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/20996/trunk/gdal/ogr/ogrsf_frmts/s57/ogrs57datasource.cpp
+END
+ogrs57driver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/s57/ogrs57driver.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/s57/makefile.vc
+END
+s57dump.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15650/trunk/gdal/ogr/ogrsf_frmts/s57/s57dump.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21134/trunk/gdal/ogr/ogrsf_frmts/s57/GNUmakefile
+END
+s57featuredefns.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/21268/trunk/gdal/ogr/ogrsf_frmts/s57/s57featuredefns.cpp
+END
+drv_s57.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/17851/trunk/gdal/ogr/ogrsf_frmts/s57/drv_s57.html
+END
+s57writer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/s57/s57writer.cpp
+END
+s57tables.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/s57/s57tables.h
+END
+s57tables.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/s57/s57tables.py
+END
+s57.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/s57/s57.h
+END
+ogrs57layer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/17953/trunk/gdal/ogr/ogrsf_frmts/s57/ogrs57layer.cpp
+END
+ddfrecordindex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/s57/ddfrecordindex.cpp
+END
+s57filecollector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/s57/s57filecollector.cpp
+END
+s57classregistrar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/21684/trunk/gdal/ogr/ogrsf_frmts/s57/s57classregistrar.cpp
+END
+ogr_s57.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/s57/ogr_s57.h
+END

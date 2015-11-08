@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 70
+cpl_config.h
+xmlreformat
+*.bak
+*.lib
+*.lo
+*.obj
+*.o
+*.swp
+.libs
+.deps
+
+END

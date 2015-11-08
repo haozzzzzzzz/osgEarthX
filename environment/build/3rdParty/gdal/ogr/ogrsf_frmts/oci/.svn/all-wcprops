@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21978/trunk/gdal/ogr/ogrsf_frmts/oci
+END
+ogrocidriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/12396/trunk/gdal/ogr/ogrsf_frmts/oci/ogrocidriver.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15240/trunk/gdal/ogr/ogrsf_frmts/oci/makefile.vc
+END
+ogrocistringbuf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/oci/ogrocistringbuf.cpp
+END
+ogrociloaderlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/19871/trunk/gdal/ogr/ogrsf_frmts/oci/ogrociloaderlayer.cpp
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/21278/trunk/gdal/ogr/ogrsf_frmts/oci/GNUmakefile
+END
+ogrocistatement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gdal/!svn/ver/14387/trunk/gdal/ogr/ogrsf_frmts/oci/ogrocistatement.cpp
+END
+drv_oci.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21975/trunk/gdal/ogr/ogrsf_frmts/oci/drv_oci.html
+END
+ogrociwritablelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/gdal/!svn/ver/12355/trunk/gdal/ogr/ogrsf_frmts/oci/ogrociwritablelayer.cpp
+END
+ogrocistroke.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/16861/trunk/gdal/ogr/ogrsf_frmts/oci/ogrocistroke.cpp
+END
+ocitest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/oci/ocitest.cpp
+END
+ogrociselectlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/oci/ogrociselectlayer.cpp
+END
+ogrocilayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/19871/trunk/gdal/ogr/ogrsf_frmts/oci/ogrocilayer.cpp
+END
+ogrocisession.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/gdal/!svn/ver/19000/trunk/gdal/ogr/ogrsf_frmts/oci/ogrocisession.cpp
+END
+ogr_oci.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21975/trunk/gdal/ogr/ogrsf_frmts/oci/ogr_oci.h
+END
+ogrocitablelayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21978/trunk/gdal/ogr/ogrsf_frmts/oci/ogrocitablelayer.cpp
+END
+oci_utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/oci/oci_utils.cpp
+END
+ogrocidatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21975/trunk/gdal/ogr/ogrsf_frmts/oci/ogrocidatasource.cpp
+END
+fastload.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/10645/trunk/gdal/ogr/ogrsf_frmts/oci/fastload.cpp
+END

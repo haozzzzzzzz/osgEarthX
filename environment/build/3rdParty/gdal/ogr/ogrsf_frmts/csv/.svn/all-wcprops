@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gdal/!svn/ver/21807/trunk/gdal/ogr/ogrsf_frmts/csv
+END
+ogrcsvdatasource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gdal/!svn/ver/21807/trunk/gdal/ogr/ogrsf_frmts/csv/ogrcsvdatasource.cpp
+END
+ogrcsvdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/20869/trunk/gdal/ogr/ogrsf_frmts/csv/ogrcsvdriver.cpp
+END
+ogrcsvlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/21806/trunk/gdal/ogr/ogrsf_frmts/csv/ogrcsvlayer.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/10609/trunk/gdal/ogr/ogrsf_frmts/csv/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/15888/trunk/gdal/ogr/ogrsf_frmts/csv/GNUmakefile
+END
+ogr_csv.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/21806/trunk/gdal/ogr/ogrsf_frmts/csv/ogr_csv.h
+END
+drv_csv.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/21806/trunk/gdal/ogr/ogrsf_frmts/csv/drv_csv.html
+END

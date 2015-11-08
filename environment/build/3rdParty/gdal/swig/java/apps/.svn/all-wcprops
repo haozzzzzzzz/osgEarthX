@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/21766/trunk/gdal/swig/java/apps
+END
+OSRTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gdal/!svn/ver/16341/trunk/gdal/swig/java/apps/OSRTransform.java
+END
+GDALTestIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/18017/trunk/gdal/swig/java/apps/GDALTestIO.java
+END
+OGRTestGC.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gdal/!svn/ver/16357/trunk/gdal/swig/java/apps/OGRTestGC.java
+END
+ogrinfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16314/trunk/gdal/swig/java/apps/ogrinfo.java
+END
+OGRFeature.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/gdal/!svn/ver/16357/trunk/gdal/swig/java/apps/OGRFeature.java
+END
+GDALtest.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/17965/trunk/gdal/swig/java/apps/GDALtest.java
+END
+GDALGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/20126/trunk/gdal/swig/java/apps/GDALGrid.java
+END
+ogr2ogr.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/21766/trunk/gdal/swig/java/apps/ogr2ogr.java
+END
+GDALOverviews.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/20974/trunk/gdal/swig/java/apps/GDALOverviews.java
+END
+GDALContour.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gdal/!svn/ver/20128/trunk/gdal/swig/java/apps/GDALContour.java
+END
+gdalinfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gdal/!svn/ver/16360/trunk/gdal/swig/java/apps/gdalinfo.java
+END
+gdalmajorobject.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/16510/trunk/gdal/swig/java/apps/gdalmajorobject.java
+END
+gdaltransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/gdal/!svn/ver/16510/trunk/gdal/swig/java/apps/gdaltransformer.java
+END
+WKT2WKB.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16344/trunk/gdal/swig/java/apps/WKT2WKB.java
+END
+ReadXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gdal/!svn/ver/16344/trunk/gdal/swig/java/apps/ReadXML.java
+END
+GDALProximity.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/gdal/!svn/ver/18104/trunk/gdal/swig/java/apps/GDALProximity.java
+END

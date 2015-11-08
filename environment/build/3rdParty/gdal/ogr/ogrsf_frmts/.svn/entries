@@ -1,0 +1,406 @@
+10
+
+dir
+22007
+https://svn.osgeo.org/gdal/trunk/gdal/ogr/ogrsf_frmts
+https://svn.osgeo.org/gdal
+
+
+
+2011-03-19T11:48:33.342843Z
+21982
+rouault
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+f0d54148-0727-0410-94bb-9a71ac55c965
+
+arcobjects
+dir
+
+grass
+dir
+
+ogdi
+dir
+
+vfk
+dir
+
+xplane
+dir
+
+gtm
+dir
+
+pgeo
+dir
+
+mitab
+dir
+
+filegdb
+dir
+
+gpx
+dir
+
+dgn
+dir
+
+libkml
+dir
+
+vrt
+dir
+
+mem
+dir
+
+gml
+dir
+
+ogrsf_frmts.h
+file
+
+
+
+
+2011-03-22T09:17:30.000000Z
+e9812f86f8d50132b2c835d9ef2baf58
+2011-02-06T13:08:20.070636Z
+21630
+rouault
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12630
+
+kml
+dir
+
+geoconcept
+dir
+
+GNUmakefile
+file
+
+
+
+
+2011-03-22T09:17:30.000000Z
+d71fd4027674405e4566b02ec04d2272
+2011-02-06T13:08:20.070636Z
+21630
+rouault
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1136
+
+gmt
+dir
+
+sua
+dir
+
+sqlite
+dir
+
+geojson
+dir
+
+avc
+dir
+
+generic
+dir
+
+pcidsk
+dir
+
+mssqlspatial
+dir
+
+s57
+dir
+
+gpsbabel
+dir
+
+dxf
+dir
+
+htf
+dir
+
+makefile.vc
+file
+
+
+
+
+2011-03-22T09:17:30.000000Z
+6b68a72fac38239ce8d1c654762dce3f
+2011-02-06T13:08:20.070636Z
+21630
+rouault
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3539
+
+ogr_formats.html
+file
+
+
+
+
+2011-03-22T09:17:30.000000Z
+a5c9aa889887e8091b463828273b887b
+2011-02-08T20:19:30.318293Z
+21654
+rouault
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7819
+
+pds
+dir
+
+ntf
+dir
+
+edigeo
+dir
+
+openair
+dir
+
+wfs
+dir
+
+shape
+dir
+
+aeronavfaa
+dir
+
+pg
+dir
+
+fme
+dir
+
+rec
+dir
+
+tiger
+dir
+
+oci
+dir
+
+sdts
+dir
+
+nas
+dir
+
+ogrsf_frmts.dox
+file
+
+
+
+
+2011-03-22T09:17:30.000000Z
+69e4228a40a9e6e1f20f28b02f07f687
+2011-02-20T13:23:32.857990Z
+21762
+rouault
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+85357
+
+ingres
+dir
+
+dods
+dir
+
+csv
+dir
+
+pgdump
+dir
+
+o
+dir
+
+idb
+dir
+
+bna
+dir
+
+georss
+dir
+
+mdb
+dir
+
+ogr_attrind.h
+file
+
+
+
+
+2011-03-22T09:17:30.000000Z
+bbac2a5960d6548537fc04c202418ab7
+2010-07-18T15:20:35.303691Z
+20101
+tamas
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3783
+
+mysql
+dir
+
+odbc
+dir
+
+geomedia
+dir
+
+sde
+dir
+
+sosi
+dir
+
+ili
+dir
+

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gdal/!svn/ver/21719/trunk/gdal/frmts/rmf
+END
+frmt_rmf.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gdal/!svn/ver/15709/trunk/gdal/frmts/rmf/frmt_rmf.html
+END
+rmfdataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/gdal/!svn/ver/20996/trunk/gdal/frmts/rmf/rmfdataset.h
+END
+rmflzw.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/11865/trunk/gdal/frmts/rmf/rmflzw.cpp
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/19700/trunk/gdal/frmts/rmf/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gdal/!svn/ver/19700/trunk/gdal/frmts/rmf/GNUmakefile
+END
+rmfdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/gdal/!svn/ver/21719/trunk/gdal/frmts/rmf/rmfdataset.cpp
+END
+rmfdem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/gdal/!svn/ver/19700/trunk/gdal/frmts/rmf/rmfdem.cpp
+END

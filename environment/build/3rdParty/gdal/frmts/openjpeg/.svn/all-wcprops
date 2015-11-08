@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/gdal/!svn/ver/21910/trunk/gdal/frmts/openjpeg
+END
+makefile.vc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/20941/trunk/gdal/frmts/openjpeg/makefile.vc
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/gdal/!svn/ver/19729/trunk/gdal/frmts/openjpeg/GNUmakefile
+END
+frmt_jp2openjpeg.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/gdal/!svn/ver/19729/trunk/gdal/frmts/openjpeg/frmt_jp2openjpeg.html
+END
+openjpegdataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/gdal/!svn/ver/21910/trunk/gdal/frmts/openjpeg/openjpegdataset.cpp
+END
