@@ -1,0 +1,6 @@
+#ifndef OSGEARTHX_COM_SYMBOLOGY_IDL_H
+#define OSGEARTHX_COM_SYMBOLOGY_IDL_H 1
+
+#include <COM/Symbology/Style/Style_idl.h>
+
+#endif

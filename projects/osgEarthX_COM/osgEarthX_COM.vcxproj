@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6C2574E3-A495-430E-B36E-389BFC753A62}</ProjectGuid>
+    <Keyword>AtlProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <UseOfAtl>Dynamic</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <UseOfAtl>Dynamic</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <TargetName>$(ProjectName)d</TargetName>
+    <IncludePath>..\osgEarthX\include;..\osgEarthX_Core\include;..\..\environment\include;.\;.\WTL\;..\osgX_Threads\include;..\osgX_Libs\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\osgEarthX\lib;..\osgEarthX_Core\lib;..\..\environment\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IncludePath>..\osgEarthX\include;..\osgEarthX_Core\include;..\..\environment\include;.\;.\WTL\;..\osgX_Threads\include;..\osgX_Libs\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\osgEarthX\lib;..\osgEarthX_Core\lib;..\..\environment\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>osgEarthX_COM_i.h</HeaderFileName>
+      <InterfaceIdentifierFileName>osgEarthX_COM_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>osgEarthX_COM_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)osgEarthX_COM.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <ModuleDefinitionFile>.\osgEarthX_COM.def</ModuleDefinitionFile>
+      <AdditionalDependencies>comsvcs.lib;osgEarthXd.lib;osgEarthX_Cored.lib;osgd.lib;osgViewerd.lib;osgEarthd.lib;osgEarthUtild.lib;osgEarthFeaturesd.lib;osgEarthSymbologyd.lib;osgEarthAnnotationd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <RegisterOutput>true</RegisterOutput>
+      <ImportLibrary>$(ProjectDir)lib\$(TargetName).lib</ImportLibrary>
+      <PerUserRedirection>true</PerUserRedirection>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>osgEarthX_COM_i.h</HeaderFileName>
+      <InterfaceIdentifierFileName>osgEarthX_COM_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>osgEarthX_COM_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)osgEarthX_COM.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <ModuleDefinitionFile>.\osgEarthX_COM.def</ModuleDefinitionFile>
+      <AdditionalDependencies>comsvcs.lib;osgEarthX.lib;osgEarthX_Core.lib;osg.lib;osgViewer.lib;OpenThreads.lib;osgEarth.lib;osgEarthUtil.lib;osgEarthFeatures.lib;osgEarthSymbology.lib;osgEarthAnnotation.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <RegisterOutput>true</RegisterOutput>
+      <ImportLibrary>$(ProjectDir)lib\$(TargetName).lib</ImportLibrary>
+      <PerUserRedirection>true</PerUserRedirection>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="COM\Annotation\EllipsePrimitive\EllipsePrimitive.cpp" />
+    <ClCompile Include="COM\Annotation\FeaturePrimitive\FeaturePrimitive.cpp" />
+    <ClCompile Include="COM\Annotation\Model\Model.cpp" />
+    <ClCompile Include="COM\Annotation\RectanglePrimitive\RectanglePrimitive.cpp" />
+    <ClCompile Include="COM\Annotation\TextLabel\TextLabel.cpp" />
+    <ClCompile Include="COM\Basis\GeoData\Feature\Feature.cpp" />
+    <ClCompile Include="COM\Basis\GeoData\SpatialReference\SpatialReference.cpp" />
+    <ClCompile Include="COM\Basis\Geometry\LineStringGeometry\LineStringGeometry.cpp" />
+    <ClCompile Include="COM\Basis\Geometry\PolygonGeometry\PolygonGeometry.cpp" />
+    <ClCompile Include="COM\Basis\Geometry\RingGeometry\RingGeometry.cpp" />
+    <ClCompile Include="COM\Basis\Units\Angular\Angular.cpp" />
+    <ClCompile Include="COM\Basis\Units\Linear\Linear.cpp" />
+    <ClCompile Include="COM\Basis\Vec\Vec3d\Vec3d.cpp" />
+    <ClCompile Include="COM\Utils\StaticUtils\GeometryStaticUtils.cpp" />
+    <ClCompile Include="COM\Utils\StaticUtils\UnitsStaticUtils.cpp" />
+    <ClCompile Include="osgEarthX_COM.cpp" />
+    <ClCompile Include="osgEarthX_COM_i.c">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="compreg.cpp" />
+    <ClCompile Include="COM\Annotation\Circle\Circle.cpp" />
+    <ClCompile Include="COM\Annotation\ImageOverlay\ImageOverlay.cpp" />
+    <ClCompile Include="COM\Annotation\Place\Place.cpp" />
+    <ClCompile Include="COM\Basis\GeoData\GeoPoint\GeoPoint.cpp" />
+    <ClCompile Include="COM\EarthGroup\EarthGroup.cpp" />
+    <ClCompile Include="COM\EarthMap\EarthMap.cpp" />
+    <ClCompile Include="COM\EarthViewer\EarthViewer.cpp" />
+    <ClCompile Include="COM\Externals\Graticule\Graticule.cpp" />
+    <ClCompile Include="COM\Externals\Sky\Sky.cpp" />
+    <ClCompile Include="COM\Externals\Viewpoint\Viewpoint.cpp" />
+    <ClCompile Include="COM\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer.cpp" />
+    <ClCompile Include="COM\Layer\ImageSurfaceLayer\ImageSurfaceLayer.cpp" />
+    <ClCompile Include="COM\Layer\VectorSurfaceLayer\VectorSurfaceLayer.cpp" />
+    <ClCompile Include="COM\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR.cpp" />
+    <ClCompile Include="COM\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS.cpp" />
+    <ClCompile Include="COM\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceBing\TileSourceBing.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceDebug\TileSourceDebug.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceGDAL\TileSourceGDAL.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceNoise\TileSourceNoise.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceOSG\TileSourceOSG.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceTileCache\TileSourceTileCache.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceTileService\TileSourceTileService.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceTMS\TileSourceTMS.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceVPB\TileSourceVPB.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceWCS\TileSourceWCS.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceWMS\TileSourceWMS.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceXYZ\TileSourceXYZ.cpp" />
+    <ClCompile Include="COM\Source\TileSource\TileSourceYahoo\TileSourceYahoo.cpp" />
+    <ClCompile Include="COM\Source\VectorSource\VectorSourceGeom\VectorSourceGeom.cpp" />
+    <ClCompile Include="COM\Source\VectorSource\VectorSourceSimple\VectorSourceSimple.cpp" />
+    <ClCompile Include="COM\Source\VectorSource\VectorSourceStencil\VectorSourceStencil.cpp" />
+    <ClCompile Include="COM\Symbology\Style\Style.cpp" />
+    <ClCompile Include="COM\Utils\ObjectFactory\ObjectFactory.cpp" />
+    <ClCompile Include="COM\Utils\StaticUtils\GeoStaticUtils.cpp" />
+    <ClCompile Include="COM\Utils\StaticUtils\SourceStaticUtils.cpp" />
+    <ClCompile Include="COM\Utils\StaticUtils\EarthObjectStaticUtils.cpp" />
+    <ClCompile Include="COM\Utils\StaticUtils\EarthStaticUtils.cpp" />
+    <ClCompile Include="Controls\EarthCtrl\EarthCtrl.cpp" />
+    <ClCompile Include="Controls\EarthTreeCtrl\EarthTreeCtrl.cpp" />
+    <ClCompile Include="Controls\EarthTreeCtrl\EarthTreeView.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="COM\Annotation\EllipsePrimitive\EllipsePrimitive.h" />
+    <ClInclude Include="COM\Annotation\EllipsePrimitive\EllipsePrimitive_idl.h" />
+    <ClInclude Include="COM\Annotation\EllipsePrimitive\EllipsePrimitive_lib_idl.h" />
+    <ClInclude Include="COM\Annotation\FeaturePrimitive\FeaturePrimitive.h" />
+    <ClInclude Include="COM\Annotation\FeaturePrimitive\FeaturePrimitive_idl.h" />
+    <ClInclude Include="COM\Annotation\FeaturePrimitive\FeaturePrimitive_lib_idl.h" />
+    <ClInclude Include="COM\Annotation\Model\Model.h" />
+    <ClInclude Include="COM\Annotation\Model\Model_idl.h" />
+    <ClInclude Include="COM\Annotation\Model\Model_lib_idl.h" />
+    <ClInclude Include="COM\Annotation\RectanglePrimitive\RectanglePrimitive.h" />
+    <ClInclude Include="COM\Annotation\RectanglePrimitive\RectanglePrimitive_idl.h" />
+    <ClInclude Include="COM\Annotation\RectanglePrimitive\RectanglePrimitive_lib_idl.h" />
+    <ClInclude Include="COM\Annotation\TextLabel\TextLabel.h" />
+    <ClInclude Include="COM\Annotation\TextLabel\TextLabel_idl.h" />
+    <ClInclude Include="COM\Annotation\TextLabel\TextLabel_lib_idl.h" />
+    <ClInclude Include="COM\Basis\GeoData\Feature\Feature.h" />
+    <ClInclude Include="COM\Basis\GeoData\Feature\Feature_idl.h" />
+    <ClInclude Include="COM\Basis\GeoData\Feature\Feature_lib_idl.h" />
+    <ClInclude Include="COM\Basis\GeoData\SpatialReference\SpatialReference.h" />
+    <ClInclude Include="COM\Basis\GeoData\SpatialReference\SpatialReference_idl.h" />
+    <ClInclude Include="COM\Basis\GeoData\SpatialReference\SpatialReference_lib_idl.h" />
+    <ClInclude Include="COM\Basis\Geometry\GeometryClassType_idl.h" />
+    <ClInclude Include="COM\Basis\Geometry\Geometry\GeometryDispatchImpl.h" />
+    <ClInclude Include="COM\Basis\Geometry\Geometry\IGeometry_idl.h" />
+    <ClInclude Include="COM\Basis\Geometry\Geometry_idl.h" />
+    <ClInclude Include="COM\Basis\Geometry\Geometry_lib_idl.h" />
+    <ClInclude Include="COM\Basis\Geometry\LineStringGeometry\LineStringGeometry.h" />
+    <ClInclude Include="COM\Basis\Geometry\LineStringGeometry\LineStringGeometry_idl.h" />
+    <ClInclude Include="COM\Basis\Geometry\LineStringGeometry\LineStringGeometry_lib_idl.h" />
+    <ClInclude Include="COM\Basis\Geometry\PolygonGeometry\PolygonGeometry.h" />
+    <ClInclude Include="COM\Basis\Geometry\PolygonGeometry\PolygonGeometry_idl.h" />
+    <ClInclude Include="COM\Basis\Geometry\PolygonGeometry\PolygonGeometry_lib_idl.h" />
+    <ClInclude Include="COM\Basis\Geometry\RingGeometry\RingGeometry.h" />
+    <ClInclude Include="COM\Basis\Geometry\RingGeometry\RingGeometryDispatchImpl.h" />
+    <ClInclude Include="COM\Basis\Geometry\RingGeometry\RingGeometry_idl.h" />
+    <ClInclude Include="COM\Basis\Geometry\RingGeometry\RingGeometry_lib_idl.h" />
+    <ClInclude Include="COM\Basis\Units\Angular\Angular.h" />
+    <ClInclude Include="COM\Basis\Units\Angular\Angular_idl.h" />
+    <ClInclude Include="COM\Basis\Units\Angular\Angular_lib_idl.h" />
+    <ClInclude Include="COM\Basis\Units\Linear\Linear.h" />
+    <ClInclude Include="COM\Basis\Units\Linear\Linear_idl.h" />
+    <ClInclude Include="COM\Basis\Units\Linear\Linear_lib_idl.h" />
+    <ClInclude Include="COM\Basis\Units\UnitClassType_idl.h" />
+    <ClInclude Include="COM\Basis\Units\UnitsType_idl.h" />
+    <ClInclude Include="COM\Basis\Vec\Vec3d\Vec3d.h" />
+    <ClInclude Include="COM\Basis\Vec\Vec3d\Vec3d_idl.h" />
+    <ClInclude Include="COM\Basis\Vec\Vec3d\Vec3d_lib_idl.h" />
+    <ClInclude Include="COM\Basis\Vec\VecClassType_idl.h" />
+    <ClInclude Include="COM\Basis\Vec\Vec_idl.h" />
+    <ClInclude Include="COM\Basis\Vec\Vec_lib_idl.h" />
+    <ClInclude Include="COM\Utils\StaticUtils\GeometryStaticUtils.h" />
+    <ClInclude Include="COM\Utils\StaticUtils\UnitsStaticUtils.h" />
+    <ClInclude Include="osgEarthX_COM_i.h" />
+    <ClInclude Include="compreg.h" />
+    <ClInclude Include="COM\Annotation\Annotations_idl.h" />
+    <ClInclude Include="COM\Annotation\Annotations_lib_idl.h" />
+    <ClInclude Include="COM\Annotation\Circle\Circle.h" />
+    <ClInclude Include="COM\Annotation\Circle\Circle_idl.h" />
+    <ClInclude Include="COM\Annotation\Circle\Circle_lib_idl.h" />
+    <ClInclude Include="COM\Annotation\ImageOverlay\ImageOverlay.h" />
+    <ClInclude Include="COM\Annotation\ImageOverlay\ImageOverlay_idl.h" />
+    <ClInclude Include="COM\Annotation\ImageOverlay\ImageOverlay_lib_idl.h" />
+    <ClInclude Include="COM\Annotation\Place\Place.h" />
+    <ClInclude Include="COM\Annotation\Place\Place_idl.h" />
+    <ClInclude Include="COM\Annotation\Place\Place_lib_idl.h" />
+    <ClInclude Include="COM\Basis\Basis_idl.h" />
+    <ClInclude Include="COM\Basis\Basis_lib_idl.h" />
+    <ClInclude Include="COM\Basis\GeoData\GeoClassType_idl.h" />
+    <ClInclude Include="COM\Basis\GeoData\GeoPoint\GeoPoint.h" />
+    <ClInclude Include="COM\Basis\GeoData\GeoPoint\GeoPoint_idl.h" />
+    <ClInclude Include="COM\Basis\GeoData\GeoPoint\GeoPoint_lib_idl.h" />
+    <ClInclude Include="COM\Basis\GeoData\Geo_idl.h" />
+    <ClInclude Include="COM\Basis\GeoData\Geo_lib_idl.h" />
+    <ClInclude Include="COM\Basis\Units\Units_idl.h" />
+    <ClInclude Include="COM\Basis\Units\Units_lib_idl.h" />
+    <ClInclude Include="COM\EarthGroup\EarthGroup.h" />
+    <ClInclude Include="COM\EarthGroup\EarthGroup_idl.h" />
+    <ClInclude Include="COM\EarthGroup\EarthGroup_lib_idl.h" />
+    <ClInclude Include="COM\EarthMap\EarthMap.h" />
+    <ClInclude Include="COM\EarthMap\EarthMap_idl.h" />
+    <ClInclude Include="COM\EarthMap\EarthMap_lib_idl.h" />
+    <ClInclude Include="COM\EarthObject\EarthObjectClassType_idl.h" />
+    <ClInclude Include="COM\EarthObject\EarthObjectDispatchImpl.h" />
+    <ClInclude Include="COM\EarthObject\IEarthObject_idl.h" />
+    <ClInclude Include="COM\EarthObject\IEarthObject_lib_idl.h" />
+    <ClInclude Include="COM\EarthObject\IEarthObjectEvents_CP.h" />
+    <ClInclude Include="COM\EarthViewer\EarthViewer.h" />
+    <ClInclude Include="COM\EarthViewer\EarthViewer_idl.h" />
+    <ClInclude Include="COM\EarthViewer\EarthViewer_lib_idl.h" />
+    <ClInclude Include="COM\EarthViewer\_IEarthViewerEvents_CP.h" />
+    <ClInclude Include="COM\Earth\EarthClassType_idl.h" />
+    <ClInclude Include="COM\Earth\EarthDispatchImpl.h" />
+    <ClInclude Include="COM\Earth\PtrEarthDispatchImpl.h" />
+    <ClInclude Include="COM\Earth\RefEarthDispatchImpl.h" />
+    <ClInclude Include="COM\Earth\IEarthDispatch_idl.h" />
+    <ClInclude Include="COM\Earth\IEarthDisp_CP.h" />
+    <ClInclude Include="COM\Earth\IEarthDisp_lib_idl.h" />
+    <ClInclude Include="COM\Externals\Externals\Externals_idl.h" />
+    <ClInclude Include="COM\Externals\Externals\Externals_lib_idl.h" />
+    <ClInclude Include="COM\Externals\Graticule\Graticule.h" />
+    <ClInclude Include="COM\Externals\Graticule\Graticule_idl.h" />
+    <ClInclude Include="COM\Externals\Graticule\Graticule_lib_idl.h" />
+    <ClInclude Include="COM\Externals\Sky\Sky.h" />
+    <ClInclude Include="COM\Externals\Sky\Sky_idl.h" />
+    <ClInclude Include="COM\Externals\Sky\Sky_lib_idl.h" />
+    <ClInclude Include="COM\Externals\Viewpoint\Viewpoint.h" />
+    <ClInclude Include="COM\Externals\Viewpoint\Viewpoint_idl.h" />
+    <ClInclude Include="COM\Externals\Viewpoint\Viewpoint_lib_idl.h" />
+    <ClInclude Include="COM\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer.h" />
+    <ClInclude Include="COM\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer_idl.h" />
+    <ClInclude Include="COM\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer_lib_idl.h" />
+    <ClInclude Include="COM\Layer\ImageSurfaceLayer\IImageSurfaceLayerEvents_CP.h" />
+    <ClInclude Include="COM\Layer\ImageSurfaceLayer\ImageSurfaceLayer.h" />
+    <ClInclude Include="COM\Layer\ImageSurfaceLayer\ImageSurfaceLayer_idl.h" />
+    <ClInclude Include="COM\Layer\ImageSurfaceLayer\ImageSurfaceLayer_lib_idl.h" />
+    <ClInclude Include="COM\Layer\ImageSurfaceLayer\IDispImageSurfaceLayerEvents_CP.h" />
+    <ClInclude Include="COM\Layer\Layer\ILayerEvents_CP.h" />
+    <ClInclude Include="COM\Layer\Layer\Layers_idl.h" />
+    <ClInclude Include="COM\Layer\Layer\Layers_lib_idl.h" />
+    <ClInclude Include="COM\Layer\Layer\Layer_idl.h" />
+    <ClInclude Include="COM\Layer\Layer\Layer_lib_idl.h" />
+    <ClInclude Include="COM\Layer\VectorSurfaceLayer\IDispVectorSurfaceLayerEvents_CP.h" />
+    <ClInclude Include="COM\Layer\VectorSurfaceLayer\IVectorSurfaceLayerEvents_CP.h" />
+    <ClInclude Include="COM\Layer\VectorSurfaceLayer\VectorSurfaceLayer.h" />
+    <ClInclude Include="COM\Layer\VectorSurfaceLayer\VectorSurfaceLayer_idl.h" />
+    <ClInclude Include="COM\Layer\VectorSurfaceLayer\VectorSurfaceLayer_lib_idl.h" />
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR.h" />
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR_idl.h" />
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR_lib_idl.h" />
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS.h" />
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS_idl.h" />
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS_lib_idl.h" />
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS.h" />
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS_idl.h" />
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS_lib_idl.h" />
+    <ClInclude Include="COM\Source\FeatureSource\IFeatureSouceDispatch_idl.h" />
+    <ClInclude Include="COM\Source\ISourceDispatch_idl.h" />
+    <ClInclude Include="COM\Source\SourceClassType_idl.h" />
+    <ClInclude Include="COM\Source\SourceDispatchImpl.h" />
+    <ClInclude Include="COM\Source\Sources_idl.h" />
+    <ClInclude Include="COM\Source\Sources_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\ITileSourceDispatch_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceBing\TileSourceBing.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceBing\TileSourceBing_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceBing\TileSourceBing_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceDebug\TileSourceDebug.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceDebug\TileSourceDebug_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceDebug\TileSourceDebug_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceGDAL\TileSourceGDAL.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceGDAL\TileSourceGDAL_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceGDAL\TileSourceGDAL_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceNoise\TileSourceNoise.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceNoise\TileSourceNoise_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceNoise\TileSourceNoise_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceOSG\TileSourceOSG.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceOSG\TileSourceOSG_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceOSG\TileSourceOSG_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileCache\TileSourceTileCache.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileCache\TileSourceTileCache_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileCache\TileSourceTileCache_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileService\TileSourceTileService.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileService\TileSourceTileService_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileService\TileSourceTileService_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceTMS\TileSourceTMS.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceTMS\TileSourceTMS_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceTMS\TileSourceTMS_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceVPB\TileSourceVPB.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceVPB\TileSourceVPB_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceVPB\TileSourceVPB_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceWCS\TileSourceWCS.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceWCS\TileSourceWCS_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceWCS\TileSourceWCS_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceWMS\TileSourceWMS.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceWMS\TileSourceWMS_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceWMS\TileSourceWMS_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceXYZ\TileSourceXYZ.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceXYZ\TileSourceXYZ_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceXYZ\TileSourceXYZ_lib_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceYahoo\TileSourceYahoo.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceYahoo\TileSourceYahoo_idl.h" />
+    <ClInclude Include="COM\Source\TileSource\TileSourceYahoo\TileSourceYahoo_lib_idl.h" />
+    <ClInclude Include="COM\Source\VectorSource\IVectorSourceDispatch_idl.h" />
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceGeom\VectorSourceGeom.h" />
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceGeom\VectorSourceGeom_idl.h" />
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceGeom\VectorSourceGeom_lib_idl.h" />
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceSimple\VectorSourceSimple.h" />
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceSimple\VectorSourceSimple_idl.h" />
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceSimple\VectorSourceSimple_lib_idl.h" />
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceStencil\VectorSourceStencil.h" />
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceStencil\VectorSourceStencil_idl.h" />
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceStencil\VectorSourceStencil_lib_idl.h" />
+    <ClInclude Include="COM\Symbology\Style\Style.h" />
+    <ClInclude Include="COM\Symbology\Style\Style_idl.h" />
+    <ClInclude Include="COM\Symbology\Style\Style_lib_idl.h" />
+    <ClInclude Include="COM\Symbology\Symbology_idl.h" />
+    <ClInclude Include="COM\Symbology\Symbology_lib_idl.h" />
+    <ClInclude Include="COM\Utils\ObjectFactory\ObjectFactory.h" />
+    <ClInclude Include="COM\Utils\ObjectFactory\ObjectFactory_idl.h" />
+    <ClInclude Include="COM\Utils\ObjectFactory\ObjectFactory_lib_idl.h" />
+    <ClInclude Include="COM\Utils\StaticUtils\GeoStaticUtils.h" />
+    <ClInclude Include="COM\Utils\StaticUtils\SourceStaticUtils.h" />
+    <ClInclude Include="COM\Utils\StaticUtils\EarthObjectStaticUtils.h" />
+    <ClInclude Include="COM\Utils\StaticUtils\EarthStaticUtils.h" />
+    <ClInclude Include="Controls\EarthCtrl\EarthCtrl.h" />
+    <ClInclude Include="Controls\EarthCtrl\EarthCtrl_idl.h" />
+    <ClInclude Include="Controls\EarthCtrl\EarthCtrl_lib_idl.h" />
+    <ClInclude Include="Controls\EarthCtrl\_IEarthCtrlEvents_CP.h" />
+    <ClInclude Include="Controls\EarthTreeCtrl\EarthTreeCtrl.h" />
+    <ClInclude Include="Controls\EarthTreeCtrl\EarthTreeCtrl_idl.h" />
+    <ClInclude Include="Controls\EarthTreeCtrl\EarthTreeCtrl_lib_idl.h" />
+    <ClInclude Include="Controls\EarthTreeCtrl\EarthTreeView.h" />
+    <ClInclude Include="Controls\EarthTreeCtrl\_IEarthTreeCtrlEvents_CP.h" />
+    <ClInclude Include="dllmain.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="osgEarthX_COM.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="COM\Annotation\EllipsePrimitive\EllipsePrimitive.rgs" />
+    <None Include="COM\Annotation\FeaturePrimitive\FeaturePrimitive.rgs" />
+    <None Include="COM\Annotation\Model\Model.rgs" />
+    <None Include="COM\Annotation\RectanglePrimitive\RectanglePrimitive.rgs" />
+    <None Include="COM\Annotation\TextLabel\TextLabel.rgs" />
+    <None Include="COM\Basis\GeoData\Feature\Feature.rgs" />
+    <None Include="COM\Basis\GeoData\SpatialReference\SpatialReference.rgs" />
+    <None Include="COM\Basis\Geometry\LineStringGeometry\LineStringGeometry.rgs" />
+    <None Include="COM\Basis\Geometry\PolygonGeometry\PolygonGeometry.rgs" />
+    <None Include="COM\Basis\Geometry\RingGeometry\RingGeometry.rgs" />
+    <None Include="COM\Basis\Units\Angular\Angular.rgs" />
+    <None Include="COM\Basis\Units\Linear\Linear.rgs" />
+    <None Include="COM\Basis\Vec\Vec3d\Vec3d.rgs" />
+    <None Include="osgEarthX_COM.def" />
+    <None Include="osgEarthX_COM.rgs" />
+    <None Include="COM\Annotation\Circle\Circle.rgs" />
+    <None Include="COM\Annotation\ImageOverlay\ImageOverlay.rgs" />
+    <None Include="COM\Annotation\Place\Place.rgs" />
+    <None Include="COM\Basis\GeoData\GeoPoint\GeoPoint.rgs" />
+    <None Include="COM\EarthGroup\EarthGroup.rgs" />
+    <None Include="COM\EarthMap\EarthMap.rgs" />
+    <None Include="COM\EarthViewer\EarthViewer.rgs" />
+    <None Include="COM\Externals\Graticule\Graticule.rgs" />
+    <None Include="COM\Externals\Sky\Sky.rgs" />
+    <None Include="COM\Externals\Viewpoint\Viewpoint.rgs" />
+    <None Include="COM\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer.rgs" />
+    <None Include="COM\Layer\ImageSurfaceLayer\ImageSurfaceLayer.rgs" />
+    <None Include="COM\Layer\VectorSurfaceLayer\VectorSurfaceLayer.rgs" />
+    <None Include="COM\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR.rgs" />
+    <None Include="COM\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS.rgs" />
+    <None Include="COM\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceBing\TileSourceBing.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceDebug\TileSourceDebug.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceGDAL\TileSourceGDAL.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceNoise\TileSourceNoise.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceOSG\TileSourceOSG.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceTileCache\TileSourceTileCache.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceTileService\TileSourceTileService.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceTMS\TileSourceTMS.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceVPB\TileSourceVPB.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceWCS\TileSourceWCS.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceWMS\TileSourceWMS.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceXYZ\TileSourceXYZ.rgs" />
+    <None Include="COM\Source\TileSource\TileSourceYahoo\TileSourceYahoo.rgs" />
+    <None Include="COM\Source\VectorSource\VectorSourceGeom\VectorSourceGeom.rgs" />
+    <None Include="COM\Source\VectorSource\VectorSourceSimple\VectorSourceSimple.rgs" />
+    <None Include="COM\Source\VectorSource\VectorSourceStencil\VectorSourceStencil.rgs" />
+    <None Include="COM\Symbology\Style\Style.rgs" />
+    <None Include="COM\Utils\ObjectFactory\ObjectFactory.rgs" />
+    <None Include="Controls\EarthCtrl\EarthCtrl.bmp" />
+    <None Include="Controls\EarthCtrl\EarthCtrl.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Controls\EarthCtrl\EarthCtrl.rgs" />
+    <None Include="controls\earthctrl\registry.bin" />
+    <None Include="Controls\EarthTreeCtrl\EarthTreeCtrl.bmp" />
+    <None Include="Controls\EarthTreeCtrl\EarthTreeCtrl.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Controls\EarthTreeCtrl\EarthTreeCtrl.rgs" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="osgEarthX_COM.idl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="osgEarthX_COM.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

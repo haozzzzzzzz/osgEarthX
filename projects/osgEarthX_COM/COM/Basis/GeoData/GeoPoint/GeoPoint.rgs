@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.GeoPoint.1 = s 'GeoPoint Class'
+	{
+		CLSID = s '{CDD8D0AD-4D70-4D9D-9A9A-CD6129AA40A1}'
+	}
+	osgEarthXCOM.COM.GeoPoint = s 'GeoPoint Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.GeoPoint.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {CDD8D0AD-4D70-4D9D-9A9A-CD6129AA40A1} = s 'GeoPoint Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.GeoPoint.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.GeoPoint'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

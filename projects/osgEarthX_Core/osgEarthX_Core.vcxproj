@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Basis\Geo\Feature.h" />
+    <ClInclude Include="include\Basis\Units\UnitsType.h" />
+    <ClInclude Include="include\osgEarthXCoreExport\Export.h" />
+    <ClInclude Include="include\Callback\Callback.h" />
+    <ClInclude Include="include\Callback\CallbackHost.h" />
+    <ClInclude Include="include\Callback\Change.h" />
+    <ClInclude Include="include\Map\AnnotationMap.h" />
+    <ClInclude Include="include\Map\BaseMap.h" />
+    <ClInclude Include="include\Map\ElevationLayerMap.h" />
+    <ClInclude Include="include\Map\ExternalsMap.h" />
+    <ClInclude Include="include\Map\ImageLayerMap.h" />
+    <ClInclude Include="include\Map\Map.h" />
+    <ClInclude Include="include\Map\ModelLayerMap.h" />
+    <ClInclude Include="include\Map\TerrainMaskLayerMap.h" />
+    <ClInclude Include="include\OSGEarth\Externals\ISkyWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Externals\SkyOptionsWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Externals\SkyWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Externals\TSkyAdapter.h" />
+    <ClInclude Include="include\OSGEarth\Layer\ElevationLayerOptionsWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\ElevationLayerWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\IElevationLayerWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\IImageLayerWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\ImageLayerOptionsWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\ImageLayerWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\IModelLayerWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\ITerrainLayerWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\ILayerWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\ModelLayerOptionsWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\ModelLayerWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\TElevationLayerAdapter.h" />
+    <ClInclude Include="include\OSGEarth\Layer\TerrainLayerOptionsWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\TerrainLayerWrapper.h" />
+    <ClInclude Include="include\OSGEarth\Layer\TImageLayerAdapter.h" />
+    <ClInclude Include="include\OSGEarth\Layer\TLayerAdapter.h" />
+    <ClInclude Include="include\OSGEarth\Layer\TModelLayerAdapter.h" />
+    <ClInclude Include="include\OSGEarth\Layer\TTerrainLayerAdapter.h" />
+    <ClInclude Include="include\Provider\AnnotationProvider\CircleProvider.h" />
+    <ClInclude Include="include\Provider\AnnotationProvider\EllipsePrimitiveProvider.h" />
+    <ClInclude Include="include\Provider\AnnotationProvider\FeaturePrimitiveProvider.h" />
+    <ClInclude Include="include\Provider\AnnotationProvider\ImageOverlayProvider.h" />
+    <ClInclude Include="include\Provider\AnnotationProvider\ImageProvider.h" />
+    <ClInclude Include="include\Provider\AnnotationProvider\LabelProvider.h" />
+    <ClInclude Include="include\Provider\AnnotationProvider\ModelProvider.h" />
+    <ClInclude Include="include\Provider\AnnotationProvider\PlaceProvider.h" />
+    <ClInclude Include="include\Provider\AnnotationProvider\RectanglePrimitiveProvider.h" />
+    <ClInclude Include="include\Provider\ExternalProvider\GraticuleProvider.h" />
+    <ClInclude Include="include\Provider\ExternalProvider\SkyProvider.h" />
+    <ClInclude Include="include\Provider\ExternalProvider\ViewpointProvider.h" />
+    <ClInclude Include="include\Provider\LayerProvider\ElevationLayerProvider.h" />
+    <ClInclude Include="include\Provider\LayerProvider\ElevationLayerTask.h" />
+    <ClInclude Include="include\Provider\LayerProvider\ImageLayerProvider.h" />
+    <ClInclude Include="include\Provider\LayerProvider\ImageLayerTask.h" />
+    <ClInclude Include="include\Provider\LayerProvider\LayerChange.h" />
+    <ClInclude Include="include\Provider\LayerProvider\LayerProvider.h" />
+    <ClInclude Include="include\Provider\LayerProvider\LayerTask.h" />
+    <ClInclude Include="include\Provider\LayerProvider\ModelLayerProvider.h" />
+    <ClInclude Include="include\Provider\LayerProvider\ModelLayerTask.h" />
+    <ClInclude Include="include\Provider\AsynProvider.h" />
+    <ClInclude Include="include\Provider\ProviderChange.h" />
+    <ClInclude Include="include\Provider\ProviderInTask.h" />
+    <ClInclude Include="include\Viewer\CommonViewerT.h" />
+    <ClInclude Include="include\Viewer\IThreadedViewer.h" />
+    <ClInclude Include="include\Viewer\MapViewer.h" />
+    <ClInclude Include="include\Viewer\ThreadedViewer.h" />
+    <ClInclude Include="include\Viewer\GraphicsViewerBase.h" />
+    <ClInclude Include="include\Viewer\ViewerProviderT.h" />
+    <ClInclude Include="include\Viewer\ViewerThread.h" />
+    <ClInclude Include="include\Viewer\Win32ViewerBase.h" />
+    <ClInclude Include="include\Viewer\Win32ViewerT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Basis\Geo\Feature.cpp" />
+    <ClCompile Include="src\Basis\Units\UnitsType.cpp" />
+    <ClCompile Include="src\Callback\Callback.cpp" />
+    <ClCompile Include="src\Callback\CallbackHost.cpp" />
+    <ClCompile Include="src\Callback\Change.cpp" />
+    <ClCompile Include="src\Map\AnnotationMap.cpp" />
+    <ClCompile Include="src\Map\BaseMap.cpp" />
+    <ClCompile Include="src\Map\ElevationLayerMap.cpp" />
+    <ClCompile Include="src\Map\ExternalsMap.cpp" />
+    <ClCompile Include="src\Map\ImageLayerMap.cpp" />
+    <ClCompile Include="src\Map\Map.cpp" />
+    <ClCompile Include="src\Map\ModelLayerMap.cpp" />
+    <ClCompile Include="src\Map\TerrainMaskLayerMap.cpp" />
+    <ClCompile Include="src\OSGEarth\Externals\ISkyWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Externals\SkyOptionsWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Externals\SkyWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\ElevationLayerOptionsWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\ElevationLayerWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\IElevationLayerWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\IImageLayerWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\ImageLayerOptionsWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\ImageLayerWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\IModelLayerWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\ITerrainLayerWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\ModelLayerOptionsWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\ModelLayerWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\TerrainLayerOptionsWrapper.cpp" />
+    <ClCompile Include="src\OSGEarth\Layer\TerrainLayerWrapper.cpp" />
+    <ClCompile Include="src\Provider\AnnotationProvider\CircleProvider.cpp" />
+    <ClCompile Include="src\Provider\AnnotationProvider\EllipsePrimitiveProvider.cpp" />
+    <ClCompile Include="src\Provider\AnnotationProvider\FeaturePrimitiveProvider.cpp" />
+    <ClCompile Include="src\Provider\AnnotationProvider\ImageOverlayProvider.cpp" />
+    <ClCompile Include="src\Provider\AnnotationProvider\ImageProvider.cpp" />
+    <ClCompile Include="src\Provider\AnnotationProvider\LabelProvider.cpp" />
+    <ClCompile Include="src\Provider\AnnotationProvider\ModelProvider.cpp" />
+    <ClCompile Include="src\Provider\AnnotationProvider\PlaceProvider.cpp" />
+    <ClCompile Include="src\Provider\AnnotationProvider\RectanglePrimitiveProvider.cpp" />
+    <ClCompile Include="src\Provider\ExternalProvider\GraticuleProvider.cpp" />
+    <ClCompile Include="src\Provider\ExternalProvider\SkyProvider.cpp" />
+    <ClCompile Include="src\Provider\ExternalProvider\ViewpointProvider.cpp" />
+    <ClCompile Include="src\Provider\LayerProvider\ElevationLayerProvider.cpp" />
+    <ClCompile Include="src\Provider\LayerProvider\ElevationLayerTask.cpp" />
+    <ClCompile Include="src\Provider\LayerProvider\ImageLayerProvider.cpp" />
+    <ClCompile Include="src\Provider\LayerProvider\ImageLayerTask.cpp" />
+    <ClCompile Include="src\Provider\LayerProvider\LayerChange.cpp" />
+    <ClCompile Include="src\Provider\LayerProvider\LayerProvider.cpp" />
+    <ClCompile Include="src\Provider\LayerProvider\LayerTask.cpp" />
+    <ClCompile Include="src\Provider\LayerProvider\ModelLayerProvider.cpp" />
+    <ClCompile Include="src\Provider\LayerProvider\ModelLayerTask.cpp" />
+    <ClCompile Include="src\Provider\AsynProvider.cpp" />
+    <ClCompile Include="src\Provider\ProviderChange.cpp" />
+    <ClCompile Include="src\Provider\ProviderInTask.cpp" />
+    <ClCompile Include="src\Viewer\MapViewer.cpp" />
+    <ClCompile Include="src\Viewer\ThreadedViewer.cpp" />
+    <ClCompile Include="src\Viewer\GraphicsViewerBase.cpp" />
+    <ClCompile Include="src\Viewer\ViewerThread.cpp" />
+    <ClCompile Include="src\Viewer\Win32ViewerBase.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6547249B-6749-47B5-B2DE-1E13893C5A4F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>osgEarthX_Core</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <TargetName>$(ProjectName)d</TargetName>
+    <IncludePath>.\include;..\..\environment\include;..\osgX_Threads\include;..\osgX_Libs;..\osgX\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\environment\lib;..\osgX_Threads\lib;..\osgX\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IncludePath>.\include;..\..\environment\include;..\osgX_Threads\include;..\osgX_Libs;..\osgX\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\environment\lib;..\osgX_Threads\lib;..\osgX\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;OSGEARTHX_CORE_LIBRARY;_DEBUG;_WINDOWS;_USRDLL;OSGEARTHX_CORE_EXPORTS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>$(ProjectDir)lib\$(TargetName).lib</ImportLibrary>
+      <AdditionalDependencies>OpenThreadsd.lib;osgd.lib;osgViewerd.lib;osgGAd.lib;osgUtild.lib;osgDBd.lib;osgEarthd.lib;osgEarthUtild.lib;osgEarthFeaturesd.lib;osgEarthSymbologyd.lib;osgEarthAnnotationd.lib;osgX_Threadsd.lib;osgXd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;OSGEARTHX_CORE_LIBRARY;NDEBUG;_WINDOWS;_USRDLL;OSGEARTHX_CORE_EXPORTS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>$(ProjectDir)lib\$(TargetName).lib</ImportLibrary>
+      <AdditionalDependencies>OpenThreads.lib;osg.lib;osgViewer.lib;osgGA.lib;osgUtil.lib;osgDB.lib;osgEarth.lib;osgEarthUtil.lib;osgEarthFeatures.lib;osgEarthSymbology.lib;osgEarthAnnotation.lib;osgX_Threads.lib;osgX.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

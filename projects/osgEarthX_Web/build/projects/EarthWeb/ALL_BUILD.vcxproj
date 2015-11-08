@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CA841B08-3F34-4EE0-9408-2958F792C8AE}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\gecko-sdk\includes;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\NpapiCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ActiveXCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ScriptingCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto\Win;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\gen;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost;D:\C\VS2010\VC\atlmfc\include;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\gecko-sdk\includes;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\NpapiCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ActiveXCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ScriptingCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto\Win;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\gen;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost;D:\C\VS2010\VC\atlmfc\include;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\gecko-sdk\includes;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\NpapiCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ActiveXCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ScriptingCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto\Win;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\gen;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost;D:\C\VS2010\VC\atlmfc\include;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\gecko-sdk\includes;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\NpapiCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ActiveXCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ScriptingCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto\Win;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginCore;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\gen;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost;D:\C\VS2010\VC\atlmfc\include;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\src\projects\EarthWeb\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src/projects/EarthWeb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+F:\cmake-3.1.1-win32-x86\bin\cmake.exe -HE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src -BE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build --check-stamp-file E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src/projects/EarthWeb/CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\Win\projectDef.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src/projects/EarthWeb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+F:\cmake-3.1.1-win32-x86\bin\cmake.exe -HE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src -BE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build --check-stamp-file E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src/projects/EarthWeb/CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\Win\projectDef.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src/projects/EarthWeb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+F:\cmake-3.1.1-win32-x86\bin\cmake.exe -HE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src -BE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build --check-stamp-file E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src/projects/EarthWeb/CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\Win\projectDef.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src/projects/EarthWeb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+F:\cmake-3.1.1-win32-x86\bin\cmake.exe -HE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src -BE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build --check-stamp-file E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src/projects/EarthWeb/CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\Win\projectDef.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/projects/EarthWeb/EarthWeb.vcxproj">
+      <Project>76B7E511-469A-464D-9AB8-2F3ED92D16D5</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

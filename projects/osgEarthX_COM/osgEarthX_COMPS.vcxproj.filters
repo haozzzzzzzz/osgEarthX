@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4bb925ba-6ac1-4758-9073-4e2dc5808758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="生成的文件">
+      <UniqueIdentifier>{84376c1f-9fde-40f4-a86b-65f29745b337}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="osgEarthX_COMps.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="osgEarthX_COM_i.c">
+      <Filter>生成的文件</Filter>
+    </ClCompile>
+    <ClCompile Include="osgEarthX_COM_p.c">
+      <Filter>生成的文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dlldata.c">
+      <Filter>生成的文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

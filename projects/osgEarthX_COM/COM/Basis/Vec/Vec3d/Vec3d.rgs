@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.Vec3d.1 = s 'Vec3d Class'
+	{
+		CLSID = s '{2A014170-D5A8-4855-95FF-46FEC96BE032}'
+	}
+	osgEarthXCOM.COM.Vec3d = s 'Vec3d Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.Vec3d.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {2A014170-D5A8-4855-95FF-46FEC96BE032} = s 'Vec3d Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.Vec3d.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.Vec3d'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

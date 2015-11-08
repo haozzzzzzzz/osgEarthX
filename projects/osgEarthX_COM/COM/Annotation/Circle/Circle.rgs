@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.Circle.1 = s 'Circle Class'
+	{
+		CLSID = s '{D355DAD7-6CC5-45C4-87D9-3B32CFDF2B2C}'
+	}
+	osgEarthXCOM.COM.Circle = s 'Circle Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.Circle.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D355DAD7-6CC5-45C4-87D9-3B32CFDF2B2C} = s 'Circle Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.Circle.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.Circle'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

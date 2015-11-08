@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.VectorSourceGeom.1 = s 'VectorSourceGeom Class'
+	{
+		CLSID = s '{880341A9-E77B-4042-9D26-676DC7633B3D}'
+	}
+	osgEarthXCOM.COM.VectorSourceGeom = s 'VectorSourceGeom Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.VectorSourceGeom.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {880341A9-E77B-4042-9D26-676DC7633B3D} = s 'VectorSourceGeom Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.VectorSourceGeom.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.VectorSourceGeom'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

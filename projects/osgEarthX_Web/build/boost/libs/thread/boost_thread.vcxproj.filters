@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\src\3rdParty\boost\libs\thread\src\tss_null.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\src\3rdParty\boost\libs\thread\src\win32\thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\src\3rdParty\boost\libs\thread\src\win32\tss_dll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\src\3rdParty\boost\libs\thread\src\win32\tss_pe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\src\src\3rdParty\boost\libs\thread\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F2C193CC-9077-4AF0-A979-CA525F735862}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

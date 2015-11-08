@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Provider">
+      <UniqueIdentifier>{b31c28e9-42a7-4f02-9ce3-d10b14bc2598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\Provider">
+      <UniqueIdentifier>{9ea4c028-63d1-4f12-b6cc-4524ae148167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Callback">
+      <UniqueIdentifier>{caa40a91-854d-4a43-a322-80f88c28ec34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{ddac765b-398a-479c-b184-8eece8749049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{3aef2fc0-b085-4d5f-af1c-34780079ac9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer\MapViewer">
+      <UniqueIdentifier>{b2d120fc-dfaf-4c5e-a9b4-588c3bcaa130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\BaseMap">
+      <UniqueIdentifier>{c915d3d3-254f-4e5d-8635-62a15fee355b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\ImageLayerMap">
+      <UniqueIdentifier>{929f93a8-e7f9-4b4d-b827-7c0b220290d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\ModelLayerMap">
+      <UniqueIdentifier>{921d3cd8-62c5-4ff3-b376-ed6e73999745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\ElevationLayerMap">
+      <UniqueIdentifier>{000c2508-33ec-40a8-8974-a56320b936be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\TerrainMaskLayerMap">
+      <UniqueIdentifier>{8a0d67dc-3a90-4961-aa0d-ebfdbceebd1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\ExternalsMap">
+      <UniqueIdentifier>{2c56ff59-cc33-433b-9823-c8e303f37801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\LayerProvider">
+      <UniqueIdentifier>{19a7ab11-f256-4b37-8250-690dbcbd2169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\LayerProvider\ModelLayerProvider">
+      <UniqueIdentifier>{6500fce0-18b7-4e8a-83f1-5e36c18dcc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\LayerProvider\ImageLayerProvider">
+      <UniqueIdentifier>{30dccf09-5bd3-4b99-9b33-ebcb403d5624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\ExternalProvider">
+      <UniqueIdentifier>{fe9ffb66-f00a-44bc-a341-e511d7afb4ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\ExternalProvider\SkyProvider">
+      <UniqueIdentifier>{47e86073-d015-4f9c-8f55-3f28c535b23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSGEarth">
+      <UniqueIdentifier>{08776450-9d08-4b05-b5b0-fbf45d6cf190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSGEarth\Layer">
+      <UniqueIdentifier>{25cee8b4-6450-4ae9-b644-ee5ef24e2c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSGEarth\Layer\LayerWrapper">
+      <UniqueIdentifier>{d563b27c-7d8e-42b5-a4a8-6d0838f9c49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSGEarth\Layer\ImageLayerWrapper">
+      <UniqueIdentifier>{f7a36f47-0b99-4481-82b0-93014267b36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSGEarth\Layer\ModelLayerWrapper">
+      <UniqueIdentifier>{0db6fbb7-f29d-4c24-98eb-393a36d3ab11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\LayerProvider\ElevationLayerProvider">
+      <UniqueIdentifier>{9002e69a-1554-4488-bf1f-0448ca5aacc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSGEarth\Layer\ElevationLayerWrapper">
+      <UniqueIdentifier>{2a1e65b8-eb83-46c6-8274-433375015351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\ExternalProvider\ViewpointProvider">
+      <UniqueIdentifier>{cff0c230-2ccd-4e1d-93ce-e0334f7b9961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSGEarth\Externals">
+      <UniqueIdentifier>{3735cff7-b239-4cb3-a90f-ef591545e49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSGEarth\Externals\Sky">
+      <UniqueIdentifier>{bdfdf9f8-f22b-4ac0-8ebc-784a0f0a1ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSGEarth\Layer\TerrainLayerWrapper">
+      <UniqueIdentifier>{ddcdfaa2-c8fd-441d-9f22-f9b6ca3b0b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\LayerProvider\LayerProvider">
+      <UniqueIdentifier>{1141e41a-3282-4746-99c9-6a90b6514f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osgEarthXCoreExport">
+      <UniqueIdentifier>{7122395b-8daa-459c-8fee-97064843d8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\ExternalProvider\GraticuleProvider">
+      <UniqueIdentifier>{c2b1b7a8-d5de-4c91-ac85-5e1f8e866479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\AnnotationMap">
+      <UniqueIdentifier>{fe535334-aba2-484c-9b5e-971ca20fb3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\AnnotationProvider">
+      <UniqueIdentifier>{fdcc8dca-3ff2-4305-ac74-a39b3b2223d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\AnnotationProvider\ImageProvider">
+      <UniqueIdentifier>{977c9c48-0048-4b90-a10a-a016e25b3054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\AnnotationProvider\ImageOverlayProvider">
+      <UniqueIdentifier>{04afa149-7f70-4326-a462-78b6c4076319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer\Viewer">
+      <UniqueIdentifier>{460a4472-186a-4844-9844-d1eec35ca68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer\ViewerProvider">
+      <UniqueIdentifier>{d2cd09f8-a319-4a16-bf4b-df9cc6e5a715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer\Viewer\Win32">
+      <UniqueIdentifier>{fb83acb8-64e4-4997-ba92-b94db241a36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer\Viewer\Common">
+      <UniqueIdentifier>{bd9074c3-804c-4972-8687-9bba48700281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\AnnotationProvider\CircleProvider">
+      <UniqueIdentifier>{2d08257a-60b7-4698-933d-000f257c44a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\AnnotationProvider\ModelProvider">
+      <UniqueIdentifier>{f9f69d07-824a-414f-be46-35ec8751c2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\AnnotationProvider\LabelProvider">
+      <UniqueIdentifier>{7900cc43-c3da-43a4-a9d5-3c29e7a4186b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\AnnotationProvider\FeaturePrimitiveProvider">
+      <UniqueIdentifier>{26d3a1f0-9a28-4994-b6f5-51271ddea2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\AnnotationProvider\RectanglePrimitiveProvider">
+      <UniqueIdentifier>{5f289e30-33f4-4138-861e-75af48dbd861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\AnnotationProvider\EllipsePrimitiveProvider">
+      <UniqueIdentifier>{8a415924-26ee-4152-ae12-7f163ca555da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Provider\AnnotationProvider\PlaceProvider">
+      <UniqueIdentifier>{7f414175-ef35-4016-9eaf-1dd29ca005ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basis">
+      <UniqueIdentifier>{ceecbfee-0f1f-4357-ac8b-2626caefef72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basis\Units">
+      <UniqueIdentifier>{e84aa6d7-b1f7-4fe7-b130-94e4c08d94a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basis\Geo">
+      <UniqueIdentifier>{9e0562cd-ae81-47e5-9b83-f20302870154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basis\Geo\Feature">
+      <UniqueIdentifier>{ab08f4dc-a91a-4149-aa21-f577a1ecb990}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Provider\ProviderChange.h">
+      <Filter>Provider\Provider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Callback\Change.h">
+      <Filter>Callback</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Callback\Callback.h">
+      <Filter>Callback</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Callback\CallbackHost.h">
+      <Filter>Callback</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map\Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewer\MapViewer.h">
+      <Filter>Viewer\MapViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map\BaseMap.h">
+      <Filter>Map\BaseMap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map\ImageLayerMap.h">
+      <Filter>Map\ImageLayerMap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map\ModelLayerMap.h">
+      <Filter>Map\ModelLayerMap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map\ElevationLayerMap.h">
+      <Filter>Map\ElevationLayerMap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map\TerrainMaskLayerMap.h">
+      <Filter>Map\TerrainMaskLayerMap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map\ExternalsMap.h">
+      <Filter>Map\ExternalsMap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\LayerProvider\ImageLayerProvider.h">
+      <Filter>Provider\LayerProvider\ImageLayerProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\LayerProvider\ImageLayerTask.h">
+      <Filter>Provider\LayerProvider\ImageLayerProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\LayerProvider\ModelLayerProvider.h">
+      <Filter>Provider\LayerProvider\ModelLayerProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\LayerProvider\ModelLayerTask.h">
+      <Filter>Provider\LayerProvider\ModelLayerProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\ExternalProvider\SkyProvider.h">
+      <Filter>Provider\ExternalProvider\SkyProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\ImageLayerWrapper.h">
+      <Filter>OSGEarth\Layer\ImageLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\ModelLayerWrapper.h">
+      <Filter>OSGEarth\Layer\ModelLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\LayerProvider\ElevationLayerProvider.h">
+      <Filter>Provider\LayerProvider\ElevationLayerProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\ElevationLayerWrapper.h">
+      <Filter>OSGEarth\Layer\ElevationLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\LayerProvider\ElevationLayerTask.h">
+      <Filter>Provider\LayerProvider\ElevationLayerProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\ExternalProvider\ViewpointProvider.h">
+      <Filter>Provider\ExternalProvider\ViewpointProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Externals\SkyWrapper.h">
+      <Filter>OSGEarth\Externals\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\ITerrainLayerWrapper.h">
+      <Filter>OSGEarth\Layer\TerrainLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\TerrainLayerWrapper.h">
+      <Filter>OSGEarth\Layer\TerrainLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\TerrainLayerOptionsWrapper.h">
+      <Filter>OSGEarth\Layer\TerrainLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\ILayerWrapper.h">
+      <Filter>OSGEarth\Layer\LayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\TLayerAdapter.h">
+      <Filter>OSGEarth\Layer\LayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\TTerrainLayerAdapter.h">
+      <Filter>OSGEarth\Layer\TerrainLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\IImageLayerWrapper.h">
+      <Filter>OSGEarth\Layer\ImageLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\ImageLayerOptionsWrapper.h">
+      <Filter>OSGEarth\Layer\ImageLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\TImageLayerAdapter.h">
+      <Filter>OSGEarth\Layer\ImageLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\IModelLayerWrapper.h">
+      <Filter>OSGEarth\Layer\ModelLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\ModelLayerOptionsWrapper.h">
+      <Filter>OSGEarth\Layer\ModelLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\TModelLayerAdapter.h">
+      <Filter>OSGEarth\Layer\ModelLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\IElevationLayerWrapper.h">
+      <Filter>OSGEarth\Layer\ElevationLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\ElevationLayerOptionsWrapper.h">
+      <Filter>OSGEarth\Layer\ElevationLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Layer\TElevationLayerAdapter.h">
+      <Filter>OSGEarth\Layer\ElevationLayerWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\LayerProvider\LayerTask.h">
+      <Filter>Provider\LayerProvider\LayerProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\LayerProvider\LayerChange.h">
+      <Filter>Provider\LayerProvider\LayerProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\LayerProvider\LayerProvider.h">
+      <Filter>Provider\LayerProvider\LayerProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Externals\ISkyWrapper.h">
+      <Filter>OSGEarth\Externals\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Externals\SkyOptionsWrapper.h">
+      <Filter>OSGEarth\Externals\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OSGEarth\Externals\TSkyAdapter.h">
+      <Filter>OSGEarth\Externals\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\ExternalProvider\GraticuleProvider.h">
+      <Filter>Provider\ExternalProvider\GraticuleProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\ProviderInTask.h">
+      <Filter>Provider\Provider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map\AnnotationMap.h">
+      <Filter>Map\AnnotationMap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\AnnotationProvider\ImageProvider.h">
+      <Filter>Provider\AnnotationProvider\ImageProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\AnnotationProvider\PlaceProvider.h">
+      <Filter>Provider\AnnotationProvider\PlaceProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\AnnotationProvider\ImageOverlayProvider.h">
+      <Filter>Provider\AnnotationProvider\ImageOverlayProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewer\ViewerProviderT.h">
+      <Filter>Viewer\ViewerProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewer\ThreadedViewer.h">
+      <Filter>Viewer\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewer\IThreadedViewer.h">
+      <Filter>Viewer\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewer\ViewerThread.h">
+      <Filter>Viewer\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewer\GraphicsViewerBase.h">
+      <Filter>Viewer\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewer\Win32ViewerT.h">
+      <Filter>Viewer\Viewer\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewer\Win32ViewerBase.h">
+      <Filter>Viewer\Viewer\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewer\CommonViewerT.h">
+      <Filter>Viewer\Viewer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\AsynProvider.h">
+      <Filter>Provider\Provider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\osgEarthXCoreExport\Export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\AnnotationProvider\CircleProvider.h">
+      <Filter>Provider\AnnotationProvider\CircleProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\AnnotationProvider\ModelProvider.h">
+      <Filter>Provider\AnnotationProvider\ModelProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\AnnotationProvider\LabelProvider.h">
+      <Filter>Provider\AnnotationProvider\LabelProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\AnnotationProvider\FeaturePrimitiveProvider.h">
+      <Filter>Provider\AnnotationProvider\FeaturePrimitiveProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\AnnotationProvider\RectanglePrimitiveProvider.h">
+      <Filter>Provider\AnnotationProvider\RectanglePrimitiveProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Basis\Units\UnitsType.h">
+      <Filter>Basis\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Provider\AnnotationProvider\EllipsePrimitiveProvider.h">
+      <Filter>Provider\AnnotationProvider\EllipsePrimitiveProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Basis\Geo\Feature.h">
+      <Filter>Basis\Geo\Feature</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Provider\ProviderChange.cpp">
+      <Filter>Provider\Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Callback\Change.cpp">
+      <Filter>Callback</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Callback\Callback.cpp">
+      <Filter>Callback</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Callback\CallbackHost.cpp">
+      <Filter>Callback</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Viewer\MapViewer.cpp">
+      <Filter>Viewer\MapViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\BaseMap.cpp">
+      <Filter>Map\BaseMap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\ImageLayerMap.cpp">
+      <Filter>Map\ImageLayerMap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\ModelLayerMap.cpp">
+      <Filter>Map\ModelLayerMap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\ElevationLayerMap.cpp">
+      <Filter>Map\ElevationLayerMap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\TerrainMaskLayerMap.cpp">
+      <Filter>Map\TerrainMaskLayerMap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\ExternalsMap.cpp">
+      <Filter>Map\ExternalsMap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\LayerProvider\ImageLayerProvider.cpp">
+      <Filter>Provider\LayerProvider\ImageLayerProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\LayerProvider\ImageLayerTask.cpp">
+      <Filter>Provider\LayerProvider\ImageLayerProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\LayerProvider\ModelLayerProvider.cpp">
+      <Filter>Provider\LayerProvider\ModelLayerProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\LayerProvider\ModelLayerTask.cpp">
+      <Filter>Provider\LayerProvider\ModelLayerProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\ExternalProvider\SkyProvider.cpp">
+      <Filter>Provider\ExternalProvider\SkyProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\ImageLayerWrapper.cpp">
+      <Filter>OSGEarth\Layer\ImageLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\ModelLayerWrapper.cpp">
+      <Filter>OSGEarth\Layer\ModelLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\ElevationLayerWrapper.cpp">
+      <Filter>OSGEarth\Layer\ElevationLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\LayerProvider\ElevationLayerProvider.cpp">
+      <Filter>Provider\LayerProvider\ElevationLayerProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\LayerProvider\ElevationLayerTask.cpp">
+      <Filter>Provider\LayerProvider\ElevationLayerProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\ExternalProvider\ViewpointProvider.cpp">
+      <Filter>Provider\ExternalProvider\ViewpointProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Externals\SkyWrapper.cpp">
+      <Filter>OSGEarth\Externals\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\TerrainLayerWrapper.cpp">
+      <Filter>OSGEarth\Layer\TerrainLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\ITerrainLayerWrapper.cpp">
+      <Filter>OSGEarth\Layer\TerrainLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\TerrainLayerOptionsWrapper.cpp">
+      <Filter>OSGEarth\Layer\TerrainLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\IImageLayerWrapper.cpp">
+      <Filter>OSGEarth\Layer\ImageLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\ImageLayerOptionsWrapper.cpp">
+      <Filter>OSGEarth\Layer\ImageLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\IModelLayerWrapper.cpp">
+      <Filter>OSGEarth\Layer\ModelLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\IElevationLayerWrapper.cpp">
+      <Filter>OSGEarth\Layer\ElevationLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\ElevationLayerOptionsWrapper.cpp">
+      <Filter>OSGEarth\Layer\ElevationLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\LayerProvider\LayerChange.cpp">
+      <Filter>Provider\LayerProvider\LayerProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\LayerProvider\LayerProvider.cpp">
+      <Filter>Provider\LayerProvider\LayerProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\LayerProvider\LayerTask.cpp">
+      <Filter>Provider\LayerProvider\LayerProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Externals\ISkyWrapper.cpp">
+      <Filter>OSGEarth\Externals\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Externals\SkyOptionsWrapper.cpp">
+      <Filter>OSGEarth\Externals\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\ExternalProvider\GraticuleProvider.cpp">
+      <Filter>Provider\ExternalProvider\GraticuleProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\ProviderInTask.cpp">
+      <Filter>Provider\Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\AnnotationMap.cpp">
+      <Filter>Map\AnnotationMap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\AnnotationProvider\ImageProvider.cpp">
+      <Filter>Provider\AnnotationProvider\ImageProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\AnnotationProvider\PlaceProvider.cpp">
+      <Filter>Provider\AnnotationProvider\PlaceProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\AnnotationProvider\ImageOverlayProvider.cpp">
+      <Filter>Provider\AnnotationProvider\ImageOverlayProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Viewer\ThreadedViewer.cpp">
+      <Filter>Viewer\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Viewer\ViewerThread.cpp">
+      <Filter>Viewer\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Viewer\GraphicsViewerBase.cpp">
+      <Filter>Viewer\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Viewer\Win32ViewerBase.cpp">
+      <Filter>Viewer\Viewer\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\AsynProvider.cpp">
+      <Filter>Provider\Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\AnnotationProvider\CircleProvider.cpp">
+      <Filter>Provider\AnnotationProvider\CircleProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OSGEarth\Layer\ModelLayerOptionsWrapper.cpp">
+      <Filter>OSGEarth\Layer\ModelLayerWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\AnnotationProvider\ModelProvider.cpp">
+      <Filter>Provider\AnnotationProvider\ModelProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\AnnotationProvider\LabelProvider.cpp">
+      <Filter>Provider\AnnotationProvider\LabelProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\AnnotationProvider\FeaturePrimitiveProvider.cpp">
+      <Filter>Provider\AnnotationProvider\FeaturePrimitiveProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\AnnotationProvider\RectanglePrimitiveProvider.cpp">
+      <Filter>Provider\AnnotationProvider\RectanglePrimitiveProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Basis\Units\UnitsType.cpp">
+      <Filter>Basis\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Provider\AnnotationProvider\EllipsePrimitiveProvider.cpp">
+      <Filter>Provider\AnnotationProvider\EllipsePrimitiveProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Basis\Geo\Feature.cpp">
+      <Filter>Basis\Geo\Feature</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

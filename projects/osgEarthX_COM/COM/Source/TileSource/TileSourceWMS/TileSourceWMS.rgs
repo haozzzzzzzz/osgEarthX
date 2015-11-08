@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.TileSourceWMS.1 = s 'TileSourceWMS Class'
+	{
+		CLSID = s '{11CD9996-D82F-4FB1-A78D-27C13154BC53}'
+	}
+	osgEarthXCOM.COM.TileSourceWMS = s 'TileSourceWMS Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.TileSourceWMS.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {11CD9996-D82F-4FB1-A78D-27C13154BC53} = s 'TileSourceWMS Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.TileSourceWMS.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.TileSourceWMS'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

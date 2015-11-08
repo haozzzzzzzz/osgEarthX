@@ -1,0 +1,1 @@
+add_executable( Test_OSG main.cpp )

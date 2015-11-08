@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.FeatureSourceTFS.1 = s 'FeatureSourceTFS Class'
+	{
+		CLSID = s '{DAD6DC20-3604-4A0B-BD9C-156BC4C6DF96}'
+	}
+	osgEarthXCOM.COM.FeatureSourceTFS = s 'FeatureSourceTFS Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.FeatureSourceTFS.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {DAD6DC20-3604-4A0B-BD9C-156BC4C6DF96} = s 'FeatureSourceTFS Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.FeatureSourceTFS.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.FeatureSourceTFS'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

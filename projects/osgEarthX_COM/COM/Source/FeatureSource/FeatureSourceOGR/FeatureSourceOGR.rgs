@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.FeatureSourceOGR.1 = s 'FeatureSourceOGR Class'
+	{
+		CLSID = s '{14942113-C795-4742-9AEB-C629BD1B985F}'
+	}
+	osgEarthXCOM.COM.FeatureSourceOGR = s 'FeatureSourceOGR Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.FeatureSourceOGR.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {14942113-C795-4742-9AEB-C629BD1B985F} = s 'FeatureSourceOGR Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.FeatureSourceOGR.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.FeatureSourceOGR'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

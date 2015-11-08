@@ -1,0 +1,32 @@
+HKCR
+{
+	osgEarthXCOM.Controls.EarthTreeCtrl.1 = s 'EarthTreeCtrl Class'
+	{
+		CLSID = s '{07D658FB-58CA-4106-9BA7-A94C1CD4603F}'
+	}
+	osgEarthXCOM.Controls.EarthTreeCtrl = s 'EarthTreeCtrl Class'
+	{		
+		CurVer = s 'osgEarthXCOM.Controls.EarthTreeCtrl.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {07D658FB-58CA-4106-9BA7-A94C1CD4603F} = s 'EarthTreeCtrl Class'
+		{
+			ProgID = s 'osgEarthXCOM.Controls.EarthTreeCtrl.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.Controls.EarthTreeCtrl'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			ForceRemove Control
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 114'
+			MiscStatus = s '0'
+			{
+			    '1' = s '%OLEMISC%'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

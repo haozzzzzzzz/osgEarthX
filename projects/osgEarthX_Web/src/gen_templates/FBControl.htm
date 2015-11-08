@@ -1,0 +1,76 @@
+<!--
+    Auto-generated test-site
+-->
+<html>
+<head>
+<title>test page for object fbcontrol</title>
+</head>
+    <script type="text/javascript">
+@@foreach (FBSTRING_MIMEType MIMETYPE)
+        function plugin${i}()
+        {
+            return document.getElementById('plugin${i}');
+        }
+@@endforeach
+
+        plugin = plugin0;
+
+        function addEvent(obj, name, func)
+        {
+            if (obj.attachEvent) {
+                obj.attachEvent("on"+name, func);
+            } else {
+                obj.addEventListener(name, func, false); 
+            }
+        }
+        
+        function load()
+        {
+            addEvent(plugin(), 'test', function(){
+                alert("Received a test event from the plugin.")
+            });
+        }
+
+        function pluginLoaded() {
+            alert("Plugin loaded!");
+        }
+        
+        function addTestEvent()
+        {
+            addEvent(plugin(), 'echo', function(txt,count){
+                alert(txt+count);
+            });
+        }
+        
+        function testEvent()
+        {
+            plugin().testEvent();
+        }
+        
+        function pluginValid()
+        {
+            if(plugin().valid){
+                alert(plugin().echo("This plugin seems to be working!"));
+            } else {
+                alert("Plugin is not working :(");
+            }
+        }
+    </script>
+<body onload="load()">
+
+
+@@foreach (FBSTRING_MIMEType MIMEType)
+<object id="plugin${i}" type="${MIMEType}" width="300" height="300">
+    <param name="onload" value="pluginLoaded" />
+</object><br />
+@@endforeach
+    
+<a href="#" onclick="javascript:pluginValid()">Click me!</a> <br />
+
+<a href="#" onclick="javascript:addTestEvent()">Activate click counter</a> <br />
+
+<a href="#" onclick="javascript:testEvent()">Fire a test event</a> <br />
+
+
+</body>
+</html>

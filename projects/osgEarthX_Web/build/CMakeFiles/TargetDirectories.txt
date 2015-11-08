@@ -1,0 +1,16 @@
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/unittest-cpp/UnitTest++/CMakeFiles/UnitTest++.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/cmake_common/CMakeFiles/FireBreath_Cmake.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/boost/libs/thread/CMakeFiles/boost_thread.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/ScriptingCoreTest/CMakeFiles/UnitTest_ScriptingCore.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/ScriptingCore/CMakeFiles/ScriptingCore.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/ActiveXCoreTest/CMakeFiles/UnitTest_ActiveXCore.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/boost/libs/date_time/CMakeFiles/boost_date_time.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/ScriptingCoreTest/CMakeFiles/ALL_BUILD.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/projects/EarthWeb/PluginAuto/CMakeFiles/EWE_PluginAuto.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/PluginCore/CMakeFiles/PluginCore.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/NpapiCore/CMakeFiles/NpapiCore.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/boost/libs/regex/CMakeFiles/boost_regex.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/CMakeFiles/ZERO_CHECK.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/boost/libs/system/CMakeFiles/boost_system.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/ActiveXCore/CMakeFiles/ActiveXCore.dir
+E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/projects/EarthWeb/CMakeFiles/EarthWeb.dir

@@ -1,0 +1,1391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="生成的文件">
+      <UniqueIdentifier>{0efa4aff-8661-4adc-954d-ec18f25a7d8c}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="COM">
+      <UniqueIdentifier>{cd036ae4-9db8-40c6-8169-931eaedfddd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{7b8c64ba-5fe2-4c33-8da6-8c2a5f789d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer">
+      <UniqueIdentifier>{43e07fe0-366e-4b7c-82db-2a9d3954dd11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\EarthCtrl">
+      <UniqueIdentifier>{8bdc66cf-1230-4a73-b35b-39f98065fbe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\SurfaceLayer">
+      <UniqueIdentifier>{c359b12a-5f23-4c85-bc35-8088c00e083c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\SurfaceLayer\ElevationSurfaceLayer">
+      <UniqueIdentifier>{4b200809-976d-45f6-a191-0dc29e319e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\SurfaceLayer\ImageSurfaceLayer">
+      <UniqueIdentifier>{ce1a4e7f-0a1d-4a4b-8be8-8d3a3dd83142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\SurfaceLayer\TerrainMaskSurfaceLayer">
+      <UniqueIdentifier>{eed47775-7568-4d1c-9490-0919dfd886ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\ObjectSetLayer">
+      <UniqueIdentifier>{5e3fa510-b6bd-460e-b5b7-0ade41903b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\ObjectSetLayer\LabelSetLayer">
+      <UniqueIdentifier>{bb612c70-32f3-4faa-a355-32eb2dec3cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\ObjectSetLayer\ModelSetLayer">
+      <UniqueIdentifier>{35902dbe-118b-4dbe-a3b0-dcd2fdee7e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\ObjectSetLayer\OverlayImageSetLayer">
+      <UniqueIdentifier>{900a923b-3273-49aa-a7f9-8e9098bfee32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\ObjectSetLayer\ShapeSetLayer">
+      <UniqueIdentifier>{90dd39f0-0423-42f4-9a3f-fd670e8551f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\ObjectSetLayer\PlaceSetLayer">
+      <UniqueIdentifier>{650b458a-ba18-45be-a61a-3aae43f58a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\ObjectSetLayer\ViewportSetLayer">
+      <UniqueIdentifier>{71e3ae68-8f59-468a-b024-50f5d87834cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\EarthMap">
+      <UniqueIdentifier>{25fd6841-d9e4-4b14-9a4d-cf4a14bffd32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\EarthViewer">
+      <UniqueIdentifier>{c2481f95-4756-4b47-9daa-e4daaa5d0621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\EarthGroup">
+      <UniqueIdentifier>{971fb4c4-29ff-49d1-b349-ec154b73ba2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\EarthObject">
+      <UniqueIdentifier>{67bc174d-e3d6-4c7d-8fe2-a7b66131590b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\Layer">
+      <UniqueIdentifier>{93ae86af-3298-4261-8706-a3de5170b581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Layer\SurfaceLayer\VectorSurfaceLayer">
+      <UniqueIdentifier>{753ed338-1390-41b6-9c7a-f31af6800448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Utils">
+      <UniqueIdentifier>{28f52d66-e32d-4e9f-a9a9-f31ca00550bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Utils\ObjectFactory">
+      <UniqueIdentifier>{70fd8fb4-c7d2-4f0a-8f80-c76a3780161a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Utils\StaticUtils">
+      <UniqueIdentifier>{e3add2fc-e665-4f68-9dad-68cbbdccde01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Earth">
+      <UniqueIdentifier>{845d9c5e-068c-4002-a4f3-8f32221078a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\EarthTreeCtrl">
+      <UniqueIdentifier>{c6373eb9-8931-4084-b536-f04d32a70696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Externals">
+      <UniqueIdentifier>{493fc3e9-294d-4ea7-8773-fc38e43dae30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Externals\Sky">
+      <UniqueIdentifier>{ab06ef59-4a25-48b5-b9b5-e877bf6f2ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Externals\Viewpoint">
+      <UniqueIdentifier>{7880ddc5-fcbe-4607-a256-4f372497aee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Externals\Externals">
+      <UniqueIdentifier>{988a7878-b62a-4b3c-b0ee-698ba5fd377b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source">
+      <UniqueIdentifier>{4ee793c9-7d80-4666-9720-07e8822da369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource">
+      <UniqueIdentifier>{0403a754-a4bb-4295-b27c-441391e018f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceAGGLite">
+      <UniqueIdentifier>{189e456e-e7da-447e-9c6e-26dbf1e16d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceArcGIS">
+      <UniqueIdentifier>{7cb8cb44-f19e-4775-915b-fb70f457f0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceColorRamp">
+      <UniqueIdentifier>{dad5081d-b4f8-4ef1-8ae2-be18c84d7b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceDebug">
+      <UniqueIdentifier>{3cb1a2d8-9c0c-435d-b13b-9e8cdb1d60df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceGDAL">
+      <UniqueIdentifier>{de959d95-9766-4b00-9406-23c932d5ad87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceMBTiles">
+      <UniqueIdentifier>{49a43036-733e-48e0-ad99-58bd7aa506fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceNoise">
+      <UniqueIdentifier>{c4e3140a-10a6-420d-8700-33584a58015d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceTileCache">
+      <UniqueIdentifier>{7749e8e2-b1a7-469c-aed6-b9e34bc51c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceTileService">
+      <UniqueIdentifier>{45b313e2-255f-4fc2-b8a7-a7506881f784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceTMS">
+      <UniqueIdentifier>{bd6c1532-38f5-4795-a793-761a5a44786e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceVPB">
+      <UniqueIdentifier>{ee8dbdb8-1047-4fa8-a959-9e68f1825d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceWCS">
+      <UniqueIdentifier>{74cd7aa4-8206-44dd-a6e9-5c005fae86f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceWMS">
+      <UniqueIdentifier>{433ec74c-e9cb-4a3e-bd68-a34ec88eb664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceXYZ">
+      <UniqueIdentifier>{06fd81fc-f9a0-4624-ab06-0d23dd0705d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceBing">
+      <UniqueIdentifier>{9a9b0100-4df1-412c-aeba-21cc5a907340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceYahoo">
+      <UniqueIdentifier>{5a943638-cf5e-446b-94d4-cd8ddea529b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\TileSource\TileSourceOSG">
+      <UniqueIdentifier>{f153a663-9b5f-485f-bdf5-e4da826877a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\VectorSource">
+      <UniqueIdentifier>{ed6826fc-cd34-4990-ad04-0c30c74dc5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\VectorSource\VectorSourceGeom">
+      <UniqueIdentifier>{85ab628d-cdd7-4461-8420-738ea99888c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\VectorSource\VectorSourceStencil">
+      <UniqueIdentifier>{60e3866e-c704-46a3-8190-52a36f47995b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\VectorSource\VectorSourceSimple">
+      <UniqueIdentifier>{aca9c877-13c2-42a2-857b-f62f397bf695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\FeatureSource">
+      <UniqueIdentifier>{f5c40264-15be-45f3-9ec9-1faef03a0bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\FeatureSource\FeatureSourceOGR">
+      <UniqueIdentifier>{fbe7d154-2b2c-4e45-8417-7df0602790f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\FeatureSource\FeatureSourceTFS">
+      <UniqueIdentifier>{2aead5da-d654-4a8f-8196-9a23c2b3e316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Source\FeatureSource\FeatureSourceWFS">
+      <UniqueIdentifier>{8dfec203-1579-4b12-ba56-badccb707888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Annotation">
+      <UniqueIdentifier>{007076f7-251f-4734-8e15-1e2a3c812e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Annotation\Place">
+      <UniqueIdentifier>{1ca0a7e8-cf68-412e-8c97-6558679731bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Annotation\ImageOverlay">
+      <UniqueIdentifier>{33fa414e-8c23-44bd-a97f-1416e2cda1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Externals\Graticule">
+      <UniqueIdentifier>{b9923098-9cc5-4076-9988-823c213176e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Symbology">
+      <UniqueIdentifier>{2bbe46e6-9140-43ef-8597-3bf3cb6e14ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Symbology\Style">
+      <UniqueIdentifier>{696dd9ea-fe79-4c45-8d13-2ca7e33af016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Symbology\Color">
+      <UniqueIdentifier>{f36be1ea-33b6-4d46-a65e-e5db4c575d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis">
+      <UniqueIdentifier>{8812dbd8-d138-4e2e-abc7-1659b240f75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Units">
+      <UniqueIdentifier>{e93fd7fe-5f80-4bf1-a1ad-c5cdc6513444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Units\Speed">
+      <UniqueIdentifier>{f1b96e59-2d4f-42ea-808f-f32396ec012a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Units\ScreenSize">
+      <UniqueIdentifier>{b7a670ca-6361-471e-be2a-885fca9f4eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Vec">
+      <UniqueIdentifier>{c74685b2-3566-4a74-926e-2a7b6572b05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\GeoData">
+      <UniqueIdentifier>{a8e4e9d4-2249-4489-b21b-f9bb92dca52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\GeoData\GeoPoint">
+      <UniqueIdentifier>{4660e48c-dc04-472a-ab95-28017e04173e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Annotation\Circle">
+      <UniqueIdentifier>{f8956fdf-2c6a-4375-b547-8210d3b87cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Vec\Vec2">
+      <UniqueIdentifier>{d1ea3695-dabd-4e54-b660-eb5a61efb00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Vec\Vec3">
+      <UniqueIdentifier>{a8f17be9-7c3d-48db-9e15-7a11680812f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Vec\Vec4">
+      <UniqueIdentifier>{d7c64940-9faf-484f-89f1-55af69ce873a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\GeoData\SpatialReference">
+      <UniqueIdentifier>{88f68087-100d-4cea-8ab4-9e0b3c61653e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Annotation\Model">
+      <UniqueIdentifier>{c328391a-e1ed-4741-901b-385be4ea2c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Annotation\TextLabel">
+      <UniqueIdentifier>{945900e3-c502-4a51-8c6b-7f8c74c9d823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Annotation\FeaturePrimitive">
+      <UniqueIdentifier>{4d5c6776-2988-4ef8-8b41-c07766b4dcb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Annotation\RectanglePrimitive">
+      <UniqueIdentifier>{88a39efc-e928-4373-b1ff-ccadbeeb4727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Units\Linear">
+      <UniqueIdentifier>{a108276c-6840-4ddd-a661-3ecc7e88ce66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Units\Angular">
+      <UniqueIdentifier>{6d7eafec-6108-4159-8263-097d9b2cc5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Units\Temporal">
+      <UniqueIdentifier>{b23a53f2-7530-42d1-ad25-0000f3738c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Annotation\EllipsePrimitive">
+      <UniqueIdentifier>{49db2872-702e-467c-83d3-a7d33927910b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Vec\Vec3d">
+      <UniqueIdentifier>{fd91437e-177a-46f4-aaa2-3452a744ad46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Vec\Vec3f">
+      <UniqueIdentifier>{50194b6c-5cc3-48b1-ab51-3103daac9289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Vec\Vec2d">
+      <UniqueIdentifier>{dbac66a8-9efc-4904-b6f9-8f1b195c2389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Vec\Vec2f">
+      <UniqueIdentifier>{4290456c-2df5-4c61-a3c7-a813b5471665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Vec\Vec4d">
+      <UniqueIdentifier>{f08c40ca-ab3a-4274-ba50-1b4c5012e314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Vec\Vec4f">
+      <UniqueIdentifier>{80fb0eb5-b190-4918-ae7b-97bb1f90906d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Geometry">
+      <UniqueIdentifier>{5c611739-1591-4e31-8ca5-9f207450ab70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\GeoData\Feature">
+      <UniqueIdentifier>{d3ba3506-8b19-494d-b026-7fd758d3c518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Geometry\Geometry">
+      <UniqueIdentifier>{33a71271-9918-4fb6-98a9-8d8b077cd938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Geometry\MultiGeometry">
+      <UniqueIdentifier>{100b7460-4811-459d-8fe0-0d0d8cd217ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Geometry\PolygonGeometry">
+      <UniqueIdentifier>{51c7dff4-c924-4cf0-8a82-62020e332a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Geometry\PointSetGeometry">
+      <UniqueIdentifier>{4267cfe8-dc9e-4f52-820b-763c1abce6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Geometry\RingGeometry">
+      <UniqueIdentifier>{54eea1f3-52e8-4f17-b6fa-26006edd3e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Basis\Geometry\LineStringGeometry">
+      <UniqueIdentifier>{7aac3116-256c-4dc3-a9a6-877432c968cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="osgEarthX_COM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="compreg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="osgEarthX_COM_i.c">
+      <Filter>生成的文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\EarthCtrl\EarthCtrl.cpp">
+      <Filter>Controls\EarthCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\EarthViewer\EarthViewer.cpp">
+      <Filter>COM\EarthViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\EarthGroup\EarthGroup.cpp">
+      <Filter>COM\EarthGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\EarthMap\EarthMap.cpp">
+      <Filter>COM\EarthMap</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Layer\VectorSurfaceLayer\VectorSurfaceLayer.cpp">
+      <Filter>COM\Layer\SurfaceLayer\VectorSurfaceLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Layer\ImageSurfaceLayer\ImageSurfaceLayer.cpp">
+      <Filter>COM\Layer\SurfaceLayer\ImageSurfaceLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\EarthTreeCtrl\EarthTreeCtrl.cpp">
+      <Filter>Controls\EarthTreeCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\EarthTreeCtrl\EarthTreeView.cpp">
+      <Filter>Controls\EarthTreeCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Externals\Sky\Sky.cpp">
+      <Filter>COM\Externals\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Externals\Viewpoint\Viewpoint.cpp">
+      <Filter>COM\Externals\Viewpoint</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer.cpp">
+      <Filter>COM\Layer\SurfaceLayer\ElevationSurfaceLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Utils\StaticUtils\EarthObjectStaticUtils.cpp">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Utils\StaticUtils\EarthStaticUtils.cpp">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Utils\ObjectFactory\ObjectFactory.cpp">
+      <Filter>COM\Utils\ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\VectorSource\VectorSourceGeom\VectorSourceGeom.cpp">
+      <Filter>COM\Source\VectorSource\VectorSourceGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\VectorSource\VectorSourceSimple\VectorSourceSimple.cpp">
+      <Filter>COM\Source\VectorSource\VectorSourceSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\VectorSource\VectorSourceStencil\VectorSourceStencil.cpp">
+      <Filter>COM\Source\VectorSource\VectorSourceStencil</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR.cpp">
+      <Filter>COM\Source\FeatureSource\FeatureSourceOGR</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS.cpp">
+      <Filter>COM\Source\FeatureSource\FeatureSourceTFS</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS.cpp">
+      <Filter>COM\Source\FeatureSource\FeatureSourceWFS</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite.cpp">
+      <Filter>COM\Source\TileSource\TileSourceAGGLite</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS.cpp">
+      <Filter>COM\Source\TileSource\TileSourceArcGIS</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceBing\TileSourceBing.cpp">
+      <Filter>COM\Source\TileSource\TileSourceBing</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp.cpp">
+      <Filter>COM\Source\TileSource\TileSourceColorRamp</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceDebug\TileSourceDebug.cpp">
+      <Filter>COM\Source\TileSource\TileSourceDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceGDAL\TileSourceGDAL.cpp">
+      <Filter>COM\Source\TileSource\TileSourceGDAL</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles.cpp">
+      <Filter>COM\Source\TileSource\TileSourceMBTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceNoise\TileSourceNoise.cpp">
+      <Filter>COM\Source\TileSource\TileSourceNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceOSG\TileSourceOSG.cpp">
+      <Filter>COM\Source\TileSource\TileSourceOSG</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceTileCache\TileSourceTileCache.cpp">
+      <Filter>COM\Source\TileSource\TileSourceTileCache</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceTileService\TileSourceTileService.cpp">
+      <Filter>COM\Source\TileSource\TileSourceTileService</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceTMS\TileSourceTMS.cpp">
+      <Filter>COM\Source\TileSource\TileSourceTMS</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceVPB\TileSourceVPB.cpp">
+      <Filter>COM\Source\TileSource\TileSourceVPB</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceWCS\TileSourceWCS.cpp">
+      <Filter>COM\Source\TileSource\TileSourceWCS</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceWMS\TileSourceWMS.cpp">
+      <Filter>COM\Source\TileSource\TileSourceWMS</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceXYZ\TileSourceXYZ.cpp">
+      <Filter>COM\Source\TileSource\TileSourceXYZ</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Source\TileSource\TileSourceYahoo\TileSourceYahoo.cpp">
+      <Filter>COM\Source\TileSource\TileSourceYahoo</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Utils\StaticUtils\SourceStaticUtils.cpp">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Annotation\Place\Place.cpp">
+      <Filter>COM\Annotation\Place</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Annotation\ImageOverlay\ImageOverlay.cpp">
+      <Filter>COM\Annotation\ImageOverlay</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Externals\Graticule\Graticule.cpp">
+      <Filter>COM\Externals\Graticule</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Utils\StaticUtils\GeoStaticUtils.cpp">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Basis\GeoData\GeoPoint\GeoPoint.cpp">
+      <Filter>COM\Basis\GeoData\GeoPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Annotation\Circle\Circle.cpp">
+      <Filter>COM\Annotation\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Symbology\Style\Style.cpp">
+      <Filter>COM\Symbology\Style</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Basis\GeoData\SpatialReference\SpatialReference.cpp">
+      <Filter>COM\Basis\GeoData\SpatialReference</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Annotation\Model\Model.cpp">
+      <Filter>COM\Annotation\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Annotation\TextLabel\TextLabel.cpp">
+      <Filter>COM\Annotation\TextLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Annotation\FeaturePrimitive\FeaturePrimitive.cpp">
+      <Filter>COM\Annotation\FeaturePrimitive</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Basis\Units\Linear\Linear.cpp">
+      <Filter>COM\Basis\Units\Linear</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Utils\StaticUtils\UnitsStaticUtils.cpp">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Annotation\RectanglePrimitive\RectanglePrimitive.cpp">
+      <Filter>COM\Annotation\RectanglePrimitive</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Basis\Units\Angular\Angular.cpp">
+      <Filter>COM\Basis\Units\Angular</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Annotation\EllipsePrimitive\EllipsePrimitive.cpp">
+      <Filter>COM\Annotation\EllipsePrimitive</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Basis\GeoData\Feature\Feature.cpp">
+      <Filter>COM\Basis\GeoData\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Basis\Vec\Vec3d\Vec3d.cpp">
+      <Filter>COM\Basis\Vec\Vec3d</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Utils\StaticUtils\GeometryStaticUtils.cpp">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Basis\Geometry\RingGeometry\RingGeometry.cpp">
+      <Filter>COM\Basis\Geometry\RingGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Basis\Geometry\LineStringGeometry\LineStringGeometry.cpp">
+      <Filter>COM\Basis\Geometry\LineStringGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="COM\Basis\Geometry\PolygonGeometry\PolygonGeometry.cpp">
+      <Filter>COM\Basis\Geometry\PolygonGeometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="compreg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="osgEarthX_COM_i.h">
+      <Filter>生成的文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\EarthCtrl\_IEarthCtrlEvents_CP.h">
+      <Filter>Controls\EarthCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\EarthCtrl\EarthCtrl.h">
+      <Filter>Controls\EarthCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\EarthCtrl\EarthCtrl_idl.h">
+      <Filter>Controls\EarthCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthViewer\_IEarthViewerEvents_CP.h">
+      <Filter>COM\EarthViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthViewer\EarthViewer.h">
+      <Filter>COM\EarthViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthViewer\EarthViewer_idl.h">
+      <Filter>COM\EarthViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthGroup\EarthGroup_idl.h">
+      <Filter>COM\EarthGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthGroup\EarthGroup.h">
+      <Filter>COM\EarthGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\ImageSurfaceLayer\ImageSurfaceLayer.h">
+      <Filter>COM\Layer\SurfaceLayer\ImageSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\ImageSurfaceLayer\ImageSurfaceLayer_idl.h">
+      <Filter>COM\Layer\SurfaceLayer\ImageSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\Layer\Layer_idl.h">
+      <Filter>COM\Layer\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\VectorSurfaceLayer\VectorSurfaceLayer_idl.h">
+      <Filter>COM\Layer\SurfaceLayer\VectorSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthMap\EarthMap.h">
+      <Filter>COM\EarthMap</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthMap\EarthMap_idl.h">
+      <Filter>COM\EarthMap</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\Layer\Layers_idl.h">
+      <Filter>COM\Layer\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\VectorSurfaceLayer\VectorSurfaceLayer.h">
+      <Filter>COM\Layer\SurfaceLayer\VectorSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Earth\IEarthDispatch_idl.h">
+      <Filter>COM\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\EarthCtrl\EarthCtrl_lib_idl.h">
+      <Filter>Controls\EarthCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthViewer\EarthViewer_lib_idl.h">
+      <Filter>COM\EarthViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthGroup\EarthGroup_lib_idl.h">
+      <Filter>COM\EarthGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\ImageSurfaceLayer\ImageSurfaceLayer_lib_idl.h">
+      <Filter>COM\Layer\SurfaceLayer\ImageSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthMap\EarthMap_lib_idl.h">
+      <Filter>COM\EarthMap</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\VectorSurfaceLayer\VectorSurfaceLayer_lib_idl.h">
+      <Filter>COM\Layer\SurfaceLayer\VectorSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Earth\IEarthDisp_lib_idl.h">
+      <Filter>COM\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\Layer\Layer_lib_idl.h">
+      <Filter>COM\Layer\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Earth\IEarthDisp_CP.h">
+      <Filter>COM\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthObject\IEarthObjectEvents_CP.h">
+      <Filter>COM\EarthObject</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\Layer\ILayerEvents_CP.h">
+      <Filter>COM\Layer\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\ImageSurfaceLayer\IDispImageSurfaceLayerEvents_CP.h">
+      <Filter>COM\Layer\SurfaceLayer\ImageSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\ImageSurfaceLayer\IImageSurfaceLayerEvents_CP.h">
+      <Filter>COM\Layer\SurfaceLayer\ImageSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\VectorSurfaceLayer\IVectorSurfaceLayerEvents_CP.h">
+      <Filter>COM\Layer\SurfaceLayer\VectorSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\VectorSurfaceLayer\IDispVectorSurfaceLayerEvents_CP.h">
+      <Filter>COM\Layer\SurfaceLayer\VectorSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\EarthTreeCtrl\EarthTreeCtrl.h">
+      <Filter>Controls\EarthTreeCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\EarthTreeCtrl\EarthTreeCtrl_idl.h">
+      <Filter>Controls\EarthTreeCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\EarthTreeCtrl\EarthTreeCtrl_lib_idl.h">
+      <Filter>Controls\EarthTreeCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\EarthTreeCtrl\_IEarthTreeCtrlEvents_CP.h">
+      <Filter>Controls\EarthTreeCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\EarthTreeCtrl\EarthTreeView.h">
+      <Filter>Controls\EarthTreeCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Sky\Sky.h">
+      <Filter>COM\Externals\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Sky\Sky_idl.h">
+      <Filter>COM\Externals\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Sky\Sky_lib_idl.h">
+      <Filter>COM\Externals\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\Layer\Layers_lib_idl.h">
+      <Filter>COM\Layer\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Externals\Externals_idl.h">
+      <Filter>COM\Externals\Externals</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Externals\Externals_lib_idl.h">
+      <Filter>COM\Externals\Externals</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Viewpoint\Viewpoint.h">
+      <Filter>COM\Externals\Viewpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Viewpoint\Viewpoint_idl.h">
+      <Filter>COM\Externals\Viewpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Viewpoint\Viewpoint_lib_idl.h">
+      <Filter>COM\Externals\Viewpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer.h">
+      <Filter>COM\Layer\SurfaceLayer\ElevationSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer_lib_idl.h">
+      <Filter>COM\Layer\SurfaceLayer\ElevationSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer_idl.h">
+      <Filter>COM\Layer\SurfaceLayer\ElevationSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Utils\StaticUtils\EarthStaticUtils.h">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Utils\StaticUtils\EarthObjectStaticUtils.h">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Utils\ObjectFactory\ObjectFactory.h">
+      <Filter>COM\Utils\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Utils\ObjectFactory\ObjectFactory_idl.h">
+      <Filter>COM\Utils\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Utils\ObjectFactory\ObjectFactory_lib_idl.h">
+      <Filter>COM\Utils\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthObject\IEarthObject_idl.h">
+      <Filter>COM\EarthObject</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthObject\IEarthObject_lib_idl.h">
+      <Filter>COM\EarthObject</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthObject\EarthObjectDispatchImpl.h">
+      <Filter>COM\EarthObject</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Earth\EarthClassType_idl.h">
+      <Filter>COM\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\EarthObject\EarthObjectClassType_idl.h">
+      <Filter>COM\EarthObject</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\ISourceDispatch_idl.h">
+      <Filter>COM\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\SourceClassType_idl.h">
+      <Filter>COM\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\SourceDispatchImpl.h">
+      <Filter>COM\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\Sources_idl.h">
+      <Filter>COM\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\Sources_lib_idl.h">
+      <Filter>COM\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceGeom\VectorSourceGeom.h">
+      <Filter>COM\Source\VectorSource\VectorSourceGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceGeom\VectorSourceGeom_idl.h">
+      <Filter>COM\Source\VectorSource\VectorSourceGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceGeom\VectorSourceGeom_lib_idl.h">
+      <Filter>COM\Source\VectorSource\VectorSourceGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\VectorSource\IVectorSourceDispatch_idl.h">
+      <Filter>COM\Source\VectorSource</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceSimple\VectorSourceSimple.h">
+      <Filter>COM\Source\VectorSource\VectorSourceSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceSimple\VectorSourceSimple_idl.h">
+      <Filter>COM\Source\VectorSource\VectorSourceSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceSimple\VectorSourceSimple_lib_idl.h">
+      <Filter>COM\Source\VectorSource\VectorSourceSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceStencil\VectorSourceStencil.h">
+      <Filter>COM\Source\VectorSource\VectorSourceStencil</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceStencil\VectorSourceStencil_idl.h">
+      <Filter>COM\Source\VectorSource\VectorSourceStencil</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\VectorSource\VectorSourceStencil\VectorSourceStencil_lib_idl.h">
+      <Filter>COM\Source\VectorSource\VectorSourceStencil</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\FeatureSource\IFeatureSouceDispatch_idl.h">
+      <Filter>COM\Source\FeatureSource</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR.h">
+      <Filter>COM\Source\FeatureSource\FeatureSourceOGR</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR_idl.h">
+      <Filter>COM\Source\FeatureSource\FeatureSourceOGR</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR_lib_idl.h">
+      <Filter>COM\Source\FeatureSource\FeatureSourceOGR</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS.h">
+      <Filter>COM\Source\FeatureSource\FeatureSourceTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS_idl.h">
+      <Filter>COM\Source\FeatureSource\FeatureSourceTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS_lib_idl.h">
+      <Filter>COM\Source\FeatureSource\FeatureSourceTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS.h">
+      <Filter>COM\Source\FeatureSource\FeatureSourceWFS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS_idl.h">
+      <Filter>COM\Source\FeatureSource\FeatureSourceWFS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS_lib_idl.h">
+      <Filter>COM\Source\FeatureSource\FeatureSourceWFS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\ITileSourceDispatch_idl.h">
+      <Filter>COM\Source\TileSource</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite.h">
+      <Filter>COM\Source\TileSource\TileSourceAGGLite</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceAGGLite</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceAGGLite</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS.h">
+      <Filter>COM\Source\TileSource\TileSourceArcGIS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceArcGIS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceArcGIS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceBing\TileSourceBing.h">
+      <Filter>COM\Source\TileSource\TileSourceBing</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceBing\TileSourceBing_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceBing</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceBing\TileSourceBing_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceBing</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp.h">
+      <Filter>COM\Source\TileSource\TileSourceColorRamp</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceColorRamp</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceColorRamp</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceDebug\TileSourceDebug.h">
+      <Filter>COM\Source\TileSource\TileSourceDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceDebug\TileSourceDebug_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceDebug\TileSourceDebug_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceGDAL\TileSourceGDAL.h">
+      <Filter>COM\Source\TileSource\TileSourceGDAL</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceGDAL\TileSourceGDAL_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceGDAL</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceGDAL\TileSourceGDAL_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceGDAL</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles.h">
+      <Filter>COM\Source\TileSource\TileSourceMBTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceMBTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceMBTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceNoise\TileSourceNoise.h">
+      <Filter>COM\Source\TileSource\TileSourceNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceNoise\TileSourceNoise_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceNoise\TileSourceNoise_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceOSG\TileSourceOSG.h">
+      <Filter>COM\Source\TileSource\TileSourceOSG</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceOSG\TileSourceOSG_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceOSG</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceOSG\TileSourceOSG_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceOSG</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileCache\TileSourceTileCache.h">
+      <Filter>COM\Source\TileSource\TileSourceTileCache</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileCache\TileSourceTileCache_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceTileCache</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileCache\TileSourceTileCache_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceTileCache</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileService\TileSourceTileService.h">
+      <Filter>COM\Source\TileSource\TileSourceTileService</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileService\TileSourceTileService_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceTileService</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceTileService\TileSourceTileService_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceTileService</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceTMS\TileSourceTMS.h">
+      <Filter>COM\Source\TileSource\TileSourceTMS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceTMS\TileSourceTMS_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceTMS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceTMS\TileSourceTMS_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceTMS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceVPB\TileSourceVPB.h">
+      <Filter>COM\Source\TileSource\TileSourceVPB</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceVPB\TileSourceVPB_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceVPB</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceVPB\TileSourceVPB_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceVPB</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceWCS\TileSourceWCS.h">
+      <Filter>COM\Source\TileSource\TileSourceWCS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceWCS\TileSourceWCS_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceWCS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceWCS\TileSourceWCS_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceWCS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceWMS\TileSourceWMS.h">
+      <Filter>COM\Source\TileSource\TileSourceWMS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceWMS\TileSourceWMS_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceWMS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceWMS\TileSourceWMS_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceWMS</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceXYZ\TileSourceXYZ.h">
+      <Filter>COM\Source\TileSource\TileSourceXYZ</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceXYZ\TileSourceXYZ_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceXYZ</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceXYZ\TileSourceXYZ_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceXYZ</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceYahoo\TileSourceYahoo.h">
+      <Filter>COM\Source\TileSource\TileSourceYahoo</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceYahoo\TileSourceYahoo_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceYahoo</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Source\TileSource\TileSourceYahoo\TileSourceYahoo_lib_idl.h">
+      <Filter>COM\Source\TileSource\TileSourceYahoo</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Utils\StaticUtils\SourceStaticUtils.h">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Earth\RefEarthDispatchImpl.h">
+      <Filter>COM\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Earth\EarthDispatchImpl.h">
+      <Filter>COM\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Place\Place.h">
+      <Filter>COM\Annotation\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Place\Place_idl.h">
+      <Filter>COM\Annotation\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Place\Place_lib_idl.h">
+      <Filter>COM\Annotation\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Annotations_idl.h">
+      <Filter>COM\Annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Annotations_lib_idl.h">
+      <Filter>COM\Annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\ImageOverlay\ImageOverlay.h">
+      <Filter>COM\Annotation\ImageOverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\ImageOverlay\ImageOverlay_idl.h">
+      <Filter>COM\Annotation\ImageOverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\ImageOverlay\ImageOverlay_lib_idl.h">
+      <Filter>COM\Annotation\ImageOverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Graticule\Graticule.h">
+      <Filter>COM\Externals\Graticule</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Graticule\Graticule_idl.h">
+      <Filter>COM\Externals\Graticule</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Externals\Graticule\Graticule_lib_idl.h">
+      <Filter>COM\Externals\Graticule</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Earth\PtrEarthDispatchImpl.h">
+      <Filter>COM\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Utils\StaticUtils\GeoStaticUtils.h">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\Geo_idl.h">
+      <Filter>COM\Basis\GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\Geo_lib_idl.h">
+      <Filter>COM\Basis\GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\GeoClassType_idl.h">
+      <Filter>COM\Basis\GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\GeoPoint\GeoPoint.h">
+      <Filter>COM\Basis\GeoData\GeoPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\GeoPoint\GeoPoint_idl.h">
+      <Filter>COM\Basis\GeoData\GeoPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\GeoPoint\GeoPoint_lib_idl.h">
+      <Filter>COM\Basis\GeoData\GeoPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Basis_idl.h">
+      <Filter>COM\Basis</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Basis_lib_idl.h">
+      <Filter>COM\Basis</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Circle\Circle.h">
+      <Filter>COM\Annotation\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Circle\Circle_idl.h">
+      <Filter>COM\Annotation\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Circle\Circle_lib_idl.h">
+      <Filter>COM\Annotation\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Units\Units_idl.h">
+      <Filter>COM\Basis\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Units\Units_lib_idl.h">
+      <Filter>COM\Basis\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Symbology\Style\Style.h">
+      <Filter>COM\Symbology\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Symbology\Style\Style_idl.h">
+      <Filter>COM\Symbology\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Symbology\Style\Style_lib_idl.h">
+      <Filter>COM\Symbology\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Symbology\Symbology_idl.h">
+      <Filter>COM\Symbology</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Symbology\Symbology_lib_idl.h">
+      <Filter>COM\Symbology</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\SpatialReference\SpatialReference.h">
+      <Filter>COM\Basis\GeoData\SpatialReference</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\SpatialReference\SpatialReference_idl.h">
+      <Filter>COM\Basis\GeoData\SpatialReference</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\SpatialReference\SpatialReference_lib_idl.h">
+      <Filter>COM\Basis\GeoData\SpatialReference</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Model\Model_idl.h">
+      <Filter>COM\Annotation\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Model\Model_lib_idl.h">
+      <Filter>COM\Annotation\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\Model\Model.h">
+      <Filter>COM\Annotation\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\TextLabel\TextLabel.h">
+      <Filter>COM\Annotation\TextLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\TextLabel\TextLabel_idl.h">
+      <Filter>COM\Annotation\TextLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\TextLabel\TextLabel_lib_idl.h">
+      <Filter>COM\Annotation\TextLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\FeaturePrimitive\FeaturePrimitive.h">
+      <Filter>COM\Annotation\FeaturePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\FeaturePrimitive\FeaturePrimitive_idl.h">
+      <Filter>COM\Annotation\FeaturePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\FeaturePrimitive\FeaturePrimitive_lib_idl.h">
+      <Filter>COM\Annotation\FeaturePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Units\UnitsType_idl.h">
+      <Filter>COM\Basis\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Units\Linear\Linear.h">
+      <Filter>COM\Basis\Units\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Utils\StaticUtils\UnitsStaticUtils.h">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Units\Linear\Linear_idl.h">
+      <Filter>COM\Basis\Units\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Units\Linear\Linear_lib_idl.h">
+      <Filter>COM\Basis\Units\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\RectanglePrimitive\RectanglePrimitive.h">
+      <Filter>COM\Annotation\RectanglePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\RectanglePrimitive\RectanglePrimitive_idl.h">
+      <Filter>COM\Annotation\RectanglePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\RectanglePrimitive\RectanglePrimitive_lib_idl.h">
+      <Filter>COM\Annotation\RectanglePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Units\Angular\Angular.h">
+      <Filter>COM\Basis\Units\Angular</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Units\Angular\Angular_idl.h">
+      <Filter>COM\Basis\Units\Angular</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Units\Angular\Angular_lib_idl.h">
+      <Filter>COM\Basis\Units\Angular</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\EllipsePrimitive\EllipsePrimitive.h">
+      <Filter>COM\Annotation\EllipsePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\EllipsePrimitive\EllipsePrimitive_idl.h">
+      <Filter>COM\Annotation\EllipsePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Annotation\EllipsePrimitive\EllipsePrimitive_lib_idl.h">
+      <Filter>COM\Annotation\EllipsePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Units\UnitClassType_idl.h">
+      <Filter>COM\Basis\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\Feature\Feature.h">
+      <Filter>COM\Basis\GeoData\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\Feature\Feature_idl.h">
+      <Filter>COM\Basis\GeoData\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\GeoData\Feature\Feature_lib_idl.h">
+      <Filter>COM\Basis\GeoData\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\GeometryClassType_idl.h">
+      <Filter>COM\Basis\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\Geometry_idl.h">
+      <Filter>COM\Basis\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\Geometry_lib_idl.h">
+      <Filter>COM\Basis\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\Geometry\IGeometry_idl.h">
+      <Filter>COM\Basis\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Vec\Vec_idl.h">
+      <Filter>COM\Basis\Vec</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Vec\Vec_lib_idl.h">
+      <Filter>COM\Basis\Vec</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Vec\Vec3d\Vec3d.h">
+      <Filter>COM\Basis\Vec\Vec3d</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Vec\Vec3d\Vec3d_idl.h">
+      <Filter>COM\Basis\Vec\Vec3d</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Vec\Vec3d\Vec3d_lib_idl.h">
+      <Filter>COM\Basis\Vec\Vec3d</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Vec\VecClassType_idl.h">
+      <Filter>COM\Basis\Vec</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\Geometry\GeometryDispatchImpl.h">
+      <Filter>COM\Basis\Geometry\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Utils\StaticUtils\GeometryStaticUtils.h">
+      <Filter>COM\Utils\StaticUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\RingGeometry\RingGeometry.h">
+      <Filter>COM\Basis\Geometry\RingGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\RingGeometry\RingGeometry_idl.h">
+      <Filter>COM\Basis\Geometry\RingGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\RingGeometry\RingGeometry_lib_idl.h">
+      <Filter>COM\Basis\Geometry\RingGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\RingGeometry\RingGeometryDispatchImpl.h">
+      <Filter>COM\Basis\Geometry\RingGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\LineStringGeometry\LineStringGeometry.h">
+      <Filter>COM\Basis\Geometry\LineStringGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\LineStringGeometry\LineStringGeometry_idl.h">
+      <Filter>COM\Basis\Geometry\LineStringGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\LineStringGeometry\LineStringGeometry_lib_idl.h">
+      <Filter>COM\Basis\Geometry\LineStringGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\PolygonGeometry\PolygonGeometry.h">
+      <Filter>COM\Basis\Geometry\PolygonGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\PolygonGeometry\PolygonGeometry_idl.h">
+      <Filter>COM\Basis\Geometry\PolygonGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="COM\Basis\Geometry\PolygonGeometry\PolygonGeometry_lib_idl.h">
+      <Filter>COM\Basis\Geometry\PolygonGeometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="osgEarthX_COM.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="osgEarthX_COM.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="osgEarthX_COM.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="Controls\EarthCtrl\EarthCtrl.htm">
+      <Filter>Controls\EarthCtrl</Filter>
+    </None>
+    <None Include="COM\EarthViewer\EarthViewer.rgs">
+      <Filter>COM\EarthViewer</Filter>
+    </None>
+    <None Include="COM\EarthGroup\EarthGroup.rgs">
+      <Filter>COM\EarthGroup</Filter>
+    </None>
+    <None Include="COM\Layer\ImageSurfaceLayer\ImageSurfaceLayer.rgs">
+      <Filter>COM\Layer\SurfaceLayer\ImageSurfaceLayer</Filter>
+    </None>
+    <None Include="COM\EarthMap\EarthMap.rgs">
+      <Filter>COM\EarthMap</Filter>
+    </None>
+    <None Include="COM\Layer\VectorSurfaceLayer\VectorSurfaceLayer.rgs">
+      <Filter>COM\Layer\SurfaceLayer\VectorSurfaceLayer</Filter>
+    </None>
+    <None Include="Controls\EarthCtrl\EarthCtrl.bmp">
+      <Filter>Controls\EarthCtrl</Filter>
+    </None>
+    <None Include="Controls\EarthCtrl\EarthCtrl.rgs">
+      <Filter>Controls\EarthCtrl</Filter>
+    </None>
+    <None Include="Controls\EarthTreeCtrl\EarthTreeCtrl.bmp">
+      <Filter>Controls\EarthTreeCtrl</Filter>
+    </None>
+    <None Include="Controls\EarthTreeCtrl\EarthTreeCtrl.htm">
+      <Filter>Controls\EarthTreeCtrl</Filter>
+    </None>
+    <None Include="Controls\EarthTreeCtrl\EarthTreeCtrl.rgs">
+      <Filter>Controls\EarthTreeCtrl</Filter>
+    </None>
+    <None Include="controls\earthctrl\registry.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="COM\Externals\Sky\Sky.rgs">
+      <Filter>COM\Externals\Sky</Filter>
+    </None>
+    <None Include="COM\Externals\Viewpoint\Viewpoint.rgs">
+      <Filter>COM\Externals\Viewpoint</Filter>
+    </None>
+    <None Include="COM\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer.rgs">
+      <Filter>COM\Layer\SurfaceLayer\ElevationSurfaceLayer</Filter>
+    </None>
+    <None Include="COM\Utils\ObjectFactory\ObjectFactory.rgs">
+      <Filter>COM\Utils\ObjectFactory</Filter>
+    </None>
+    <None Include="COM\Source\VectorSource\VectorSourceGeom\VectorSourceGeom.rgs">
+      <Filter>COM\Source\VectorSource\VectorSourceGeom</Filter>
+    </None>
+    <None Include="COM\Source\VectorSource\VectorSourceSimple\VectorSourceSimple.rgs">
+      <Filter>COM\Source\VectorSource\VectorSourceSimple</Filter>
+    </None>
+    <None Include="COM\Source\VectorSource\VectorSourceStencil\VectorSourceStencil.rgs">
+      <Filter>COM\Source\VectorSource\VectorSourceStencil</Filter>
+    </None>
+    <None Include="COM\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR.rgs">
+      <Filter>COM\Source\FeatureSource\FeatureSourceOGR</Filter>
+    </None>
+    <None Include="COM\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS.rgs">
+      <Filter>COM\Source\FeatureSource\FeatureSourceTFS</Filter>
+    </None>
+    <None Include="COM\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS.rgs">
+      <Filter>COM\Source\FeatureSource\FeatureSourceWFS</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite.rgs">
+      <Filter>COM\Source\TileSource\TileSourceAGGLite</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS.rgs">
+      <Filter>COM\Source\TileSource\TileSourceArcGIS</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceBing\TileSourceBing.rgs">
+      <Filter>COM\Source\TileSource\TileSourceBing</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp.rgs">
+      <Filter>COM\Source\TileSource\TileSourceColorRamp</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceDebug\TileSourceDebug.rgs">
+      <Filter>COM\Source\TileSource\TileSourceDebug</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceGDAL\TileSourceGDAL.rgs">
+      <Filter>COM\Source\TileSource\TileSourceGDAL</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles.rgs">
+      <Filter>COM\Source\TileSource\TileSourceMBTiles</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceNoise\TileSourceNoise.rgs">
+      <Filter>COM\Source\TileSource\TileSourceNoise</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceOSG\TileSourceOSG.rgs">
+      <Filter>COM\Source\TileSource\TileSourceOSG</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceTileCache\TileSourceTileCache.rgs">
+      <Filter>COM\Source\TileSource\TileSourceTileCache</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceTileService\TileSourceTileService.rgs">
+      <Filter>COM\Source\TileSource\TileSourceTileService</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceTMS\TileSourceTMS.rgs">
+      <Filter>COM\Source\TileSource\TileSourceTMS</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceVPB\TileSourceVPB.rgs">
+      <Filter>COM\Source\TileSource\TileSourceVPB</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceWCS\TileSourceWCS.rgs">
+      <Filter>COM\Source\TileSource\TileSourceWCS</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceWMS\TileSourceWMS.rgs">
+      <Filter>COM\Source\TileSource\TileSourceWMS</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceXYZ\TileSourceXYZ.rgs">
+      <Filter>COM\Source\TileSource\TileSourceXYZ</Filter>
+    </None>
+    <None Include="COM\Source\TileSource\TileSourceYahoo\TileSourceYahoo.rgs">
+      <Filter>COM\Source\TileSource\TileSourceYahoo</Filter>
+    </None>
+    <None Include="COM\Annotation\Place\Place.rgs">
+      <Filter>COM\Annotation\Place</Filter>
+    </None>
+    <None Include="COM\Annotation\ImageOverlay\ImageOverlay.rgs">
+      <Filter>COM\Annotation\ImageOverlay</Filter>
+    </None>
+    <None Include="COM\Externals\Graticule\Graticule.rgs">
+      <Filter>COM\Externals\Graticule</Filter>
+    </None>
+    <None Include="COM\Basis\GeoData\GeoPoint\GeoPoint.rgs">
+      <Filter>COM\Basis\GeoData\GeoPoint</Filter>
+    </None>
+    <None Include="COM\Annotation\Circle\Circle.rgs">
+      <Filter>COM\Annotation\Circle</Filter>
+    </None>
+    <None Include="COM\Symbology\Style\Style.rgs">
+      <Filter>COM\Symbology\Style</Filter>
+    </None>
+    <None Include="COM\Basis\GeoData\SpatialReference\SpatialReference.rgs">
+      <Filter>COM\Basis\GeoData\SpatialReference</Filter>
+    </None>
+    <None Include="COM\Annotation\Model\Model.rgs">
+      <Filter>COM\Annotation\Model</Filter>
+    </None>
+    <None Include="COM\Annotation\TextLabel\TextLabel.rgs">
+      <Filter>COM\Annotation\TextLabel</Filter>
+    </None>
+    <None Include="COM\Annotation\FeaturePrimitive\FeaturePrimitive.rgs">
+      <Filter>COM\Annotation\FeaturePrimitive</Filter>
+    </None>
+    <None Include="COM\Basis\Units\Linear\Linear.rgs">
+      <Filter>COM\Basis\Units\Linear</Filter>
+    </None>
+    <None Include="COM\Annotation\RectanglePrimitive\RectanglePrimitive.rgs">
+      <Filter>COM\Annotation\RectanglePrimitive</Filter>
+    </None>
+    <None Include="COM\Basis\Units\Angular\Angular.rgs">
+      <Filter>COM\Basis\Units\Angular</Filter>
+    </None>
+    <None Include="COM\Annotation\EllipsePrimitive\EllipsePrimitive.rgs">
+      <Filter>COM\Annotation\EllipsePrimitive</Filter>
+    </None>
+    <None Include="COM\Basis\GeoData\Feature\Feature.rgs">
+      <Filter>COM\Basis\GeoData\Feature</Filter>
+    </None>
+    <None Include="COM\Basis\Vec\Vec3d\Vec3d.rgs">
+      <Filter>COM\Basis\Vec\Vec3d</Filter>
+    </None>
+    <None Include="COM\Basis\Geometry\RingGeometry\RingGeometry.rgs">
+      <Filter>COM\Basis\Geometry\RingGeometry</Filter>
+    </None>
+    <None Include="COM\Basis\Geometry\LineStringGeometry\LineStringGeometry.rgs">
+      <Filter>COM\Basis\Geometry\LineStringGeometry</Filter>
+    </None>
+    <None Include="COM\Basis\Geometry\PolygonGeometry\PolygonGeometry.rgs">
+      <Filter>COM\Basis\Geometry\PolygonGeometry</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="osgEarthX_COM.idl">
+      <Filter>源文件</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>

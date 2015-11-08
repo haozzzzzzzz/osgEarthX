@@ -1,0 +1,1 @@
+#include <EarthWeb/Source/VectorSource/VectorSourceStencil/VectorSourceStencil.h>

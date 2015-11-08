@@ -1,0 +1,57 @@
+/**
+	@brief units type
+	@author Hao Luo
+	@date 2015/10/29
+*/
+
+#ifndef OSGEARTHX_COM_UNITS_TYPE_IDL_H
+#define OSGEARTHX_COM_UNITS_TYPE_IDL_H 1
+
+[
+	uuid(6e8e212d-ce99-4ff3-859e-3691c7ea2e60),
+	helpstring("units type")
+]
+typedef enum UnitsType
+{
+	UNIT_CENTIMETERS = 0,
+	UNIT_DATA_MILES,
+	UNIT_FATHOMS,
+	UNIT_FEET,
+	UNIT_FEET_US_SURVEY,  // http://www.wsdot.wa.gov/reference/metrics/foottometer.htm
+	UNIT_INCHES,
+	UNIT_KILOFEET,
+	UNIT_KILOMETERS,
+	UNIT_KILOYARDS,
+	UNIT_METERS,
+	UNIT_MILES,           // statute miles
+	UNIT_MILLIMETERS,
+	UNIT_NAUTICAL_MILES,
+	UNIT_YARDS,
+
+	// angular
+	UNIT_BAM,
+	UNIT_DEGREES,
+	UNIT_NATO_MILS, // http://www.convertworld.com/en/angle/Mil+(NATO).html
+	UNIT_RADIANS,
+
+	// temporal
+	UNIT_DAYS,
+	UNIT_HOURS,
+	UNIT_MICROSECONDS,
+	UNIT_MILLISECONDS,
+	UNIT_MINUTES,
+	UNIT_SECONDS,
+	UNIT_WEEKS,
+
+	// speed
+	UNIT_FEET_PER_SECOND,
+	UNIT_YARDS_PER_SECOND,
+	UNIT_METERS_PER_SECOND,
+	UNIT_KILOMETERS_PER_SECOND,
+	UNIT_KILOMETERS_PER_HOUR,
+	UNIT_MILES_PER_HOUR,
+	UNIT_DATA_MILES_PER_HOUR,
+	UNIT_KNOTS
+}UnitsType;
+
+#endif

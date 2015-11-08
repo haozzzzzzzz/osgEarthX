@@ -1,0 +1,81 @@
+/**********************************************************\
+
+  Auto-generated FireBreathWin.idl
+
+\**********************************************************/
+
+// FireBreathWin.idl : IDL source for FireBreathWin
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (FireBreathWin.tlb) and marshalling code.
+
+#include "global/COM_config.h"
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+import "dispex.idl";
+
+[
+    uuid(FBTYPELIB_GUID),
+    version(1.0),
+    helpstring(FBTYPELIB_DESC)
+]
+library ${FBTYPELIB_NAME}
+{
+    [
+        object,
+        uuid(IFBControl_GUID),
+        dual,
+        nonextensible,
+        helpstring(IFBControl_DESC),
+        pointer_default(unique)
+    ]
+    interface IFBControl : IDispatchEx {
+    };
+    [
+        object,
+        uuid(IFBComJavascriptObject_GUID),
+        dual,
+        nonextensible,
+        helpstring(IFBComJavascriptObject_DESC),
+        pointer_default(unique)
+    ]
+    interface IFBComJavascriptObject : IDispatchEx {
+    };
+
+    importlib("stdole2.tlb");
+    [
+        uuid(IFBComEventSource_GUID),
+        helpstring(IFBComEventSource_DESC)
+    ]
+    dispinterface IFBComEventSource
+    {
+        properties:
+        methods:
+    };
+
+@@foreach (FBControl_GUID CUR_GUID)
+    [
+        uuid(${CUR_GUID}),
+        control,
+        helpstring(FBControl_DESC)
+    ]
+    coclass FBControl${i}
+    {
+        [default] interface IFBControl;
+        [default, source] dispinterface IFBComEventSource;
+    };
+@@endforeach 
+    [
+        uuid(FBComJavascriptObject_GUID),
+        control,
+        helpstring(FBComJavascriptObject_DESC)
+    ]
+    coclass FBComJavascriptObject
+    {
+        [default] interface IFBComJavascriptObject;
+        [default, source] dispinterface IFBComEventSource;
+    }
+
+};

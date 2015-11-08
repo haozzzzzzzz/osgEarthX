@@ -1,0 +1,77 @@
+HKCR {
+@@foreach (ACTIVEX_PROGID PROGID FBControl_GUID CUR_GUID FBSTRING_PluginDescription CUR_DESC)
+    ${PROGID}.${AXVERSION_NUM} = s '${CUR_DESC}' {
+        CLSID = s '{${CUR_GUID}}'
+    }
+    ${PROGID} = s '${CUR_DESC}' {
+        CLSID = s '{${CUR_GUID}}'
+        CurVer = s '${PROGID}.${AXVERSION_NUM}'
+    }
+@@endforeach
+    NoRemove CLSID {
+@@foreach (ACTIVEX_PROGID PROGID FBControl_GUID CUR_GUID FBSTRING_PluginDescription CUR_DESC)
+        ForceRemove {${CUR_GUID}} = s '${CUR_DESC}' {
+            ProgID = s '${PROGID}.${AXVERSION_NUM}'
+            VersionIndependentProgID = s '${PROGID}'
+            ForceRemove 'Programmable'
+            InprocServer32 = s '%MODULE%' {
+                val ThreadingModel = s '%THREADING%'
+            }
+            val AppID = s '%APPID%'
+            ForceRemove 'Control'
+            'MiscStatus' = s '0' {
+                '1' = s '131473'
+            }
+            'TypeLib' = s '%LIBID%'
+            'Version' = s '${AXVERSION_NUM}'
+        }
+@@endforeach
+    }
+    NoRemove MIME {
+        NoRemove Database {
+            NoRemove 'Content Type' {
+@@foreach (FBControl_GUID CUR_GUID FBSTRING_MIMEType CUR_MIMETYPE FBSTRING_FileExtents CUR_EXTENTS FBSTRING_PluginDescription CUR_DESC)
+                '${CUR_MIMETYPE}' = s '${CUR_DESC}' {
+                    val Extension = s '${CUR_EXTENTS}'
+                    val CLSID = s '{${CUR_GUID}}'
+                }
+@@endforeach
+            }
+        }
+    }            
+}
+${REGKEY_ROOT} {
+    NoRemove Software {
+        NoRemove Microsoft {
+            NoRemove Windows {
+                NoRemove CurrentVersion {
+                    NoRemove Ext {
+                        NoRemove PreApproved {
+@@foreach (FBControl_GUID CUR_GUID)
+                            ForceRemove '{${CUR_GUID}}'
+@@endforeach
+                        }
+                        NoRemove Stats {
+@@foreach (FBControl_GUID CUR_GUID)
+                            ForceRemove '{${CUR_GUID}}' {
+                                iexplore {
+                                    AllowedDomains {
+                                        '*'
+                                    }
+                                    val Count = d '0'
+                                }
+                            }
+@@endforeach
+                        }
+                    }
+                }
+            }
+        }
+
+        NoRemove MozillaPlugins {
+            ForceRemove '${MOZILLA_PLUGINID}' {
+                val Path = s '%MODULE%'
+            }
+        }
+    }
+}

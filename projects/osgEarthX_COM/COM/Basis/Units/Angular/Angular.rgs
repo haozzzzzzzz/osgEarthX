@@ -1,0 +1,26 @@
+HKCR
+{
+	AtEarthCOM.COM.Angular.1 = s 'Angular Class'
+	{
+		CLSID = s '{0EC68524-C8AF-4741-AA7C-A9256284A23B}'
+	}
+	AtEarthCOM.COM.Angular = s 'Angular Class'
+	{		
+		CurVer = s 'AtEarthCOM.COM.Angular.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {0EC68524-C8AF-4741-AA7C-A9256284A23B} = s 'Angular Class'
+		{
+			ProgID = s 'AtEarthCOM.COM.Angular.1'
+			VersionIndependentProgID = s 'AtEarthCOM.COM.Angular'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

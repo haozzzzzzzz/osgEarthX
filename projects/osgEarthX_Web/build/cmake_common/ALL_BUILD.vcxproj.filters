@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\cmake\CMakeLists.txt">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7B6C2F7E-4563-4DDD-AE2E-D57577A76324}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+Release
+*.opensdf
+*.sdf
+*.suo
+/osgEarthX_COM_i.c
+Debug

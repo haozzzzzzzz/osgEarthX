@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\projects\EarthWeb\EarthWeb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\projects\EarthWeb\EarthWebAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\projects\EarthWeb\Factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\EarthGroup\EarthGroup.cpp">
+      <Filter>EarthWeb\EarthGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\EarthMap\EarthMap.cpp">
+      <Filter>EarthWeb\EarthMap</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\EarthViewer\EarthViewer.cpp">
+      <Filter>EarthWeb\EarthViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Utils\ClassFactory\ClassFactory.cpp">
+      <Filter>EarthWeb\Utils\ClassFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Layer\VectorSurfaceLayer\VectorSurfaceLayer.cpp">
+      <Filter>EarthWeb\Layer\VectorSurfaceLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Layer\ImageSurfaceLayer\ImageSurfaceLayer.cpp">
+      <Filter>EarthWeb\Layer\ImageSurfaceLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer.cpp">
+      <Filter>EarthWeb\Layer\ElevationSurfaceLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Externals\Sky\Sky.cpp">
+      <Filter>EarthWeb\Externals\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Externals\Viewpoint\Viewpoint.cpp">
+      <Filter>EarthWeb\Externals\Viewpoint</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Utils\StaticUtils\EarthObjectStaticUtils.cpp">
+      <Filter>EarthWeb\Utils\StaticUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Utils\StaticUtils\EarthStaticUtils.cpp">
+      <Filter>EarthWeb\Utils\StaticUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Utils\StaticUtils\SourceStaticUtils.cpp">
+      <Filter>EarthWeb\Utils\StaticUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR.cpp">
+      <Filter>EarthWeb\Source\FeatureSource\FeatureSourceOGR</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS.cpp">
+      <Filter>EarthWeb\Source\FeatureSource\FeatureSourceTFS</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS.cpp">
+      <Filter>EarthWeb\Source\FeatureSource\FeatureSourceWFS</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceAGGLite</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceArcGIS</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceBing\TileSourceBing.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceBing</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceColorRamp</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceDebug\TileSourceDebug.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceGDAL\TileSourceGDAL.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceGDAL</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceMBTiles</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceNoise\TileSourceNoise.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceOSG\TileSourceOSG.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceOSG</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceTileCache\TileSourceTileCache.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceTileCache</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceTileService\TileSourceTileService.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceTileService</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceTMS\TileSourceTMS.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceTMS</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceVPB\TileSourceVPB.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceVPB</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceWCS\TileSourceWCS.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceWCS</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceWMS\TileSourceWMS.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceWMS</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceXYZ\TileSourceXYZ.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceXYZ</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\TileSource\TileSourceYahoo\TileSourceYahoo.cpp">
+      <Filter>EarthWeb\Source\TileSource\TileSourceYahoo</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\VectorSource\VectorSourceGeom\VectorSourceGeom.cpp">
+      <Filter>EarthWeb\Source\VectorSource\VectorSourceGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\VectorSource\VectorSourceSimple\VectorSourceSimple.cpp">
+      <Filter>EarthWeb\Source\VectorSource\VectorSourceSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Source\VectorSource\VectorSourceStencil\VectorSourceStencil.cpp">
+      <Filter>EarthWeb\Source\VectorSource\VectorSourceStencil</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Annotation\ImageOverlay\ImageOverlay.cpp">
+      <Filter>EarthWeb\Annotation\ImageOverlay</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Annotation\Place\Place.cpp">
+      <Filter>EarthWeb\Annotation\Place</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Externals\Graticule\Graticule.cpp">
+      <Filter>EarthWeb\Externals\Graticule</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthWeb\Basis\GeoData\GeoPoint\GeoPoint.cpp">
+      <Filter>EarthWeb\Basis\GeoData\GeoPoint</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\projects\EarthWeb\EarthWeb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\projects\EarthWeb\EarthWebAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\rcgen.sh.in">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\global\axplugin_defs.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\global\COM_config.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\global\config.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="gen\global\resource.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Earth\IEarthDispatch.h">
+      <Filter>EarthWeb\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\EarthGroup\EarthGroup.h">
+      <Filter>EarthWeb\EarthGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\EarthMap\EarthMap.h">
+      <Filter>EarthWeb\EarthMap</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\EarthObject\IEarthObject.h">
+      <Filter>EarthWeb\EarthObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\EarthViewer\EarthViewer.h">
+      <Filter>EarthWeb\EarthViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Utils\ClassFactory\ClassFactory.h">
+      <Filter>EarthWeb\Utils\ClassFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Utils\ClassFactory\ConstructorT.h">
+      <Filter>EarthWeb\Utils\ClassFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Layer\VectorSurfaceLayer\VectorSurfaceLayer.h">
+      <Filter>EarthWeb\Layer\VectorSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Layer\ImageSurfaceLayer\ImageSurfaceLayer.h">
+      <Filter>EarthWeb\Layer\ImageSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Layer\ElevationSurfaceLayer\ElevationSurfaceLayer.h">
+      <Filter>EarthWeb\Layer\ElevationSurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Externals\Sky\Sky.h">
+      <Filter>EarthWeb\Externals\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Externals\Viewpoint\Viewpoint.h">
+      <Filter>EarthWeb\Externals\Viewpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Earth\EarthClassType.h">
+      <Filter>EarthWeb\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\EarthObject\EarthObjectClassType.h">
+      <Filter>EarthWeb\EarthObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Utils\StaticUtils\EarthObjectStaticUtils.h">
+      <Filter>EarthWeb\Utils\StaticUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Utils\StaticUtils\EarthStaticUtils.h">
+      <Filter>EarthWeb\Utils\StaticUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\EarthObject\EarthObjectDispatchImpl.h">
+      <Filter>EarthWeb\EarthObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Layer\Layer\ILayer.h">
+      <Filter>EarthWeb\Layer\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\SourceClassType.h">
+      <Filter>EarthWeb\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\ISourceDispatch.h">
+      <Filter>EarthWeb\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Utils\StaticUtils\SourceStaticUtils.h">
+      <Filter>EarthWeb\Utils\StaticUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\FeatureSource\IFeatureSourceDispatch.h">
+      <Filter>EarthWeb\Source\FeatureSource</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\ITileSourceDispath.h">
+      <Filter>EarthWeb\Source\TileSource</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\VectorSource\IVectorSourceDispatch.h">
+      <Filter>EarthWeb\Source\VectorSource</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\FeatureSource\FeatureSourceOGR\FeatureSourceOGR.h">
+      <Filter>EarthWeb\Source\FeatureSource\FeatureSourceOGR</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\FeatureSource\FeatureSourceTFS\FeatureSourceTFS.h">
+      <Filter>EarthWeb\Source\FeatureSource\FeatureSourceTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\FeatureSource\FeatureSourceWFS\FeatureSourceWFS.h">
+      <Filter>EarthWeb\Source\FeatureSource\FeatureSourceWFS</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceAGGLite\TileSourceAGGLite.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceAGGLite</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceArcGIS\TileSourceArcGIS.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceArcGIS</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceBing\TileSourceBing.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceBing</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceColorRamp\TileSourceColorRamp.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceColorRamp</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceDebug\TileSourceDebug.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceGDAL\TileSourceGDAL.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceGDAL</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceMBTiles\TileSourceMBTiles.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceMBTiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceNoise\TileSourceNoise.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceOSG\TileSourceOSG.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceOSG</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceTileCache\TileSourceTileCache.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceTileCache</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceTileService\TileSourceTileService.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceTileService</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceTMS\TileSourceTMS.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceTMS</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceVPB\TileSourceVPB.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceVPB</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceWCS\TileSourceWCS.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceWCS</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceWMS\TileSourceWMS.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceWMS</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceXYZ\TileSourceXYZ.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceXYZ</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\TileSource\TileSourceYahoo\TileSourceYahoo.h">
+      <Filter>EarthWeb\Source\TileSource\TileSourceYahoo</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\VectorSource\VectorSourceGeom\VectorSourceGeom.h">
+      <Filter>EarthWeb\Source\VectorSource\VectorSourceGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\VectorSource\VectorSourceSimple\VectorSourceSimple.h">
+      <Filter>EarthWeb\Source\VectorSource\VectorSourceSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\VectorSource\VectorSourceStencil\VectorSourceStencil.h">
+      <Filter>EarthWeb\Source\VectorSource\VectorSourceStencil</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Annotation\ImageOverlay\ImageOverlay.h">
+      <Filter>EarthWeb\Annotation\ImageOverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Annotation\Place\Place.h">
+      <Filter>EarthWeb\Annotation\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Externals\Graticule\Graticule.h">
+      <Filter>EarthWeb\Externals\Graticule</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Earth\RefEarthDispatchImpl.h">
+      <Filter>EarthWeb\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Source\SourceDispatchImpl.h">
+      <Filter>EarthWeb\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Earth\PtrEarthDispatchImpl.h">
+      <Filter>EarthWeb\Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Basis\GeoData\GeoPoint\GeoPoint.h">
+      <Filter>EarthWeb\Basis\GeoData\GeoPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthWeb\Basis\GeoData\GeoClassType.h">
+      <Filter>EarthWeb\Basis\GeoData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\src\projects\EarthWeb\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\projects\EarthWeb\PluginConfig.cmake" />
+    <None Include="gen\ExportList_plugin.txt">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="gen\FBControl.htm">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="gen\FBControl.rgs">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="gen\FireBreathWin.rgs">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="gen\global">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="gen\README.txt">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="gen\version_script.txt">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="gen\global\axplugin_defs.inc">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="..\..\..\src\projects\EarthWeb\Win\projectDef.cmake">
+      <Filter>Win</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="gen\firebreathWin.rc">
+      <Filter>Generated</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F2C193CC-9077-4AF0-A979-CA525F735862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0B8345E4-73DD-44E4-97AC-E8523B1A4575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{33B24296-2BD5-461C-A3C2-944D0205430B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win">
+      <UniqueIdentifier>{F5930EC9-CDC4-437B-AB23-51F4D01536AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb">
+      <UniqueIdentifier>{8d8ea567-fe1b-456d-a3a3-296ccc2d2166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Earth">
+      <UniqueIdentifier>{5b50ea6f-756a-46fc-a5f7-7b1cc56c0a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\EarthGroup">
+      <UniqueIdentifier>{070e2bc4-4fcf-479b-a43f-543111c490fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\EarthMap">
+      <UniqueIdentifier>{aea64cab-0fda-43d5-9e15-ebc19e8bb1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\EarthObject">
+      <UniqueIdentifier>{c7dd3647-61d6-477e-9dc1-9979063121c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\EarthViewer">
+      <UniqueIdentifier>{a20a6fe8-89d3-4fbd-9112-b738db80073b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Externals">
+      <UniqueIdentifier>{3efa209b-6581-49e2-be7f-b9dc5c7d1949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Layer">
+      <UniqueIdentifier>{d1e4c7ad-7a7f-445f-a97f-9fc7fa5ff1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Utils">
+      <UniqueIdentifier>{a2913d9d-6be0-45fe-89da-0bc38fd0e890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Utils\ClassFactory">
+      <UniqueIdentifier>{88063e1b-ca59-4dbe-bc31-9949f16b38de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Utils\StaticUtils">
+      <UniqueIdentifier>{a0aefac0-165c-49ab-8584-d4f62c1717ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Layer\ElevationSurfaceLayer">
+      <UniqueIdentifier>{07e019b9-0b06-4abf-8b4f-c46ef1a9a111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Layer\ImageSurfaceLayer">
+      <UniqueIdentifier>{0c86c62b-8e0c-46a2-ad9a-33cbc8315deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Layer\Layer">
+      <UniqueIdentifier>{6728fa37-b8e1-4bcf-984d-bbe0815b794a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Layer\VectorSurfaceLayer">
+      <UniqueIdentifier>{9cc10441-bdbc-4081-9493-3b7803857888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Externals\Sky">
+      <UniqueIdentifier>{998796b2-b62d-42b8-b933-d17548feec7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Externals\Viewpoint">
+      <UniqueIdentifier>{4296b23e-1e3b-47f8-8084-9450bd2afe35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source">
+      <UniqueIdentifier>{183ba2fb-db99-4f4e-8c04-1711afb01d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\FeatureSource">
+      <UniqueIdentifier>{4e6acb06-b206-485e-9d61-5d28a93825ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\FeatureSource\FeatureSourceOGR">
+      <UniqueIdentifier>{70d1613c-a3aa-4cf7-b7c6-c8bd523c620f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\FeatureSource\FeatureSourceTFS">
+      <UniqueIdentifier>{6133b3de-b5d7-474f-88a2-fb0b6102b950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\FeatureSource\FeatureSourceWFS">
+      <UniqueIdentifier>{cca4a1c5-7a06-4095-a162-84a7c6f5a53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource">
+      <UniqueIdentifier>{5e5d2827-c0f5-45cd-8ae6-735fd86f73fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceAGGLite">
+      <UniqueIdentifier>{3e53fdc3-a119-4c9f-9380-0e912f34bfb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceArcGIS">
+      <UniqueIdentifier>{3962fb6f-f60b-4cc7-a934-182816ef3b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceBing">
+      <UniqueIdentifier>{16613046-e5a1-40b0-adcc-05f4bb7f67a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceColorRamp">
+      <UniqueIdentifier>{067feca8-c8c3-4872-ab17-1de589fa700a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceDebug">
+      <UniqueIdentifier>{307eda10-8bfd-4fe4-b945-2c5a52af2550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceGDAL">
+      <UniqueIdentifier>{f3134bd6-0ccc-4f49-a497-1da451374ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceMBTiles">
+      <UniqueIdentifier>{651ba1ef-846d-4052-a6c7-50358165aa73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceNoise">
+      <UniqueIdentifier>{57b239d4-0aac-431c-bf8f-dee49125f095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceOSG">
+      <UniqueIdentifier>{cbf355fc-db98-4e2b-baac-d3c783f33aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceTileCache">
+      <UniqueIdentifier>{dd51a98e-408f-4fec-bd8e-12f1723d7548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceTileService">
+      <UniqueIdentifier>{d6c49a24-951c-4986-85dc-214255feb157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceTMS">
+      <UniqueIdentifier>{c3db6c2b-1397-4884-8c60-55d47093d1e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceVPB">
+      <UniqueIdentifier>{98aafa9c-2fc5-462d-9735-901377db39ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceWCS">
+      <UniqueIdentifier>{517d1f5e-aeb4-4799-89a0-00cf03eb8652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceWMS">
+      <UniqueIdentifier>{6528cd62-8e7e-4c70-aa16-8619563a0820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceXYZ">
+      <UniqueIdentifier>{df6aa87e-ac46-47b8-99dc-6c3612216aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\TileSource\TileSourceYahoo">
+      <UniqueIdentifier>{4f609f02-8dd9-4598-9cb8-cae9850c412a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\VectorSource">
+      <UniqueIdentifier>{912adf3a-f600-41d0-b4a4-e037b8ccd3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\VectorSource\VectorSourceGeom">
+      <UniqueIdentifier>{5ce2d7c4-feb7-4642-8251-e80dc2b2cd78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\VectorSource\VectorSourceSimple">
+      <UniqueIdentifier>{c7746f34-d76d-4305-beb2-2844793641e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Source\VectorSource\VectorSourceStencil">
+      <UniqueIdentifier>{9401d663-5582-4298-a536-25aeed5244a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Annotation">
+      <UniqueIdentifier>{36c6144e-9c4d-4104-9a14-0fbe4414f6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Annotation\ImageOverlay">
+      <UniqueIdentifier>{1b0da2e5-31a4-4e58-8030-7aa79d182032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Annotation\Place">
+      <UniqueIdentifier>{88396cc5-075c-4c54-a628-5947274dff41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Externals\Graticule">
+      <UniqueIdentifier>{682264e3-1143-4f47-9971-093c92568a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Basis">
+      <UniqueIdentifier>{275138bc-0a34-48d5-b2b6-9154be0eaa2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Basis\GeoData">
+      <UniqueIdentifier>{1e435757-34b3-4a93-80d0-92b39790346c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Basis\GeoData\GeoPoint">
+      <UniqueIdentifier>{39f3c7ac-bfb2-474d-a783-ea3ccf943660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Basis\Vec">
+      <UniqueIdentifier>{28f52ab4-959f-4a8a-9e36-79285a00ed33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthWeb\Basis\Units">
+      <UniqueIdentifier>{a37cf112-3905-4414-9c47-634bc3f00c97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

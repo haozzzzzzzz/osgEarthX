@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.EarthViewer.1 = s 'EarthViewer Class'
+	{
+		CLSID = s '{FD019183-F764-4213-8DB4-A27199418BD1}'
+	}
+	osgEarthXCOM.COM.EarthViewer = s 'EarthViewer Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.EarthViewer.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {FD019183-F764-4213-8DB4-A27199418BD1} = s 'EarthViewer Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.EarthViewer.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.EarthViewer'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

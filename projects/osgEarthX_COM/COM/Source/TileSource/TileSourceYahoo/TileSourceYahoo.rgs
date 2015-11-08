@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.TileSourceYahoo.1 = s 'TileSourceYahoo Class'
+	{
+		CLSID = s '{3A31E1FC-ACC7-4B10-B6E4-F09C42F17E88}'
+	}
+	osgEarthXCOM.COM.TileSourceYahoo = s 'TileSourceYahoo Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.TileSourceYahoo.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {3A31E1FC-ACC7-4B10-B6E4-F09C42F17E88} = s 'TileSourceYahoo Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.TileSourceYahoo.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.TileSourceYahoo'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

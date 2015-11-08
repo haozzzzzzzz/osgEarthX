@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\cmake\dummy.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\cmake\CMakeLists.txt">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\cmake\common.cmake">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\..\src\cmake\CommonPluginConfig.cmake">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\..\src\cmake\configure_template.cmake">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\..\src\cmake\paths.cmake">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\..\src\cmake\buildconfig.cmake">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\..\src\cmake\options.cmake">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\..\src\cmake\PluginConfigDefaults.cmake">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\..\src\cmake\pluginProjects.cmake">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\..\src\cmake\README.txt">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\..\src\cmake\Mac.cmake">
+      <Filter>Windows</Filter>
+    </None>
+    <None Include="..\..\src\cmake\patch_xcode.py">
+      <Filter>Windows</Filter>
+    </None>
+    <None Include="..\..\src\cmake\Win.cmake">
+      <Filter>Mac</Filter>
+    </None>
+    <None Include="..\..\src\cmake\wix.cmake">
+      <Filter>Mac</Filter>
+    </None>
+    <None Include="..\..\src\cmake\X11.cmake">
+      <Filter>X11</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7B6C2F7E-4563-4DDD-AE2E-D57577A76324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{1677859A-79C8-438D-AA22-C5827F6D439B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mac">
+      <UniqueIdentifier>{3AA38AD0-4D6C-4A39-92B8-B7DAE49CCEA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X11">
+      <UniqueIdentifier>{DB598F52-85B5-484F-A6B2-6914EECBD897}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

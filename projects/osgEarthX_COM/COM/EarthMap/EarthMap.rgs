@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.EarthMap.1 = s 'EarthMap Class'
+	{
+		CLSID = s '{67565EB8-A9A6-4109-B035-8044A08AAFA9}'
+	}
+	osgEarthXCOM.COM.EarthMap = s 'EarthMap Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.EarthMap.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {67565EB8-A9A6-4109-B035-8044A08AAFA9} = s 'EarthMap Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.EarthMap.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.EarthMap'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

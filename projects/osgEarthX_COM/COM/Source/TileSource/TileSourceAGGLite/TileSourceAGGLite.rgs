@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.TileSourceAGGLite.1 = s 'TileSourceAGGLite Class'
+	{
+		CLSID = s '{DDE98432-760A-4543-B561-E2A1FD35AC64}'
+	}
+	osgEarthXCOM.COM.TileSourceAGGLite = s 'TileSourceAGGLite Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.TileSourceAGGLite.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {DDE98432-760A-4543-B561-E2A1FD35AC64} = s 'TileSourceAGGLite Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.TileSourceAGGLite.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.TileSourceAGGLite'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

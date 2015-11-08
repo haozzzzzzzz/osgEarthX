@@ -1,0 +1,32 @@
+HKCR
+{
+	osgEarthXCOM.Controls.EarthCtrl.1 = s 'EarthCtrl Class'
+	{
+		CLSID = s '{41CEF06B-7E2B-4422-A166-CF8DDC575CA7}'
+	}
+	osgEarthXCOM.Controls.EarthCtrl = s 'EarthCtrl Class'
+	{		
+		CurVer = s 'osgEarthXCOM.Controls.EarthCtrl.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {41CEF06B-7E2B-4422-A166-CF8DDC575CA7} = s 'EarthCtrl Class'
+		{
+			ProgID = s 'osgEarthXCOM.Controls.EarthCtrl.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.Controls.EarthCtrl'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			ForceRemove Control
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 106'
+			MiscStatus = s '0'
+			{
+			    '1' = s '%OLEMISC%'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

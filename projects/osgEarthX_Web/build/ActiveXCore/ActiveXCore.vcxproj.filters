@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\src\ActiveXCore\ActiveXBrowserHost.cpp">
+      <Filter>ActiveXScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\IDispatchAPI.cpp">
+      <Filter>ActiveXScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\JSAPI_IDispatchEx.cpp">
+      <Filter>ActiveXScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\FBControl.cpp">
+      <Filter>ActiveXControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\axstream.cpp">
+      <Filter>ActiveXControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\axstream_impl.cpp">
+      <Filter>ActiveXControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\axutil.cpp">
+      <Filter>ActiveXControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\AXDOM\Document.cpp">
+      <Filter>AXDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\AXDOM\Element.cpp">
+      <Filter>AXDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\AXDOM\Node.cpp">
+      <Filter>AXDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\AXDOM\Window.cpp">
+      <Filter>AXDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\src\ActiveXCore\precompiled_headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\src\ActiveXCore\ActiveXBrowserHost.h">
+      <Filter>ActiveXScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\ComVariantUtil.h">
+      <Filter>ActiveXScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\COMJavascriptObject.h">
+      <Filter>ActiveXScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\IDispatchAPI.h">
+      <Filter>ActiveXScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\JSAPI_IDispatchEx.h">
+      <Filter>ActiveXScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\ActiveXFactoryDefinitions.h">
+      <Filter>ActiveXControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\FBControl.h">
+      <Filter>ActiveXControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\axstream.h">
+      <Filter>ActiveXControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\axstream_impl.h">
+      <Filter>ActiveXControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\axutil.h">
+      <Filter>ActiveXControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\registrymap.hpp">
+      <Filter>ActiveXControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\AXDOM\Document.h">
+      <Filter>AXDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\AXDOM\Element.h">
+      <Filter>AXDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\AXDOM\Node.h">
+      <Filter>AXDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\AXDOM\Window.h">
+      <Filter>AXDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\src\ActiveXCore\precompiled_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\src\ActiveXCore\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F2C193CC-9077-4AF0-A979-CA525F735862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0B8345E4-73DD-44E4-97AC-E8523B1A4575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActiveXScripting">
+      <UniqueIdentifier>{9EE2FE71-9252-4F65-8527-D826BDFAFF32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActiveXControl">
+      <UniqueIdentifier>{FADD3DF7-EC77-4644-94BB-630B7317DC0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AXDOM">
+      <UniqueIdentifier>{48E12651-32AB-4578-87F5-0B2F273EDD02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

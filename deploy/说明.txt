@@ -1,0 +1,8 @@
+osgEarthX_COM.dll/osgEarthX_COMd.dll : ActiveX 控件
+osgEarthX_Web.dll/osgEarthX_Webd.dll : 浏览器插件
+
+如果电脑有多个显卡，请尽量使用独立显卡来运行以获得最佳的体验。
+
+------------------------------------------------------------------
+Hao Luo
+2015/09/20

@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.TileSourceGDAL.1 = s 'TileSourceGDAL Class'
+	{
+		CLSID = s '{C4364DD5-68CB-4655-9FCD-02618F4C84A1}'
+	}
+	osgEarthXCOM.COM.TileSourceGDAL = s 'TileSourceGDAL Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.TileSourceGDAL.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C4364DD5-68CB-4655-9FCD-02618F4C84A1} = s 'TileSourceGDAL Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.TileSourceGDAL.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.TileSourceGDAL'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

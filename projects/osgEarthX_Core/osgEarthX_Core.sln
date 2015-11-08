@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osgEarthX_Core", "osgEarthX_Core.vcxproj", "{6547249B-6749-47B5-B2DE-1E13893C5A4F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B} = {10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}
+		{102C96C8-9A7C-438B-BF3D-26109737F594} = {102C96C8-9A7C-438B-BF3D-26109737F594}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osgX_Threads", "..\osgX_Threads\osgX_Threads.vcxproj", "{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osgX", "..\osgX\osgX.vcxproj", "{102C96C8-9A7C-438B-BF3D-26109737F594}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3DFE402E-B3B2-4547-8D1F-180F46128516}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_osgEarth", "test\test_osgEarth\test_osgEarth.vcxproj", "{0A4EECF5-C915-4DEE-9C3D-08CB1F711CCE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_osgEarthXCoreMap", "test\test_osgEarthXCoreMap\test_osgEarthXCoreMap.vcxproj", "{FB6DCD32-5F10-4633-9033-9E0902CA7A9E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F} = {6547249B-6749-47B5-B2DE-1E13893C5A4F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_AnnotationMap", "test\test_AnnotationMap\test_AnnotationMap.vcxproj", "{EBBF5200-32EB-4A01-AFB0-0883B56DBCDD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F} = {6547249B-6749-47B5-B2DE-1E13893C5A4F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F}.Debug|Win32.Build.0 = Debug|Win32
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F}.Release|Win32.ActiveCfg = Release|Win32
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F}.Release|Win32.Build.0 = Release|Win32
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}.Debug|Win32.Build.0 = Debug|Win32
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}.Release|Win32.ActiveCfg = Release|Win32
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}.Release|Win32.Build.0 = Release|Win32
+		{102C96C8-9A7C-438B-BF3D-26109737F594}.Debug|Win32.ActiveCfg = Debug|Win32
+		{102C96C8-9A7C-438B-BF3D-26109737F594}.Debug|Win32.Build.0 = Debug|Win32
+		{102C96C8-9A7C-438B-BF3D-26109737F594}.Release|Win32.ActiveCfg = Release|Win32
+		{102C96C8-9A7C-438B-BF3D-26109737F594}.Release|Win32.Build.0 = Release|Win32
+		{0A4EECF5-C915-4DEE-9C3D-08CB1F711CCE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A4EECF5-C915-4DEE-9C3D-08CB1F711CCE}.Debug|Win32.Build.0 = Debug|Win32
+		{0A4EECF5-C915-4DEE-9C3D-08CB1F711CCE}.Release|Win32.ActiveCfg = Release|Win32
+		{0A4EECF5-C915-4DEE-9C3D-08CB1F711CCE}.Release|Win32.Build.0 = Release|Win32
+		{FB6DCD32-5F10-4633-9033-9E0902CA7A9E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB6DCD32-5F10-4633-9033-9E0902CA7A9E}.Debug|Win32.Build.0 = Debug|Win32
+		{FB6DCD32-5F10-4633-9033-9E0902CA7A9E}.Release|Win32.ActiveCfg = Release|Win32
+		{FB6DCD32-5F10-4633-9033-9E0902CA7A9E}.Release|Win32.Build.0 = Release|Win32
+		{EBBF5200-32EB-4A01-AFB0-0883B56DBCDD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBBF5200-32EB-4A01-AFB0-0883B56DBCDD}.Debug|Win32.Build.0 = Debug|Win32
+		{EBBF5200-32EB-4A01-AFB0-0883B56DBCDD}.Release|Win32.ActiveCfg = Release|Win32
+		{EBBF5200-32EB-4A01-AFB0-0883B56DBCDD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A4EECF5-C915-4DEE-9C3D-08CB1F711CCE} = {3DFE402E-B3B2-4547-8D1F-180F46128516}
+		{FB6DCD32-5F10-4633-9033-9E0902CA7A9E} = {3DFE402E-B3B2-4547-8D1F-180F46128516}
+		{EBBF5200-32EB-4A01-AFB0-0883B56DBCDD} = {3DFE402E-B3B2-4547-8D1F-180F46128516}
+	EndGlobalSection
+EndGlobal

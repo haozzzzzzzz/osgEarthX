@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.SpatialReference.1 = s 'SpatialReference Class'
+	{
+		CLSID = s '{7F036173-0314-468E-BB24-5DD0F30913EB}'
+	}
+	osgEarthXCOM.COM.SpatialReference = s 'SpatialReference Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.SpatialReference.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {7F036173-0314-468E-BB24-5DD0F30913EB} = s 'SpatialReference Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.SpatialReference.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.SpatialReference'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

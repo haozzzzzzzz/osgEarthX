@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.Style.1 = s 'Style Class'
+	{
+		CLSID = s '{F3902E10-30D8-436D-B652-C3F8B28AD69C}'
+	}
+	osgEarthXCOM.COM.Style = s 'Style Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.Style.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {F3902E10-30D8-436D-B652-C3F8B28AD69C} = s 'Style Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.Style.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.Style'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

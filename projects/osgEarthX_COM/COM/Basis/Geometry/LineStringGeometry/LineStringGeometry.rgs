@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.LineStringGeometry.1 = s 'LineStringGeometry Class'
+	{
+		CLSID = s '{4E5309AF-E793-4726-82B8-DF2E5AC033B3}'
+	}
+	osgEarthXCOM.COM.LineStringGeometry = s 'LineStringGeometry Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.LineStringGeometry.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {4E5309AF-E793-4726-82B8-DF2E5AC033B3} = s 'LineStringGeometry Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.LineStringGeometry.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.LineStringGeometry'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

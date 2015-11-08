@@ -1,0 +1,8 @@
+Release
+Debug
+*.sdf
+*.suo
+ipch
+/*.opensdf
+build-makefile
+build-makefiles

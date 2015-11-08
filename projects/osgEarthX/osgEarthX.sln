@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osgEarthX", "osgEarthX.vcxproj", "{499E4F89-FED4-4F26-8816-1161D05F25C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F} = {6547249B-6749-47B5-B2DE-1E13893C5A4F}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "osgEarthX_Core", "osgEarthX_Core", "{EC036CB0-74F3-4929-B846-3B55ED4B4771}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osgEarthX_Core", "..\osgEarthX_Core\osgEarthX_Core.vcxproj", "{6547249B-6749-47B5-B2DE-1E13893C5A4F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B} = {10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}
+		{102C96C8-9A7C-438B-BF3D-26109737F594} = {102C96C8-9A7C-438B-BF3D-26109737F594}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osgX_Threads", "..\osgX_Threads\osgX_Threads.vcxproj", "{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osgX", "..\osgX\osgX.vcxproj", "{102C96C8-9A7C-438B-BF3D-26109737F594}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{499E4F89-FED4-4F26-8816-1161D05F25C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{499E4F89-FED4-4F26-8816-1161D05F25C8}.Debug|Win32.Build.0 = Debug|Win32
+		{499E4F89-FED4-4F26-8816-1161D05F25C8}.Release|Win32.ActiveCfg = Release|Win32
+		{499E4F89-FED4-4F26-8816-1161D05F25C8}.Release|Win32.Build.0 = Release|Win32
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F}.Debug|Win32.Build.0 = Debug|Win32
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F}.Release|Win32.ActiveCfg = Release|Win32
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F}.Release|Win32.Build.0 = Release|Win32
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}.Debug|Win32.Build.0 = Debug|Win32
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}.Release|Win32.ActiveCfg = Release|Win32
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}.Release|Win32.Build.0 = Release|Win32
+		{102C96C8-9A7C-438B-BF3D-26109737F594}.Debug|Win32.ActiveCfg = Debug|Win32
+		{102C96C8-9A7C-438B-BF3D-26109737F594}.Debug|Win32.Build.0 = Debug|Win32
+		{102C96C8-9A7C-438B-BF3D-26109737F594}.Release|Win32.ActiveCfg = Release|Win32
+		{102C96C8-9A7C-438B-BF3D-26109737F594}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F} = {EC036CB0-74F3-4929-B846-3B55ED4B4771}
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B} = {EC036CB0-74F3-4929-B846-3B55ED4B4771}
+		{102C96C8-9A7C-438B-BF3D-26109737F594} = {EC036CB0-74F3-4929-B846-3B55ED4B4771}
+	EndGlobalSection
+EndGlobal

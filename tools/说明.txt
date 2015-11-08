@@ -1,0 +1,5 @@
+tools文件夹下为辅助项目开发或者测试的一些工具，是可选项，不影响projects下主项目。
+
+gtest : C++单元测试工具
+qunit：JS单元测试工具
+WinFormRibbon : C# Windows窗体应用程序中Ribbon控件。

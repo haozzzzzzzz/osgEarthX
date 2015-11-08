@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthX.COM.VectorSourceSimple.1 = s 'VectorSourceSimple Class'
+	{
+		CLSID = s '{E09E4A60-5580-47D2-B328-8D3AD28FA5B9}'
+	}
+	osgEarthX.COM.VectorSourceSimple = s 'VectorSourceSimple Class'
+	{		
+		CurVer = s 'osgEarthX.COM.VectorSourceSimple.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {E09E4A60-5580-47D2-B328-8D3AD28FA5B9} = s 'VectorSourceSimple Class'
+		{
+			ProgID = s 'osgEarthX.COM.VectorSourceSimple.1'
+			VersionIndependentProgID = s 'osgEarthX.COM.VectorSourceSimple'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,1 @@
+#include <EarthWeb/Source/VectorSource/VectorSourceSimple/VectorSourceSimple.h>

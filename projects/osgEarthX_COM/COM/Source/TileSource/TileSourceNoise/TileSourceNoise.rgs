@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.TileSourceNoise.1 = s 'TileSourceNoise Class'
+	{
+		CLSID = s '{ED990C2C-1184-4F77-BF36-75314DE2FE60}'
+	}
+	osgEarthXCOM.COM.TileSourceNoise = s 'TileSourceNoise Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.TileSourceNoise.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {ED990C2C-1184-4F77-BF36-75314DE2FE60} = s 'TileSourceNoise Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.TileSourceNoise.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.TileSourceNoise'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

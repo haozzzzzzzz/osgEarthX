@@ -1,0 +1,66 @@
+HKCR {
+    Earth.EarthWeb.1 = s 'Earth for Web.' {
+        CLSID = s '{9cca8a69-244d-5670-adb4-463d9758a0d2}'
+    }
+    Earth.EarthWeb = s 'Earth for Web.' {
+        CLSID = s '{9cca8a69-244d-5670-adb4-463d9758a0d2}'
+        CurVer = s 'Earth.EarthWeb.1'
+    }
+    NoRemove CLSID {
+        ForceRemove {9cca8a69-244d-5670-adb4-463d9758a0d2} = s 'Earth for Web.' {
+            ProgID = s 'Earth.EarthWeb.1'
+            VersionIndependentProgID = s 'Earth.EarthWeb'
+            ForceRemove 'Programmable'
+            InprocServer32 = s '%MODULE%' {
+                val ThreadingModel = s '%THREADING%'
+            }
+            val AppID = s '%APPID%'
+            ForceRemove 'Control'
+            'MiscStatus' = s '0' {
+                '1' = s '131473'
+            }
+            'TypeLib' = s '%LIBID%'
+            'Version' = s '1'
+        }
+    }
+    NoRemove MIME {
+        NoRemove Database {
+            NoRemove 'Content Type' {
+                'application/x-earthweb' = s 'Earth for Web.' {
+                    val Extension = s ''
+                    val CLSID = s '{9cca8a69-244d-5670-adb4-463d9758a0d2}'
+                }
+            }
+        }
+    }            
+}
+HKCU {
+    NoRemove Software {
+        NoRemove Microsoft {
+            NoRemove Windows {
+                NoRemove CurrentVersion {
+                    NoRemove Ext {
+                        NoRemove PreApproved {
+                            ForceRemove '{9cca8a69-244d-5670-adb4-463d9758a0d2}'
+                        }
+                        NoRemove Stats {
+                            ForceRemove '{9cca8a69-244d-5670-adb4-463d9758a0d2}' {
+                                iexplore {
+                                    AllowedDomains {
+                                        '*'
+                                    }
+                                    val Count = d '0'
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        NoRemove MozillaPlugins {
+            ForceRemove '21stc.com.cn/EarthWeb' {
+                val Path = s '%MODULE%'
+            }
+        }
+    }
+}

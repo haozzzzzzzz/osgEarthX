@@ -1,0 +1,17 @@
+
+; FireBreathWin.def : Declares the module parameters.
+
+LIBRARY      "${FBSTRING_PluginFileName}.dll"
+
+EXPORTS
+; Needed for ActiveX
+    DllCanUnloadNow	PRIVATE
+    DllGetClassObject	PRIVATE
+    DllRegisterServer	PRIVATE
+    DllUnregisterServer	PRIVATE
+    DllInstall		PRIVATE
+
+; Needed for NPAPI
+	NP_GetEntryPoints   @1
+	NP_Initialize       @2
+	NP_Shutdown         @3

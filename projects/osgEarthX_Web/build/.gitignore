@@ -1,0 +1,8 @@
+*.opensdf
+*.sdf
+*.suo
+*.vcxproj.user
+*.log
+Debug
+Release
+_tmp

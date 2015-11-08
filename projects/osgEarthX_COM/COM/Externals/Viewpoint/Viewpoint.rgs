@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.Viewpoint.1 = s 'Viewpoint Class'
+	{
+		CLSID = s '{C81E9B04-F3E5-49FA-94F0-6C6547DE0A38}'
+	}
+	osgEarthXCOM.COM.Viewpoint = s 'Viewpoint Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.Viewpoint.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C81E9B04-F3E5-49FA-94F0-6C6547DE0A38} = s 'Viewpoint Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.Viewpoint.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.Viewpoint'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

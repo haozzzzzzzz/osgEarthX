@@ -1,0 +1,9 @@
+{
+  "name": "EarthWeb",
+  "version": "${FBSTRING_PLUGIN_VERSION}",
+  "description": "Earth for Web.",
+
+	"plugins": [
+    { "path": "npEarthWeb.dll", "public": true }
+  ]
+}

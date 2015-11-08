@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6C287F5D-36E1-4F83-B260-A4F98637B288}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\a83053575ff701dcb4558692d44fa36b\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+F:\cmake-3.1.1-win32-x86\bin\cmake.exe -HE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src -BE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/CMakeFiles/a83053575ff701dcb4558692d44fa36b/generate.stamp.rule;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeCCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeCXXCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeRCCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeSystem.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\CommonPluginConfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\PluginConfigDefaults.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\Win.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\buildconfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\chrome.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\common.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\configure_template.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\options.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\paths.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\pluginProjects.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\wix.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\xpi.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\PluginConfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\Win\projectDef.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\date_time\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\regex\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\system\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\thread\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ActiveXCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\NpapiCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ScriptingCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\ActiveXCoreTest\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\ScriptingCoreTest\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\unittest-cpp\UnitTest++\CMakeLists.txt;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeRCInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\cmake_common\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\thread\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\system\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ScriptingCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\PluginCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\NpapiCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ActiveXCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\PluginAuto\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\unittest-cpp\UnitTest++\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ScriptingCoreTest\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\date_time\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\regex\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ActiveXCoreTest\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+F:\cmake-3.1.1-win32-x86\bin\cmake.exe -HE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src -BE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/CMakeFiles/a83053575ff701dcb4558692d44fa36b/generate.stamp.rule;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeCCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeCXXCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeRCCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeSystem.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\CommonPluginConfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\PluginConfigDefaults.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\Win.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\buildconfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\chrome.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\common.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\configure_template.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\options.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\paths.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\pluginProjects.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\wix.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\xpi.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\PluginConfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\Win\projectDef.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\date_time\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\regex\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\system\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\thread\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ActiveXCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\NpapiCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ScriptingCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\ActiveXCoreTest\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\ScriptingCoreTest\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\unittest-cpp\UnitTest++\CMakeLists.txt;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeRCInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\cmake_common\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\thread\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\system\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ScriptingCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\PluginCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\NpapiCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ActiveXCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\PluginAuto\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\unittest-cpp\UnitTest++\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ScriptingCoreTest\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\date_time\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\regex\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ActiveXCoreTest\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+F:\cmake-3.1.1-win32-x86\bin\cmake.exe -HE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src -BE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/CMakeFiles/a83053575ff701dcb4558692d44fa36b/generate.stamp.rule;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeCCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeCXXCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeRCCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeSystem.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\CommonPluginConfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\PluginConfigDefaults.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\Win.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\buildconfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\chrome.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\common.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\configure_template.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\options.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\paths.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\pluginProjects.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\wix.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\xpi.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\PluginConfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\Win\projectDef.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\date_time\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\regex\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\system\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\thread\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ActiveXCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\NpapiCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ScriptingCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\ActiveXCoreTest\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\ScriptingCoreTest\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\unittest-cpp\UnitTest++\CMakeLists.txt;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeRCInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\cmake_common\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\thread\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\system\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ScriptingCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\PluginCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\NpapiCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ActiveXCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\PluginAuto\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\unittest-cpp\UnitTest++\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ScriptingCoreTest\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\date_time\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\regex\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ActiveXCoreTest\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+F:\cmake-3.1.1-win32-x86\bin\cmake.exe -HE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/src -BE:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/OpenSceneGraph/osgEarthX/projects/osgEarthX_Web/build/CMakeFiles/a83053575ff701dcb4558692d44fa36b/generate.stamp.rule;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeCCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeCXXCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeRCCompiler.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\3.1.1\CMakeSystem.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\CommonPluginConfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\PluginConfigDefaults.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\Win.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\buildconfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\chrome.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\common.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\configure_template.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\options.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\paths.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\pluginProjects.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\wix.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\cmake\xpi.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\PluginConfig.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\projects\EarthWeb\Win\projectDef.cmake;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\date_time\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\regex\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\system\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\3rdParty\boost\libs\thread\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ActiveXCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\NpapiCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginAuto\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\PluginCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\src\ScriptingCore\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\ActiveXCoreTest\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\ScriptingCoreTest\CMakeLists.txt;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\src\tests\unittest-cpp\UnitTest++\CMakeLists.txt;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeRCInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\Windows.cmake;F:\cmake-3.1.1-win32-x86\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\cmake_common\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\thread\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\system\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ScriptingCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\PluginCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\NpapiCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ActiveXCore\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\PluginAuto\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\projects\EarthWeb\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\unittest-cpp\UnitTest++\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ScriptingCoreTest\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\date_time\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\boost\libs\regex\CMakeFiles\generate.stamp;E:\OpenSceneGraph\osgEarthX\projects\osgEarthX_Web\build\ActiveXCoreTest\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.EllipsePrimitive.1 = s 'EllipsePrimitive Class'
+	{
+		CLSID = s '{5A852434-356F-4AD6-A2C1-E6D8BBCFD2AC}'
+	}
+	osgEarthXCOM.COM.EllipsePrimitive = s 'EllipsePrimitive Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.EllipsePrimitive.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {5A852434-356F-4AD6-A2C1-E6D8BBCFD2AC} = s 'EllipsePrimitive Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.EllipsePrimitive.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.EllipsePrimitive'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

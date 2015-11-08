@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.Sky.1 = s 'Sky Class'
+	{
+		CLSID = s '{3B1633AE-F4E2-480C-A5A9-9AC46C46FB4C}'
+	}
+	osgEarthXCOM.COM.Sky = s 'Sky Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.Sky.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {3B1633AE-F4E2-480C-A5A9-9AC46C46FB4C} = s 'Sky Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.Sky.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.Sky'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.TileSourceXYZ.1 = s 'TileSourceXYZ Class'
+	{
+		CLSID = s '{71D93485-C74B-45BC-8EA8-F45C0B4CC551}'
+	}
+	osgEarthXCOM.COM.TileSourceXYZ = s 'TileSourceXYZ Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.TileSourceXYZ.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {71D93485-C74B-45BC-8EA8-F45C0B4CC551} = s 'TileSourceXYZ Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.TileSourceXYZ.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.TileSourceXYZ'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

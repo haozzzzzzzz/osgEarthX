@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.EarthGroup.1 = s 'EarthGroup Class'
+	{
+		CLSID = s '{E0627211-67BC-4CFE-899E-F258E1AC5651}'
+	}
+	osgEarthXCOM.COM.EarthGroup = s 'EarthGroup Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.EarthGroup.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {E0627211-67BC-4CFE-899E-F258E1AC5651} = s 'EarthGroup Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.EarthGroup.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.EarthGroup'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

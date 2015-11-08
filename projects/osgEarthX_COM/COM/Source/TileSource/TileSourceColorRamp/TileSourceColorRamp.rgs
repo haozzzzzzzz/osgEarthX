@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.TileSourceColorRamp.1 = s 'TileSourceColorRamp Class'
+	{
+		CLSID = s '{EB7CA566-38BD-4E3F-BA85-4DF2047B346C}'
+	}
+	osgEarthXCOM.COM.TileSourceColorRamp = s 'TileSourceColorRamp Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.TileSourceColorRamp.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {EB7CA566-38BD-4E3F-BA85-4DF2047B346C} = s 'TileSourceColorRamp Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.TileSourceColorRamp.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.TileSourceColorRamp'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.Graticule.1 = s 'Graticule Class'
+	{
+		CLSID = s '{81216400-FCAC-4751-B2B5-E28DA53CDEAB}'
+	}
+	osgEarthXCOM.COM.Graticule = s 'Graticule Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.Graticule.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {81216400-FCAC-4751-B2B5-E28DA53CDEAB} = s 'Graticule Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.Graticule.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.Graticule'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

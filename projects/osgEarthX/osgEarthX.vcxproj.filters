@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EarthMap">
+      <UniqueIdentifier>{cddd8c32-23d1-48fd-aac3-afa92186eda7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthViewer">
+      <UniqueIdentifier>{599da85a-d5b8-4de1-b7b8-bdf6d5b75951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{1cf2d3c0-960b-4830-9b23-1b3839fccb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Group">
+      <UniqueIdentifier>{de2cb134-0dd7-40d9-bc45-13271dc8240a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layer">
+      <UniqueIdentifier>{9ab881b3-d5b3-4a35-b794-7717887d52a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layer\Layer">
+      <UniqueIdentifier>{6ed5e665-537c-4909-b8c3-b37ba868382e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layer\SurfaceLayer">
+      <UniqueIdentifier>{3e4545d4-8057-4276-9fe7-46611862d42a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Group\Group">
+      <UniqueIdentifier>{8c967004-8662-4b48-b0a3-b8ee0ce4d092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{19c5c7e8-b02f-42dd-9e5a-8cb569e9802d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layer\ObjectSetLayer">
+      <UniqueIdentifier>{29aff912-35a2-44ec-9a79-f538a9200954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Earth">
+      <UniqueIdentifier>{06b61e07-cb88-4a81-9d74-4849fa6c4440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals">
+      <UniqueIdentifier>{bb86b8b2-bf53-44ec-9e41-4cc299d025bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Sky">
+      <UniqueIdentifier>{f481bbd4-5bd5-4cd4-bff9-d773446cf943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Group\NotifiedGroup">
+      <UniqueIdentifier>{bf5146f9-7d8f-4ad0-97fe-19e8e17c1fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Viewpoint">
+      <UniqueIdentifier>{b57a4f05-2da2-4193-ac2d-ba36cad8a3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osgEarthXExport">
+      <UniqueIdentifier>{eac5e716-3239-4f49-b2b6-a18588b6b9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation">
+      <UniqueIdentifier>{cfa311c5-01f3-4b9d-984a-7436ccf7a00d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation\Place">
+      <UniqueIdentifier>{f5cf7624-6bda-4373-958b-18efc784507e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation\ImageOverlay">
+      <UniqueIdentifier>{9a899a91-0e10-460a-8cc1-1ab94e50ec51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Graticule">
+      <UniqueIdentifier>{9d275d71-f8b5-4c9e-8c6e-541503f08a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Symbology">
+      <UniqueIdentifier>{12c9a3d1-2346-495d-9cac-cf612ca50210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Symbology\Geometry">
+      <UniqueIdentifier>{0dd69d93-d13f-4d8f-94b4-07bbb694ce84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Symbology\Geometry\LineString">
+      <UniqueIdentifier>{bc41e516-1d13-4860-b187-5eea1f71963f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Symbology\Geometry\Polygon">
+      <UniqueIdentifier>{c6585707-715d-4a65-aac5-299aada59f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation\Circle">
+      <UniqueIdentifier>{6afecb11-dfc9-42d7-8e3d-8cd4470b932f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation\Model">
+      <UniqueIdentifier>{db5ef0fc-2d03-4050-bf92-67e9dc36ddb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation\TextLabel">
+      <UniqueIdentifier>{e86e924d-541f-4977-b539-2934ee77aa04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation\FeaturePrimitive">
+      <UniqueIdentifier>{ea4a37a9-4a96-4c56-acba-77fb075eac59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation\RectanglePrimitive">
+      <UniqueIdentifier>{adb359ea-949f-492b-8361-d27a5347af28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation\EllipsePrimitive">
+      <UniqueIdentifier>{816730f3-03dd-4ef7-9bcc-5ae96ade294e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Group\Group.h">
+      <Filter>Group\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Event\EventHost.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthViewer\EarthViewer.h">
+      <Filter>EarthViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Layer\ImageSurfaceLayer.h">
+      <Filter>Layer\SurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Group\NotifiedGroupCallback.h">
+      <Filter>Group\NotifiedGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Layer\VectorSurfaceLayer.h">
+      <Filter>Layer\SurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Layer\LayerEventFirer.h">
+      <Filter>Layer\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Earth\Earth.h">
+      <Filter>Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Earth\EarthEventFirer.h">
+      <Filter>Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Externals\Sky.h">
+      <Filter>Externals\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object\ObjectType.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object\ObjectEventFirer.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Layer\ElevationSurfaceLayer.h">
+      <Filter>Layer\SurfaceLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Layer\LayerEventCallback.h">
+      <Filter>Layer\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object\ObjectEventCallback.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Group\GroupChange.h">
+      <Filter>Group\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Group\NotifiedGroup.h">
+      <Filter>Group\NotifiedGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Externals\Viewpoint.h">
+      <Filter>Externals\Viewpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthMap\EarthMap.h">
+      <Filter>EarthMap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Earth\EarthRootCallback.h">
+      <Filter>Earth</Filter>
+    </ClInclude>
+    <ClInclude Include="include\osgEarthXExport\Export.h">
+      <Filter>osgEarthXExport</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Annotation\ImageOverlay.h">
+      <Filter>Annotation\ImageOverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Annotation\Place.h">
+      <Filter>Annotation\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Externals\Graticule.h">
+      <Filter>Externals\Graticule</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Annotation\Circle.h">
+      <Filter>Annotation\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Annotation\Model.h">
+      <Filter>Annotation\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Annotation\TextLabel.h">
+      <Filter>Annotation\TextLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Annotation\FeaturePrimitive.h">
+      <Filter>Annotation\FeaturePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Annotation\RectanglePrimitive.h">
+      <Filter>Annotation\RectanglePrimitive</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Annotation\EllipsePrimitive.h">
+      <Filter>Annotation\EllipsePrimitive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Group\Group.cpp">
+      <Filter>Group\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Layer\ImageSurfaceLayer.cpp">
+      <Filter>Layer\SurfaceLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Group\NotifiedGroupCallback.cpp">
+      <Filter>Group\NotifiedGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Layer\VectorSurfaceLayer.cpp">
+      <Filter>Layer\SurfaceLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Earth\Earth.cpp">
+      <Filter>Earth</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Externals\Sky.cpp">
+      <Filter>Externals\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Layer\ElevationSurfaceLayer.cpp">
+      <Filter>Layer\SurfaceLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Layer\LayerEventCallback.cpp">
+      <Filter>Layer\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object\ObjectEventCallback.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Group\NotifiedGroup.cpp">
+      <Filter>Group\NotifiedGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Externals\Viewpoint.cpp">
+      <Filter>Externals\Viewpoint</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Earth\EarthRootCallback.cpp">
+      <Filter>Earth</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Annotation\ImageOverlay.cpp">
+      <Filter>Annotation\ImageOverlay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Annotation\Place.cpp">
+      <Filter>Annotation\Place</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Externals\Graticule.cpp">
+      <Filter>Externals\Graticule</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Annotation\Circle.cpp">
+      <Filter>Annotation\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Annotation\Model.cpp">
+      <Filter>Annotation\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Annotation\TextLabel.cpp">
+      <Filter>Annotation\TextLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Annotation\FeaturePrimitive.cpp">
+      <Filter>Annotation\FeaturePrimitive</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Annotation\ReactanglePrimitive.cpp">
+      <Filter>Annotation\RectanglePrimitive</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Annotation\EllipsePrimitive.cpp">
+      <Filter>Annotation\EllipsePrimitive</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

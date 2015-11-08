@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.FeatureSourceWFS.1 = s 'FeatureSourceWFS Class'
+	{
+		CLSID = s '{4CADBE28-A421-41A9-80DE-5667D564A14A}'
+	}
+	osgEarthXCOM.COM.FeatureSourceWFS = s 'FeatureSourceWFS Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.FeatureSourceWFS.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {4CADBE28-A421-41A9-80DE-5667D564A14A} = s 'FeatureSourceWFS Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.FeatureSourceWFS.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.FeatureSourceWFS'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

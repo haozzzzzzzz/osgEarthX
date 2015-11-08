@@ -1,0 +1,111 @@
+/**********************************************************\
+
+  Auto-generated firebreathWin.rc
+
+\**********************************************************/
+
+// Microsoft Visual C++ generated resource script.
+//
+#include "global/resource.h"
+#include "global/config.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION ${FBSTRING_VERSION_MAJOR},${FBSTRING_VERSION_MINOR},${FBSTRING_VERSION_PATCH},${FBSTRING_VERSION_BUILD}
+ PRODUCTVERSION ${FBSTRING_VERSION_MAJOR},${FBSTRING_VERSION_MINOR},${FBSTRING_VERSION_PATCH},${FBSTRING_VERSION_BUILD}
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", FBSTRING_CompanyName
+            VALUE "FileDescription", FBSTRING_PluginDescription
+            VALUE "FileVersion", FBSTRING_PLUGIN_VERSION
+            VALUE "LegalCopyright", FBSTRING_LegalCopyright
+            VALUE "InternalName", FBSTRING_PluginFileName
+            VALUE "OriginalFilename", FBSTRING_PluginFileName
+            VALUE "ProductName", FBSTRING_ProductName
+            VALUE "ProductVersion", FBSTRING_PLUGIN_VERSION
+            VALUE "FileExtents", FBSTRING_FileExtents
+            VALUE "FileOpenName", FBSTRING_PluginName
+            VALUE "MIMEType", FBSTRING_MIMETypeList
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_FIREBREATHWIN       REGISTRY                "${FB_TEMPLATE_DEST_DIR}/FireBreathWin.rgs"
+IDR_FBCONTROL           REGISTRY                "${FB_TEMPLATE_DEST_DIR}/FBControl.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_PROJNAME            "np${PLUGIN_NAME}"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "${FB_TEMPLATE_DEST_DIR}/FireBreathWin.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

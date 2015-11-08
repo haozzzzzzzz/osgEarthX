@@ -1,0 +1,75 @@
+// osgEarthX_COM.idl : osgEarthX_COM 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(osgEarthX_COM.tlb)和封送处理代码。
+
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+
+#include <COM/Basis/Basis_idl.h>
+#include <COM/Source/Sources_idl.h>
+#include <COM/Symbology/Symbology_idl.h>
+
+#include <Controls/EarthCtrl/EarthCtrl_idl.h>
+#include <Controls/EarthTreeCtrl/EarthTreeCtrl_idl.h>
+
+#include <COM/EarthMap/EarthMap_idl.h>
+#include <COM/EarthViewer/EarthViewer_idl.h>
+#include <COM/EarthGroup/EarthGroup_idl.h>
+#include <COM/Layer/Layer/Layers_idl.h>
+#include <COM/Externals/Externals/Externals_idl.h>
+#include <COM/Annotation/Annotations_idl.h>
+#include <COM/Utils/ObjectFactory/ObjectFactory_idl.h>
+
+[
+	object,
+	uuid(a817e7a2-43fa-11d0-9e44-00aa00b6770a),
+	dual,	
+	pointer_default(unique)
+]
+interface IComponentRegistrar : IDispatch
+{
+	[id(1)]	HRESULT Attach([in] BSTR bstrPath);
+	[id(2)]	HRESULT RegisterAll();
+	[id(3)]	HRESULT UnregisterAll();
+	[id(4)]	HRESULT GetComponents([out] SAFEARRAY(BSTR)* pbstrCLSIDs, [out] SAFEARRAY(BSTR)* pbstrDescriptions);
+	[id(5)]	HRESULT RegisterComponent([in] BSTR bstrCLSID);
+	[id(6)] HRESULT UnregisterComponent([in] BSTR bstrCLSID);
+};
+
+[
+	uuid(F3DB54E8-41B2-4742-B255-FE396F26B38C),
+	version(1.0),
+	custom(a817e7a1-43fa-11d0-9e44-00aa00b6770a,"{E1D574DB-7598-45BD-A68F-EF31936B3A4D}")
+]
+library osgEarthX_COMLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(E1D574DB-7598-45BD-A68F-EF31936B3A4D)		
+	]
+	coclass CompReg
+	{
+		[default] interface IComponentRegistrar;
+	};
+
+#include <COM/Basis/Basis_lib_idl.h>	
+#include <COM/Source/Sources_lib_idl.h>
+#include <COM/Symbology/Symbology_lib_idl.h>
+
+#include <Controls/EarthCtrl/EarthCtrl_lib_idl.h>
+#include <Controls/EarthTreeCtrl/EarthTreeCtrl_lib_idl.h>
+
+#include <COM/EarthViewer/EarthViewer_lib_idl.h>
+#include <COM/EarthGroup/EarthGroup_lib_idl.h>
+#include <COM/EarthMap/EarthMap_lib_idl.h>
+#include <COM/Layer/Layer/Layers_lib_idl.h>
+#include <COM/Externals/Externals/Externals_lib_idl.h>
+#include <COM/Annotation/Annotations_lib_idl.h>
+#include <COM/Utils/ObjectFactory/ObjectFactory_lib_idl.h>
+
+};
+
+import "shobjidl.idl";

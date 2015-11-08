@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.ElevationSurfaceLayer.1 = s 'ElevationSurfaceLayer Class'
+	{
+		CLSID = s '{5A604CDB-59C5-4AFA-A846-C0908C8EEF1F}'
+	}
+	osgEarthXCOM.COM.ElevationSurfaceLayer = s 'ElevationSurfaceLayer Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.ElevationSurfaceLayer.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {5A604CDB-59C5-4AFA-A846-C0908C8EEF1F} = s 'ElevationSurfaceLayer Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.ElevationSurfaceLayer.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.ElevationSurfaceLayer'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

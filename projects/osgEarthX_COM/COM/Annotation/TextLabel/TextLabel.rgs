@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.TextLabel.1 = s 'TextLabel Class'
+	{
+		CLSID = s '{E41F5A53-9A5A-4125-9E77-325315E1CC5A}'
+	}
+	osgEarthXCOM.COM.TextLabel = s 'TextLabel Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.TextLabel.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {E41F5A53-9A5A-4125-9E77-325315E1CC5A} = s 'TextLabel Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.TextLabel.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.TextLabel'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

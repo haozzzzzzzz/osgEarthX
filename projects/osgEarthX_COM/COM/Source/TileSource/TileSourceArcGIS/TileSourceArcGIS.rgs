@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.TileSourceArcGIS.1 = s 'TileSourceArcGIS Class'
+	{
+		CLSID = s '{D2851F71-50D9-4795-A98B-87D22308EB09}'
+	}
+	osgEarthXCOM.COM.TileSourceArcGIS = s 'TileSourceArcGIS Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.TileSourceArcGIS.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D2851F71-50D9-4795-A98B-87D22308EB09} = s 'TileSourceArcGIS Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.TileSourceArcGIS.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.TileSourceArcGIS'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

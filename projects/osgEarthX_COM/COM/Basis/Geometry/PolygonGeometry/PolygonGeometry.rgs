@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.PolygonGeometry.1 = s 'PolygonGeometry Class'
+	{
+		CLSID = s '{C23F8685-B904-4732-8953-27E589B81B16}'
+	}
+	osgEarthXCOM.COM.PolygonGeometry = s 'PolygonGeometry Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.PolygonGeometry.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C23F8685-B904-4732-8953-27E589B81B16} = s 'PolygonGeometry Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.PolygonGeometry.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.PolygonGeometry'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

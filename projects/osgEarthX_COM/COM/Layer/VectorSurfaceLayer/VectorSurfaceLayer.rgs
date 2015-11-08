@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.VectorSurfaceLayer.1 = s 'VectorSurfaceLayer Class'
+	{
+		CLSID = s '{E14A8A95-1D6E-4C78-B13C-38F475CC2E0A}'
+	}
+	osgEarthXCOM.COM.VectorSurfaceLayer = s 'VectorSurfaceLayer Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.VectorSurfaceLayer.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {E14A8A95-1D6E-4C78-B13C-38F475CC2E0A} = s 'VectorSurfaceLayer Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.VectorSurfaceLayer.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.VectorSurfaceLayer'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

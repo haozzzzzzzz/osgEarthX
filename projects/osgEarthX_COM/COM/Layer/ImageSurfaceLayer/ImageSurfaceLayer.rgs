@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.ImageSurfaceLayer.1 = s 'ImageSurfaceLayer Class'
+	{
+		CLSID = s '{91F28979-3713-4F11-B893-F491585D1E69}'
+	}
+	osgEarthXCOM.COM.ImageSurfaceLayer = s 'ImageSurfaceLayer Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.ImageSurfaceLayer.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {91F28979-3713-4F11-B893-F491585D1E69} = s 'ImageSurfaceLayer Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.ImageSurfaceLayer.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.ImageSurfaceLayer'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

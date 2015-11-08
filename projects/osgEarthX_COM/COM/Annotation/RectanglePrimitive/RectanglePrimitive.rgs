@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.RectanglePrimitive.1 = s 'RectanglePrimitive Class'
+	{
+		CLSID = s '{D6D33759-F743-42D0-AA1C-777BDB61FAE2}'
+	}
+	osgEarthXCOM.COM.RectanglePrimitive = s 'RectanglePrimitive Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.RectanglePrimitive.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D6D33759-F743-42D0-AA1C-777BDB61FAE2} = s 'RectanglePrimitive Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.RectanglePrimitive.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.RectanglePrimitive'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.VectorSourceStencil.1 = s 'VectorSourceStencil Class'
+	{
+		CLSID = s '{7B70CEBA-2A61-4E0D-84E9-8B27F5D059C2}'
+	}
+	osgEarthXCOM.COM.VectorSourceStencil = s 'VectorSourceStencil Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.VectorSourceStencil.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {7B70CEBA-2A61-4E0D-84E9-8B27F5D059C2} = s 'VectorSourceStencil Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.VectorSourceStencil.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.VectorSourceStencil'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

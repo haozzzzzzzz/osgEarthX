@@ -1,0 +1,17 @@
+#ifndef OSGEARTHX_COM_GEOMETRY_CLASS_TYPE_IDL_H
+#define OSGEARTHX_COM_GEOMETRY_CLASS_TYPE_IDL_H 1
+
+[
+	uuid(30cb386d-c769-4087-b363-889edaf0a9ae),
+	helpstring( "Geometry class type" )
+]
+typedef enum GeometryClassType
+{
+	GEOMETRY_CLASS_POINTSET,
+	GEOMETRY_CLASS_LINESTRING,
+	GEOMETRY_CLASS_RING,
+	GEOMETRY_CLASS_POLYGON,
+	GEOMETRY_CLASS_MULTI
+}GeometryClassType;
+
+#endif

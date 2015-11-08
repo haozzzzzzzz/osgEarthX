@@ -1,0 +1,26 @@
+HKCR
+{
+	osgEarthXCOM.COM.ImageOverlay.1 = s 'ImageOverlay Class'
+	{
+		CLSID = s '{37E68B4A-D185-440A-84C6-CC2AA04B0FA9}'
+	}
+	osgEarthXCOM.COM.ImageOverlay = s 'ImageOverlay Class'
+	{		
+		CurVer = s 'osgEarthXCOM.COM.ImageOverlay.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {37E68B4A-D185-440A-84C6-CC2AA04B0FA9} = s 'ImageOverlay Class'
+		{
+			ProgID = s 'osgEarthXCOM.COM.ImageOverlay.1'
+			VersionIndependentProgID = s 'osgEarthXCOM.COM.ImageOverlay'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F3DB54E8-41B2-4742-B255-FE396F26B38C}'
+			Version = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,7 @@
+Release
+Debug
+lib
+ipch
+*.sdf
+*.suo
+build-makefiles
