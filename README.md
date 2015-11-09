@@ -12,10 +12,8 @@
 	</ul></li>
 </ul>
 
-			
 <h1><a href="http://hacksome.cn/osgearthx">三维数字地球软件开发包 osgEarthX</a></h1>
-
-					<h3>osgEarthX 是什么？</h3>
+<h3>osgEarthX 是什么？</h3>
 <p>osgEarthX 是一套免费、开源的跨语言、跨平台、接口统一的三维数字地球软件开发包。osgEarthX 是基于开源三维场景引擎 <a href="http://openscenegraph.org" target="_blank">OpenSceneGraph</a> 和开源三维地图开发包 <a href="http://osgearth.org" target="_blank">osgEarth</a> 构建而来的。<span id="more-17"></span></p>
 
 <h3>osgEarthX 能做什么？</h3>
