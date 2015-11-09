@@ -1,21 +1,5 @@
 
 			<div id="header" class="header-container">
-					<div id="infobar">
-						<div id="website-logo">
-							<a class="none-decoration-anchor" href="http://hacksome.cn" title="hacksome | to be hacksome">
-								<img src="http://hacksome.cn/wp-content/themes/hacksome/images/header.png" alt="hacksome"/>
-							</a>
-						</div>
-						<div id="search">
-							<form method="get" id="searchform" action="http://hacksome.cn/">
-								<div id="search-container">
-									<input type="text" id="search-txt" value="" name="s" lang="zh-CN"/>
-									<input type="submit" value="" id="search-submit" />
-								</div>
-							</form>
-						</div>
-					</div>
-
 					<div id="menu">
 						<div class="main-navigation" role="navigation">
 							<div id="nav" class="menu-hacksome-container"><ul id="menu-hacksome" class="nav-menu"><li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4"><a href="http://hacksome.cn/">首页</a></li>
@@ -75,5 +59,5 @@
 				<div class="sub-container">
 					<div class="footer-list"><h4>社交账号</h4><ul><li><img src="http://hacksome.cn/wp-content/themes/hacksome/images/links/github-icon.png"/>&nbsp;<span><a href="https://github.com/haozzzzzzzz" target="_blank" title="Github">Github</a></span></li><li><img src="http://hacksome.cn/wp-content/themes/hacksome/images/links/linkedin-icon.png"/>&nbsp;<span><a href="http://cn.linkedin.com/in/hacksome" target="_blank" title="LinkedIn">LinkedIn</a></span></li></ul></div><div class="footer-list">
 <h4>联系</h4>
-<ul><li><span><a href="http://hacksome.cn/about" target="_blank" title="关于hacksome.cn">关于本站</a></span></li><li><span><a href="" target="_blank" title="捐赠">捐赠</a></span></li><li><span><a href="mailto:haker@hacksome.cn" target="_blank" title="邮箱">邮箱</a></span></li></ul></div>				</div>
+<ul><li><span><a href="http://hacksome.cn/about" target="_blank" title="关于hacksome.cn">关于hacksome.cn</a></span></li><li><span><a href="" target="_blank" title="捐赠">捐赠</a></span></li><li><span><a href="mailto:haker@hacksome.cn" target="_blank" title="邮箱">邮箱</a></span></li></ul></div>				</div>
 			</div>
