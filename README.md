@@ -46,9 +46,7 @@
 <div style="width: 1331px" class="wp-caption aligncenter"><a href="https://github.com/haozzzzzzzz/osgEarthX-binary/blob/master/doc/screenshot/Chrome.png?raw=true" target="_blank"><img src="https://github.com/haozzzzzzzz/osgEarthX-binary/blob/master/doc/screenshot/Chrome.png?raw=true" alt="Chrome NPAPI" width="1321" height="742" /></a><p class="wp-caption-text">Chrome NPAPI</p></div>
 <div style="width: 1376px" class="wp-caption aligncenter"><a href="https://github.com/haozzzzzzzz/osgEarthX-binary/blob/master/doc/screenshot/Annotation.png?raw=true" target="_blank"><img src="https://github.com/haozzzzzzzz/osgEarthX-binary/blob/master/doc/screenshot/Annotation.png?raw=true" alt="Annotations" width="1366" height="768" /></a><p class="wp-caption-text">Annotations</p></div>
 
-									<div id="footer">
-				<div class="sub-container">
+
 					<div class="footer-list"><h4>社交账号</h4><ul><li><img src="http://hacksome.cn/wp-content/themes/hacksome/images/links/github-icon.png"/>&nbsp;<span><a href="https://github.com/haozzzzzzzz" target="_blank" title="Github">Github</a></span></li><li><img src="http://hacksome.cn/wp-content/themes/hacksome/images/links/linkedin-icon.png"/>&nbsp;<span><a href="http://cn.linkedin.com/in/hacksome" target="_blank" title="LinkedIn">LinkedIn</a></span></li></ul></div><div class="footer-list">
 <h4>联系</h4>
-<ul><li><span><a href="http://hacksome.cn/about" target="_blank" title="关于hacksome.cn">关于hacksome.cn</a></span></li><li><span><a href="" target="_blank" title="捐赠">捐赠</a></span></li><li><span><a href="mailto:haker@hacksome.cn" target="_blank" title="邮箱">邮箱</a></span></li></ul></div>				</div>
-			</div>
+<ul><li><span><a href="http://hacksome.cn/about" target="_blank" title="关于hacksome.cn">关于hacksome.cn</a></span></li><li><span><a href="" target="_blank" title="捐赠">捐赠</a></span></li><li><span><a href="mailto:haker@hacksome.cn" target="_blank" title="邮箱">邮箱</a></span></li></ul></div>
