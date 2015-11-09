@@ -1,9 +1,6 @@
 
-			<div id="header" class="header-container">
-					<div id="menu">
-						<div class="main-navigation" role="navigation">
-							<div id="nav" class="menu-hacksome-container"><ul id="menu-hacksome" class="nav-menu"><li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4"><a href="http://hacksome.cn/">首页</a></li>
-<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-17 current_page_item menu-item-has-children menu-item-19"><a href="http://hacksome.cn/osgearthx">osgEarthX</a>
+<a href="http://hacksome.cn/">首页</a>					
+<a href="http://hacksome.cn/osgearthx">osgEarthX</a>
 <ul class="sub-menu">
 	<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="https://github.com/haozzzzzzzz/osgEarthX-binary">可执行程序</a></li>
 	<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="#">数据</a></li>
@@ -15,12 +12,13 @@
 	</ul>
 </li>
 </ul>
-</li>
-</ul></div>						</div>
-					</div>
-			</div>			<div class="common-container">
+
+			
+			<div class="common-container">
 				<div class="sub-container"><h1><a href="http://hacksome.cn/osgearthx">三维数字地球软件开发包 osgEarthX</a></h1></div>
 			</div>
+			
+			
 			<div id="content">
 				<div class="sub-container">
 					<div class="page-content post-content"><h3>osgEarthX 是什么？</h3>
