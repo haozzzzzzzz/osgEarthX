@@ -16,7 +16,7 @@ namespace osgEarthXCore
 	class OSGEARTHX_CORE_EXPORT CallbackHost
 	{
 	public:
-		typedef DynamicList<Callback> CallbacksDynamicList;
+		typedef DynamicList< Callback > CallbacksDynamicList;
 		typedef CallbacksDynamicList::List CallbacksList;
 		typedef CallbacksList::iterator CallbackIterator;
 
@@ -24,15 +24,15 @@ namespace osgEarthXCore
 		virtual ~CallbackHost();
 
 		///添加回调函数
-		void addCallback(Callback* pCallback);
+		void addCallback( Callback* pCallback );
 
 		///移除回调函数
-		void removeCallback(Callback* pCallback);
+		void removeCallback( Callback* pCallback );
 
 	protected:
 		///触发回调函数
 		///内部不负责释放change
-		void callback(Change*pChange);
+		void callback( Change* pChange );
 
 	protected:
 		//回调函数列表

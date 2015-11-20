@@ -6,8 +6,8 @@ using namespace osgEarthX;
 
 #include <cassert>
 
-LayerEventCallback::LayerEventCallback(LayerEventFirer* pEventFirer):
-	ObjectEventCallback(pEventFirer)
+LayerEventCallback::LayerEventCallback( LayerEventFirer* pEventFirer ):
+	ObjectEventCallback( pEventFirer )
 {
 	assert( pEventFirer != NULL);
 	m_pLayerEventFirer = pEventFirer;
@@ -18,17 +18,17 @@ LayerEventCallback::~LayerEventCallback()
 
 }
 
-void LayerEventCallback::doCallback(osgEarthXCore::Change* pChange)
+void LayerEventCallback::doCallback( osgEarthXCore::Change* pChange )
 {
-	ObjectEventCallback::doCallback(pChange);
+	ObjectEventCallback::doCallback( pChange );
 
-	osgEarthXCore::LayerChange* pLayerChange = dynamic_cast<osgEarthXCore::LayerChange*>(pChange);
-	if (pLayerChange == NULL)
+	osgEarthXCore::LayerChange* pLayerChange = dynamic_cast< osgEarthXCore::LayerChange* >( pChange );
+	if ( pLayerChange == NULL )
 	{
 		return;
 	}
 
-	switch(pLayerChange->getChangeType())
+	switch( pLayerChange->getChangeType() )
 	{
 	case osgEarthXCore::VISIBLE:
 		m_pLayerEventFirer->onVisible();

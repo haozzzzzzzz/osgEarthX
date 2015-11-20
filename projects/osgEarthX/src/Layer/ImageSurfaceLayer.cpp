@@ -23,16 +23,16 @@ bool ImageSurfaceLayer::isVisible()
 	return ImageLayerProvider::getVisible();
 }
 
-void ImageSurfaceLayer::setVisible(bool bVisible)
+void ImageSurfaceLayer::setVisible( bool bVisible )
 {
-	ImageLayerProvider::setVisible(bVisible);
+	ImageLayerProvider::setVisible( bVisible );
 }
 
-void ImageSurfaceLayer::setFirer(LayerEventFirer* pFirer)
+void ImageSurfaceLayer::setFirer( LayerEventFirer* pFirer )
 {
-	if (pFirer != NULL && m_pFirer == NULL)
+	if ( pFirer != NULL && m_pFirer == NULL )
 	{
-		addCallback(new LayerEventCallback(pFirer));
-		m_pFirer = pFirer;
+		addCallback( new LayerEventCallback( pFirer ) );
+		EventHost::setFirer( pFirer );
 	}
 }

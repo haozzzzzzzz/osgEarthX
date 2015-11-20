@@ -17,8 +17,8 @@ namespace osgEarthX
 		public ObjectEventCallback
 	{
 	public:
-		LayerEventCallback(LayerEventFirer* pLayerEventFirer);
-		virtual void doCallback(osgEarthXCore::Change* pChange);
+		LayerEventCallback( LayerEventFirer* pLayerEventFirer );
+		virtual void doCallback( osgEarthXCore::Change* pChange );
 
 	protected:
 		virtual ~LayerEventCallback();

@@ -20,7 +20,7 @@ namespace osgEarthX
 	class OSGEARTHX_EXPORT ImageSurfaceLayer : 
 		public Object,
 		public osgEarthXCore::ImageLayerProvider,
-		public EventHost<LayerEventFirer>
+		public EventHost< LayerEventFirer >
 	{
 	public:
 		ImageSurfaceLayer();
@@ -28,10 +28,10 @@ namespace osgEarthX
 		//ÊµÏÖObject´¿Ðéº¯Êý
 		virtual bool isEnabled();
 		virtual bool isVisible();
-		virtual void setVisible(bool bVisible);
+		virtual void setVisible( bool bVisible );
 
 		//¸²¸ÇEventHost<LayerEventFirer>
-		virtual void setFirer(LayerEventFirer* pFirer);
+		virtual void setFirer( LayerEventFirer* pFirer );
 
 	protected:
 		virtual ~ImageSurfaceLayer();
