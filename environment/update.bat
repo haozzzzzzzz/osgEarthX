@@ -28,7 +28,7 @@ xcopy .\build\osgearth-2.6\tests\*.* .\tests\ /s /y /d
 echo 更新第三方库
 xcopy .\build\3rdParty\bin\* .\bin\ /s /y /d
 
-echo 更新AT_相关库
+echo 更新osgX_相关库
 xcopy .\build\osgearth-2.6-build-2010\bin\osgXd.dll .\bin\ /s /y /d
 xcopy .\build\osgearth-2.6-build-2010\bin\osgX.dll .\bin\ /s /y /d
 xcopy .\build\osgearth-2.6-build-2010\bin\osgX_Threadsd.dll .\bin\ /s /y /d
