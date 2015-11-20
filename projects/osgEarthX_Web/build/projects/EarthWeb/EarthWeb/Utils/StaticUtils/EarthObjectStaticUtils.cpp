@@ -94,10 +94,10 @@ IEarthObjectPtr EarthObjectStaticUtils::createInstance( EarthObjectClassType cla
 		}
 		break;
 
-	case EXTERNAL_LABEL:
+	case ANNOTATION_TEXT_LABEL:
 		break;
 
-	case EXTERNAL_MODEL:
+	case ANNOTATION_MODEL:
 		break;
 
 	case ANNOTATION_IMAGE_OVERLAY:
@@ -112,7 +112,7 @@ IEarthObjectPtr EarthObjectStaticUtils::createInstance( EarthObjectClassType cla
 		}
 		break;
 
-	case EXTERNAL_SHAPE:
+	case ANNOTATION_FEATURE:
 		break;
 
 	case ANNOTATION_PLACE:
@@ -209,10 +209,10 @@ osgEarthX::Object* EarthObjectStaticUtils::getInnerObject( IEarthObject* pIEarth
 		}
 		break;
 
-	case EXTERNAL_LABEL:
+	case ANNOTATION_TEXT_LABEL:
 		break;
 
-	case EXTERNAL_MODEL:
+	case ANNOTATION_MODEL:
 		break;
 
 	case ANNOTATION_IMAGE_OVERLAY:
@@ -222,7 +222,7 @@ osgEarthX::Object* EarthObjectStaticUtils::getInnerObject( IEarthObject* pIEarth
 		}
 		break;
 
-	case EXTERNAL_SHAPE:
+	case ANNOTATION_FEATURE:
 		break;
 
 	case ANNOTATION_PLACE:

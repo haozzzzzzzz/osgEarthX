@@ -79,17 +79,17 @@ FB::JSAPIPtr ClassFactory::createByEarthObjectClassType( int classType )
 		ptrJSAPI = boost::make_shared< ConstructorT< Sky > >();
 		break;
 
-	case EXTERNAL_LABEL:
+	case ANNOTATION_TEXT_LABEL:
 		break; 
 
-	case EXTERNAL_MODEL:
+	case ANNOTATION_MODEL:
 		break;
 
 	case ANNOTATION_IMAGE_OVERLAY:
 		ptrJSAPI = boost::make_shared< ConstructorT< ImageOverlay > >();
 		break;
 
-	case EXTERNAL_SHAPE:
+	case ANNOTATION_FEATURE:
 		break;
 
 	case ANNOTATION_PLACE:

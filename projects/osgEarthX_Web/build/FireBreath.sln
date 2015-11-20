@@ -140,8 +140,15 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osgX_Threads", "..\..\osgX_Threads\osgX_Threads.vcxproj", "{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osgEarthX_Core", "..\..\osgEarthX_Core\osgEarthX_Core.vcxproj", "{6547249B-6749-47B5-B2DE-1E13893C5A4F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10155EAA-FCDA-401A-9CAE-D2DCB3B6359B} = {10155EAA-FCDA-401A-9CAE-D2DCB3B6359B}
+		{102C96C8-9A7C-438B-BF3D-26109737F594} = {102C96C8-9A7C-438B-BF3D-26109737F594}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osgEarthX", "..\..\osgEarthX\osgEarthX.vcxproj", "{499E4F89-FED4-4F26-8816-1161D05F25C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6547249B-6749-47B5-B2DE-1E13893C5A4F} = {6547249B-6749-47B5-B2DE-1E13893C5A4F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,208 +2,209 @@
 	@brief : EarthWeb插件辅助库
 	@author : Hao Luo
 	@created : 2014/11/20
-	@last edited : 2015/04/13
+	@last edited : 2015/11/19
 	@description : 插件加载完成后，需要调用initEarthJS方法，传入插件DOM对象，才能对所需对象进行初始化。
 */
 
-//全局对象
-var classFactory = undefined;
-var webEarth = undefined;
+(function(){
 
-// EarthObject classes
-EarthGroup = undefined;
-ImageSurfaceLayer = undefined;
-VectorSurfaceLayer = undefined;
-ElevationSurfaceLayer = undefined;
-TerrainMaskSurfaceLayer = undefined;
+	var OsgEarthXWeb = window.OsgEarthXWeb = function( plugin ){
+		this.earth = plugin;
+		this.initClasses();
+	};
 
-Graticule = undefined;
-Sky = undefined;
-Label = undefined;
-Model = undefined;
-ImageOverlay = undefined;
-Shape = undefined;
-Place = undefined;
-Viewpoint = undefined;
-LabelSetLayer = undefined;
-ModelSetLayer = undefined;
-ImageOverlaySetLayer = undefined;
-ShapeSetLayer = undefined;
-PlaceSetLayer = undefined;
-ViewpointSetLayer = undefined;
+	// -------------------------------------------------------------------------------
+	// Classes
 
-//tile source classes
-TileSourceAGGLite = undefined;
-TileSourceArcGIS = undefined;
-TileSourceBing = undefined;
-TileSourceColorRamp = undefined;
-TileSourceDebug = undefined;
-TileSourceGDAL = undefined;
-TileSourceMBTiles = undefined;
-TileSourceNoise = undefined;
-TileSourceOSG = undefined;
-TileSourceTileCache = undefined;
-TileSourceTileService = undefined;
-TileSourceTMS = undefined;
-TileSourceVPB = undefined;
-TileSourceWCS = undefined;
-TileSourceWMS = undefined;
-TileSourceXYZ = undefined;
-TileSourceYahoo = undefined;
+	// EarthObject classes
+	OsgEarthXWeb.EarthGroup = undefined;
+	OsgEarthXWeb.ImageSurfaceLayer = undefined;
+	OsgEarthXWeb.VectorSurfaceLayer = undefined;
+	OsgEarthXWeb.ElevationSurfaceLayer = undefined;
+	OsgEarthXWeb.TerrainMaskSurfaceLayer = undefined;
 
-//feature source classes
-FeatureSourceOGR = undefined;
-FeatureSourceTFS = undefined;
-FeatureSourceWFS = undefined;
-
-//vector source classes
-VectorSourceGeom = undefined;
-VectorSourceSimple = undefined;
-VectorSourceStencil = undefined;
-
-//Geo
-GeoPoint = undefined;
-
-//地图对象类类型枚举对象
-EarthObjectClassType = {
-	EARTH_GROUP : 				2,
-
-	IMAGE_SURFACE_LAYER : 		3,
-	VECTOR_SURFACE_LAYER : 		4,
-	ELEVATION_SURFACE_LAYER : 	5,
-	TERMASK_SURFACE_LAYER : 	6,
-
-	EXTERINAL_GRATICULE : 		7,
-	EXTERINAL_SKY : 			8,
-	EXTERINAL_LABEL : 			9,
-	EXTERINAL_MODEL : 			10,
-	ANNOTATION_IMAGE_OVERLAY : 	11,
-	EXTERINAL_SHAPE : 			12,
-	ANNOTATION_PLACE : 			13,
-	EXTERINAL_VIEWPOINT : 		14,
-
-	LABEL_SET_LAYER : 			15,
-	MODEL_SET_LAYER : 			16,
-	OVERIMG_SET_LAYER : 		17,
-	SHAPE_SET_LAYER : 			18,
-	PLACE_SET_LAYER : 			19,
-	VIEWPOINT_SET_LAYER : 		20
-};
-
-SourceClassType = {
-	TILE_SOURCE_AGGLITE : 		0,
-	TILE_SOURCE_ARCGIS : 		1,
-	TILE_SOURCE_BING : 			2,
-	TILE_SOURCE_COLOR_RAMP : 	3,
-	TILE_SOURCE_DEBUG : 		4,
-	TILE_SOURCE_GDAL : 			5,
-	TILE_SOURCE_MBTILES : 		6,
-	TILE_SOURCE_NOISE : 		7,
-	TILE_SOURCE_OSG : 			8,
-	TILE_SOURCE_TILE_CACHE : 	9,
-	TILE_SOURCE_TILE_SERVICE : 	10,
-	TILE_SOURCE_TMS : 			11,
-	TILE_SOURCE_VPB : 			12,
-	TILE_SOURCE_WCS : 			13,
-	TILE_SOURCE_WMS : 			14,
-	TILE_SOURCE_XYZ : 			15,
-	TILE_SOURCE_YAHOO : 		16,
-
-	VECTOR_SOURCE_GEOM : 		17,
-	VECTOR_SOURCE_STENCIL : 	18,
-	VECTOR_SOURCE_SIMPLE : 		19,
-
-	FEATURE_SOURCE_OGR : 		20,
-	FEATURE_SOURCE_TFS : 		21,
-	FEATURE_SOURCE_WFS : 		22
-};
-
-GeoClassType = {
-	GEO_POINT : 0
-};
-
-/**
-	@brief 初始化Earth.js环境，在插件成功加载后调用
-	@params plugin : 插件的DOM对象
-*/
-function initEarthJS( plugin )
-{
-	webEarth = plugin;
-	classFactory = plugin.getClassFactory();
-	initClasses();
-}
-
-/**
-	@brief 事件监听函数
-	@params obj : 对象; name : 事件名称; func 响应函数
-*/
-function addEvent( obj, name, func )
-{
-    if ( bj.attachEvent ) {
-        obj.attachEvent( "on"+name, func );
-    } else {
-        obj.addEventListener( name, func, false ); 
-    }
-}
-
-/*
-	@brief 初始化类
-*/
-function initClasses()
-{
-	//EarthObject classes
-	EarthGroup 				= classFactory.createByEarthObjectClassType( EarthObjectClassType.EARTH_GROUP );
-
-	ImageSurfaceLayer 		= classFactory.createByEarthObjectClassType( EarthObjectClassType.IMAGE_SURFACE_LAYER );
-	VectorSurfaceLayer 		= classFactory.createByEarthObjectClassType( EarthObjectClassType.VECTOR_SURFACE_LAYER );
-	ElevationSurfaceLayer 	= classFactory.createByEarthObjectClassType( EarthObjectClassType.ELEVATION_SURFACE_LAYER );
-	TerrainMaskSurfaceLayer = classFactory.createByEarthObjectClassType( EarthObjectClassType.TERMASK_SURFACE_LAYER );
-
-	Graticule 				= classFactory.createByEarthObjectClassType( EarthObjectClassType.EXTERINAL_GRATICULE );
-	Sky 					= classFactory.createByEarthObjectClassType( EarthObjectClassType.EXTERINAL_SKY );
-	Label 					= classFactory.createByEarthObjectClassType( EarthObjectClassType.EXTERINAL_LABEL );
-	Model 					= classFactory.createByEarthObjectClassType( EarthObjectClassType.EXTERINAL_MODEL );
-	ImageOverlay 			= classFactory.createByEarthObjectClassType( EarthObjectClassType.ANNOTATION_IMAGE_OVERLAY );
-	Shape 					= classFactory.createByEarthObjectClassType( EarthObjectClassType.EXTERINAL_SHAPE );
-	Place 					= classFactory.createByEarthObjectClassType( EarthObjectClassType.ANNOTATION_PLACE );
-	Viewpoint 				= classFactory.createByEarthObjectClassType( EarthObjectClassType.EXTERINAL_VIEWPOINT );
-
-	LabelSetLayer 			= classFactory.createByEarthObjectClassType( EarthObjectClassType.LABEL_SET_LAYER );
-	ModelSetLayer 			= classFactory.createByEarthObjectClassType( EarthObjectClassType.MODEL_SET_LAYER );
-	ImageOverlaySetLayer 	= classFactory.createByEarthObjectClassType( EarthObjectClassType.OVERIMG_SET_LAYER );
-	ShapeSetLayer 			= classFactory.createByEarthObjectClassType( EarthObjectClassType.SHAPE_SET_LAYER );
-	PlaceSetLayer 			= classFactory.createByEarthObjectClassType( EarthObjectClassType.PLACE_SET_LAYER );
-	ViewpointSetLayer 		= classFactory.createByEarthObjectClassType( EarthObjectClassType.VIEWPOINT_SET_LAYER );
+	OsgEarthXWeb.Graticule = undefined;
+	OsgEarthXWeb.Sky = undefined;
+	OsgEarthXWeb.Label = undefined;
+	OsgEarthXWeb.Model = undefined;
+	OsgEarthXWeb.ImageOverlay = undefined;
+	OsgEarthXWeb.Shape = undefined;
+	OsgEarthXWeb.Place = undefined;
+	OsgEarthXWeb.Viewpoint = undefined;
+	OsgEarthXWeb.LabelSetLayer = undefined;
+	OsgEarthXWeb.ModelSetLayer = undefined;
+	OsgEarthXWeb.ImageOverlaySetLayer = undefined;
+	OsgEarthXWeb.ShapeSetLayer = undefined;
+	OsgEarthXWeb.PlaceSetLayer = undefined;
+	OsgEarthXWeb.ViewpointSetLayer = undefined;
 
 	//tile source classes
-	TileSourceAGGLite 		= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_AGGLITE );
-	TileSourceArcGIS 		= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_ARCGIS );
-	TileSourceBing 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_BING );
-	TileSourceColorRamp 	= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_COLOR_RAMP );
-	TileSourceDebug 		= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_DEBUG );
-	TileSourceGDAL 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_GDAL );
-	TileSourceMBTiles 		= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_MBTILES );
-	TileSourceNoise 		= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_NOISE );
-	TileSourceOSG 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_OSG );
-	TileSourceTileCache 	= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_TILE_CACHE );
-	TileSourceTileService 	= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_TILE_SERVICE );
-	TileSourceTMS 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_TMS );
-	TileSourceVPB 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_VPB );
-	TileSourceWCS 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_WCS );
-	TileSourceWMS 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_WMS );
-	TileSourceXYZ 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_XYZ );
-	TileSourceYahoo 		= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_YAHOO );
+	OsgEarthXWeb.TileSourceAGGLite = undefined;
+	OsgEarthXWeb.TileSourceArcGIS = undefined;
+	OsgEarthXWeb.TileSourceBing = undefined;
+	OsgEarthXWeb.TileSourceColorRamp = undefined;
+	OsgEarthXWeb.TileSourceDebug = undefined;
+	OsgEarthXWeb.TileSourceGDAL = undefined;
+	OsgEarthXWeb.TileSourceMBTiles = undefined;
+	OsgEarthXWeb.TileSourceNoise = undefined;
+	OsgEarthXWeb.TileSourceOSG = undefined;
+	OsgEarthXWeb.TileSourceTileCache = undefined;
+	OsgEarthXWeb.TileSourceTileService = undefined;
+	OsgEarthXWeb.TileSourceTMS = undefined;
+	OsgEarthXWeb.TileSourceVPB = undefined;
+	OsgEarthXWeb.TileSourceWCS = undefined;
+	OsgEarthXWeb.TileSourceWMS = undefined;
+	OsgEarthXWeb.TileSourceXYZ = undefined;
+	OsgEarthXWeb.TileSourceYahoo = undefined;
 
 	//feature source classes
-	FeatureSourceOGR 		= classFactory.createBySourceClassType( SourceClassType.FEATURE_SOURCE_OGR );
-	FeatureSourceTFS 		= classFactory.createBySourceClassType( SourceClassType.FEATURE_SOURCE_TFS );
-	FeatureSourceWFS 		= classFactory.createBySourceClassType( SourceClassType.FEATURE_SOURCE_WFS );
+	OsgEarthXWeb.FeatureSourceOGR = undefined;
+	OsgEarthXWeb.FeatureSourceTFS = undefined;
+	OsgEarthXWeb.FeatureSourceWFS = undefined;
 
 	//vector source classes
-	VectorSourceGeom 		= classFactory.createBySourceClassType( SourceClassType.VECTOR_SOURCE_GEOM );
-	VectorSourceSimple 		= classFactory.createBySourceClassType( SourceClassType.VECTOR_SOURCE_SIMPLE );
-	VectorSourceStencil 	= classFactory.createBySourceClassType( SourceClassType.VECTOR_SOURCE_STENCIL );
+	OsgEarthXWeb.VectorSourceGeom = undefined;
+	OsgEarthXWeb.VectorSourceSimple = undefined;
+	OsgEarthXWeb.VectorSourceStencil = undefined;
 
 	//Geo
-	GeoPoint 				= classFactory.createByGeoClassType( GeoClassType.GEO_POINT );
-}
+	OsgEarthXWeb.GeoPoint = undefined;
+
+	//地图对象类类型枚举对象
+	var EarthObjectClassType = OsgEarthXWeb.EarthObjectClassType = {};
+	var EarthObjectClassTypeOrder = 2;
+	EarthObjectClassType.EARTH_GROUP = 			EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.IMAGE_SURFACE_LAYER = 	EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.VECTOR_SURFACE_LAYER = EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.ELEVATION_SURFACE_LAYER = 	EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.TERMASK_SURFACE_LAYER = 	EarthObjectClassTypeOrder ++ ;
+
+	EarthObjectClassType.EXTERINAL_GRATICULE = 	EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.EXTERINAL_SKY = EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.EXTERINAL_VIEWPOINT = 	EarthObjectClassTypeOrder ++ ;
+
+	EarthObjectClassType.ANNOTATION_TEXT_LABEL = 	EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.ANNOTATION_MODEL = 	EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.ANNOTATION_IMAGE_OVERLAY = EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.ANNOTATION_FEATURE = 	EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.ANNOTATION_PLACE =		EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.ANNOTATION_CIRCLE =	EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.ANNOTATION_RECTANGLE =	EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.ANNOTATION_ELLIPSE =	EarthObjectClassTypeOrder ++ ;
+
+	EarthObjectClassType.LABEL_SET_LAYER = 		EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.MODEL_SET_LAYER = 		EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.OVERIMG_SET_LAYER = 	EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.SHAPE_SET_LAYER = 		EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.PLACE_SET_LAYER = 		EarthObjectClassTypeOrder ++ ;
+	EarthObjectClassType.VIEWPOINT_SET_LAYER = 	EarthObjectClassTypeOrder ++;
+
+	var SourceClassType = OsgEarthXWeb.SourceClassType = {};
+	var SourceClassTypeOrder = 0;
+	SourceClassType.TILE_SOURCE_AGGLITE = 		SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_ARCGIS = 		SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_BING = 			SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_COLOR_RAMP = 	SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_DEBUG = 		SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_GDAL = 			SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_MBTILES = 		SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_NOISE = 		SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_OSG = 			SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_TILE_CACHE = 	SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_TILE_SERVICE = 	SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_TMS = 			SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_VPB = 			SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_WCS = 			SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_WMS = 			SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_XYZ = 			SourceClassTypeOrder ++ ;
+	SourceClassType.TILE_SOURCE_YAHOO = 		SourceClassTypeOrder ++ ;
+
+	SourceClassType.VECTOR_SOURCE_GEOM = 		SourceClassTypeOrder ++ ;
+	SourceClassType.VECTOR_SOURCE_STENCIL = 	SourceClassTypeOrder ++ ;
+	SourceClassType.VECTOR_SOURCE_SIMPLE = 		SourceClassTypeOrder ++ ;
+
+	SourceClassType.FEATURE_SOURCE_OGR = 		SourceClassTypeOrder ++ ;
+	SourceClassType.FEATURE_SOURCE_TFS = 		SourceClassTypeOrder ++ ;
+	SourceClassType.FEATURE_SOURCE_WFS = 		SourceClassTypeOrder ++ ;
+
+	GeoClassType = OsgEarthXWeb.GeoClassType = {};
+	var GeoClassTypeOrder = 0;
+	GeoClassType.GEO_POINT = GeoClassTypeOrder ++ ;
+
+	/*
+		@brief 初始化类
+	*/
+	OsgEarthXWeb.prototype.initClasses = function(){
+		var classFactory = this.earth.getClassFactory();
+
+		//EarthObject classes
+		this.EarthGroup 				= classFactory.createByEarthObjectClassType( EarthObjectClassType.EARTH_GROUP );
+
+		this.ImageSurfaceLayer 			= classFactory.createByEarthObjectClassType( EarthObjectClassType.IMAGE_SURFACE_LAYER );
+		this.VectorSurfaceLayer 		= classFactory.createByEarthObjectClassType( EarthObjectClassType.VECTOR_SURFACE_LAYER );
+		this.ElevationSurfaceLayer 		= classFactory.createByEarthObjectClassType( EarthObjectClassType.ELEVATION_SURFACE_LAYER );
+		this.TerrainMaskSurfaceLayer 	= classFactory.createByEarthObjectClassType( EarthObjectClassType.TERMASK_SURFACE_LAYER );
+
+		this.Graticule 					= classFactory.createByEarthObjectClassType( EarthObjectClassType.EXTERINAL_GRATICULE );
+		this.Sky 						= classFactory.createByEarthObjectClassType( EarthObjectClassType.EXTERINAL_SKY );
+		this.Viewpoint 					= classFactory.createByEarthObjectClassType( EarthObjectClassType.EXTERINAL_VIEWPOINT );
+
+		this.Label 						= classFactory.createByEarthObjectClassType( EarthObjectClassType.ANNOTATION_TEXT_LABEL );
+		this.Model 						= classFactory.createByEarthObjectClassType( EarthObjectClassType.ANNOTATION_MODEL );
+		this.ImageOverlay 				= classFactory.createByEarthObjectClassType( EarthObjectClassType.ANNOTATION_IMAGE_OVERLAY );
+		this.Shape 						= classFactory.createByEarthObjectClassType( EarthObjectClassType.ANNOTATION_FEATURE );
+		this.Place 						= classFactory.createByEarthObjectClassType( EarthObjectClassType.ANNOTATION_PLACE );
+
+		this.LabelSetLayer 				= classFactory.createByEarthObjectClassType( EarthObjectClassType.LABEL_SET_LAYER );
+		this.ModelSetLayer 				= classFactory.createByEarthObjectClassType( EarthObjectClassType.MODEL_SET_LAYER );
+		this.ImageOverlaySetLayer 		= classFactory.createByEarthObjectClassType( EarthObjectClassType.OVERIMG_SET_LAYER );
+		this.ShapeSetLayer 				= classFactory.createByEarthObjectClassType( EarthObjectClassType.SHAPE_SET_LAYER );
+		this.PlaceSetLayer 				= classFactory.createByEarthObjectClassType( EarthObjectClassType.PLACE_SET_LAYER );
+		this.ViewpointSetLayer 			= classFactory.createByEarthObjectClassType( EarthObjectClassType.VIEWPOINT_SET_LAYER );
+
+		//tile source classes
+		this.TileSourceAGGLite 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_AGGLITE );
+		this.TileSourceArcGIS 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_ARCGIS );
+		this.TileSourceBing 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_BING );
+		this.TileSourceColorRamp 		= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_COLOR_RAMP );
+		this.TileSourceDebug 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_DEBUG );
+		this.TileSourceGDAL 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_GDAL );
+		this.TileSourceMBTiles 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_MBTILES );
+		this.TileSourceNoise 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_NOISE );
+		this.TileSourceOSG 				= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_OSG );
+		this.TileSourceTileCache 		= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_TILE_CACHE );
+		this.TileSourceTileService 		= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_TILE_SERVICE );
+		this.TileSourceTMS 				= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_TMS );
+		this.TileSourceVPB 				= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_VPB );
+		this.TileSourceWCS 				= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_WCS );
+		this.TileSourceWMS 				= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_WMS );
+		this.TileSourceXYZ 				= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_XYZ );
+		this.TileSourceYahoo 			= classFactory.createBySourceClassType( SourceClassType.TILE_SOURCE_YAHOO );
+
+		//feature source classes
+		this.FeatureSourceOGR 			= classFactory.createBySourceClassType( SourceClassType.FEATURE_SOURCE_OGR );
+		this.FeatureSourceTFS 			= classFactory.createBySourceClassType( SourceClassType.FEATURE_SOURCE_TFS );
+		this.FeatureSourceWFS 			= classFactory.createBySourceClassType( SourceClassType.FEATURE_SOURCE_WFS );
+
+		//vector source classes
+		this.VectorSourceGeom 			= classFactory.createBySourceClassType( SourceClassType.VECTOR_SOURCE_GEOM );
+		this.VectorSourceSimple 		= classFactory.createBySourceClassType( SourceClassType.VECTOR_SOURCE_SIMPLE );
+		this.VectorSourceStencil 		= classFactory.createBySourceClassType( SourceClassType.VECTOR_SOURCE_STENCIL );
+
+		//Geo
+		this.GeoPoint 					= classFactory.createByGeoClassType( GeoClassType.GEO_POINT );
+	};
+
+	/**
+		@brief 事件监听函数
+		@params obj : 对象; name : 事件名称; func 响应函数
+	*/
+	window.addEvent = function( obj, name, func ){
+	    if ( bj.attachEvent ) {
+	        obj.attachEvent( "on"+name, func );
+	    } else {
+	        obj.addEventListener( name, func, false ); 
+	    }
+	};
+
+})();

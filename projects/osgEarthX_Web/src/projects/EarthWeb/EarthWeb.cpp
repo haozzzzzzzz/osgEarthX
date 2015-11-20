@@ -124,7 +124,9 @@ bool EarthWeb::onWindowAttached(FB::AttachedEvent *evt, FB::PluginWindow * pWin)
 	FB::PluginWindowWin* pWindow = reinterpret_cast<FB::PluginWindowWin*>(pWin);
 	osgEarthXCore::Win32ViewerT< osgViewer::Viewer >* pViewerContext = new osgEarthXCore::Win32ViewerT< osgViewer::Viewer >( true );
 	pViewerContext->setCameraGraphicsWindow( pViewerContext->getCamera(), pWindow->getHWND() );
+
 	getOrCreateInnerObject()->getEarthViewer()->setViewer( pViewerContext );
+
     return false;
 }
 

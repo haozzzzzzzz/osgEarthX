@@ -5,6 +5,8 @@
 		<title>Test EarthWeb</title>
 		<script type="text/javascript" src="../../js/Earth.js"></script>
 		<script type="text/javascript">
+			var osgEarthXWeb = null;
+			var earth = null;
 			var earthMap = null;
 			var earthRoot = null;
 			var sky = null;
@@ -45,32 +47,33 @@
 
 			function EarthWebPluginReady()
 			{
-				var plugin = document.getElementById('EarthWebPlugin');
-				initEarthJS(plugin);
+				var pluginDOM = document.getElementById('EarthWebPlugin');
+				osgEarthXWeb = new window.OsgEarthXWeb( pluginDOM );
+				console.log( osgEarthXWeb );
 
-				earthMap = webEarth.getEarthMap();
-				earthRoot = webEarth.getEarthRoot();
+				earth = osgEarthXWeb.earth;
+				earthMap = earth.getEarthMap();
+				earthRoot = earth.getEarthRoot();
 
-				sky = new Sky();
-				webEarth.setActiveSky( sky );
+				sky = new osgEarthXWeb.Sky();
+				earth.setActiveSky( sky );
 
 				addAsiaViewpoint();
-				webEarth.setHomeViewpoint( vpAsia );
+				earth.setHomeViewpoint( vpAsia );
 
-				webEarth.run();
+				earth.run();
 
-				tileSourceGDAL = new TileSourceGDAL();
-				tileSourceTMS = new TileSourceTMS();
-				vectorSourceGeom = new VectorSourceGeom();
-				featureSourceOGR = new FeatureSourceOGR();
-
+				tileSourceGDAL = new osgEarthXWeb.TileSourceGDAL();
+				tileSourceTMS = new osgEarthXWeb.TileSourceTMS();
+				vectorSourceGeom = new osgEarthXWeb.VectorSourceGeom();
+				featureSourceOGR = new osgEarthXWeb.FeatureSourceOGR();
 			}
 
 			function AddLayerA()
 			{
 				if ( imageSurfaceLayerA == null ) {
-					imageSurfaceLayerA = new ImageSurfaceLayer();
-					tileSourceGDAL.url = "E:\\OpenSceneGraph\\osgEarthX\\environment\\data\\download\\world.topo.bathy\\world.topo.bathy.200406.3x86400x43200_translate_tiled.tif";
+					imageSurfaceLayerA = new osgEarthXWeb.ImageSurfaceLayer();
+					tileSourceGDAL.url = "E:\\OpenSceneGraph\\data\\download\\world.topo.bathy\\world.topo.bathy.200406.3x86400x43200_translate_tiled.tif";
 					imageSurfaceLayerA.tileSource = tileSourceGDAL;
 					earthRoot.addChild( imageSurfaceLayerA );
 				};
@@ -79,8 +82,8 @@
 			function AddLayerB()
 			{
 				if ( imageSurfaceLayerB == null ) {
-					imageSurfaceLayerB = new ImageSurfaceLayer();
-					tileSourceGDAL.url = "E:\\OpenSceneGraph\\osgEarthX\\environment\\data\\download\\glc2000_v1_1_Tiff\\glc2000_v1_1.tif";
+					imageSurfaceLayerB = new osgEarthXWeb.ImageSurfaceLayer();
+					tileSourceGDAL.url = "E:\\OpenSceneGraph\\data\\download\\glc2000_v1_1_Tiff\\glc2000_v1_1.tif";
 					imageSurfaceLayerB.tileSource = tileSourceGDAL;
 					earthRoot.addChild( imageSurfaceLayerB );
 				};
@@ -90,8 +93,8 @@
 			{
 				if( imageSurfaceLayerC == null )
 				{
-					imageSurfaceLayerC = new ImageSurfaceLayer();
-					tileSourceGDAL.url = "E:\\OpenSceneGraph\\osgEarthX\\environment\\data\\download\\dnb_land_ocean_ice.2012.54000x27000_geo_transform.tif";
+					imageSurfaceLayerC = new osgEarthXWeb.ImageSurfaceLayer();
+					tileSourceGDAL.url = "E:\\OpenSceneGraph\\data\\download\\dnb_land_ocean_ice.2012.54000x27000_geo_transform.tif";
 					imageSurfaceLayerC.tileSource = tileSourceGDAL;
 					earthRoot.addChild( imageSurfaceLayerC );
 				}
@@ -100,8 +103,8 @@
 			function AddLayerD()
 			{
 				if ( vectorSurfaceLayerD == null ) {
-					vectorSurfaceLayerD = new VectorSurfaceLayer();
-					featureSourceOGR.url = "E:\\OpenSceneGraph\\osgEarthX\\environment\\data\\world.shp";
+					vectorSurfaceLayerD = new osgEarthXWeb.VectorSurfaceLayer();
+					featureSourceOGR.url = "E:\\OpenSceneGraph\\data\\world.shp";
 					vectorSourceGeom.featureSource = featureSourceOGR;
 					vectorSurfaceLayerD.vectorSource = vectorSourceGeom;
 					earthRoot.addChild( vectorSurfaceLayerD );
@@ -111,27 +114,27 @@
 			function AddAGroupOfLayersEFG()
 			{
 				if ( groupOfEFG == null ) {
-					groupOfEFG = new EarthGroup();
+					groupOfEFG = new osgEarthXWeb.EarthGroup();
 
 					if ( vectorSurfaceLayerE == null ) {
-						vectorSurfaceLayerE = new VectorSurfaceLayer();
-						featureSourceOGR.url = "E:\\OpenSceneGraph\\osgEarthX\\environment\\data\\China\\中国_省.shp";
+						vectorSurfaceLayerE = new osgEarthXWeb.VectorSurfaceLayer();
+						featureSourceOGR.url = "E:\\OpenSceneGraph\\data\\China\\中国_省.shp";
 						vectorSourceGeom.featureSource = featureSourceOGR;
 						vectorSurfaceLayerE.vectorSource = vectorSourceGeom;
 						groupOfEFG.addChild( vectorSurfaceLayerE );
 					};
 
 					if ( vectorSurfaceLayerF == null ) {
-						vectorSurfaceLayerF = new VectorSurfaceLayer();
-						featureSourceOGR.url = "E:\\OpenSceneGraph\\osgEarthX\\environment\\data\\China\\中国_市.shp";
+						vectorSurfaceLayerF = new osgEarthXWeb.VectorSurfaceLayer();
+						featureSourceOGR.url = "E:\\OpenSceneGraph\\data\\China\\中国_市.shp";
 						vectorSourceGeom.featureSource = featureSourceOGR;
 						vectorSurfaceLayerF.vectorSource = vectorSourceGeom;
 						groupOfEFG.addChild( vectorSurfaceLayerF );
 					};
 
 					if ( vectorSurfaceLayerG == null ) {
-						vectorSurfaceLayerG = new VectorSurfaceLayer();
-						featureSourceOGR.url = "E:\\OpenSceneGraph\\osgEarthX\\environment\\data\\China\\中国_区县.shp";
+						vectorSurfaceLayerG = new osgEarthXWeb.VectorSurfaceLayer();
+						featureSourceOGR.url = "E:\\OpenSceneGraph\\data\\China\\中国_区县.shp";
 						vectorSourceGeom.featureSource = featureSourceOGR;
 						vectorSurfaceLayerG.vectorSource = vectorSourceGeom;
 						groupOfEFG.addChild( vectorSurfaceLayerG );
@@ -144,7 +147,7 @@
 			function addTMSImageSurfaceLayerH()
 			{
 				if ( tmsImageSurfaceLayerH == null ) {
-					tmsImageSurfaceLayerH = new ImageSurfaceLayer();
+					tmsImageSurfaceLayerH = new osgEarthXWeb.ImageSurfaceLayer();
 					tileSourceTMS.url = "http://readymap.org/readymap/tiles/1.0.0/7/";
 					tmsImageSurfaceLayerH.tileSource = tileSourceTMS;
 					earthRoot.addChild( tmsImageSurfaceLayerH );
@@ -154,7 +157,7 @@
 			function addTMSElevationSurfaceLayerI()
 			{
 				if ( tmsElevationSurfaceLayerI == null ) {
-					tmsElevationSurfaceLayerI = new ElevationSurfaceLayer();
+					tmsElevationSurfaceLayerI = new osgEarthXWeb.ElevationSurfaceLayer();
 					tileSourceTMS.url = "http://readymap.org/readymap/tiles/1.0.0/9/";
 					tmsElevationSurfaceLayerI.tileSource = tileSourceTMS;
 					earthRoot.addChild( tmsElevationSurfaceLayerI );
@@ -164,8 +167,8 @@
 			function addElevSurfaceLayerJ()
 			{
 				if ( elevSurfaceLayerJ == null ) {
-					elevSurfaceLayerJ =  new ElevationSurfaceLayer();
-					tileSourceGDAL.url = "E:\\OpenSceneGraph\\osgEarthX\\environment\\data\\download\\DEM\\e060n40\\E060N40.DEM";
+					elevSurfaceLayerJ =  new osgEarthXWeb.ElevationSurfaceLayer();
+					tileSourceGDAL.url = "E:\\OpenSceneGraph\\data\\download\\DEM\\e060n40\\E060N40.DEM";
 					elevSurfaceLayerJ.tileSource = tileSourceGDAL;
 					earthRoot.addChild( elevSurfaceLayerJ );
 				};
@@ -216,14 +219,14 @@
 			function AddGraticuleBtnClick()
 			{
 				if ( graticule == null ) {
-					graticule = new Graticule();
+					graticule = new osgEarthXWeb.Graticule();
 				};
-				webEarth.setActiveGraticule( graticule );
+				earth.setActiveGraticule( graticule );
 			}
 
 			function RemoveGraticuleBtnClick()
 			{
-				webEarth.removeActiveGraticule();
+				earth.removeActiveGraticule();
 			}
 
 			function flyToAsia()
@@ -235,7 +238,7 @@
 			function addAsiaViewpoint()
 			{
 				if ( vpAsia == null ) {
-                	vpAsia = new Viewpoint();
+                	vpAsia = new osgEarthXWeb.Viewpoint();
 	                vpAsia.x = 107.85;
 	                vpAsia.y = 32.35;
 	                vpAsia.z = 0.0;
@@ -250,7 +253,7 @@
 			function flyToAmerica()
 			{
 				if ( vpAmerica == null ) {
-	                vpAmerica = new Viewpoint();
+	                vpAmerica = new osgEarthXWeb.Viewpoint();
 	                vpAmerica.x = -90;
 	                vpAmerica.y = 0;
 	                vpAmerica.z = 0;
@@ -392,11 +395,11 @@
 			function addPlaceNYBtnClick()
 			{
 				if ( placeNY == null ) {
-					var positionNY = new GeoPoint();
+					var positionNY = new osgEarthXWeb.GeoPoint();
 					positionNY.x = -71.00;
 					positionNY.y = 40.71;
 
-					placeNY = new Place();
+					placeNY = new osgEarthXWeb.Place();
 					placeNY.setText( "New York" );
 					placeNY.setImageSrc( "../data/placemark32.png" );
 					placeNY.setPosition( positionNY );
@@ -413,7 +416,7 @@
 			function addImageOverlayUSABtnClick()
 			{
 				if ( imageOverlayUSA == null ) {
-					imageOverlayUSA = new ImageOverlay();
+					imageOverlayUSA = new osgEarthXWeb.ImageOverlay();
 					imageOverlayUSA.setImageSrc( "../data/USFLAG.TGA" );
 					imageOverlayUSA.setBounds( -100.0, 35.0, -90.0, 40.0 );
 					earthRoot.addChild( imageOverlayUSA );
@@ -425,6 +428,7 @@
 				earthRoot.removeChild( imageOverlayUSA );
 				imageOverlayUSA = null;
 			}
+
 		</script>
 
 		<style type="text/css">
